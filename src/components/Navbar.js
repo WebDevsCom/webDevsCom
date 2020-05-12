@@ -61,7 +61,6 @@ const Navbar = () => {
             <a className='navbar-link' href='#!'>
               Category
             </a>
-
             <div className='navbar-dropdown'>
               <a className='navbar-item'>WEB</a>
               <a className='navbar-item'>ANDROID</a>
