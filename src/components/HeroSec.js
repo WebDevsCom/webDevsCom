@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { GitHub } from 'react-feather';
+import Contributor from './Contributor';
 
 const HeroSec = () => {
   return (
@@ -16,85 +17,7 @@ const HeroSec = () => {
               we have collected all of them categorized and presenting it to you
               for your Help.
             </p>
-            <div className='column'>
-              <h1>Contributors for this website.</h1>
-              <div className='column' style={{ marginLeft: '1rem' }}>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://avatars3.githubusercontent.com/u/45959932?s=400&u=c45629c87cad71dcdc8d2d86808c9c52ec1fc68b&v=4'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/20.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/60.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/70.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/80.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/10.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/15.jpg'
-                  />
-                </figure>
-              </div>
-              <p className='menu-label'>
-                Do you want to contribute or add some resource Feel free to
-                visit below link.
-              </p>
-            </div>
+            <Contributor />
             <div className='column'>
               <a
                 href='https://github.com/WebDevsCom/webDevsCom.github.io'
@@ -113,85 +36,7 @@ const HeroSec = () => {
               we provide you all the Free Resources to you, which is collected
               by 1000+ numbers of peoples.
             </p>
-            <div className='column'>
-              <h1>Contributors for this website.</h1>
-              <div className='column' style={{ marginLeft: '1rem' }}>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://avatars3.githubusercontent.com/u/45959932?s=400&u=c45629c87cad71dcdc8d2d86808c9c52ec1fc68b&v=4'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/20.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/60.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/70.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/80.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/men/10.jpg'
-                  />
-                </figure>
-                <figure
-                  className='image is-48x48 is-inline-flex'
-                  style={{ marginLeft: '-1rem' }}
-                >
-                  <img
-                    className='is-rounded avatar-home'
-                    alt='user-profile'
-                    src='https://randomuser.me/api/portraits/women/15.jpg'
-                  />
-                </figure>
-              </div>
-              <p className='menu-label'>
-                Do you want to contribute or add some resource Feel free to
-                visit below link.
-              </p>
-            </div>
+            <Contributor />
             <div className='column'>
               <a
                 href='https://github.com/WebDevsCom/webDevsCom.github.io'
