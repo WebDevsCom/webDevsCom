@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/WebDevsCom/webDevsCom.github.io/static/css/main.efb928b8.chunk.css",
+    "main.js": "/WebDevsCom/webDevsCom.github.io/static/js/main.bd719395.chunk.js",
+    "main.js.map": "/WebDevsCom/webDevsCom.github.io/static/js/main.bd719395.chunk.js.map",
+    "runtime-main.js": "/WebDevsCom/webDevsCom.github.io/static/js/runtime-main.4167241c.js",
+    "runtime-main.js.map": "/WebDevsCom/webDevsCom.github.io/static/js/runtime-main.4167241c.js.map",
+    "static/css/2.a2c18f5e.chunk.css": "/WebDevsCom/webDevsCom.github.io/static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.1e40ab35.chunk.js": "/WebDevsCom/webDevsCom.github.io/static/js/2.1e40ab35.chunk.js",
+    "static/js/2.1e40ab35.chunk.js.map": "/WebDevsCom/webDevsCom.github.io/static/js/2.1e40ab35.chunk.js.map",
+    "index.html": "/WebDevsCom/webDevsCom.github.io/index.html",
+    "precache-manifest.49a86e7a0cd097b9bc59df9e50e89418.js": "/WebDevsCom/webDevsCom.github.io/precache-manifest.49a86e7a0cd097b9bc59df9e50e89418.js",
+    "service-worker.js": "/WebDevsCom/webDevsCom.github.io/service-worker.js",
+    "static/css/2.a2c18f5e.chunk.css.map": "/WebDevsCom/webDevsCom.github.io/static/css/2.a2c18f5e.chunk.css.map",
+    "static/css/main.efb928b8.chunk.css.map": "/WebDevsCom/webDevsCom.github.io/static/css/main.efb928b8.chunk.css.map",
+    "static/js/2.1e40ab35.chunk.js.LICENSE.txt": "/WebDevsCom/webDevsCom.github.io/static/js/2.1e40ab35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4167241c.js",
+    "static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.1e40ab35.chunk.js",
+    "static/css/main.efb928b8.chunk.css",
+    "static/js/main.bd719395.chunk.js"
+  ]
+}
