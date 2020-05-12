@@ -65,6 +65,9 @@ const Navbar = () => {
               <a className='navbar-item'>WEB</a>
               <a className='navbar-item'>ANDROID</a>
               <a className='navbar-item'>AI/ML</a>
+              <a className='navbar-item' href='#!'>
+                Comp. Coders
+              </a>
               <hr className='navbar-divider' />
               <a className='navbar-item'>ADD Category</a>
             </div>
