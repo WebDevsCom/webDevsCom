@@ -66,7 +66,7 @@ const Navbar = () => {
               <a className='navbar-item'>ANDROID</a>
               <a className='navbar-item'>AI/ML</a>
               <a className='navbar-item' href='#!'>
-                Comp. Coders
+                Comp. Coder
               </a>
               <hr className='navbar-divider' />
               <a className='navbar-item'>ADD Category</a>
