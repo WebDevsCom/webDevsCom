@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && mv build ../'webdevscom deploy' && cd ../'webdevscom deploy' && && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom"
+    "deploy": "gh-pages -d build && mv -i build/* ../'webdevscom deploy/' && cd ../'webdevscom deploy/' && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom"
   },
   "eslintConfig": {
     "extends": "react-app"
