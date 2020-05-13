@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bulma/css/bulma.min.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ScrollToTop from './components/Utils/ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <ScrollToTop />
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

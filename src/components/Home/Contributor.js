@@ -25,7 +25,7 @@ const Contributor = () => {
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
-              src='https://randomuser.me/api/portraits/women/20.jpg'
+              src='https://randomuser.me/api/portraits/women/18.jpg'
             />
           </a>
         </figure>

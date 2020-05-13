@@ -1,5 +1,6 @@
 import React from 'react';
 import { Terminal } from 'react-feather';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   document.addEventListener('DOMContentLoaded', () => {
@@ -32,10 +33,10 @@ const Navbar = () => {
       aria-label='main navigation'
     >
       <div className='navbar-brand'>
-        <a className='navbar-item has-text-primary' href='/'>
+        <Link className='navbar-item has-text-primary' to='/'>
           <Terminal color='blue' />
           &emsp; WEBDEVSCOM
-        </a>
+        </Link>
 
         <a
           role='button'
@@ -53,27 +54,45 @@ const Navbar = () => {
 
       <div id='navbarBasicExample' className='navbar-menu'>
         <div className='navbar-end'>
-          <a className='navbar-item' href='/'>
+          <Link className='navbar-item' to='/'>
             Home
-          </a>
+          </Link>
 
           <div className='navbar-item has-dropdown is-hoverable'>
             <a className='navbar-link' href='#!'>
               Category
             </a>
             <div className='navbar-dropdown'>
-              <a className='navbar-item'>WEB</a>
-              <a className='navbar-item'>ANDROID</a>
-              <a className='navbar-item'>AI/ML</a>
-              <a className='navbar-item' href='#!'>
-                Comp. Coder
-              </a>
+              <Link className='navbar-item' to='/web'>
+                WEB
+              </Link>
+              <Link className='navbar-item' to='/android'>
+                ANDROID
+              </Link>
+              <Link className='navbar-item' to='/ml'>
+                AI/ML
+              </Link>
+              <Link className='navbar-item' to='/champs'>
+                Comp. Coders
+              </Link>
               <hr className='navbar-divider' />
-              <a className='navbar-item'>ADD Category</a>
+              <a
+                className='navbar-item'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://github.com/WebDevsCom/webDevsCom.github.io'
+              >
+                ADD Category
+              </a>
             </div>
           </div>
 
-          <a className='navbar-item' href='/docs'>
+          <a
+            className='navbar-item'
+            rel='noopener noreferrer'
+            target='_blank'
+            href='https://github.com/WebDevsCom/webDevsCom.github.io'
+          >
             Contributors
           </a>
         </div>

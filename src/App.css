@@ -11,8 +11,6 @@
 }
 
 .button-special:hover {
-  background-color: #333;
-  color: #ffffff !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px !important;
   transform: translateY(-5px);
 }
