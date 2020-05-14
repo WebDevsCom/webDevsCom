@@ -29,7 +29,7 @@ If you're new to contributing to Open Source on Github, [this guide](https://gui
 
 ## Show your support
 
-show your  :heart: and  :+1: by giving star to this Repo. if this project helped you in anyways!
+show your  :heart: and  :+1: by giving :star: to this Repo. if this project helped you in anyways!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
