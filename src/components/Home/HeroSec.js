@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub } from 'react-feather';
+import { GitHub, GitPullRequest } from 'react-feather';
 import Contributor from './Contributor';
 
 const HeroSec = () => {
@@ -44,7 +44,7 @@ const HeroSec = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <GitHub /> <span> &emsp;Github</span>
+                <GitPullRequest /> <span> &emsp;Github</span>
               </a>
             </div>
           </div>

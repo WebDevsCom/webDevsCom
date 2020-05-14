@@ -3,16 +3,14 @@ import ReactMarkdown from 'react-markdown';
 import Axios from 'axios';
 import Spinner from '../Spinner';
 import { resources } from './resourcesData';
+import { GitHub } from 'react-feather';
 
 const Resource = (props) => {
   const [markdown, setMarkdown] = useState('');
+  const [repoInfo, setRepoInfo] = useState({});
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     if (loading === false) {
-      const id = props.match.params.id;
-      const resource = resources.find(
-        (resource) => String(resource.id) === String(id)
-      );
       const h1 = document.querySelectorAll('#markdown h1');
       for (var i = 0; i < h1.length; i++) {
         h1[i].className = 'title is-2';
@@ -70,8 +68,8 @@ const Resource = (props) => {
           // console.log(images[i].src);
           images[i].setAttribute(
             'src',
-            `https://raw.githubusercontent.com/${resource.repoOwnerName}/${
-              resource.repoName
+            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
+              repoInfo.repoName
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -88,8 +86,8 @@ const Resource = (props) => {
         if (el[i].href.includes('.md')) {
           el[i].setAttribute(
             'href',
-            `https://github.com/${resource.repoOwnerName}/${
-              resource.repoName
+            `https://github.com/${repoInfo.repoOwnerName}/${
+              repoInfo.repoName
             }/blob/master${el[i].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -110,11 +108,12 @@ const Resource = (props) => {
     setLoading(true);
     const id = props.match.params.id;
 
-    var repoReadmeLink = resources.find(
+    const repo = resources.find(
       (resource) => String(resource.id) === String(id)
     );
-    if (repoReadmeLink) {
-      Axios.get(repoReadmeLink.link).then((markdown) => {
+    setRepoInfo(repo);
+    if (repo) {
+      Axios.get(repo.link).then((markdown) => {
         setMarkdown(markdown.data);
         setLoading(false);
       });
@@ -125,9 +124,21 @@ const Resource = (props) => {
   if (loading) return <Spinner />;
 
   return (
-    <div className='container' style={{ padding: '0 20px' }} id='markdown'>
+    <div className='container' id='markdown'>
       <div id='table-of-contents'></div>
-      <ReactMarkdown source={markdown} escapeHtml={false} />
+      <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
+        <a
+          href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
+          className='button button-special box-shadow-lift is-medium is-rounded'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <GitHub /> <span> &emsp;View on Github</span>
+        </a>
+      </div>
+      <div style={{ padding: '0 1rem' }}>
+        <ReactMarkdown source={markdown} escapeHtml={false} />
+      </div>
     </div>
   );
 };
