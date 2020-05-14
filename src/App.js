@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Resource from './components/Category/Resource';
 import Resources from './components/Category/Resources';
+import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
@@ -15,12 +16,13 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <ScrollToTopBtn />
       <div style={{ marginTop: '3rem' }}></div>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route
           exact
-          path='/category'
+          path={['/resources', '/bookmarked']}
           render={() => (
             <Resources
               handleInputChange={handleInputChange}
@@ -30,7 +32,7 @@ function App() {
         />
         <Route
           exact
-          path='/category/:id'
+          path='/resources/:id'
           render={(props) => <Resource {...props} />}
         />
       </Switch>

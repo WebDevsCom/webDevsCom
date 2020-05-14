@@ -92,7 +92,7 @@ export const resources = [
       'https://raw.githubusercontent.com/sdmg15/Best-websites-a-programmer-should-visit/master/README.md',
     repoName: 'Best-websites-a-programmer-should-visit',
     description:
-      'useful lists of websites for programmers, must know to get always informed in order and learn new stuffs. ',
+      'useful lists of websites for coders, must know to get always informed in order and learn new stuffs. ',
     repoOwnerName: 'sdmg15',
     repoOwner: 'Sonkeng Maldini',
   },

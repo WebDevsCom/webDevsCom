@@ -4,14 +4,43 @@ import { resources } from './resourcesData';
 import Category from './Category';
 
 const Resources = ({ searchInput, handleInputChange }) => {
-  var filteredResources = resources.filter(
-    (resource) =>
-      resource.repoOwnerName
-        .toLowerCase()
-        .includes(searchInput.toLowerCase()) ||
-      resource.description.toLowerCase().includes(searchInput.toLowerCase()) ||
-      resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
-  );
+  var filteredResources;
+  if (window.location.pathname === '/resources') {
+    filteredResources =
+      resources &&
+      resources.filter(
+        (resource) =>
+          resource.repoOwnerName
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
+          resource.description
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
+          resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
+      );
+  } else if (window.location.pathname === '/bookmarked') {
+    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+    filteredResources =
+      bookmarks &&
+      bookmarks.map(
+        (bookmark) =>
+          resources.filter((resource) => resource.id === bookmark)[0]
+      );
+
+    filteredResources =
+      filteredResources &&
+      filteredResources.filter(
+        (resource) =>
+          resource.repoOwnerName
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
+          resource.description
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
+          resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
+      );
+  }
+
   filteredResources = filteredResources.sort((a, b) =>
     ('' + a.repoName).localeCompare(b.repoName)
   );

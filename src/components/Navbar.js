@@ -36,6 +36,7 @@ const Navbar = () => {
     <nav
       className='navbar is-fixed-top'
       role='navigation'
+      id='navbar'
       aria-label='main navigation'
     >
       <ReactTooltip type='light' />
@@ -45,18 +46,17 @@ const Navbar = () => {
           &emsp; WEBDEVSCOM
         </Link>
 
-        <a
+        <div
           role='button'
           className='navbar-burger burger'
           aria-label='menu'
           aria-expanded='false'
-          href='#!'
           data-target='navbarBasicExample'
         >
           <span aria-hidden='true'></span>
           <span aria-hidden='true'></span>
           <span aria-hidden='true'></span>
-        </a>
+        </div>
       </div>
 
       <div id='navbarBasicExample' className='navbar-menu'>
@@ -67,10 +67,18 @@ const Navbar = () => {
 
           <Link
             className='navbar-item'
-            to='/category'
+            to='/resources'
             data-tip='Go to Category Page'
           >
             Resources
+          </Link>
+
+          <Link
+            className='navbar-item'
+            to='/bookmarked'
+            data-tip='Go to Category Page'
+          >
+            BookMarked
           </Link>
 
           <a

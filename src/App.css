@@ -90,3 +90,18 @@ ul ol {
   list-style-position: inside;
   margin-left: 15px;
 }
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+#bookmarkBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+}

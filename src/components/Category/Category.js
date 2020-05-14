@@ -8,13 +8,17 @@ const Category = ({ history, filteredResources }) => {
     <>
       <ReactTooltip type='light' />
       <div className='columns is-multiline' style={{ margin: 'auto' }}>
-        {filteredResources.length === 0 ? (
-          <p
-            className='title is-h5 has-text-centered'
-            style={{ marginTop: '1rem' }}
-          >
-            No! Resource is Present with this Keyword try searching for
+        {filteredResources.length === 0 &&
+        window.location.pathname === '/resources' ? (
+          <p className='subtitle is-h5' style={{ margin: '2rem auto 0' }}>
+            No! Resource is Present with searched Keyword, Please search for
             something else...
+          </p>
+        ) : filteredResources.length === 0 &&
+          window.location.pathname === '/bookmarked' ? (
+          <p className='subtitle is-h5' style={{ margin: '2rem auto 0' }}>
+            Either You have not Bookmarked any Resources or their is no
+            resources present for searched Keyword.
           </p>
         ) : (
           filteredResources.map((resource) => (
@@ -34,7 +38,7 @@ const Category = ({ history, filteredResources }) => {
               >
                 <header
                   className='card-header'
-                  onClick={() => history.push(`/category/${resource.id}`)}
+                  onClick={() => history.push(`/resources/${resource.id}`)}
                 >
                   <p className='card-header-title subtitle is-5 is-capitalized'>
                     {resource.repoName}
@@ -79,7 +83,7 @@ const Category = ({ history, filteredResources }) => {
                     </div>
                     <br />
                     <div
-                      onClick={() => history.push(`/category/${resource.id}`)}
+                      onClick={() => history.push(`/resources/${resource.id}`)}
                     >
                       {resource.description}
                     </div>
@@ -101,7 +105,7 @@ const Category = ({ history, filteredResources }) => {
                     <Star />
                   </a>
                   <Link
-                    to={`/category/${resource.id}`}
+                    to={`/resources/${resource.id}`}
                     className='card-footer-item'
                     data-tip='view Resource'
                   >

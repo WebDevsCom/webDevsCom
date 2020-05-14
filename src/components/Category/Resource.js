@@ -4,12 +4,21 @@ import Axios from 'axios';
 import Spinner from '../Spinner';
 import { resources } from './resourcesData';
 import { GitHub } from 'react-feather';
+import BookMarkBtn from './BookMarkBtn';
 
 const Resource = (props) => {
   const [markdown, setMarkdown] = useState('');
   const [repoInfo, setRepoInfo] = useState({});
   const [loading, setLoading] = useState(true);
+  const [bookmarks, setBookMarks] = useState([]);
+  const [isBookMarked, setBookMarked] = useState(false);
+
   useEffect(() => {
+    setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
+    var BookMarked =
+      bookmarks && bookmarks.find((bookMarkId) => repoInfo.id === bookMarkId);
+    setBookMarked(BookMarked ? true : false);
+
     if (loading === false) {
       const h1 = document.querySelectorAll('#markdown h1');
       for (var i = 0; i < h1.length; i++) {
@@ -65,7 +74,6 @@ const Resource = (props) => {
       const images = document.querySelectorAll('img');
       for (i = 0; i < images.length; i++) {
         if (images[i].src.includes(window.location.origin)) {
-          // console.log(images[i].src);
           images[i].setAttribute(
             'src',
             `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
@@ -73,7 +81,7 @@ const Resource = (props) => {
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
-              .replace('/category', '')}`
+              .replace('/resources', '')}`
           );
         }
       }
@@ -91,7 +99,7 @@ const Resource = (props) => {
             }/blob/master${el[i].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
-              .replace('/category', '')}`
+              .replace('/resources', '')}`
           );
           el[i].setAttribute('target', '_blank');
         } else if (!el[i].href.includes('#')) {
@@ -103,6 +111,24 @@ const Resource = (props) => {
     }
     // eslint-disable-next-line
   }, [loading]);
+
+  const bookmarkIt = () => {
+    setBookMarked(true);
+    if (bookmarks === null) {
+      localStorage.setItem('bookmarks', JSON.stringify([repoInfo.id]));
+    } else {
+      bookmarks.push(repoInfo.id);
+      setBookMarks(bookmarks);
+      localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+    }
+  };
+  const removeBookmark = () => {
+    setBookMarked(false);
+    const bookMarks =
+      bookmarks && bookmarks.filter((bookmarkId) => bookmarkId !== repoInfo.id);
+    setBookMarks(bookMarks);
+    localStorage.setItem('bookmarks', JSON.stringify(bookMarks));
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -126,6 +152,11 @@ const Resource = (props) => {
   return (
     <div className='container' id='markdown'>
       <div id='table-of-contents'></div>
+      <BookMarkBtn
+        isBookMarked={isBookMarked}
+        removeBookmark={removeBookmark}
+        bookmarkIt={bookmarkIt}
+      />
       <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
         <a
           href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
@@ -133,7 +164,8 @@ const Resource = (props) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <GitHub /> <span> &emsp;View on Github</span>
+          <GitHub fill='rgba(0, 0, 0, 0.1)' />{' '}
+          <span> &emsp;View on Github</span>
         </a>
       </div>
       <div style={{ padding: '0 1rem' }}>
