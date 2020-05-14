@@ -1,3 +1,8 @@
+/* Navbar */
+.is-active {
+  color: #6c8eef !important;
+}
+
 /* Hero Section */
 .space {
   background: linear-gradient(90deg, #f8faff 19px, transparent 1%) center,
@@ -15,8 +20,52 @@
   transform: translateY(-5px);
 }
 
+.card {
+  border-radius: 5px;
+  -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
 .button-special {
   border: none !important;
   -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.blockquote {
+  padding: 10px;
+  border-left: 3px solid rgb(92, 255, 92);
+  color: #808080;
+}
+
+/* markdown */
+#markdown {
+  margin-top: 2rem;
+}
+
+/* loader */
+.loader-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.loader-wrapper .loader {
+  height: 4rem;
+  width: 4rem;
+}
+
+table {
+  overflow: auto;
 }

@@ -94,6 +94,26 @@ const Contributor = () => {
         Do you want to contribute or add some resource Feel free to visit below
         link.
       </p>
+
+      <div className='container'>
+        <iframe
+          src='https://ghbtns.com/github-btn.html?user=WebDevsCom&repo=WebDevsCom&type=star&count=true&size=large'
+          frameBorder='0'
+          scrolling='0'
+          width='170'
+          height='30'
+          title='Star twbs/bootstrap on GitHub'
+        ></iframe>
+
+        <iframe
+          src='https://ghbtns.com/github-btn.html?user=WebDevsCom&repo=WebDevsCom&type=fork&count=true&size=large'
+          frameBorder='0'
+          scrolling='0'
+          width='170'
+          height='30'
+          title='Fork twbs/bootstrap on GitHub'
+        ></iframe>
+      </div>
     </div>
   );
 };
