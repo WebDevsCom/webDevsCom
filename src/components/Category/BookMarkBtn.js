@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Bookmark } from 'react-feather';
 
 const BookMarkBtn = ({ isBookMarked, removeBookmark, bookmarkIt }) => {
