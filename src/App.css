@@ -22,12 +22,14 @@
 
 .card {
   border-radius: 5px;
+  border-bottom: 2px solid #6c8eef;
   -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .card:hover {
   transform: translateY(-5px);
+  border-bottom: 2px solid #505050;
 }
 
 .button-special {

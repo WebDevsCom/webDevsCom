@@ -368,4 +368,110 @@ export const resources = [
     repoOwnerName: 'MunGell',
     repoOwner: 'Shmavon Gazanchyan',
   },
+  {
+    id: 41,
+    link:
+      'https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/README.md',
+    repoName: 'developer-roadmap',
+    description:
+      'Roadmap to becoming a web developer in 2020 https://roadmap.sh',
+    repoOwnerName: 'kamranahmedse',
+    repoOwner: 'Kamran Ahmed',
+  },
+  {
+    id: 42,
+    link:
+      'https://raw.githubusercontent.com/mtdvio/every-programmer-should-know/master/README.md',
+    repoName: 'every-programmer-should-know',
+    description:
+      'A collection of (mostly) technical things every software developer should know',
+    repoOwnerName: 'mtdvio',
+    repoOwner: 'MTDV',
+  },
+  {
+    id: 43,
+    link:
+      'https://raw.githubusercontent.com/hardikvasa/awesome-programming/master/README.md',
+    repoName: 'awesome-programming',
+    description:
+      'A curated list of awesome programming talks, articles, books, resources and more!!',
+    repoOwnerName: 'hardikvasa',
+    repoOwner: 'Hardik Vasa',
+  },
+  {
+    id: 44,
+    link:
+      'https://raw.githubusercontent.com/elsewhencode/project-guidelines/master/README.md',
+    repoName: 'project-guidelines',
+    description: 'A set of best practices for JavaScript projects',
+    repoOwnerName: 'elsewhencode',
+    repoOwner: 'Elsewhen    ',
+  },
+  {
+    id: 45,
+    link:
+      'https://raw.githubusercontent.com/RitikPatni/Front-End-Web-Development-Resources/master/README.md',
+    repoName: 'Front-End-Web-Development-Resources',
+    description:
+      'This repository contains content which will be helpful in your journey as a front-end Web Developer https://resources.ritikpatni.me/',
+    repoOwnerName: 'RitikPatni',
+    repoOwner: 'Ritik Patni',
+  },
+  {
+    id: 46,
+    link:
+      'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md',
+    repoName: 'free-for-dev',
+    description:
+      'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev https://free-for.dev/',
+    repoOwnerName: 'ripienaar',
+    repoOwner: 'R.I.Pienaar',
+  },
+  {
+    id: 47,
+    link:
+      'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/README.md',
+    repoName: 'clean-code-javascript',
+    description:
+      'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev https://free-for.dev/',
+    repoOwnerName: 'ryanmcdermott',
+    repoOwner: 'Ryan McDermott',
+  },
+  {
+    id: 48,
+    link:
+      'https://raw.githubusercontent.com/ryanmcdermott/code-review-tips/master/README.md',
+    repoName: 'code-review-tips',
+    description: 'microscope Common problems to look for in a code review',
+    repoOwnerName: 'ryanmcdermott',
+    repoOwner: 'Ryan McDermott',
+  },
+  {
+    id: 49,
+    link:
+      'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/en-EN/README.md',
+    repoName: 'javascript-questions',
+    description:
+      'A long list of (advanced) JavaScript questions, and their explanations sparkles',
+    repoOwnerName: 'lydiahallie',
+    repoOwner: 'Lydia Hallie',
+  },
+  {
+    id: 50,
+    link:
+      'https://raw.githubusercontent.com/denysdovhan/wtfjs/master/README.md',
+    repoName: 'wtfjs',
+    description: 'A list of funny and tricky JavaScript examples.',
+    repoOwnerName: 'denysdovhan',
+    repoOwner: 'Denys Dovhan',
+  },
+  {
+    id: 51,
+    link:
+      'https://raw.githubusercontent.com/denysdovhan/bash-handbook/master/README.md',
+    repoName: 'bash-handbook',
+    description: ' For those who wanna learn Bash',
+    repoOwnerName: 'denysdovhan',
+    repoOwner: 'Denys Dovhan',
+  },
 ];

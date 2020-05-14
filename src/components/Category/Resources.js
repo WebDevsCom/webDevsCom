@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Search } from 'react-feather';
 import { resources } from './resourcesData';
 import Category from './Category';
 
-const Resources = () => {
-  const [searchInput, setSearchInput] = useState('');
-  const handleInputChange = (e) => {
-    setSearchInput(e.target.value);
-  };
+const Resources = ({ searchInput, handleInputChange }) => {
   var filteredResources = resources.filter(
     (resource) =>
       resource.repoOwnerName
@@ -30,6 +26,7 @@ const Resources = () => {
                 type='text'
                 onChange={handleInputChange}
                 placeholder='search from resources'
+                value={searchInput}
               />
               <span className='icon is-small is-right'>
                 <Search />
