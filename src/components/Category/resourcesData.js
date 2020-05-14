@@ -6,8 +6,8 @@ export const resources = [
     repoName: 'design-resources-for-developers',
     description:
       'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more',
-    repoOwnerLink: 'https://github.com/bradtraversy',
-    repoOwnerName: 'Brad Traversy',
+    repoOwnerName: 'bradtraversy',
+    repoOwner: 'Brad Traversy',
   },
   {
     id: 2,
@@ -16,8 +16,8 @@ export const resources = [
     repoName: 'public-apis',
     description:
       'A collective list of free APIs for use in software and web development.',
-    repoOwnerLink: 'https://github.com/public-apis',
     repoOwnerName: 'public-apis',
+    repoOwner: 'public-apis',
   },
   {
     id: 3,
@@ -25,8 +25,8 @@ export const resources = [
       'https://raw.githubusercontent.com/emmabostian/developer-portfolios/master/README.md',
     repoName: 'developer-portfolios',
     description: 'A list of developer portfolios for your inspiration',
-    repoOwnerLink: 'https://github.com/emmabostian',
-    repoOwnerName: 'Emma Bostian',
+    repoOwnerName: 'emmabostian',
+    repoOwner: 'Emma Bostian',
   },
   {
     id: 4,
@@ -35,7 +35,337 @@ export const resources = [
     repoName: 'DevYouTubeList',
     description:
       'A curated list of amazing development channels on YouTube. These include web development, back-end development, front-end development live coders and more!',
-    repoOwnerLink: 'https://github.com/ErikCH',
-    repoOwnerName: 'Erik Hanchett',
+    repoOwnerName: 'ErikCH',
+    repoOwner: 'Erik Hanchett',
+  },
+  {
+    id: 5,
+    link:
+      'https://raw.githubusercontent.com/florinpop17/app-ideas/master/README.md',
+    repoName: 'app-ideas',
+    description:
+      'A Collection of application ideas which can be used to improve your coding skills.',
+    repoOwnerName: 'florinpop17',
+    repoOwner: 'Florin Pop',
+  },
+  {
+    id: 6,
+    link:
+      'https://raw.githubusercontent.com/lauragift21/awesome-learning-resources/master/README.md',
+    repoName: 'awesome-learning-resources',
+    description: 'fireAwesome list of resources on Web Development.',
+    repoOwnerName: 'lauragift21',
+    repoOwner: 'Gift Egwuenu',
+  },
+  {
+    id: 7,
+    link:
+      'https://raw.githubusercontent.com/alexpate/awesome-design-systems/master/README.md',
+    repoName: 'awesome-design-systems',
+    description:
+      'A design system is a collection of documentation on principles and best practices, that helps guide a team to build digital products.',
+    repoOwnerName: 'alexpate',
+    repoOwner: 'Alex Pate',
+  },
+  {
+    id: 8,
+    link:
+      'https://raw.githubusercontent.com/alexpate/design-system-talks/master/README.md',
+    repoName: 'design-system-talks',
+    description: 'A collection of talks on design systems',
+    repoOwnerName: 'alexpate',
+    repoOwner: 'Alex Pate',
+  },
+  {
+    id: 9,
+    link:
+      'https://raw.githubusercontent.com/dipakkr/A-to-Z-Resources-for-Students/master/README.md',
+    repoName: 'A-to-Z-Resources-for-Students',
+    description:
+      'Curated list of resources for college students. you should definitely check this out.',
+    repoOwnerName: 'dipakkr',
+    repoOwner: 'Deepak Kumar',
+  },
+  {
+    id: 10,
+    link:
+      'https://raw.githubusercontent.com/sdmg15/Best-websites-a-programmer-should-visit/master/README.md',
+    repoName: 'Best-websites-a-programmer-should-visit',
+    description:
+      'useful lists of websites for programmers, you must know to get always informed in order to do your technologies even better and learn new things. ',
+    repoOwnerName: 'sdmg15',
+    repoOwner: 'Sonkeng Maldini',
+  },
+  {
+    id: 11,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/javascript.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ javascript questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 12,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/react.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ React questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 13,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/redux.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ redux questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 14,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/vuejs.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ VueJS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 15,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angular.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ Angular questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 16,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/nodejs.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ nodeJS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 17,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angularjs.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ AngularJS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 18,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/bootstrap.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ BootStrap questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 19,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/css.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ CSS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 20,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/html5.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ HTML5 questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 21,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sass.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ SASS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 22,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/webpack.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ WEBpack questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 23,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/mongodb.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ mongoDB questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 24,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sql.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ SQL questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 25,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/graphql.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ GraphQL questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 26,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/c.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ C# questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 27,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/golang.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ GOLANG questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 28,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/java.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ JAVA questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 29,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/typeScript.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ TypeScript questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 30,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/aws.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ AWS questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 31,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/git.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ GIT questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 32,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/code-problems.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ Code problems questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 33,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/data-structures.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ Data Structures questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 34,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/design-patterns.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ Design Patterns questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 35,
+    link:
+      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/agile.md',
+    repoName: 'FAQGURU',
+    description: 'FAQ Agile questions in interviews',
+    repoOwnerName: 'FAQGURU',
+    repoOwner: 'FAQGURU',
+  },
+  {
+    id: 36,
+    link:
+      'https://raw.githubusercontent.com/Michael0x2a/curated-programming-resources/master/resources.md',
+    repoName: 'curated-programming-resources',
+    description: 'A curated list of resources for learning programming.',
+    repoOwnerName: 'Michael0x2a',
+    repoOwner: 'Michael Lee',
+  },
+  {
+    id: 37,
+    link:
+      'https://raw.githubusercontent.com/charlax/professional-programming/master/README.md',
+    repoName: 'professional-programming',
+    description: 'A collection of full-stack resources for programmers.',
+    repoOwnerName: 'charlax',
+    repoOwner: 'Charles-Axel Dein',
+  },
+  {
+    id: 38,
+    link:
+      'https://raw.githubusercontent.com/charlax/engineering-management/master/README.md',
+    repoName: 'engineering-management',
+    description:
+      'A collection of inspiring resources related to engineering management and tech leadership',
+    repoOwnerName: 'charlax',
+    repoOwner: 'Charles-Axel Dein',
+  },
+  {
+    id: 39,
+    link:
+      'https://raw.githubusercontent.com/tuvtran/project-based-learning/master/README.md',
+    repoName: 'project-based-learning',
+    description:
+      'A list of programming tutorials in which learners build an application from scratch. These tutorials are divided into different primary programming languages.',
+    repoOwnerName: 'tuvtran',
+    repoOwner: 'Tu V. Tran',
+  },
+  {
+    id: 40,
+    link:
+      'https://raw.githubusercontent.com/MunGell/awesome-for-beginners/master/README.md',
+    repoName: 'awesome-for-beginners',
+    description: 'A list of awesome beginners-friendly projects.',
+    repoOwnerName: 'MunGell',
+    repoOwner: 'Shmavon Gazanchyan',
   },
 ];

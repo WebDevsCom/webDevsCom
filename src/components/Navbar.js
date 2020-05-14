@@ -9,6 +9,17 @@ const Navbar = () => {
       document.querySelectorAll('.navbar-burger'),
       0
     );
+    const anchors = document.querySelectorAll('.navbar-item');
+    anchors.forEach((anchor) => {
+      anchor.addEventListener('click', () => {
+        document
+          .querySelector('#navbarBasicExample')
+          .classList.remove('is-active');
+
+        document.querySelector('.navbar-burger').classList.remove('is-active');
+      });
+    });
+
     if ($navbarBurgers.length > 0) {
       $navbarBurgers.forEach((el) => {
         el.addEventListener('click', () => {
@@ -59,7 +70,7 @@ const Navbar = () => {
             to='/category'
             data-tip='Go to Category Page'
           >
-            Category
+            Resources
           </Link>
 
           <a

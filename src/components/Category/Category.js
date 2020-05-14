@@ -24,40 +24,71 @@ const Category = ({ history, filteredResources }) => {
             >
               <div
                 className='card box-shadow-lift'
-                onClick={() => history.push(`/category/${resource.id}`)}
                 style={{
                   marginTop: '0.3rem',
-                  minHeight: '320px',
+                  minHeight: '345px',
                   cursor: 'pointer',
                   display: 'flex',
                   flexDirection: 'column',
                 }}
               >
-                <header className='card-header'>
+                <header
+                  className='card-header'
+                  onClick={() => history.push(`/category/${resource.id}`)}
+                >
                   <p className='card-header-title subtitle is-5 is-capitalized'>
                     {resource.repoName}
                   </p>
                 </header>
                 <div className='card-content'>
                   <div className='content'>
-                    {resource.description}
+                    <div
+                      className='media'
+                      style={{ marginBottom: '0', cursor: 'default' }}
+                    >
+                      <div className='media-left'>
+                        <figure className='image is-48x48 is-inline-flex'>
+                          <a
+                            href={`https://github.com/${resource.repoOwnerName}`}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                          >
+                            <img
+                              className='is-rounded avatar-home'
+                              alt='user-profile'
+                              src={`https://avatars.githubusercontent.com/${resource.repoOwnerName}`}
+                            />
+                          </a>
+                        </figure>
+                      </div>
+                      <div className='media-content'>
+                        <p
+                          className='is-5 subtitle'
+                          style={{ marginBottom: '0' }}
+                        >
+                          {resource.repoOwner}
+                        </p>
+                        <a
+                          href={`https://github.com/${resource.repoOwnerName}`}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          @{resource.repoOwnerName}
+                        </a>
+                      </div>
+                    </div>
                     <br />
+                    <div
+                      onClick={() => history.push(`/category/${resource.id}`)}
+                    >
+                      {resource.description}
+                    </div>
                   </div>
-                  <a
-                    href={resource.repoOwnerLink}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    style={{
-                      marginTop: '1rem',
-                    }}
-                  >
-                    @{resource.repoOwnerName}
-                  </a>
                 </div>
                 <footer className='card-footer' style={{ marginTop: 'auto' }}>
                   <a
                     href={
-                      resource.repoOwnerLink +
+                      `https://github.com/${resource.repoOwnerName}` +
                       '/' +
                       resource.repoName +
                       '/stargazers'
@@ -78,7 +109,7 @@ const Category = ({ history, filteredResources }) => {
                   </Link>
                   <a
                     href={
-                      resource.repoOwnerLink +
+                      `https://github.com/${resource.repoOwnerName}` +
                       '/' +
                       resource.repoName +
                       '/network/members'
