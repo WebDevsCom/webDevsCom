@@ -11,7 +11,7 @@ const BookMarkBtn = ({ isBookMarked, removeBookmark, bookmarkIt }) => {
         className='button button-special is-rounded box-shadow-lift'
         style={{ cursor: 'pointer' }}
         onClick={() => (isBookMarked ? removeBookmark() : bookmarkIt())}
-        data-tip='Bookmark this Resource'
+        data-tip={isBookMarked ? 'Remove from Bookmark' : 'Add to Bookmark'}
       >
         <Bookmark
           color='blue'

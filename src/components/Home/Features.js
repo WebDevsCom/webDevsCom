@@ -42,8 +42,8 @@ const Features = () => {
               <div className='meta'>
                 <h3>Top Youtube Channels</h3>
                 <p>
-                  All the Top youtube channels form which you can all various
-                  things about Coding are Here.
+                  All the Top coding youtube channels form which you can learn
+                  various things about Coding are Here.
                 </p>
               </div>
             </div>
@@ -76,8 +76,8 @@ const Features = () => {
               <div className='meta'>
                 <h3>Developer Portfolio's</h3>
                 <p>
-                  Collection of so, many Developer Portfolio's from which you
-                  can get inspired acheive great.
+                  Collection of so many Developer Portfolio's, from which you
+                  can get inspired to acheive great.
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Features = () => {
         <div className='features'>
           <div className='features-title'>
             <h3 className='title is-3 is-bold'>Contribute Code</h3>
-            <p>Contribute this Open Source Code to Help Developers</p>
+            <p>Contribute to this Open Source Project to Help Developers</p>
           </div>
         </div>
 
@@ -111,7 +111,7 @@ const Features = () => {
 
             <div className='is-size-5 has-text-weight-bold'>Report Issue</div>
             <div className='is-size-6 has-text-centered has-margin-top-20'>
-              open an issue if you want to suggest new feature, report any bug
+              open an issue if you want to suggest new feature or report any bug
               you found.
             </div>
           </div>
@@ -160,8 +160,8 @@ const Features = () => {
 
             <div className='is-size-5 has-text-weight-bold'>Responsive</div>
             <div className='is-size-6 has-text-centered has-margin-top-20'>
-              Reading a Readme of a Repo in mobile is very is difficult for
-              users.
+              Reading a Readme of a Repo in mobile is very difficult for users.
+              this website solve this issue.
             </div>
           </div>
 
@@ -172,8 +172,8 @@ const Features = () => {
 
             <div className='is-size-5 has-text-weight-bold'>Filter</div>
             <div className='is-size-6 has-text-centered has-margin-top-20'>
-              Good and handy feature to Filter resources according your
-              requirements.
+              Good and handy feature to Filter resources according to your
+              requirements and read it.
             </div>
           </div>
 
