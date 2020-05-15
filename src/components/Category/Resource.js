@@ -64,7 +64,7 @@ const Resource = (props) => {
 
       const h3 = document.querySelectorAll('#markdown h3');
       for (i = 0; i < h3.length; i++) {
-        h3[i].className = 'title is-3';
+        h3[i].className = 'title is-4';
         h3[i].setAttribute(
           'id',
           h3[i].innerHTML
@@ -97,7 +97,8 @@ const Resource = (props) => {
 
       const table = document.querySelectorAll('#markdown table');
       for (i = 0; i < table.length; i++)
-        table[i].className = 'table is-hoverable is-fullwidth is-striped';
+        table[i].className =
+          'table is-hoverable is-bordered is-fullwidth is-striped';
 
       const images = document.querySelectorAll('img');
       for (i = 0; i < images.length; i++) {
