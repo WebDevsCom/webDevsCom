@@ -106,6 +106,7 @@ ul ol {
   bottom: 20px;
   right: 30px;
   z-index: 99;
+  background-color: #c9cff8 !important;
 }
 
 #bookmarkBtn {
@@ -113,6 +114,7 @@ ul ol {
   bottom: 24px;
   left: 30px;
   z-index: 99;
+  background-color: #c9cff8 !important;
 }
 
 .has-padding-bottom-10,

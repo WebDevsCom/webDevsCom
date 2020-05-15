@@ -15,7 +15,7 @@ const BookMarkBtn = ({ isBookMarked, removeBookmark, bookmarkIt }) => {
       >
         <Bookmark
           color='blue'
-          fill={isBookMarked ? 'blue' : 'white'}
+          fill={isBookMarked ? 'blue' : '#c9cff8'}
           className='icon'
         />
       </div>
