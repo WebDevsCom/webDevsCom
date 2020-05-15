@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className='navbar is-fixed-top'
+      className='navbar is-fixed-top is-light'
       role='navigation'
       id='navbar'
       aria-label='main navigation'
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className='navbar-brand'>
         <Link className='navbar-item has-text-primary' to='/'>
           <Terminal color='blue' />
-          &emsp; WEBDEVSCOM
+          &emsp;WEBDEVSCOM
         </Link>
 
         <div
@@ -68,7 +68,7 @@ const Navbar = () => {
           <Link
             className='navbar-item'
             to='/resources'
-            data-tip='Go to Category Page'
+            data-tip='Go to Resources Page'
           >
             Resources
           </Link>
@@ -76,16 +76,16 @@ const Navbar = () => {
           <Link
             className='navbar-item'
             to='/bookmarked'
-            data-tip='Go to Category Page'
+            data-tip='Go to Bookmarked Page'
           >
-            BookMarked
+            My BookMarks
           </Link>
 
           <a
             className='navbar-item'
             rel='noopener noreferrer'
             target='_blank'
-            href='https://github.com/WebDevsCom/webDevsCom.github.io/graphs/contributors'
+            href='https://github.com/WebDevsCom/webDevsCom/graphs/contributors'
             data-tip='See our Contributors'
           >
             Contributors

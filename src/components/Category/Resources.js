@@ -4,7 +4,7 @@ import { resources } from './resourcesData';
 import Category from './Category';
 
 const Resources = ({ searchInput, handleInputChange }) => {
-  var filteredResources;
+  var filteredResources = [];
   if (window.location.pathname === '/resources') {
     filteredResources =
       resources &&
@@ -41,9 +41,11 @@ const Resources = ({ searchInput, handleInputChange }) => {
       );
   }
 
-  filteredResources = filteredResources.sort((a, b) =>
-    ('' + a.repoName).localeCompare(b.repoName)
-  );
+  filteredResources =
+    filteredResources &&
+    filteredResources.sort((a, b) =>
+      ('' + a.repoName).localeCompare(b.repoName)
+    );
   return (
     <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
       <div className='columns' style={{ margin: 'auto' }}>

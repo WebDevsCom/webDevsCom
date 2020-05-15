@@ -95,7 +95,7 @@ const Contributor = () => {
         link.
       </p>
 
-      <div className='container'>
+      {/* <div className='container'>
         <iframe
           src='https://ghbtns.com/github-btn.html?user=WebDevsCom&repo=WebDevsCom&type=star&count=true&size=large'
           frameBorder='0'
@@ -113,7 +113,7 @@ const Contributor = () => {
           height='30'
           title='Fork twbs/bootstrap on GitHub'
         ></iframe>
-      </div>
+      </div> */}
     </div>
   );
 };

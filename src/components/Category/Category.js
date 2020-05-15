@@ -8,15 +8,24 @@ const Category = ({ history, filteredResources }) => {
     <>
       <ReactTooltip type='light' />
       <div className='columns is-multiline' style={{ margin: 'auto' }}>
-        {filteredResources.length === 0 &&
+        {filteredResources &&
+        filteredResources.length === 0 &&
         window.location.pathname === '/resources' ? (
-          <p className='subtitle is-h5' style={{ margin: '2rem auto 0' }}>
+          <p
+            className='subtitle is-h5'
+            style={{ margin: '2rem auto 0', padding: '0 10px' }}
+          >
             No! Resource is Present with searched Keyword, Please search for
             something else...
           </p>
-        ) : filteredResources.length === 0 &&
-          window.location.pathname === '/bookmarked' ? (
-          <p className='subtitle is-h5' style={{ margin: '2rem auto 0' }}>
+        ) : (filteredResources &&
+            filteredResources.length === 0 &&
+            window.location.pathname === '/bookmarked') ||
+          filteredResources === null ? (
+          <p
+            className='subtitle is-h5'
+            style={{ margin: '2rem auto 0', padding: '0 10px' }}
+          >
             Either You have not Bookmarked any Resources or their is no
             resources present for searched Keyword.
           </p>

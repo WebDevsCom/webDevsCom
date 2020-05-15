@@ -40,7 +40,24 @@ const Resource = (props) => {
             .split('&amp;')
             .join('')
             .replace('?', '')
-            .replace('.', '')
+            .split('.')
+            .join('')
+            .split('/')
+            .join('')
+            .split('(')
+            .join('')
+            .split(')')
+            .join('')
+            .split(',')
+            .join('')
+            .split('"')
+            .join('')
+            .split(`'`)
+            .join('')
+            .split('+')
+            .join('')
+            .split('.')
+            .join('')
             .toLowerCase()
         );
       }
@@ -54,22 +71,33 @@ const Resource = (props) => {
             .split(' ')
             .join('-')
             .replace('?', '')
-            .split('&')
-            .join('-')
-            .replace('.', '')
+            .split('&amp;')
+            .join('')
+            .split('.')
+            .join('')
+            .split('/')
+            .join('')
+            .split('(')
+            .join('')
+            .split(')')
+            .join('')
+            .split(',')
+            .join('')
+            .split('"')
+            .join('')
+            .split(`'`)
+            .join('')
+            .split('+')
+            .join('')
+            .split('.')
+            .join('')
             .toLowerCase()
         );
       }
 
       const table = document.querySelectorAll('#markdown table');
-      for (i = 0; i < table.length; i++) {
+      for (i = 0; i < table.length; i++)
         table[i].className = 'table is-hoverable is-fullwidth is-striped';
-        // const newtable = document.createElement('div');
-        // newtable.className = 'table-container';
-        // newtable.appendChild(table[i]);
-        // document.querySelector('body').replaceChild(newtable, table[i]);
-        // newtable.appendChild(table[i]);
-      }
 
       const images = document.querySelectorAll('img');
       for (i = 0; i < images.length; i++) {
@@ -91,7 +119,11 @@ const Resource = (props) => {
         blockquote[i].className = 'blockquote';
       var el = document.querySelectorAll('#markdown a');
       for (i = 0; i < el.length; i++) {
-        if (el[i].href.includes('.md')) {
+        if (
+          el[i].href.includes('./') ||
+          (el[i].href.includes('.md') &&
+            el[i].href.includes(window.location.origin))
+        ) {
           el[i].setAttribute(
             'href',
             `https://github.com/${repoInfo.repoOwnerName}/${
@@ -164,8 +196,7 @@ const Resource = (props) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <GitHub fill='rgba(0, 0, 0, 0.1)' />{' '}
-          <span> &emsp;View on Github</span>
+          <GitHub /> <span> &emsp;View on Github</span>
         </a>
       </div>
       <div style={{ padding: '0 1rem' }}>

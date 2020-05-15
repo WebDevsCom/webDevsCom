@@ -12,15 +12,15 @@ const HeroSec = () => {
               <span style={{ fontSize: '5.1rem' }}>Are You a Developer?</span>
             </p>
             <p className='subtitle is-3 has-text-grey'>
-              if yes, then you are at right place, we provide you all the Free
-              Resources to you, which is collected by 1000+ numbers of peoples.
-              we have collected all of them categorized and presenting it to you
+              If yes, then you are at right place, we provide you all the Free
+              Resources to you, which is collected by 1000+ numbers of
+              developers. we have collected all of them and presenting it to you
               for your Help.
             </p>
             <Contributor />
             <div className='column'>
               <a
-                href='https://github.com/WebDevsCom/webDevsCom.github.io'
+                href='https://github.com/WebDevsCom/webDevsCom'
                 className='button button-special box-shadow-lift is-large is-rounded'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -39,7 +39,7 @@ const HeroSec = () => {
             <Contributor />
             <div className='column'>
               <a
-                href='https://github.com/WebDevsCom/webDevsCom.github.io'
+                href='https://github.com/WebDevsCom/webDevsCom'
                 className='button button-special box-shadow-lift is-large is-rounded'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -47,18 +47,6 @@ const HeroSec = () => {
                 <GitPullRequest /> <span> &emsp;Github</span>
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className='hero space is-medium'>
-        <div className='hero-body'>
-          <div className='container'>
-            <h1
-              className='title is-1 has-text-success has-text-centered'
-              style={{ transform: 'skewY(-6deg)' }}
-            >
-              WEB DEVELOPERS COMMUNITY
-            </h1>
           </div>
         </div>
       </section>
