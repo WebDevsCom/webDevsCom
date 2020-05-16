@@ -64,10 +64,7 @@ const Resources = ({ searchInput, handleInputChange }) => {
     );
   return (
     <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
-      <div
-        className='field has-addons has-addons-centered'
-        style={{ outline: 'none' }}
-      >
+      <div className='field has-addons has-addons-centered'>
         <p className='control has-icons-left box-shadow-lift'>
           <input
             className='input'
@@ -80,15 +77,13 @@ const Resources = ({ searchInput, handleInputChange }) => {
             <Search />
           </span>
         </p>
-        <div class='control' id='clear'>
+        <div className='control' id='clear'>
           <div
-            class='button is-info'
+            className='button is-info'
             disabled={searchInput.trim() === '' ? true : false}
           >
             <span className='icon is-small'>
-              <XCircle
-                style={searchInput.trim() === '' ? { color: '#fff' } : {}}
-              />
+              <XCircle />
             </span>
           </div>
         </div>
