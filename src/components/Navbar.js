@@ -1,9 +1,10 @@
 import React from 'react';
 import { Terminal } from 'react-feather';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 
 const Navbar = () => {
+  const active = window.location.pathname;
   document.addEventListener('DOMContentLoaded', () => {
     const $navbarBurgers = Array.prototype.slice.call(
       document.querySelectorAll('.navbar-burger'),
@@ -61,12 +62,18 @@ const Navbar = () => {
 
       <div id='navbarBasicExample' className='navbar-menu'>
         <div className='navbar-end'>
-          <Link className='navbar-item' to='/' data-tip='Go to Home page'>
+          <Link
+            className={`navbar-item ${active === '/' ? 'is-active' : ''}`}
+            to='/'
+            data-tip='Go to Home page'
+          >
             Home
           </Link>
 
           <Link
-            className='navbar-item'
+            className={`navbar-item ${
+              active.includes('/resources') ? 'is-active' : ''
+            }`}
             to='/resources'
             data-tip='Go to Resources Page'
           >
@@ -74,7 +81,9 @@ const Navbar = () => {
           </Link>
 
           <Link
-            className='navbar-item'
+            className={`navbar-item ${
+              active === '/bookmarked' ? 'is-active' : ''
+            }`}
             to='/bookmarked'
             data-tip='Go to Bookmarked Page'
           >
@@ -96,4 +105,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);
