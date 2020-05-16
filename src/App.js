@@ -10,8 +10,9 @@ import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
-  const handleInputChange = (e) => {
-    setSearchInput(e.target.value);
+  const handleInputChange = (value) => {
+    // console.log(value);
+    setSearchInput(value);
   };
   return (
     <div className='App'>

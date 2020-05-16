@@ -7,6 +7,15 @@
   background-color: #f8faff !important;
 }
 
+.is-active {
+  background-color: rgb(241, 238, 238) !important;
+}
+
+.navbar-end > a.navbar-item:hover {
+  color: #6c8eef !important;
+  background-color: #f8faff !important;
+}
+
 /* Hero Section */
 .space {
   background: linear-gradient(90deg, #f8faff 19px, transparent 1%) center,
@@ -152,6 +161,11 @@ ul ol {
   color: #182c56;
   font-weight: 600;
   margin-bottom: 4px;
+}
+
+/* tag */
+.tag:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 600px) {
