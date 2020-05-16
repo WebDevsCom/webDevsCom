@@ -11,7 +11,7 @@
   background-color: rgb(241, 238, 238) !important;
 }
 
-.navbar-end > a.navbar-item:hover {
+.navbar-end > a.navbar-item:hover:not(.is-active) {
   color: #6c8eef !important;
   background-color: #f8faff !important;
 }
