@@ -104,7 +104,10 @@ const Resources = ({ searchInput, handleInputChange }) => {
           ))}
         </div>
       </div>
-      <Category filteredResources={filteredResources} />
+      <Category
+        searchInput={searchInput}
+        filteredResources={filteredResources}
+      />
     </div>
   );
 };

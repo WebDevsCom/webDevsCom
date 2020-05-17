@@ -3,7 +3,7 @@ import { Star, GitPullRequest, Eye } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 import { Link, withRouter } from 'react-router-dom';
 
-const Category = ({ history, filteredResources }) => {
+const Category = ({ history, filteredResources, searchInput }) => {
   return (
     <>
       <ReactTooltip type='light' />
@@ -15,8 +15,8 @@ const Category = ({ history, filteredResources }) => {
             className='subtitle is-h5'
             style={{ margin: '2rem auto 0', padding: '0 10px' }}
           >
-            No! Resource is Present with searched Keyword, Please search for
-            something else...
+            There is no resources present for searched Keyword "{searchInput}".
+            Please try searching for something else.
           </p>
         ) : (filteredResources &&
             filteredResources.length === 0 &&
@@ -27,7 +27,7 @@ const Category = ({ history, filteredResources }) => {
             style={{ margin: '2rem auto 0', padding: '0 10px' }}
           >
             Either You have not Bookmarked any Resources or their is no
-            resources present for searched Keyword.
+            resources present for searched Keyword "{searchInput}"
           </p>
         ) : (
           filteredResources.map((resource) => (
