@@ -7,7 +7,7 @@ const Category = ({ history, filteredResources, searchInput }) => {
   return (
     <>
       <ReactTooltip type='light' />
-      <div className='columns is-multiline' style={{ margin: 'auto' }}>
+      <div className='columns is-multiline is-centered' style={{ margin: 'auto' }}>
         {filteredResources &&
         filteredResources.length === 0 &&
         window.location.pathname === '/resources' ? (
