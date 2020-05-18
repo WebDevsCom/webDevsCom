@@ -513,4 +513,13 @@ export const resources = [
     repoOwnerName: 'MaximAbramchuck',
     repoOwner: 'Maksim Abramchuk',
   },
+  {
+    id: 56,
+    link:
+      'https://raw.githubusercontent.com/sindresorhus/awesome-electron/master/readme.md',
+    repoName: 'awesome-electron',
+    description: 'Useful resources for creating apps with Electron.',
+    repoOwnerName: 'sindresorhus',
+    repoOwner: 'Sindre Sorhus',
+  },
 ];
