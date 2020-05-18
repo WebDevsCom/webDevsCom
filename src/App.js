@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/Home/Home';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Footer from './components/Footer';
 import Resource from './components/Category/Resource';
 import Resources from './components/Category/Resources';
@@ -36,6 +36,7 @@ function App() {
           path='/resources/:id'
           render={(props) => <Resource {...props} />}
         />
+        <Redirect to='/' />
       </Switch>
       <Footer />
     </div>
