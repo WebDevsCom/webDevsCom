@@ -474,4 +474,43 @@ export const resources = [
     repoOwnerName: 'denysdovhan',
     repoOwner: 'Denys Dovhan',
   },
+  {
+    id: 52,
+    link:
+      'https://raw.githubusercontent.com/jwasham/coding-interview-university/master/README.md',
+    repoName: 'coding-interview-university',
+    description:
+      ' A complete computer science study plan to become a software engineer.',
+    repoOwnerName: 'jwasham',
+    repoOwner: 'John Washam',
+  },
+  {
+    id: 53,
+    link:
+      'https://raw.githubusercontent.com/leonardomso/33-js-concepts/master/README.md',
+    repoName: '33-js-concepts',
+    description: 'scroll 33 concepts every JavaScript developer should know.',
+    repoOwnerName: 'leonardomso',
+    repoOwner: 'Leonardo Maldonado',
+  },
+  {
+    id: 54,
+    link:
+      'https://raw.githubusercontent.com/mbeaudru/modern-js-cheatsheet/master/README.md',
+    repoName: 'modern-js-cheatsheet',
+    description:
+      'Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects. https://mbeaudru.github.io/modern-js-….',
+    repoOwnerName: 'mbeaudru',
+    repoOwner: 'Manuel Beaudru',
+  },
+  {
+    id: 55,
+    link:
+      'https://raw.githubusercontent.com/MaximAbramchuck/awesome-interview-questions/master/README.md',
+    repoName: 'awesome-interview-questions',
+    description:
+      ' A curated awesome list of lists of interview questions. Feel free to contribute! mortar_board.',
+    repoOwnerName: 'MaximAbramchuck',
+    repoOwner: 'Maksim Abramchuk',
+  },
 ];
