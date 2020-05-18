@@ -3,7 +3,7 @@
 > Community to help web developers by providing them helpful resources and giving experience of open source contribution.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45959932/82066434-07c52e80-96ed-11ea-8804-f97ef3699933.png" width="100%">
+<img src="https://user-images.githubusercontent.com/45959932/82163188-27b04a00-98c7-11ea-87eb-a23c1ad84202.png" width="100%">
 </p>
 
 <p align="center">
