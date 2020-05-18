@@ -499,7 +499,7 @@ export const resources = [
       'https://raw.githubusercontent.com/mbeaudru/modern-js-cheatsheet/master/README.md',
     repoName: 'modern-js-cheatsheet',
     description:
-      'Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects. https://mbeaudru.github.io/modern-js-….',
+      'Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.',
     repoOwnerName: 'mbeaudru',
     repoOwner: 'Manuel Beaudru',
   },
