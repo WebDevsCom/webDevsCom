@@ -1,9 +1,9 @@
 import React from 'react';
-import { Terminal } from 'react-feather';
+import { Terminal, Sun, Moon } from 'react-feather';
 import { Link, withRouter } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 
-const Navbar = () => {
+const Navbar = ({ darkMode, setDarkMode }) => {
   const active = window.location.pathname;
   document.addEventListener('DOMContentLoaded', () => {
     const $navbarBurgers = Array.prototype.slice.call(
@@ -42,7 +42,7 @@ const Navbar = () => {
     >
       <ReactTooltip type='light' />
       <div className='navbar-brand'>
-        <Link className='navbar-item has-text-primary' to='/'>
+        <Link className='navbar-item' id='brand' to='/'>
           <Terminal color='blue' />
           &emsp;WEBDEVSCOM
         </Link>
@@ -99,6 +99,13 @@ const Navbar = () => {
           >
             Contributors
           </a>
+          <div
+            className='navbar-item'
+            style={{ cursor: 'pointer' }}
+            onClick={() => setDarkMode(!darkMode)}
+          >
+            {darkMode ? <Sun color='#00d1b2' /> : <Moon color='#00d1b2' />}
+          </div>
         </div>
       </div>
     </nav>

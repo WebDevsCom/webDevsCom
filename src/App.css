@@ -1,14 +1,11 @@
 /* Navbar */
 .is-active {
+  background-color: #f1eeee !important;
   color: #6c8eef !important;
 }
 
 .is-light {
   background-color: #f8faff !important;
-}
-
-.is-active {
-  background-color: rgb(241, 238, 238) !important;
 }
 
 .navbar-end > a.navbar-item:hover:not(.is-active) {
@@ -168,6 +165,14 @@ ul ol {
   opacity: 0.8;
 }
 
+pre {
+  border-radius: 5px;
+}
+
+code {
+  margin: 5px;
+}
+
 @media (max-width: 600px) {
   .features .feature-card {
     flex-direction: column;
@@ -184,4 +189,149 @@ ul ol {
     overflow-x: auto;
     display: block;
   }
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #24292e !important;
+  color: #eae7d9;
+}
+
+.dark-mode .navbar.is-white {
+  background-color: #2f363d !important;
+}
+
+.dark-mode .navbar.is-light {
+  background-color: #24292e !important;
+}
+
+.dark-mode .navbar .navbar-item:not(.is-active) {
+  color: #f1eeee !important;
+}
+
+.dark-mode .navbar-end > a.navbar-item:hover:not(.is-active) {
+  background-color: #24292e3f !important;
+}
+
+.dark-mode .navbar .navbar-burger {
+  color: #fcfcfcb3 !important;
+}
+
+.dark-mode .navbar-brand #brand,
+.dark-mode .navbar-brand #brand:hover {
+  color: #00d1b2 !important;
+  background-color: inherit !important;
+}
+
+.dark-mode nav .is-active {
+  color: #001ee2 !important;
+  background-color: #2c313c !important;
+}
+
+.dark-mode .footer {
+  background-color: #24292e !important;
+}
+
+.dark-mode .title {
+  color: #eae7d9 !important;
+}
+
+.dark-mode .title.has-text-success {
+  color: #48c774 !important;
+}
+
+.dark-mode .button {
+  background-color: #333;
+  color: #eae7d9 !important;
+}
+
+.dark-mode #view-on-github {
+  padding: 0 10px !important;
+}
+
+.dark-mode .box-shadow-lift {
+  box-shadow: #c0c0c031 inset 0 7px 25px 0 !important;
+}
+
+.dark-mode .button-special:hover {
+  box-shadow: #94949455 inset 0 30px 60px -12px !important;
+}
+
+.dark-mode #markdown a {
+  padding: 2px;
+  background-color: #b7bcff0a;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-mode #markdown a:hover {
+  color: #eae7d9;
+  background-color: #b7bcff1a;
+}
+
+.dark-mode .space {
+  background: linear-gradient(90deg, #1b262c 19px, transparent 1%) center,
+    linear-gradient(#1b262c 19px, transparent 1%) center, #3a72ff;
+  background-size: 22px 22px;
+}
+
+.dark-mode .features .feature-card {
+  background-color: #2f363d;
+  border: 1px solid #3b3b3bdc;
+  border-left: 2px solid #eeeeee;
+  box-shadow: -1px 3px 15px 0 #c3c3c31c;
+}
+
+.dark-mode .features .feature-card .meta h3 {
+  color: #001ee2;
+}
+
+.dark-mode strong {
+  color: #f1f1f1;
+}
+
+.dark-mode pre {
+  background-color: #2f363d;
+  color: #f1f1f1;
+  margin: 5px;
+}
+
+.dark-mode code {
+  background-color: #2f363d;
+}
+
+.dark-mode .card {
+  background-color: #2f363d;
+  color: #e8e8e8;
+}
+
+.dark-mode .card a:hover {
+  color: #e8e8e8;
+}
+
+.dark-mode .card:hover {
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.dark-mode .card .card-header-title,
+.dark-mode .card .media-content .subtitle {
+  color: #f1f1f1;
+}
+
+.dark-mode table {
+  background-color: #2f363d;
+  border-radius: 5px;
+}
+
+.dark-mode thead tr th,
+.dark-mode table {
+  color: #dfe6e9 !important;
+}
+
+.dark-mode .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+  background-color: #3131318c;
+}
+
+.dark-mode .table.is-striped tbody tr:not(.is-selected):nth-child(even):hover,
+.dark-mode table tbody tr:hover {
+  background-color: #2c2c2cbe !important;
 }

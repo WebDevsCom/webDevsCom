@@ -98,7 +98,7 @@ const Resource = (props) => {
       const table = document.querySelectorAll('#markdown table');
       for (i = 0; i < table.length; i++)
         table[i].className =
-          'table is-hoverable is-bordered is-fullwidth is-striped';
+          'table is-hoverable is-dark is-fullwidth is-striped';
 
       const images = document.querySelectorAll('img');
       for (i = 0; i < images.length; i++) {
@@ -196,6 +196,7 @@ const Resource = (props) => {
           className='button button-special box-shadow-lift is-medium is-rounded'
           target='_blank'
           rel='noopener noreferrer'
+          id='view-on-github'
         >
           <GitHub /> <span> &emsp;View on Github</span>
         </a>
