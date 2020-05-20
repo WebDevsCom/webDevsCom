@@ -1,6 +1,11 @@
 # WEBDEVSCOM
 
-> Community to help web developers by providing them helpful resources and giving experience of open source contribution.
+> Community to help web developers by providing them helpful resources and giving experience of open source contribution. 
+
+[![Author](https://img.shields.io/badge/Author-Binu42-brightgreen.svg)](http://binu42.netlify.com/)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Repo Link](https://img.shields.io/badge/Repo-Link-black.svg)](https://github.com/WebDevsCom/webDevsCom)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45959932/82163188-27b04a00-98c7-11ea-87eb-a23c1ad84202.png" width="100%">
