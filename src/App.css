@@ -250,11 +250,11 @@ code {
 }
 
 .dark-mode .box-shadow-lift {
-  box-shadow: #c0c0c031 inset 0 7px 25px 0 !important;
+  box-shadow: -1px -1px 1px 0 #ffffff3b, 1px 1px 1px 0 #0808088e !important;
 }
 
 .dark-mode .button-special:hover {
-  box-shadow: #94949455 inset 0 30px 60px -12px !important;
+  box-shadow: inset 2px 2px 5px #ffffff3b, inset -3px -3px 7px #0808088e !important;
 }
 
 .dark-mode #markdown a {
