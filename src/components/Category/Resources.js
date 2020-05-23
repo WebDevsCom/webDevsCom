@@ -74,12 +74,12 @@ const Resources = ({ searchInput, handleInputChange }) => {
             value={searchInput}
           />
           <span className='icon is-small is-left'>
-            <Search />
+            <Search color='#00d1b2' />
           </span>
         </p>
         <div className='control' id='clear'>
           <div
-            className='button is-info'
+            className='button is-primary'
             disabled={searchInput.trim() === '' ? true : false}
           >
             <span className='icon is-small'>

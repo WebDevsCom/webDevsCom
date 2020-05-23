@@ -522,4 +522,14 @@ export const resources = [
     repoOwnerName: 'sindresorhus',
     repoOwner: 'Sindre Sorhus',
   },
+  {
+    id: 57,
+    link:
+      'https://raw.githubusercontent.com/JacobWylie/Web-Dev-Learning-Resources/master/README.md',
+    repoName: 'Web-Dev-Learning-Resources',
+    description:
+      'Collection of my favorite web development resources for beginners and professionals alike.',
+    repoOwnerName: 'JacobWylie',
+    repoOwner: 'Jacob Wylie',
+  },
 ];
