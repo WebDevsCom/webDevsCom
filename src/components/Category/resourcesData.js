@@ -594,7 +594,7 @@ export const resources = [
     link:
       'https://raw.githubusercontent.com/gztchan/awesome-design/master/README.md',
     repoName: 'awesome-design',
-    description: 'Curated design resources',
+    description: 'Curated design resources. ',
     repoOwnerName: 'gztchan',
     repoOwner: 'Tony Chan',
   },
