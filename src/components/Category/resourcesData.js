@@ -532,4 +532,70 @@ export const resources = [
     repoOwnerName: 'JacobWylie',
     repoOwner: 'Jacob Wylie',
   },
+  {
+    id: 58,
+    link:
+      'https://raw.githubusercontent.com/sudheerj/reactjs-interview-questions/master/README.md',
+    repoName: 'reactjs-interview-questions',
+    description:
+      'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!',
+    repoOwnerName: 'sudheerj',
+    repoOwner: 'Sudheer Jonna',
+  },
+  {
+    id: 59,
+    link:
+      'https://raw.githubusercontent.com/sudheerj/angular-interview-questions/master/README.md',
+    repoName: 'angular-interview-questions',
+    description: 'List of 300 Angular Interview Questions and answers[WIP]',
+    repoOwnerName: 'sudheerj',
+    repoOwner: 'Sudheer Jonna',
+  },
+  {
+    id: 60,
+    link:
+      'https://raw.githubusercontent.com/sudheerj/javascript-interview-questions/master/README.md',
+    repoName: 'javascript-interview-questions',
+    description: 'List of 1000 JavaScript Interview Questions',
+    repoOwnerName: 'sudheerj',
+    repoOwner: 'Sudheer Jonna',
+  },
+  {
+    id: 61,
+    link:
+      'https://raw.githubusercontent.com/sudheerj/vuejs-interview-questions/master/README.md',
+    repoName: 'vuejs-interview-questions',
+    description: 'List of 300 VueJS Interview Questions And Answers',
+    repoOwnerName: 'sudheerj',
+    repoOwner: 'Sudheer Jonna',
+  },
+  {
+    id: 62,
+    link:
+      'https://raw.githubusercontent.com/neutraltone/awesome-stock-resources/master/README.md',
+    repoName: 'awesome-stock-resources',
+    description:
+      ' A collection of links for free stock photography, video and Illustration websites',
+    repoOwnerName: 'neutraltone',
+    repoOwner: 'Tony Phipps',
+  },
+  {
+    id: 63,
+    link:
+      'https://raw.githubusercontent.com/LisaDziuba/Awesome-Design-Tools/master/README.md',
+    repoName: 'Awesome-Design-Tools',
+    description:
+      'The best design tools and plugins for everything point_right https://flawlessapp.io/designtools',
+    repoOwnerName: 'LisaDziuba',
+    repoOwner: 'Lisa Dziuba',
+  },
+  {
+    id: 64,
+    link:
+      'https://raw.githubusercontent.com/gztchan/awesome-design/master/README.md',
+    repoName: 'awesome-design',
+    description: 'Curated design resources',
+    repoOwnerName: 'gztchan',
+    repoOwner: 'Tony Chan',
+  },
 ];
