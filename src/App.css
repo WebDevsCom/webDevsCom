@@ -189,8 +189,7 @@ code {
   margin: 5px;
 }
 
-.language-null,
-.language-bash {
+.language-null {
   color: #001ee2 !important;
 }
 

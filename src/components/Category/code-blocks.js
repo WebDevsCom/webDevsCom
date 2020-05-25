@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import hljs from 'highlight.js/lib/core';
-import javascript from 'highlight.js/lib/languages/javascript';
+import 'highlight.js/lib/index';
 import 'highlight.js/styles/dracula.css';
 
 class CodeBlock extends React.PureComponent {
   constructor(props) {
-    hljs.registerLanguage('javascript', javascript);
     super(props);
     this.setRef = this.setRef.bind(this);
   }
