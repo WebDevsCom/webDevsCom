@@ -4,6 +4,7 @@ import Axios from 'axios';
 import Spinner from '../Spinner';
 import { resources } from './resourcesData';
 import { GitHub } from 'react-feather';
+import CodeBlock from './code-blocks';
 import BookMarkBtn from './BookMarkBtn';
 
 const Resource = (props) => {
@@ -202,7 +203,11 @@ const Resource = (props) => {
         </a>
       </div>
       <div style={{ padding: '0 1rem' }}>
-        <ReactMarkdown source={markdown} escapeHtml={false} />
+        <ReactMarkdown
+          source={markdown}
+          escapeHtml={false}
+          renderers={{ code: CodeBlock }}
+        />
       </div>
     </div>
   );

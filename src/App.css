@@ -48,12 +48,6 @@
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.blockquote {
-  padding: 10px;
-  border-left: 3px solid rgb(92, 255, 92);
-  color: #808080;
-}
-
 /* markdown */
 #markdown {
   padding: 1rem;
@@ -62,8 +56,28 @@
   overflow-x: auto;
 }
 
+#markdown blockquote {
+  padding: 10px;
+  border-left: 3px solid rgb(16, 99, 255);
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #808080;
+}
+
 #markdown p {
   text-align: justify;
+}
+
+#markdown a {
+  word-wrap: break-word;
+}
+
+#markdown h1,
+#markdown h2,
+#markdown h3,
+#markdown h4 {
+  margin: 1rem 0 !important;
+  color: #6d83f2 !important;
 }
 
 /* loader */
@@ -167,10 +181,21 @@ ul ol {
 
 pre {
   border-radius: 5px;
+  background-color: #282a36 !important;
+  margin: 10px 0 !important;
 }
 
 code {
   margin: 5px;
+}
+
+.language-null,
+.language-bash {
+  color: #001ee2 !important;
+}
+
+.dark-mode code {
+  background-color: #282a36;
 }
 
 @media (max-width: 600px) {
@@ -287,16 +312,6 @@ code {
 
 .dark-mode strong {
   color: #f1f1f1;
-}
-
-.dark-mode pre {
-  background-color: #2f363d;
-  color: #f1f1f1;
-  margin: 5px;
-}
-
-.dark-mode code {
-  background-color: #2f363d;
 }
 
 .dark-mode .card {
