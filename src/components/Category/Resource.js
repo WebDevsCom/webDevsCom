@@ -25,79 +25,24 @@ const Resource = (props) => {
       const h1 = document.querySelectorAll('#markdown h1');
       for (var i = 0; i < h1.length; i++) {
         h1[i].className = 'title is-2';
-        // h1[i].setAttribute(
-        //   'id',
-        //   h1[i].innerHTML.replace(' ', '-').toLowerCase()
-        // );
         h1[i].setAttribute('id', slug(h1[i].innerHTML));
       }
 
       const h2 = document.querySelectorAll('#markdown h2');
       for (i = 0; i < h2.length; i++) {
         h2[i].className = 'title is-3';
-        // h2[i].setAttribute(
-        //   'id',
-        //   h2[i].innerHTML
-        //     .split(' ')
-        //     .join('-')
-        //     .split('&amp;')
-        //     .join('')
-        //     .replace('?', '')
-        //     .split('.')
-        //     .join('')
-        //     .split('/')
-        //     .join('')
-        //     .split('(')
-        //     .join('')
-        //     .split(')')
-        //     .join('')
-        //     .split(',')
-        //     .join('')
-        //     .split('"')
-        //     .join('')
-        //     .split(`'`)
-        //     .join('')
-        //     .split('+')
-        //     .join('')
-        //     .split('.')
-        //     .join('')
-        //     .toLowerCase()
-        // );
         h2[i].setAttribute('id', slug(h2[i].innerHTML));
       }
 
       const h3 = document.querySelectorAll('#markdown h3');
       for (i = 0; i < h3.length; i++) {
         h3[i].className = 'title is-4';
-        //   h3[i].setAttribute(
-        //     'id',
-        //     h3[i].innerHTML
-        //       .split(' ')
-        //       .join('-')
-        //       .replace('?', '')
-        //       .split('&amp;')
-        //       .join('')
-        //       .split('.')
-        //       .join('')
-        //       .split('/')
-        //       .join('')
-        //       .split('(')
-        //       .join('')
-        //       .split(')')
-        //       .join('')
-        //       .split(',')
-        //       .join('')
-        //       .split('"')
-        //       .join('')
-        //       .split(`'`)
-        //       .join('')
-        //       .split('+')
-        //       .join('')
-        //       .split('.')
-        //       .join('')
-        //       .toLowerCase()
-        //   );
         h3[i].setAttribute('id', slug(h3[i].innerHTML));
+      }
+
+      const strong = document.querySelectorAll('#markdown strong');
+      for (i = 0; i < strong.length; i++) {
+        strong[i].setAttribute('id', slug(strong[i].innerHTML));
       }
 
       const table = document.querySelectorAll('#markdown table');
