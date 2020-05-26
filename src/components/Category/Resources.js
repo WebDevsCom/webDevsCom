@@ -81,6 +81,7 @@ const Resources = ({ searchInput, handleInputChange }) => {
           <div
             className='button is-primary'
             disabled={searchInput.trim() === '' ? true : false}
+            style={{ backgroundColor: '#00d1b2' }}
           >
             <span className='icon is-small'>
               <XCircle />

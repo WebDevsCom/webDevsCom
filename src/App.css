@@ -241,7 +241,7 @@ code {
   color: #fcfcfcb3 !important;
 }
 
-.dark-mode .navbar-brand #brand,
+.navbar-brand #brand,
 .dark-mode .navbar-brand #brand:hover {
   color: #00d1b2 !important;
   background-color: inherit !important;
