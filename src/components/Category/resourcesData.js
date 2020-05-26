@@ -598,4 +598,14 @@ export const resources = [
     repoOwnerName: 'gztchan',
     repoOwner: 'Tony Chan',
   },
+  {
+    id: 65,
+    link:
+      'https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/README.md',
+    repoName: 'android-interview-questions',
+    description:
+      'Your Cheat Sheet For Android Interview - Android Interview Questions',
+    repoOwnerName: 'MindorksOpenSource',
+    repoOwner: 'MindOrks',
+  },
 ];
