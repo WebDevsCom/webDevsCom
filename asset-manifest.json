@@ -1,25 +1,39 @@
 {
   "files": {
     "main.css": "/webDevsCom/static/css/main.68b37e60.chunk.css",
-    "main.js": "/webDevsCom/static/js/main.002a035d.chunk.js",
-    "main.js.map": "/webDevsCom/static/js/main.002a035d.chunk.js.map",
-    "runtime-main.js": "/webDevsCom/static/js/runtime-main.5b24c7f9.js",
-    "runtime-main.js.map": "/webDevsCom/static/js/runtime-main.5b24c7f9.js.map",
-    "static/css/2.ebd2bdea.chunk.css": "/webDevsCom/static/css/2.ebd2bdea.chunk.css",
-    "static/js/2.c5e21072.chunk.js": "/webDevsCom/static/js/2.c5e21072.chunk.js",
-    "static/js/2.c5e21072.chunk.js.map": "/webDevsCom/static/js/2.c5e21072.chunk.js.map",
+    "main.js": "/webDevsCom/static/js/main.979d01fc.chunk.js",
+    "main.js.map": "/webDevsCom/static/js/main.979d01fc.chunk.js.map",
+    "runtime-main.js": "/webDevsCom/static/js/runtime-main.2251a4d3.js",
+    "runtime-main.js.map": "/webDevsCom/static/js/runtime-main.2251a4d3.js.map",
+    "static/css/2.5592ad1b.chunk.css": "/webDevsCom/static/css/2.5592ad1b.chunk.css",
+    "static/js/2.f4191d6b.chunk.js": "/webDevsCom/static/js/2.f4191d6b.chunk.js",
+    "static/js/2.f4191d6b.chunk.js.map": "/webDevsCom/static/js/2.f4191d6b.chunk.js.map",
+    "static/css/3.a2c18f5e.chunk.css": "/webDevsCom/static/css/3.a2c18f5e.chunk.css",
+    "static/js/3.d219f8e1.chunk.js": "/webDevsCom/static/js/3.d219f8e1.chunk.js",
+    "static/js/3.d219f8e1.chunk.js.map": "/webDevsCom/static/js/3.d219f8e1.chunk.js.map",
+    "static/js/4.4d74bc55.chunk.js": "/webDevsCom/static/js/4.4d74bc55.chunk.js",
+    "static/js/4.4d74bc55.chunk.js.map": "/webDevsCom/static/js/4.4d74bc55.chunk.js.map",
+    "static/js/5.a3669b55.chunk.js": "/webDevsCom/static/js/5.a3669b55.chunk.js",
+    "static/js/5.a3669b55.chunk.js.map": "/webDevsCom/static/js/5.a3669b55.chunk.js.map",
+    "static/js/6.967e2ef4.chunk.js": "/webDevsCom/static/js/6.967e2ef4.chunk.js",
+    "static/js/6.967e2ef4.chunk.js.map": "/webDevsCom/static/js/6.967e2ef4.chunk.js.map",
+    "static/js/7.efa33a1c.chunk.js": "/webDevsCom/static/js/7.efa33a1c.chunk.js",
+    "static/js/7.efa33a1c.chunk.js.map": "/webDevsCom/static/js/7.efa33a1c.chunk.js.map",
     "index.html": "/webDevsCom/index.html",
-    "precache-manifest.cb4750850da6bb765b19dedfec4f287c.js": "/webDevsCom/precache-manifest.cb4750850da6bb765b19dedfec4f287c.js",
+    "precache-manifest.c192040c176ba7c631fb8ed8ed8119c4.js": "/webDevsCom/precache-manifest.c192040c176ba7c631fb8ed8ed8119c4.js",
     "service-worker.js": "/webDevsCom/service-worker.js",
-    "static/css/2.ebd2bdea.chunk.css.map": "/webDevsCom/static/css/2.ebd2bdea.chunk.css.map",
+    "static/css/2.5592ad1b.chunk.css.map": "/webDevsCom/static/css/2.5592ad1b.chunk.css.map",
+    "static/css/3.a2c18f5e.chunk.css.map": "/webDevsCom/static/css/3.a2c18f5e.chunk.css.map",
     "static/css/main.68b37e60.chunk.css.map": "/webDevsCom/static/css/main.68b37e60.chunk.css.map",
-    "static/js/2.c5e21072.chunk.js.LICENSE.txt": "/webDevsCom/static/js/2.c5e21072.chunk.js.LICENSE.txt"
+    "static/js/2.f4191d6b.chunk.js.LICENSE.txt": "/webDevsCom/static/js/2.f4191d6b.chunk.js.LICENSE.txt",
+    "static/js/3.d219f8e1.chunk.js.LICENSE.txt": "/webDevsCom/static/js/3.d219f8e1.chunk.js.LICENSE.txt",
+    "static/js/4.4d74bc55.chunk.js.LICENSE.txt": "/webDevsCom/static/js/4.4d74bc55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b24c7f9.js",
-    "static/css/2.ebd2bdea.chunk.css",
-    "static/js/2.c5e21072.chunk.js",
+    "static/js/runtime-main.2251a4d3.js",
+    "static/css/3.a2c18f5e.chunk.css",
+    "static/js/3.d219f8e1.chunk.js",
     "static/css/main.68b37e60.chunk.css",
-    "static/js/main.002a035d.chunk.js"
+    "static/js/main.979d01fc.chunk.js"
   ]
 }
