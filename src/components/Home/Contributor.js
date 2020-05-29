@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText } from 'react-feather';
+import GitHubButton from 'react-github-btn';
 
 const Contributor = () => {
   return (
@@ -104,27 +104,25 @@ const Contributor = () => {
         links.
       </p>
       <div className='container'>
-        <a
-          class='github-button'
+        <GitHubButton
           href='https://github.com/WebDevsCom/webDevsCom'
           data-color-scheme='no-preference: light; light: light; dark: dark;'
           data-icon='octicon-star'
-          data-size='large'
           data-show-count='true'
+          data-size='large'
         >
           Star
-        </a>
+        </GitHubButton>
         <span style={{ marginLeft: '15px' }}></span>
-        <a
-          class='github-button'
+        <GitHubButton
           href='https://github.com/WebDevsCom/webDevsCom/fork'
           data-color-scheme='no-preference: light; light: light; dark: dark;'
           data-icon='octicon-repo-forked'
-          data-size='large'
           data-show-count='true'
+          data-size='large'
         >
           Fork
-        </a>
+        </GitHubButton>
       </div>
     </div>
   );
