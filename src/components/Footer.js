@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div className='column has-text-centered'>
         <p className='subtitle is-7 is-capitalized has-text-danger'>
-          This Project is just for Learning and teaching purpose.
+          This Project is just for Learning and teaching purposes.
         </p>
       </div>
       <div className='column has-text-centered'>
