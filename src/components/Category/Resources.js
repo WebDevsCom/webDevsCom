@@ -5,15 +5,16 @@ import Category from './Category';
 
 const Resources = ({ searchInput, handleInputChange }) => {
   const filters = [
-    'Design',
     'App',
-    'Project',
-    'interview',
-    'web',
+    'Awesome',
+    'Design',
     'Developer',
-    'Programmer',
+    'interview',
     'javascript',
+    'Programmer',
+    'Project',
     'Resources',
+    'web',
   ];
   var filteredResources = [];
   React.useEffect(() => {

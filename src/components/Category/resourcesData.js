@@ -610,15 +610,18 @@ export const resources = [
   },
   {
     id: 66,
-    link: 'https://raw.githubusercontent.com/themesberg/pixel-bootstrap-ui-kit/master/README.md',
+    link:
+      'https://raw.githubusercontent.com/themesberg/pixel-bootstrap-ui-kit/master/README.md',
     repoName: 'pixel-bootstrap-ui-kit',
-    description: 'Pixel Lite - Free Bootstrap 4 UI Kit that will help you prototype and design beautiful, creative and modern websites.',
+    description:
+      'Pixel Lite - Free Bootstrap 4 UI Kit that will help you prototype and design beautiful, creative and modern websites.',
     repoOwnerName: 'themesberg',
     repoOwner: 'Themesberg',
   },
   {
     id: 67,
-    link: 'https://raw.githubusercontent.com/themesberg/windows-95-ui-kit/master/README.md',
+    link:
+      'https://raw.githubusercontent.com/themesberg/windows-95-ui-kit/master/README.md',
     repoName: 'windows-95-ui-kit',
     description: '💾 Windows 95 UI Kit design made with Bootstrap 4 components',
     repoOwnerName: 'themesberg',
@@ -626,10 +629,30 @@ export const resources = [
   },
   {
     id: 68,
-    link: 'https://raw.githubusercontent.com/themesberg/neumorphism-ui-bootstrap/master/README.md',
+    link:
+      'https://raw.githubusercontent.com/themesberg/neumorphism-ui-bootstrap/master/README.md',
     repoName: 'neumorphism-ui-bootstrap',
-    description: 'Neumorphism design inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework',
+    description:
+      'Neumorphism design inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework',
     repoOwnerName: 'themesberg',
     repoOwner: 'Themesberg',
+  },
+  {
+    id: 69,
+    link:
+      'https://raw.githubusercontent.com/sindresorhus/awesome/master/readme.md',
+    repoName: 'awesome',
+    description: 'Awesome lists about all kinds of interesting topics',
+    repoOwnerName: 'sindresorhus',
+    repoOwner: 'Sindre Sorhus',
+  },
+  {
+    id: 70,
+    link:
+      'https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md',
+    repoName: 'awesome-nodejs',
+    description: 'Delightful Node.js packages and resources https://node.cool',
+    repoOwnerName: 'sindresorhus',
+    repoOwner: 'Sindre Sorhus',
   },
 ];
