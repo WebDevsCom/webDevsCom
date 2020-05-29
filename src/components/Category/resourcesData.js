@@ -608,4 +608,28 @@ export const resources = [
     repoOwnerName: 'MindorksOpenSource',
     repoOwner: 'MindOrks',
   },
+  {
+    id: 66,
+    link: 'https://github.com/themesberg/pixel-bootstrap-ui-kit',
+    repoName: 'pixel-bootstrap-ui-kit',
+    description: 'Pixel Lite - Free Bootstrap 4 UI Kit that will help you prototype and design beautiful, creative and modern websites. https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit',
+    repoOwnerName: 'themesberg',
+    repoOwner: 'Themesberg',
+  },
+  {
+    id: 67,
+    link: 'https://github.com/themesberg/windows-95-ui-kit',
+    repoName: 'windows-95-ui-kit',
+    description: '💾  Windows 95 UI Kit made with Bootstrap 4 components https://themesberg.com/product/windows-95-ui-kit',
+    repoOwnerName: 'themesberg',
+    repoOwner: 'Themesberg',
+  },
+  {
+    id: 68,
+    link: 'https://github.com/themesberg/neumorphism-ui-bootstrap',
+    repoName: 'neumorphism-ui-bootstrap',
+    description: 'Neumorphism inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap',
+    repoOwnerName: 'themesberg',
+    repoOwner: 'Themesberg',
+  },
 ];
