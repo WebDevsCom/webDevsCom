@@ -655,4 +655,83 @@ export const resources = [
     repoOwnerName: 'sindresorhus',
     repoOwner: 'Sindre Sorhus',
   },
+  {
+    id: 71,
+    link:
+      'https://raw.githubusercontent.com/sorrycc/awesome-javascript/master/README.md',
+    repoName: 'awesome-javascript',
+    description:
+      ' A collection of awesome browser-side JavaScript libraries, resources and shiny things.',
+    repoOwnerName: 'sorrycc',
+    repoOwner: 'chencheng (云谦)',
+  },
+  {
+    id: 72,
+    link:
+      'https://raw.githubusercontent.com/uhub/awesome-javascript/master/README.md',
+    repoName: 'awesome-javascript',
+    description:
+      'A curated list of awesome JavaScript frameworks, libraries and software.',
+    repoOwnerName: 'uhub',
+    repoOwner: 'uhub',
+  },
+  {
+    id: 73,
+    link:
+      'https://raw.githubusercontent.com/micromata/awesome-javascript-learning/master/readme.md',
+    repoName: 'awesome-javascript-learning',
+    description:
+      'A tiny list limited to the best JavaScript Learning Resources',
+    repoOwnerName: 'micromata',
+    repoOwner: 'Micromata GmbH',
+  },
+  {
+    id: 74,
+    link:
+      'https://raw.githubusercontent.com/vinta/awesome-python/master/README.md',
+    repoName: 'awesome-python',
+    description:
+      'A curated list of awesome Python frameworks, libraries, software and resources',
+    repoOwnerName: 'vinta',
+    repoOwner: 'Vinta Chen',
+  },
+  {
+    id: 75,
+    link:
+      'https://raw.githubusercontent.com/akullpp/awesome-java/master/README.md',
+    repoName: 'awesome-java',
+    description:
+      'A curated list of awesome frameworks, libraries and software for the Java programming language.',
+    repoOwnerName: 'akullpp',
+    repoOwner: 'Andreas Kull',
+  },
+  {
+    id: 76,
+    link:
+      'https://raw.githubusercontent.com/avelino/awesome-go/master/README.md',
+    repoName: 'awesome-go',
+    description:
+      'A curated list of awesome Go frameworks, libraries and software https://awesome-go.com/',
+    repoOwnerName: 'avelino',
+    repoOwner: 'Avelino',
+  },
+  {
+    id: 77,
+    link:
+      'https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md',
+    repoName: 'awesome-dart',
+    description:
+      'A curated list of awesome Dart frameworks, libraries, and software',
+    repoOwnerName: 'yissachar',
+    repoOwner: 'yissachar',
+  },
+  {
+    id: 78,
+    link:
+      'https://raw.githubusercontent.com/rust-unofficial/awesome-rust/master/README.md',
+    repoName: 'awesome-rust',
+    description: 'A curated list of Rust code and resources.',
+    repoOwnerName: 'rust-unofficial',
+    repoOwner: 'rust-unofficial',
+  },
 ];

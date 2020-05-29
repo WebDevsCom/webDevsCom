@@ -148,7 +148,7 @@ const Resource = (props) => {
           <GitHub /> <span> &emsp;View on Github</span>
         </a>
       </div>
-      <div style={{ padding: '0 1rem' }}>
+      <div style={{ padding: '0 1rem', maxWidth: '65rem', margin: 'auto' }}>
         <ReactMarkdown
           source={markdown}
           escapeHtml={false}
