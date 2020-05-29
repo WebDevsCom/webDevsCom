@@ -1,4 +1,5 @@
 import React from 'react';
+import { FileText } from 'react-feather';
 
 const Contributor = () => {
   return (
@@ -9,7 +10,11 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='https://github.com/Binu42'>
+          <a
+            href='https://github.com/Binu42'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
@@ -21,11 +26,15 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='#!'>
+          <a
+            href='https://github.com/zoltanszogyenyi'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
-              src='https://randomuser.me/api/portraits/women/18.jpg'
+              src='https://avatars1.githubusercontent.com/u/8052108?s=400&u=ecac37f30fd06f245b7bcbb12b0e2f93ed62b173&v=4'
             />
           </a>
         </figure>
@@ -92,28 +101,31 @@ const Contributor = () => {
       </div>
       <p className='menu-label'>
         Do you want to contribute or add some resource Feel free to visit below
-        link.
+        links.
       </p>
-
-      {/* <div className='container'>
-        <iframe
-          src='https://ghbtns.com/github-btn.html?user=WebDevsCom&repo=WebDevsCom&type=star&count=true&size=large'
-          frameBorder='0'
-          scrolling='0'
-          width='170'
-          height='30'
-          title='Star twbs/bootstrap on GitHub'
-        ></iframe>
-
-        <iframe
-          src='https://ghbtns.com/github-btn.html?user=WebDevsCom&repo=WebDevsCom&type=fork&count=true&size=large'
-          frameBorder='0'
-          scrolling='0'
-          width='170'
-          height='30'
-          title='Fork twbs/bootstrap on GitHub'
-        ></iframe>
-      </div> */}
+      <div className='container'>
+        <a
+          class='github-button'
+          href='https://github.com/WebDevsCom/webDevsCom'
+          data-color-scheme='no-preference: light; light: light; dark: dark;'
+          data-icon='octicon-star'
+          data-size='large'
+          data-show-count='true'
+        >
+          Star
+        </a>
+        <span style={{ marginLeft: '15px' }}></span>
+        <a
+          class='github-button'
+          href='https://github.com/WebDevsCom/webDevsCom/fork'
+          data-color-scheme='no-preference: light; light: light; dark: dark;'
+          data-icon='octicon-repo-forked'
+          data-size='large'
+          data-show-count='true'
+        >
+          Fork
+        </a>
+      </div>
     </div>
   );
 };
