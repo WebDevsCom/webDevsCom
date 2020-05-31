@@ -7,7 +7,10 @@ const Category = ({ history, filteredResources, searchInput }) => {
   return (
     <>
       <ReactTooltip type='light' />
-      <div className='columns is-multiline is-centered' style={{ margin: 'auto' }}>
+      <div
+        className='columns is-multiline is-centered'
+        style={{ margin: 'auto' }}
+      >
         {filteredResources &&
         filteredResources.length === 0 &&
         window.location.pathname === '/resources' ? (
@@ -49,7 +52,10 @@ const Category = ({ history, filteredResources, searchInput }) => {
                   className='card-header'
                   onClick={() => history.push(`/resources/${resource.id}`)}
                 >
-                  <p className='card-header-title subtitle is-5 is-capitalized'>
+                  <p
+                    className='card-header-title subtitle is-5 is-capitalized'
+                    style={{ color: '#0004ff' }}
+                  >
                     {resource.repoName}
                   </p>
                 </header>

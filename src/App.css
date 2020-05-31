@@ -77,7 +77,7 @@
 #markdown h3,
 #markdown h4 {
   margin: 1rem 0 !important;
-  color: #6d83f2 !important;
+  color: #209cee !important;
 }
 
 /* loader */
@@ -190,7 +190,7 @@ code {
 }
 
 .language-null {
-  color: #001ee2 !important;
+  color: #e9ecff !important;
 }
 
 .dark-mode code {
@@ -283,7 +283,8 @@ code {
 
 .dark-mode #markdown a {
   padding: 2px;
-  background-color: #b7bcff0a;
+  color: #0004ff;
+  background-color: #acabab13;
   transition: all 0.3s ease-in-out;
 }
 
