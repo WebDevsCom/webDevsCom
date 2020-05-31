@@ -282,15 +282,12 @@ code {
 }
 
 .dark-mode #markdown a {
-  padding: 2px;
-  color: #0004ff;
-  background-color: #acabab13;
+  color: #0026ff;
   transition: all 0.3s ease-in-out;
 }
 
 .dark-mode #markdown a:hover {
   color: #eae7d9;
-  background-color: #b7bcff1a;
 }
 
 .dark-mode .space {
