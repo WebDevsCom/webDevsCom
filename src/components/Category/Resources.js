@@ -90,10 +90,8 @@ const Resources = ({ searchInput, handleInputChange }) => {
           </div>
         </div>
       </div>
-      <div
-        style={{ display: 'flex', justifyContent: 'center', padding: '10px' }}
-      >
-        <div className='tags'>
+      <div style={{ padding: '10px' }}>
+        <div className='tags' style={{ justifyContent: 'center' }}>
           {filters.map((filter, index) => (
             <span
               key={index}
