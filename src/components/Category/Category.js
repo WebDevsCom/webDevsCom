@@ -52,10 +52,7 @@ const Category = ({ history, filteredResources, searchInput }) => {
                   className='card-header'
                   onClick={() => history.push(`/resources/${resource.id}`)}
                 >
-                  <p
-                    className='card-header-title subtitle is-5 is-capitalized'
-                    style={{ color: '#0004ff' }}
-                  >
+                  <p className='card-header-title has-text-info subtitle is-5 is-capitalized'>
                     {resource.repoName}
                   </p>
                 </header>

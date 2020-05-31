@@ -282,12 +282,12 @@ code {
 }
 
 .dark-mode #markdown a {
-  color: #0026ff;
+  color: #035aa6;
   transition: all 0.3s ease-in-out;
 }
 
 .dark-mode #markdown a:hover {
-  color: #eae7d9;
+  color: #ff6584;
 }
 
 .dark-mode .space {
@@ -301,10 +301,6 @@ code {
   border: 1px solid #3b3b3bdc;
   border-left: 2px solid #eeeeee;
   box-shadow: -1px 3px 15px 0 #c3c3c31c;
-}
-
-.dark-mode .features .feature-card .meta h3 {
-  color: #001ee2;
 }
 
 .dark-mode strong {
