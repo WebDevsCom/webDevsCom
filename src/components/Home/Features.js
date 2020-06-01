@@ -74,9 +74,9 @@ const Features = () => {
             <div className='feature-card'>
               <UserPlus size={70} color='#00d1b2' />
               <div className='meta'>
-                <h3 className='has-text-info'>Developer Portfolio's</h3>
+                <h3 className='has-text-info'>Developer Portfolios</h3>
                 <p>
-                  Collection of so many Developer Portfolio's, from which you
+                  Collection of so many Developer Portfolios, from which you
                   can get inspired to acheive great.
                 </p>
               </div>
@@ -85,9 +85,9 @@ const Features = () => {
             <div className='feature-card'>
               <UploadCloud size={70} color='#00d1b2' />
               <div className='meta'>
-                <h3 className='has-text-info'>Public Api's</h3>
+                <h3 className='has-text-info'>Public APIs</h3>
                 <p>
-                  Collection of different kinds of Free Api's to use in your
+                  Collection of different kinds of Free APIs to use in your
                   software and web Development.
                 </p>
               </div>
