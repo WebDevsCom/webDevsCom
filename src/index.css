@@ -9,6 +9,11 @@ body {
   width: 100%;
 }
 
+::selection {
+  background-color: #013896;
+  color: #f1f1f1;
+}
+
 .App {
   min-height: 100vh;
   display: flex;
