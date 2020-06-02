@@ -734,4 +734,80 @@ export const resources = [
     repoOwnerName: 'rust-unofficial',
     repoOwner: 'rust-unofficial',
   },
+  {
+    id: 79,
+    link:
+      'https://raw.githubusercontent.com/ForrestKnight/open-source-cs/master/README.md',
+    repoName: 'open-source-cs',
+    description:
+      'free courses from reputable universities like MIT, Stanford and Princeton that satisfy the same requirements as an undergraduate Computer Science degree.',
+    repoOwnerName: 'ForrestKnight',
+    repoOwner: 'Forrest Knight',
+  },
+  {
+    id: 80,
+    link:
+      'https://raw.githubusercontent.com/enaqx/awesome-react/master/README.md',
+    repoName: 'awesome-react',
+    description: 'A collection of awesome things regarding React ecosystem',
+    repoOwnerName: 'enaqx',
+    repoOwner: 'Nick Raienko',
+  },
+  {
+    id: 81,
+    link:
+      'https://raw.githubusercontent.com/awesome-css-group/awesome-css/master/README.md',
+    repoName: 'awesome-css',
+    description: 'A curated contents of amazing CSS :)',
+    repoOwnerName: 'awesome-css-group',
+    repoOwner: 'awesome-css-group',
+  },
+  {
+    id: 82,
+    link:
+      'https://raw.githubusercontent.com/PatrickJS/awesome-angular/gh-pages/README.md',
+    repoName: 'awesome-angular',
+    description: ' A curated list of awesome Angular resources',
+    repoOwnerName: 'PatrickJS',
+    repoOwner: 'PatrickJS',
+  },
+  {
+    id: 83,
+    link:
+      'https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md',
+    repoName: 'awesome-docker',
+    description:
+      'A curated list of Docker resources and projects https://awesome-docker.netlify.app',
+    repoOwnerName: 'veggiemonk',
+    repoOwner: 'Julien Bisconti',
+  },
+  {
+    id: 84,
+    link:
+      'https://raw.githubusercontent.com/lnishan/awesome-competitive-programming/master/README.md',
+    repoName: 'awesome-competitive-programming',
+    description:
+      'A curated list of awesome Competitive Programming, Algorithm and Data Structure resources http://codeforces.com/blog/entry/23054',
+    repoOwnerName: 'lnishan',
+    repoOwner: 'Jasmine Chen',
+  },
+  {
+    id: 85,
+    link:
+      'https://raw.githubusercontent.com/prakhar1989/awesome-courses/master/README.md',
+    repoName: 'awesome-courses',
+    description:
+      'List of awesome university courses for learning Computer Science!',
+    repoOwnerName: 'prakhar1989',
+    repoOwner: 'Prakhar Srivastav',
+  },
+  {
+    id: 86,
+    link:
+      'https://raw.githubusercontent.com/ossu/computer-science/master/README.md',
+    repoName: 'computer-science',
+    description: 'Path to a free self-taught education in Computer Science!',
+    repoOwnerName: 'ossu',
+    repoOwner: 'Open Source Society University',
+  },
 ];

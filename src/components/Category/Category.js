@@ -96,6 +96,7 @@ const Category = ({ history, filteredResources, searchInput }) => {
                     <br />
                     <div
                       onClick={() => history.push(`/resources/${resource.id}`)}
+                      className='has-text-justified'
                     >
                       {resource.description}
                     </div>
