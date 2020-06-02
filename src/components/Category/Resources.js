@@ -7,6 +7,7 @@ const Resources = ({ searchInput, handleInputChange }) => {
   const filters = [
     'App',
     'Awesome',
+    'computer science',
     'Design',
     'Developer',
     'interview',
