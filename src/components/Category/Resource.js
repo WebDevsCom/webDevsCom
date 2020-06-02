@@ -137,23 +137,25 @@ const Resource = (props) => {
         removeBookmark={removeBookmark}
         bookmarkIt={bookmarkIt}
       />
-      <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
-        <a
-          href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
-          className='button button-special box-shadow-lift is-medium is-rounded'
-          target='_blank'
-          rel='noopener noreferrer'
-          id='view-on-github'
-        >
-          <GitHub /> <span> &emsp;View on Github</span>
-        </a>
-      </div>
-      <div style={{ padding: '0 1rem', maxWidth: '65rem', margin: 'auto' }}>
-        <ReactMarkdown
-          source={markdown}
-          escapeHtml={false}
-          renderers={{ code: CodeBlock }}
-        />
+      <div id='markdown-content'>
+        <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
+          <a
+            href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
+            className='button button-special box-shadow-lift is-medium is-rounded'
+            target='_blank'
+            rel='noopener noreferrer'
+            id='view-on-github'
+          >
+            <GitHub /> <span> &emsp;View on Github</span>
+          </a>
+        </div>
+        <div>
+          <ReactMarkdown
+            source={markdown}
+            escapeHtml={false}
+            renderers={{ code: CodeBlock }}
+          />
+        </div>
       </div>
     </div>
   );

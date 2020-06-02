@@ -44,6 +44,7 @@
 
 .button-special {
   border: none !important;
+  color: #363636 !important;
   -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -54,6 +55,14 @@
   margin-top: 1rem;
   width: 100%;
   overflow-x: auto;
+}
+
+#markdown #markdown-content {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  max-width: 70rem;
+  margin: auto;
 }
 
 #markdown blockquote {
@@ -69,6 +78,7 @@
 }
 
 #markdown a {
+  color: #0479fb;
   word-wrap: break-word;
 }
 
@@ -208,6 +218,10 @@ code {
     overflow-x: hidden;
   }
 
+  #markdown #markdown-content {
+    padding: 1rem 15px;
+  }
+
   table {
     max-width: 100%;
     overflow-x: auto;
@@ -281,8 +295,11 @@ code {
   box-shadow: inset 2px 2px 5px #ffffff3b, inset -3px -3px 7px #0808088e !important;
 }
 
+.dark-mode #markdown #markdown-content {
+  background-color: #2f363d;
+}
+
 .dark-mode #markdown a {
-  color: #035aa6;
   transition: all 0.3s ease-in-out;
 }
 
