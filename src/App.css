@@ -62,6 +62,7 @@
   padding: 1rem 2rem;
   border-radius: 5px;
   max-width: 70rem;
+  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.06);
   margin: auto;
 }
 
@@ -297,6 +298,7 @@ code {
 
 .dark-mode #markdown #markdown-content {
   background-color: #2f363d;
+  box-shadow: 3px 3px 6px #2f2f2fea, -3px -3px 6px #272525c0;
 }
 
 .dark-mode #markdown a {
