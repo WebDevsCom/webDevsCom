@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://webDevsCom.github.io/webDevsCom",
   "dependencies": {
+    "@progress/kendo-drawing": "^1.7.0",
+    "@progress/kendo-react-pdf": "^3.14.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

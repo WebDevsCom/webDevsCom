@@ -284,7 +284,8 @@ code {
   color: #eae7d9 !important;
 }
 
-.dark-mode #view-on-github {
+.dark-mode #view-on-github,
+.dark-mode #download-pdf {
   padding: 0 10px !important;
 }
 

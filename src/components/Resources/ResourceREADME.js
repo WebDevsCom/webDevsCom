@@ -7,6 +7,7 @@ import { GitHub } from 'react-feather';
 import CodeBlock from './code-blocks';
 import BookMarkBtn from './BookMarkBtn';
 import { slug } from 'github-slugger';
+import PdfContainer from './PdfContainer';
 
 const ResourceREADME = (props) => {
   const [markdown, setMarkdown] = useState('');
@@ -137,7 +138,7 @@ const ResourceREADME = (props) => {
         removeBookmark={removeBookmark}
         bookmarkIt={bookmarkIt}
       />
-      <div id='markdown-content'>
+      <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
         <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
           <a
             href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
@@ -156,7 +157,7 @@ const ResourceREADME = (props) => {
             renderers={{ code: CodeBlock }}
           />
         </div>
-      </div>
+      </PdfContainer>
     </div>
   );
 };
