@@ -810,4 +810,14 @@ export const resources = [
     repoOwnerName: 'ossu',
     repoOwner: 'Open Source Society University',
   },
+  {
+    id: 87,
+    link:
+      'https://raw.githubusercontent.com/Solido/awesome-flutter/master/source.md',
+    repoName: 'awesome-flutter',
+    description:
+      'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.',
+    repoOwnerName: 'Solido',
+    repoOwner: 'Robert Felker',
+  },
 ];
