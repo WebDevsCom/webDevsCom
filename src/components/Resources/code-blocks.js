@@ -23,6 +23,7 @@ class CodeBlock extends React.PureComponent {
   }
 
   highlightCode() {
+    if (this.props.language === null) return;
     hljs.highlightBlock(this.codeEl);
   }
 
