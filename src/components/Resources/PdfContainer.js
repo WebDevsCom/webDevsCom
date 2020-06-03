@@ -14,7 +14,7 @@ class DocService {
         creator: 'Binu kumar',
         paperSize: 'Letter',
         fileName: name + '.pdf',
-        margin: 15,
+        margin: 5,
       },
       () => {
         setDisable(false);
@@ -33,7 +33,7 @@ export default (props) => {
     Doc.createPdf(bodyRef.current, props.name, setDisable);
   };
   return (
-    <section id='markdown-content'>
+    <section>
       <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
         <button
           className='button button-special box-shadow-lift is-primary is-medium is-rounded'
