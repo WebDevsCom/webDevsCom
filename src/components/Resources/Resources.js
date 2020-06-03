@@ -9,7 +9,10 @@ const Resources = ({ searchInput, handleInputChange }) => {
     'brad traversy',
     'css',
     'react',
+    'angular',
     'bradtraversy',
+    'course',
+    'university',
     'curated',
   ];
 
