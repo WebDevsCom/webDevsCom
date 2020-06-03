@@ -100,7 +100,7 @@ export const resources = [
     id: 11,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/javascript.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - javascript',
     description: 'FAQ javascript questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -109,7 +109,7 @@ export const resources = [
     id: 12,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/react.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - React',
     description: 'FAQ React questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -118,7 +118,7 @@ export const resources = [
     id: 13,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/redux.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - Redux',
     description: 'FAQ redux questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -127,7 +127,7 @@ export const resources = [
     id: 14,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/vuejs.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - VueJS',
     description: 'FAQ VueJS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -136,7 +136,7 @@ export const resources = [
     id: 15,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angular.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - Angular',
     description: 'FAQ Angular questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -145,7 +145,7 @@ export const resources = [
     id: 16,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/nodejs.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - nodeJS',
     description: 'FAQ nodeJS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -154,7 +154,7 @@ export const resources = [
     id: 17,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angularjs.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - AngularJS',
     description: 'FAQ AngularJS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -163,7 +163,7 @@ export const resources = [
     id: 18,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/bootstrap.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - BootStrap',
     description: 'FAQ BootStrap questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -172,7 +172,7 @@ export const resources = [
     id: 19,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/css.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - CSS',
     description: 'FAQ CSS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -181,7 +181,7 @@ export const resources = [
     id: 20,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/html5.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - HTML5',
     description: 'FAQ HTML5 questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -190,7 +190,7 @@ export const resources = [
     id: 21,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sass.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - SASS',
     description: 'FAQ SASS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -199,7 +199,7 @@ export const resources = [
     id: 22,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/webpack.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - WEBpack',
     description: 'FAQ WEBpack questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -208,7 +208,7 @@ export const resources = [
     id: 23,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/mongodb.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - mongoDB',
     description: 'FAQ mongoDB questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -217,7 +217,7 @@ export const resources = [
     id: 24,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sql.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - SQL',
     description: 'FAQ SQL questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -226,7 +226,7 @@ export const resources = [
     id: 25,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/graphql.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - GraphQL',
     description: 'FAQ GraphQL questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -235,7 +235,7 @@ export const resources = [
     id: 26,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/c.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - C#',
     description: 'FAQ C# questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -244,7 +244,7 @@ export const resources = [
     id: 27,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/golang.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - GOLANG',
     description: 'FAQ GOLANG questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -253,7 +253,7 @@ export const resources = [
     id: 28,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/java.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - JAVA',
     description: 'FAQ JAVA questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -262,7 +262,7 @@ export const resources = [
     id: 29,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/typeScript.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - TypeScript',
     description: 'FAQ TypeScript questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -271,7 +271,7 @@ export const resources = [
     id: 30,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/aws.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - AWS',
     description: 'FAQ AWS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -280,7 +280,7 @@ export const resources = [
     id: 31,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/git.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - GIT',
     description: 'FAQ GIT questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -289,7 +289,7 @@ export const resources = [
     id: 32,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/code-problems.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - code problems',
     description: 'FAQ Code problems questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -298,7 +298,7 @@ export const resources = [
     id: 33,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/data-structures.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - data structures',
     description: 'FAQ Data Structures questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -307,7 +307,7 @@ export const resources = [
     id: 34,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/design-patterns.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - Design patterns',
     description: 'FAQ Design Patterns questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
@@ -316,7 +316,7 @@ export const resources = [
     id: 35,
     link:
       'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/agile.md',
-    repoName: 'FAQGURU',
+    repoName: 'FAQ - Agile',
     description: 'FAQ Agile questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',

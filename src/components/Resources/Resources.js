@@ -1,7 +1,7 @@
 import React from 'react';
 import { Search, XCircle } from 'react-feather';
 import { resources } from './resourcesData';
-import Category from './Category';
+import ResourceCards from './ResourceCards';
 
 const Resources = ({ searchInput, handleInputChange }) => {
   const filters = [
@@ -31,6 +31,9 @@ const Resources = ({ searchInput, handleInputChange }) => {
           resource.repoOwnerName
             .toLowerCase()
             .includes(searchInput.toLowerCase()) ||
+          resource.repoOwner
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
           resource.description
             .toLowerCase()
             .includes(searchInput.toLowerCase()) ||
@@ -50,6 +53,9 @@ const Resources = ({ searchInput, handleInputChange }) => {
       filteredResources.filter(
         (resource) =>
           resource.repoOwnerName
+            .toLowerCase()
+            .includes(searchInput.toLowerCase()) ||
+          resource.repoOwner
             .toLowerCase()
             .includes(searchInput.toLowerCase()) ||
           resource.description
@@ -105,7 +111,7 @@ const Resources = ({ searchInput, handleInputChange }) => {
           ))}
         </div>
       </div>
-      <Category
+      <ResourceCards
         searchInput={searchInput}
         filteredResources={filteredResources}
       />

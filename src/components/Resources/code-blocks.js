@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import hljs from 'highlight.js/lib/core';
-import 'highlight.js/lib/index';
+import 'highlight.js/lib';
 import 'highlight.js/styles/dracula.css';
 
 class CodeBlock extends React.PureComponent {

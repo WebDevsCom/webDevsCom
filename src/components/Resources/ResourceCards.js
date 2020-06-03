@@ -3,7 +3,7 @@ import { Star, GitPullRequest, Eye } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 import { Link, withRouter } from 'react-router-dom';
 
-const Category = ({ history, filteredResources, searchInput }) => {
+const ResourceCards = ({ history, filteredResources, searchInput }) => {
   return (
     <>
       <ReactTooltip type='light' />
@@ -148,4 +148,4 @@ const Category = ({ history, filteredResources, searchInput }) => {
   );
 };
 
-export default withRouter(Category);
+export default withRouter(ResourceCards);

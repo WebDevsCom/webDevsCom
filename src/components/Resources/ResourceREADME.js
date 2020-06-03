@@ -8,7 +8,7 @@ import CodeBlock from './code-blocks';
 import BookMarkBtn from './BookMarkBtn';
 import { slug } from 'github-slugger';
 
-const Resource = (props) => {
+const ResourceREADME = (props) => {
   const [markdown, setMarkdown] = useState('');
   const [repoInfo, setRepoInfo] = useState({});
   const [loading, setLoading] = useState(true);
@@ -161,4 +161,4 @@ const Resource = (props) => {
   );
 };
 
-export default Resource;
+export default ResourceREADME;

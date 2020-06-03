@@ -7,8 +7,10 @@ import ScrollToTopBtn from './components/ScrollToTopBtn';
 import Spinner from './components/Spinner';
 
 const Home = lazy(() => import('./components/Home/Home'));
-const Resource = lazy(() => import('./components/Category/Resource'));
-const Resources = lazy(() => import('./components/Category/Resources'));
+const ResourceREADME = lazy(() =>
+  import('./components/Resources/ResourceREADME')
+);
+const Resources = lazy(() => import('./components/Resources/Resources'));
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
@@ -56,7 +58,7 @@ function App() {
           <Route
             exact
             path='/resources/:id'
-            render={(props) => <Resource {...props} />}
+            render={(props) => <ResourceREADME {...props} />}
           />
           <Redirect to='/' />
         </Switch>
