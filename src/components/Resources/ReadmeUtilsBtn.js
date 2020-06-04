@@ -1,8 +1,13 @@
 import React from 'react';
-import { Bookmark } from 'react-feather';
+import { Bookmark, MoreVertical } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 
-const BookMarkBtn = ({ isBookMarked, removeBookmark, bookmarkIt }) => {
+const ReadmeUtilsBtn = ({
+  isBookMarked,
+  removeBookmark,
+  bookmarkIt,
+  setModal,
+}) => {
   return (
     <>
       <ReactTooltip type='light' />
@@ -19,8 +24,17 @@ const BookMarkBtn = ({ isBookMarked, removeBookmark, bookmarkIt }) => {
           className='icon'
         />
       </div>
+      <div
+        id='repo-owner-info'
+        className='button button-special is-rounded box-shadow-lift'
+        style={{ cursor: 'pointer' }}
+        onClick={() => setModal(true)}
+        data-tip='See more from Repo owners'
+      >
+        <MoreVertical color='blue' fill='blue' className='icon' />
+      </div>
     </>
   );
 };
 
-export default BookMarkBtn;
+export default ReadmeUtilsBtn;

@@ -29,6 +29,19 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.modal .modal-card-body a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.modal .modal-card-body .message {
+  box-shadow: rgba(19, 15, 235, 0.1) 1px 2px 20px;
+}
+
 /* Navbar */
 .box-shadow {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;

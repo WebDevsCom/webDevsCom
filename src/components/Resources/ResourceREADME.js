@@ -5,7 +5,7 @@ import Spinner from '../Spinner';
 import { resources } from './resourcesData';
 import { GitHub } from 'react-feather';
 import CodeBlock from './code-blocks';
-import BookMarkBtn from './BookMarkBtn';
+import ReadmeUtilsBtn from './ReadmeUtilsBtn';
 import { slug } from 'github-slugger';
 import PdfContainer from './PdfContainer';
 
@@ -15,6 +15,8 @@ const ResourceREADME = (props) => {
   const [loading, setLoading] = useState(true);
   const [bookmarks, setBookMarks] = useState([]);
   const [isBookMarked, setBookMarked] = useState(false);
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [authorRepos, setAuthorRepos] = useState([]);
 
   useEffect(() => {
     setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
@@ -23,6 +25,15 @@ const ResourceREADME = (props) => {
     setBookMarked(BookMarked ? true : false);
 
     if (loading === false) {
+      const repos = [];
+      resources.forEach((resource) => {
+        if (resource.repoOwnerName === repoInfo.repoOwnerName) {
+          repos.push(resource);
+        }
+      });
+
+      setAuthorRepos(repos);
+
       const h1 = document.querySelectorAll('#markdown h1');
       for (var i = 0; i < h1.length; i++) {
         h1[i].className = 'title is-2';
@@ -91,7 +102,7 @@ const ResourceREADME = (props) => {
       }
     }
     // eslint-disable-next-line
-  }, [loading]);
+  }, [loading, repoInfo]);
 
   const bookmarkIt = () => {
     setBookMarked(true);
@@ -128,15 +139,22 @@ const ResourceREADME = (props) => {
     // eslint-disable-next-line
   }, []);
 
+  useEffect(() => {
+    isModalOpen
+      ? document.querySelector('html').classList.add('is-clipped')
+      : document.querySelector('html').classList.remove('is-clipped');
+  }, [isModalOpen]);
+
   if (loading) return <Spinner />;
 
   return (
     <div className='container' id='markdown'>
       <div id='table-of-contents'></div>
-      <BookMarkBtn
+      <ReadmeUtilsBtn
         isBookMarked={isBookMarked}
         removeBookmark={removeBookmark}
         bookmarkIt={bookmarkIt}
+        setModal={setModalOpen}
       />
       <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
         <div id='markdown-content'>
@@ -163,8 +181,105 @@ const ResourceREADME = (props) => {
           </div>
         </div>
       </PdfContainer>
+
+      {isModalOpen && (
+        <Modal
+          authorRepos={authorRepos}
+          setModal={setModalOpen}
+          currentRepoId={repoInfo.id}
+        />
+      )}
     </div>
   );
 };
 
 export default ResourceREADME;
+
+const Modal = ({ authorRepos, setModal, currentRepoId }) => {
+  return (
+    <div className='modal is-active'>
+      <div
+        className='modal-background'
+        style={{ cursor: 'pointer' }}
+        onClick={() => setModal(false)}
+      />
+      <div className='modal-card'>
+        <header className='modal-card-head'>
+          <p className='modal-card-title has-text-primary'>
+            {authorRepos[0].repoOwner}
+          </p>
+          <button className='delete' onClick={() => setModal(false)} />
+        </header>
+        <section className='modal-card-body'>
+          <div className='is-flex is-horizontal-center'>
+            <figure className='image is-128x128'>
+              <a
+                href={`https://github.com/${authorRepos[0].repoOwnerName}`}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img
+                  className='is-rounded avatar-home'
+                  alt={authorRepos[0].repoOwnerName}
+                  src={`https://avatars.githubusercontent.com/${authorRepos[0].repoOwnerName}`}
+                />
+              </a>
+            </figure>
+          </div>
+          <div className='has-text-centered'>
+            <p
+              className='is-5 subtitle has-text-centered has-text-primary'
+              style={{ marginBottom: '0' }}
+            >
+              {authorRepos[0].repoOwner}
+            </p>
+            <a
+              href={`https://github.com/${authorRepos[0].repoOwnerName}`}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              @{authorRepos[0].repoOwnerName}
+            </a>
+          </div>
+          <hr className='navbar-divider'></hr>
+          <p className='subtitle is-4 has-text-primary'>
+            Resources available by {authorRepos[0].repoOwner}
+          </p>
+          {authorRepos.map((repo) => (
+            <article className='message is-primary' key={repo.id}>
+              <div className='message-header'>
+                <p>{repo.repoName}</p>
+              </div>
+              <article className='message is-success'>
+                <div className='message-body'>
+                  {repo.description}
+                  <br></br>
+                  <div
+                    className='is-flex is-horizontal-center'
+                    style={{ marginTop: '10px' }}
+                  >
+                    <a
+                      className={
+                        repo.id === currentRepoId
+                          ? 'disabled button is-link has-text-white button-special is-rounded'
+                          : 'button is-link has-text-white button-special is-rounded'
+                      }
+                      href={`/resources/${repo.id}`}
+                    >
+                      View
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </article>
+          ))}
+        </section>
+        <footer className='modal-card-foot'>
+          <button className='button' onClick={() => setModal(false)}>
+            Close
+          </button>
+        </footer>
+      </div>
+    </div>
+  );
+};

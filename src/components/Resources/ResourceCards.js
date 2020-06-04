@@ -72,7 +72,7 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
                           >
                             <img
                               className='is-rounded avatar-home'
-                              alt='user-profile'
+                              alt={resource.repoOwnerName}
                               src={`https://avatars.githubusercontent.com/${resource.repoOwnerName}`}
                             />
                           </a>
