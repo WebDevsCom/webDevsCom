@@ -15,7 +15,7 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
         filteredResources.length === 0 &&
         window.location.pathname === '/resources' ? (
           <p
-            className='subtitle is-h5'
+            className='subtitle is-h5 has-text-justified'
             style={{ margin: '2rem auto 0', padding: '0 10px' }}
           >
             There is no resources present for searched Keyword "{searchInput}".
