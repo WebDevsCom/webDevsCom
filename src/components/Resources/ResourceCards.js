@@ -26,11 +26,12 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
             window.location.pathname === '/bookmarked') ||
           filteredResources === null ? (
           <p
-            className='subtitle is-h5'
+            className='subtitle is-h5 has-text-justified'
             style={{ margin: '2rem auto 0', padding: '0 10px' }}
           >
-            Either You have not Bookmarked any Resources or their is no
-            resources present for searched Keyword "{searchInput}"
+            {searchInput === ''
+              ? 'You have not Bookmarked any Resources. Bookmark Resources to Read it later.'
+              : `You have not Bookmarked any resources with search keyword "${searchInput}"`}
           </p>
         ) : (
           filteredResources.map((resource) => (
