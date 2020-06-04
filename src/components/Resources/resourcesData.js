@@ -820,4 +820,32 @@ export const resources = [
     repoOwnerName: 'Solido',
     repoOwner: 'Robert Felker',
   },
+  {
+    id: 88,
+    link:
+      'https://raw.githubusercontent.com/tiimgreen/github-cheat-sheet/master/README.md',
+    repoName: 'github-cheat-sheet',
+    description:
+      'A list of cool features of Git and GitHub. http://git.io/sheet',
+    repoOwnerName: 'tiimgreen',
+    repoOwner: 'Tim Green',
+  },
+  {
+    id: 89,
+    link:
+      'https://raw.githubusercontent.com/jorgegonzalez/beginner-projects/master/README.md',
+    repoName: 'beginner-projects',
+    description: 'A list of projects for beginners.',
+    repoOwnerName: 'jorgegonzalez',
+    repoOwner: 'Jorge Gonzalez',
+  },
+  {
+    id: 90,
+    link:
+      'https://raw.githubusercontent.com/rShetty/awesome-podcasts/master/README.md',
+    repoName: 'awesome-podcasts',
+    description: 'Collection of awesome podcasts',
+    repoOwnerName: 'rShetty',
+    repoOwner: 'Rajeev N Bharshetty',
+  },
 ];
