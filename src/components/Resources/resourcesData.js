@@ -848,4 +848,44 @@ export const resources = [
     repoOwnerName: 'rShetty',
     repoOwner: 'Rajeev N Bharshetty',
   },
+  {
+    id: 91,
+    link:
+      'https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/README.md',
+    repoName: 'Front-End-Performance-Checklist',
+    description:
+      'The only Front-End Performance Checklist that runs faster than the others',
+    repoOwnerName: 'thedaviddias',
+    repoOwner: 'David Dias',
+  },
+  {
+    id: 92,
+    link:
+      'https://raw.githubusercontent.com/thedaviddias/Resources-Front-End-Beginner/master/README.md',
+    repoName: 'Resources-Front-End-Beginner',
+    description:
+      'The most essential list of resources for Front-End beginners (us gb canada & fr)',
+    repoOwnerName: 'thedaviddias',
+    repoOwner: 'David Dias',
+  },
+  {
+    id: 93,
+    link:
+      'https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/README.md',
+    repoName: 'Front-End-Checklist',
+    description:
+      'The perfect Front-End Checklist for modern websites and meticulous developers',
+    repoOwnerName: 'thedaviddias',
+    repoOwner: 'David Dias',
+  },
+  {
+    id: 94,
+    link:
+      'https://raw.githubusercontent.com/thedaviddias/Front-End-Design-Checklist/master/README.md',
+    repoName: 'Front-End-Design-Checklist',
+    description:
+      ' The Design Checklist for Creative Web Designers and Patient Front-End Developers',
+    repoOwnerName: 'thedaviddias',
+    repoOwner: 'David Dias',
+  },
 ];
