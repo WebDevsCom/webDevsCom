@@ -9,6 +9,11 @@ body {
   width: 100%;
 }
 
+.overflow-hidden {
+  height: 100vh;
+  overflow: hidden;
+}
+
 ::selection {
   background-color: #013896;
   color: #f1f1f1;

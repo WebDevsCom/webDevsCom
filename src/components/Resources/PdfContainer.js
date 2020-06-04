@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Download } from 'react-feather';
 import { savePDF } from '@progress/kendo-react-pdf';
 
@@ -32,18 +32,30 @@ export default (props) => {
     setDisable(true);
     Doc.createPdf(bodyRef.current, props.name, setDisable);
   };
+
+  useEffect(() => {
+    if (disable) {
+      document.querySelector('body').classList.add('overflow-hidden');
+    } else {
+      document.querySelector('body').classList.remove('overflow-hidden');
+    }
+  }, [disable]);
   return (
     <section>
       <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
-        <button
-          className='button button-special box-shadow-lift is-primary is-medium is-rounded'
-          onClick={createPdf}
-          id='download-pdf'
-          disabled={disable}
-        >
-          <Download />{' '}
-          <span>&emsp;{!disable ? 'Download PDF' : 'Downloading...'}</span>
-        </button>
+        {disable ? (
+          <div id='cover-spin'></div>
+        ) : (
+          <button
+            className='button button-special box-shadow-lift is-primary is-medium is-rounded'
+            onClick={createPdf}
+            id='download-pdf'
+            disabled={disable}
+          >
+            <Download />
+            <span>&emsp;Download PDF</span>
+          </button>
+        )}
       </div>
       <section className='pdf-body' ref={bodyRef}>
         {props.children}
