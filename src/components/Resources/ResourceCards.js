@@ -8,8 +8,8 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
     <>
       <ReactTooltip type='light' />
       <div
-        className='columns is-multiline is-centered'
-        style={{ margin: 'auto' }}
+        className='columns is-multiline is-centered fadeInUp'
+        style={{ margin: 'auto', animationDelay: '0.85s' }}
       >
         {filteredResources &&
         filteredResources.length === 0 &&

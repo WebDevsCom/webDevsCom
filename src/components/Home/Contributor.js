@@ -3,7 +3,7 @@ import GitHubButton from 'react-github-btn';
 
 const Contributor = () => {
   return (
-    <div className='column'>
+    <div className='column fadeInUp' style={{ animationDelay: '.75s' }}>
       <h1>Contributors for this website.</h1>
       <div className='column' style={{ marginLeft: '1rem' }}>
         <figure

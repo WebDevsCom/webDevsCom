@@ -140,7 +140,10 @@ const ResourceREADME = (props) => {
       />
       <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
         <div id='markdown-content'>
-          <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
+          <div
+            className='has-text-centered fadeInUp'
+            style={{ padding: '10px 0 20px', animationDelay: '.5s' }}
+          >
             <a
               href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
               className='button button-special box-shadow-lift is-medium is-rounded'

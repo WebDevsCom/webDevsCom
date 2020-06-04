@@ -140,12 +140,30 @@
   }
 }
 
+.fadeInUp {
+  animation-duration: 0.45s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #cover-spin::after {
   content: '';
   display: block;
   position: absolute;
-  left: 48%;
-  top: 40%;
+  left: 45%;
+  top: 50%;
   width: 40px;
   height: 40px;
   border-style: solid;

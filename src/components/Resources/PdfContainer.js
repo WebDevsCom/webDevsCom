@@ -47,8 +47,9 @@ export default (props) => {
           <div id='cover-spin'></div>
         ) : (
           <button
-            className='button button-special box-shadow-lift is-primary is-medium is-rounded'
+            className='button button-special box-shadow-lift is-primary is-medium is-rounded fadeInUp'
             onClick={createPdf}
+            style={{ animationDelay: '0.25s' }}
             id='download-pdf'
             disabled={disable}
           >

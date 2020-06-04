@@ -126,7 +126,10 @@ const Resources = ({ searchInput, handleInputChange }) => {
     );
   return (
     <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
-      <div className='field has-addons has-addons-centered'>
+      <div
+        className='field has-addons has-addons-centered fadeInUp'
+        style={{ animationDelay: '.25s' }}
+      >
         <p className='control has-icons-left box-shadow-lift'>
           <input
             className='input'
@@ -152,7 +155,10 @@ const Resources = ({ searchInput, handleInputChange }) => {
         </div>
       </div>
       <div style={{ padding: '10px' }}>
-        <div className='tags' style={{ justifyContent: 'center' }}>
+        <div
+          className='tags fadeInUp'
+          style={{ justifyContent: 'center', animationDelay: '.5s' }}
+        >
           {filters.map((filter, index) => (
             <span
               key={index}
