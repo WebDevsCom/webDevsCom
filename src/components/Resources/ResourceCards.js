@@ -35,8 +35,10 @@ const ResourceCards = ({
             className='subtitle is-h5 has-text-justified'
             style={{ margin: '2rem auto 0', padding: '0 10px' }}
           >
-            {searchInput === ''
+            {searchInput === '' && category === ''
               ? 'You have not Bookmarked any Resources. Bookmark Resources to Read it later.'
+              : category !== ''
+              ? `You have not Bookmarked any Resources of category "${category}". Bookmark Resources to Read it later.`
               : `You have not Bookmarked any resources with search keyword "${searchInput}"`}
           </p>
         ) : (

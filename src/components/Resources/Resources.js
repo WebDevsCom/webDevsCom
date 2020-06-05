@@ -130,22 +130,34 @@ const Resources = ({
         (bookmark) =>
           resources.filter((resource) => resource.id === bookmark)[0]
       );
-
-    filteredResources =
+    if (category !== '' && searchInput === '') {
+      const newFilteredResources = [];
       filteredResources &&
-      filteredResources.filter(
-        (resource) =>
-          resource.repoOwnerName
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.repoOwner
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.description
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
-      );
+        filteredResources.forEach((resource) => {
+          resource.category.forEach((cat) => {
+            if (cat === category) {
+              newFilteredResources.push(resource);
+            }
+          });
+        });
+      filteredResources = newFilteredResources;
+    } else {
+      filteredResources =
+        filteredResources &&
+        filteredResources.filter(
+          (resource) =>
+            resource.repoOwnerName
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.repoOwner
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.description
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
+        );
+    }
   }
 
   filteredResources =
