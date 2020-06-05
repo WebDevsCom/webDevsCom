@@ -81,12 +81,12 @@ const Resources = ({
     'All',
     'Web-dev',
     'Mob-dev',
+    'Interview',
+    'Frontend',
+    'Backend',
     'Language',
     'Project',
     'Course',
-    'Frontend',
-    'Interview',
-    'Backend',
   ];
 
   var filteredResources = [];
@@ -228,6 +228,7 @@ const Resources = ({
       <ResourceCards
         searchInput={searchInput}
         filteredResources={filteredResources}
+        category={category}
         handleChangeInCategory={handleChangeInCategory}
       />
     </div>

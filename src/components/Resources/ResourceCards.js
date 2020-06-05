@@ -8,6 +8,7 @@ const ResourceCards = ({
   filteredResources,
   searchInput,
   handleChangeInCategory,
+  category,
 }) => {
   return (
     <>
@@ -111,14 +112,15 @@ const ResourceCards = ({
                 </div>
                 <div style={{ marginTop: 'auto' }}>
                   <div id='categories' className='card-content'>
-                    {resource.category.map((category, index) => (
+                    {resource.category.map((cat, index) => (
                       <span
-                        data-tip={category}
+                        data-tip={cat}
                         key={index}
                         onClick={() =>
-                          handleChangeInCategory(category.toLowerCase())
+                          handleChangeInCategory(cat.toLowerCase())
                         }
-                        className={`category ${category}`}
+                        id={cat === category ? 'active-dot' : ''}
+                        className={`category ${cat}`}
                       ></span>
                     ))}
                   </div>

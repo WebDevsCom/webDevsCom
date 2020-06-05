@@ -280,10 +280,12 @@ ul ol {
 
 #category-tags .active-tag {
   background-color: #3333336e;
+  cursor: default !important;
+  pointer-events: none;
 }
 
 .all {
-  background: #006e00;
+  background: #21bf73;
 }
 
 .language {
@@ -291,7 +293,7 @@ ul ol {
 }
 
 .course {
-  background: #ff048a;
+  background: #3e206d;
 }
 
 .project {
@@ -303,19 +305,25 @@ ul ol {
 }
 
 .frontend {
-  background: #e205ff;
+  background: #ff8364;
 }
 
 .backend {
-  background: #52c774;
+  background: #4a47a3;
+}
+
+#active-dot {
+  border: 2px solid #0f0606;
+  cursor: default;
+  pointer-events: none;
 }
 
 .web-dev {
-  background: #00d1b2;
+  background: #018383;
 }
 
 .mob-dev {
-  background: #52c774;
+  background: #00d1b2;
 }
 
 /* tag */
