@@ -8,7 +8,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45959932/82163188-27b04a00-98c7-11ea-87eb-a23c1ad84202.png" width="100%">
+<img src="https://user-images.githubusercontent.com/45959932/83921121-5a997f80-a79b-11ea-897d-e18634b0a9e1.png" width="100%">
 </p>
 
 <p align="center">
