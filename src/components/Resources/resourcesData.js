@@ -733,7 +733,7 @@ export const resources = [
       ' A collection of awesome browser-side JavaScript libraries, resources and shiny things.',
     repoOwnerName: 'sorrycc',
     repoOwner: 'chencheng (云谦)',
-    category: ['language'],
+    category: ['language', 'web-dev'],
   },
   {
     id: 72,
@@ -744,7 +744,7 @@ export const resources = [
       'A curated list of awesome JavaScript frameworks, libraries and software.',
     repoOwnerName: 'uhub',
     repoOwner: 'uhub',
-    category: ['language'],
+    category: ['language', 'web-dev'],
   },
   {
     id: 73,
