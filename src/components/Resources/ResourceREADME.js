@@ -246,11 +246,21 @@ const Modal = ({ authorRepos, setModal, currentRepoId }) => {
             Resources available by {authorRepos[0].repoOwner}
           </p>
           {authorRepos.map((repo) => (
-            <article className='message is-primary' key={repo.id}>
+            <article className='message is-info' key={repo.id}>
               <div className='message-header'>
                 <p>{repo.repoName}</p>
+                <div id='categories'>
+                  {repo.category.map((cat, index) => (
+                    <span
+                      data-tip={cat}
+                      key={index}
+                      className={`category ${cat}`}
+                      style={{ cursor: 'default' }}
+                    ></span>
+                  ))}
+                </div>
               </div>
-              <article className='message is-success'>
+              <article className='message is-info'>
                 <div className='message-body'>
                   {repo.description}
                   <br></br>
