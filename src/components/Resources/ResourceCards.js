@@ -7,7 +7,7 @@ const ResourceCards = ({
   history,
   filteredResources,
   searchInput,
-  handleInputChange,
+  handleChangeInCategory,
 }) => {
   return (
     <>
@@ -116,7 +116,7 @@ const ResourceCards = ({
                         data-tip={category}
                         key={index}
                         onClick={() =>
-                          handleInputChange(category.toLowerCase())
+                          handleChangeInCategory(category.toLowerCase())
                         }
                         className={`category ${category}`}
                       ></span>

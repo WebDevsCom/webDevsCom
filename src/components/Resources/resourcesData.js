@@ -799,7 +799,7 @@ export const resources = [
       'A curated list of awesome Dart frameworks, libraries, and software',
     repoOwnerName: 'yissachar',
     repoOwner: 'yissachar',
-    category: ['dart', 'mob-dev'],
+    category: ['mob-dev'],
   },
   {
     id: 78,

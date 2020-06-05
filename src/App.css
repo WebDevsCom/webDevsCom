@@ -278,6 +278,14 @@ ul ol {
   cursor: pointer;
 }
 
+#category-tags .active-tag {
+  background-color: #3333336e;
+}
+
+.all {
+  background: #006e00;
+}
+
 .language {
   background: #ffcb74;
 }
@@ -503,4 +511,9 @@ code {
 .dark-mode .modal .modal-card-head,
 .dark-mode .modal .modal-card-foot {
   background-color: #1b262c;
+}
+
+.dark-mode #category-tags .active-tag {
+  background-color: #a0a0a06e;
+  color: #f1f1f1;
 }

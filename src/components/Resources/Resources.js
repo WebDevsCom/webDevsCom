@@ -3,7 +3,12 @@ import { Search, XCircle } from 'react-feather';
 import { resources } from './resourcesData';
 import ResourceCards from './ResourceCards';
 
-const Resources = ({ searchInput, handleInputChange }) => {
+const Resources = ({
+  searchInput,
+  handleInputChange,
+  handleChangeInCategory,
+  category,
+}) => {
   const [placeholder, setPlaceholder] = useState('');
   const suggestions = [
     'brad traversy',
@@ -73,27 +78,29 @@ const Resources = ({ searchInput, handleInputChange }) => {
   ];
 
   const categories = [
+    'All',
     'Web-dev',
     'Mob-dev',
     'Language',
     'Project',
     'Course',
     'Frontend',
+    'Interview',
     'Backend',
   ];
 
   var filteredResources = [];
-  React.useEffect(() => {
+  useEffect(() => {
     document.getElementById('clear').addEventListener('click', () => {
       handleInputChange('');
     });
   });
 
   if (window.location.pathname === '/resources') {
-    if (true) {
+    if (category !== '' && searchInput === '') {
       resources.forEach((resource) => {
         resource.category.forEach((cat) => {
-          if (cat === 'course') {
+          if (cat === category) {
             filteredResources.push(resource);
           }
         });
@@ -193,30 +200,35 @@ const Resources = ({ searchInput, handleInputChange }) => {
           ))}
         </div>
       </div>
-      {window.location.pathname !== '/bookmarked' && (
-        <div
-          className='tags fadeInUp'
-          style={{
-            animationDelay: '0.75s',
-            justifyContent: 'center',
-          }}
-        >
-          {categories.map((category) => (
-            <span
-              className='tag is-active'
-              style={{ cursor: 'pointer' }}
-              onClick={() => handleInputChange(category.toLowerCase())}
-            >
-              <span className={`category ${category.toLowerCase()}`}></span>
-              {category}&emsp;
-            </span>
-          ))}
-        </div>
-      )}
+      <div
+        className='tags fadeInUp'
+        id='category-tags'
+        style={{
+          animationDelay: '0.75s',
+          justifyContent: 'center',
+        }}
+      >
+        {categories.map((category, i) => (
+          <span
+            id={category.toLowerCase()}
+            key={i}
+            className={category === 'All' ? 'tag active-tag' : 'tag'}
+            style={{ cursor: 'pointer' }}
+            onClick={() =>
+              handleChangeInCategory(
+                category === 'All' ? '' : category.toLowerCase()
+              )
+            }
+          >
+            <span className={`category ${category.toLowerCase()}`}></span>
+            {category}&emsp;
+          </span>
+        ))}
+      </div>
       <ResourceCards
         searchInput={searchInput}
         filteredResources={filteredResources}
-        handleInputChange={handleInputChange}
+        handleChangeInCategory={handleChangeInCategory}
       />
     </div>
   );
