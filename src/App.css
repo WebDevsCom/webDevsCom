@@ -263,6 +263,53 @@ ul ol {
   margin-bottom: 4px;
 }
 
+#categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1rem;
+}
+
+.category {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.language {
+  background: #ffcb74;
+}
+
+.course {
+  background: #ff048a;
+}
+
+.project {
+  background: #2042ff;
+}
+
+.interview {
+  background: #d92027;
+}
+
+.frontend {
+  background: #e205ff;
+}
+
+.backend {
+  background: #52c774;
+}
+
+.web-dev {
+  background: #00d1b2;
+}
+
+.mob-dev {
+  background: #52c774;
+}
+
 /* tag */
 .tag:hover {
   opacity: 0.8;

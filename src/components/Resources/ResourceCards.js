@@ -3,7 +3,12 @@ import { Star, GitPullRequest, Eye } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 import { Link, withRouter } from 'react-router-dom';
 
-const ResourceCards = ({ history, filteredResources, searchInput }) => {
+const ResourceCards = ({
+  history,
+  filteredResources,
+  searchInput,
+  handleInputChange,
+}) => {
   return (
     <>
       <ReactTooltip type='light' />
@@ -43,14 +48,14 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
                 className='card box-shadow-lift'
                 style={{
                   marginTop: '0.3rem',
-                  minHeight: '345px',
-                  cursor: 'pointer',
                   display: 'flex',
                   flexDirection: 'column',
+                  height: '100%',
                 }}
               >
                 <header
                   className='card-header'
+                  style={{ cursor: 'pointer' }}
                   onClick={() => history.push(`/resources/${resource.id}`)}
                 >
                   <p className='card-header-title has-text-info subtitle is-5 is-capitalized'>
@@ -97,49 +102,64 @@ const ResourceCards = ({ history, filteredResources, searchInput }) => {
                     <br />
                     <div
                       onClick={() => history.push(`/resources/${resource.id}`)}
+                      style={{ cursor: 'pointer' }}
                       className='has-text-justified'
                     >
                       {resource.description}
                     </div>
                   </div>
                 </div>
-                <footer className='card-footer' style={{ marginTop: 'auto' }}>
-                  <a
-                    href={
-                      `https://github.com/${resource.repoOwnerName}` +
-                      '/' +
-                      resource.repoName +
-                      '/stargazers'
-                    }
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='card-footer-item'
-                    data-tip='star this Repo'
-                  >
-                    <Star />
-                  </a>
-                  <Link
-                    to={`/resources/${resource.id}`}
-                    className='card-footer-item'
-                    data-tip='view Resource'
-                  >
-                    <Eye /> &emsp;View
-                  </Link>
-                  <a
-                    href={
-                      `https://github.com/${resource.repoOwnerName}` +
-                      '/' +
-                      resource.repoName +
-                      '/network/members'
-                    }
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='card-footer-item'
-                    data-tip='Fork this Repo'
-                  >
-                    <GitPullRequest />
-                  </a>
-                </footer>
+                <div style={{ marginTop: 'auto' }}>
+                  <div id='categories' className='card-content'>
+                    {resource.category.map((category, index) => (
+                      <span
+                        data-tip={category}
+                        key={index}
+                        onClick={() =>
+                          handleInputChange(category.toLowerCase())
+                        }
+                        className={`category ${category}`}
+                      ></span>
+                    ))}
+                  </div>
+                  <footer className='card-footer'>
+                    <a
+                      href={
+                        `https://github.com/${resource.repoOwnerName}` +
+                        '/' +
+                        resource.repoName +
+                        '/stargazers'
+                      }
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='card-footer-item'
+                      data-tip='star this Repo'
+                    >
+                      <Star />
+                    </a>
+                    <Link
+                      to={`/resources/${resource.id}`}
+                      className='card-footer-item'
+                      data-tip='view Resource'
+                    >
+                      <Eye /> &emsp;View
+                    </Link>
+                    <a
+                      href={
+                        `https://github.com/${resource.repoOwnerName}` +
+                        '/' +
+                        resource.repoName +
+                        '/network/members'
+                      }
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='card-footer-item'
+                      data-tip='Fork this Repo'
+                    >
+                      <GitPullRequest />
+                    </a>
+                  </footer>
+                </div>
               </div>
             </div>
           ))

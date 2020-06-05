@@ -71,28 +71,50 @@ const Resources = ({ searchInput, handleInputChange }) => {
     'Resources',
     'web',
   ];
+
+  const categories = [
+    'Web-dev',
+    'Mob-dev',
+    'Language',
+    'Project',
+    'Course',
+    'Frontend',
+    'Backend',
+  ];
+
   var filteredResources = [];
   React.useEffect(() => {
     document.getElementById('clear').addEventListener('click', () => {
       handleInputChange('');
     });
   });
+
   if (window.location.pathname === '/resources') {
-    filteredResources =
-      resources &&
-      resources.filter(
-        (resource) =>
-          resource.repoOwnerName
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.repoOwner
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.description
-            .toLowerCase()
-            .includes(searchInput.toLowerCase()) ||
-          resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
-      );
+    if (true) {
+      resources.forEach((resource) => {
+        resource.category.forEach((cat) => {
+          if (cat === 'course') {
+            filteredResources.push(resource);
+          }
+        });
+      });
+    } else {
+      filteredResources =
+        resources &&
+        resources.filter(
+          (resource) =>
+            resource.repoOwnerName
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.repoOwner
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.description
+              .toLowerCase()
+              .includes(searchInput.toLowerCase()) ||
+            resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
+        );
+    }
   } else if (window.location.pathname === '/bookmarked') {
     const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
     filteredResources =
@@ -171,9 +193,30 @@ const Resources = ({ searchInput, handleInputChange }) => {
           ))}
         </div>
       </div>
+      {window.location.pathname !== '/bookmarked' && (
+        <div
+          className='tags fadeInUp'
+          style={{
+            animationDelay: '0.75s',
+            justifyContent: 'center',
+          }}
+        >
+          {categories.map((category) => (
+            <span
+              className='tag is-active'
+              style={{ cursor: 'pointer' }}
+              onClick={() => handleInputChange(category.toLowerCase())}
+            >
+              <span className={`category ${category.toLowerCase()}`}></span>
+              {category}&emsp;
+            </span>
+          ))}
+        </div>
+      )}
       <ResourceCards
         searchInput={searchInput}
         filteredResources={filteredResources}
+        handleInputChange={handleInputChange}
       />
     </div>
   );
