@@ -220,20 +220,23 @@ const Resources = ({
           justifyContent: 'center',
         }}
       >
-        {categories.map((category, i) => (
+        {categories.map((cat, i) => (
           <span
-            id={category.toLowerCase()}
+            id={cat.toLowerCase()}
             key={i}
-            className={category === 'All' ? 'tag active-tag' : 'tag'}
+            className={
+              (category === '' && cat === 'All') ||
+              cat.toLowerCase() === category
+                ? 'tag active-tag'
+                : 'tag'
+            }
             style={{ cursor: 'pointer' }}
             onClick={() =>
-              handleChangeInCategory(
-                category === 'All' ? '' : category.toLowerCase()
-              )
+              handleChangeInCategory(cat === 'All' ? '' : cat.toLowerCase())
             }
           >
-            <span className={`category ${category.toLowerCase()}`}></span>
-            {category}&emsp;
+            <span className={`category ${cat.toLowerCase()}`}></span>
+            {cat}&emsp;
           </span>
         ))}
       </div>
