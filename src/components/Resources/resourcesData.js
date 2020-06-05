@@ -40,7 +40,14 @@ export const resources = [
       'A curated list of amazing development channels on YouTube. These include web development, back-end development, front-end development live coders and more!',
     repoOwnerName: 'ErikCH',
     repoOwner: 'Erik Hanchett',
-    category: ['backend', 'frontend', 'web-dev', 'mob-dev'],
+    category: [
+      'backend',
+      'frontend',
+      'web-dev',
+      'mob-dev',
+      'course',
+      'language',
+    ],
   },
   {
     id: 5,
@@ -93,7 +100,14 @@ export const resources = [
       'Curated list of resources for college students. you should definitely check this out.',
     repoOwnerName: 'dipakkr',
     repoOwner: 'Deepak Kumar',
-    category: ['backend', 'frontend', 'web-dev', 'mob-dev'],
+    category: [
+      'backend',
+      'frontend',
+      'web-dev',
+      'mob-dev',
+      'course',
+      'language',
+    ],
   },
   {
     id: 10,
@@ -104,7 +118,7 @@ export const resources = [
       'useful lists of websites for coders, must know to get always informed in order and learn new stuffs. ',
     repoOwnerName: 'sdmg15',
     repoOwner: 'Sonkeng Maldini',
-    category: [''],
+    category: ['podcast', 'interview'],
   },
   {
     id: 11,
@@ -294,7 +308,7 @@ export const resources = [
     description: 'FAQ TypeScript questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
-    category: ['interview', 'language'],
+    category: ['interview', 'language', 'web-dev'],
   },
   {
     id: 30,
@@ -304,7 +318,7 @@ export const resources = [
     description: 'FAQ AWS questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
-    category: ['interview'],
+    category: ['interview', 'web-dev'],
   },
   {
     id: 31,
@@ -314,7 +328,7 @@ export const resources = [
     description: 'FAQ GIT questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
-    category: ['interview'],
+    category: ['interview', 'web-dev', 'mob-dev'],
   },
   {
     id: 32,
@@ -344,7 +358,7 @@ export const resources = [
     description: 'FAQ Design Patterns questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
-    category: ['interview'],
+    category: ['interview', 'frontend'],
   },
   {
     id: 35,
@@ -354,7 +368,7 @@ export const resources = [
     description: 'FAQ Agile questions in interviews',
     repoOwnerName: 'FAQGURU',
     repoOwner: 'FAQGURU',
-    category: ['interview'],
+    category: ['interview', 'mob-dev', 'web-dev'],
   },
   {
     id: 36,
@@ -364,7 +378,7 @@ export const resources = [
     description: 'A curated list of resources for learning programming.',
     repoOwnerName: 'Michael0x2a',
     repoOwner: 'Michael Lee',
-    category: ['langauge', 'web-dev'],
+    category: ['langauge', 'web-dev', 'mob-dev'],
   },
   {
     id: 37,
@@ -374,7 +388,7 @@ export const resources = [
     description: 'A collection of full-stack resources for programmers.',
     repoOwnerName: 'charlax',
     repoOwner: 'Charles-Axel Dein',
-    category: ['frontend', 'backend'],
+    category: ['frontend', 'backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 38,
@@ -396,7 +410,7 @@ export const resources = [
       'A list of programming tutorials in which learners build an application from scratch. These tutorials are divided into different primary programming languages.',
     repoOwnerName: 'tuvtran',
     repoOwner: 'Tu V. Tran',
-    category: ['project'],
+    category: ['project', 'course', 'language'],
   },
   {
     id: 40,
@@ -406,7 +420,7 @@ export const resources = [
     description: 'A list of awesome beginners-friendly projects.',
     repoOwnerName: 'MunGell',
     repoOwner: 'Shmavon Gazanchyan',
-    category: ['project'],
+    category: ['project', 'language'],
   },
   {
     id: 41,
@@ -417,7 +431,7 @@ export const resources = [
       'Roadmap to becoming a web developer in 2020 https://roadmap.sh',
     repoOwnerName: 'kamranahmedse',
     repoOwner: 'Kamran Ahmed',
-    category: ['web-dev'],
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 42,
@@ -439,7 +453,7 @@ export const resources = [
       'A curated list of awesome programming talks, articles, books, resources and more!!',
     repoOwnerName: 'hardikvasa',
     repoOwner: 'Hardik Vasa',
-    category: ['language'],
+    category: ['language', 'podcast'],
   },
   {
     id: 44,
@@ -449,7 +463,7 @@ export const resources = [
     description: 'A set of best practices for JavaScript projects',
     repoOwnerName: 'elsewhencode',
     repoOwner: 'Elsewhen    ',
-    category: ['project'],
+    category: ['project', 'mob-dev', 'web-dev'],
   },
   {
     id: 45,
@@ -481,7 +495,7 @@ export const resources = [
     description: 'Clean Code concepts adapted for JavaScript',
     repoOwnerName: 'ryanmcdermott',
     repoOwner: 'Ryan McDermott',
-    category: ['web-dev', 'mob-dev'],
+    category: ['web-dev'],
   },
   {
     id: 48,
@@ -502,7 +516,7 @@ export const resources = [
       'A long list of (advanced) JavaScript questions, and their explanations sparkles',
     repoOwnerName: 'lydiahallie',
     repoOwner: 'Lydia Hallie',
-    category: ['language'],
+    category: ['language', 'interview'],
   },
   {
     id: 50,
@@ -522,7 +536,7 @@ export const resources = [
     description: ' For those who wanna learn Bash',
     repoOwnerName: 'denysdovhan',
     repoOwner: 'Denys Dovhan',
-    category: ['language'],
+    category: ['language', 'course'],
   },
   {
     id: 52,
@@ -533,7 +547,7 @@ export const resources = [
       ' A complete computer science study plan to become a software engineer.',
     repoOwnerName: 'jwasham',
     repoOwner: 'John Washam',
-    category: ['web-dev', 'mob-dev', 'course'],
+    category: ['web-dev', 'mob-dev', 'course', 'interview'],
   },
   {
     id: 53,
@@ -543,7 +557,7 @@ export const resources = [
     description: 'scroll 33 concepts every JavaScript developer should know.',
     repoOwnerName: 'leonardomso',
     repoOwner: 'Leonardo Maldonado',
-    category: ['language'],
+    category: ['language', 'course'],
   },
   {
     id: 54,
@@ -554,7 +568,7 @@ export const resources = [
       'Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.',
     repoOwnerName: 'mbeaudru',
     repoOwner: 'Manuel Beaudru',
-    category: ['language'],
+    category: ['language', 'course'],
   },
   {
     id: 55,
@@ -575,7 +589,7 @@ export const resources = [
     description: 'Useful resources for creating apps with Electron.',
     repoOwnerName: 'sindresorhus',
     repoOwner: 'Sindre Sorhus',
-    category: ['web-dev'],
+    category: ['web-dev', 'langauge'],
   },
   {
     id: 57,
@@ -638,7 +652,7 @@ export const resources = [
       ' A collection of links for free stock photography, video and Illustration websites',
     repoOwnerName: 'neutraltone',
     repoOwner: 'Tony Phipps',
-    category: ['frontend', 'web-dev'],
+    category: ['frontend', 'web-dev', 'mob-dev'],
   },
   {
     id: 63,
@@ -649,7 +663,7 @@ export const resources = [
       'The best design tools and plugins for everything point_right https://flawlessapp.io/designtools',
     repoOwnerName: 'LisaDziuba',
     repoOwner: 'Lisa Dziuba',
-    category: ['frontend'],
+    category: ['frontend', 'web-dev', 'mob-dev'],
   },
   {
     id: 64,
@@ -659,7 +673,7 @@ export const resources = [
     description: 'Curated design resources. ',
     repoOwnerName: 'gztchan',
     repoOwner: 'Tony Chan',
-    category: ['frontend'],
+    category: ['frontend', 'web-dev'],
   },
   {
     id: 65,
@@ -670,7 +684,7 @@ export const resources = [
       'Your Cheat Sheet For Android Interview - Android Interview Questions',
     repoOwnerName: 'MindorksOpenSource',
     repoOwner: 'MindOrks',
-    category: ['mob-dev'],
+    category: ['mob-dev', 'interview'],
   },
   {
     id: 66,
@@ -755,7 +769,7 @@ export const resources = [
       'A tiny list limited to the best JavaScript Learning Resources',
     repoOwnerName: 'micromata',
     repoOwner: 'Micromata GmbH',
-    category: ['language'],
+    category: ['language', 'course'],
   },
   {
     id: 74,
@@ -766,7 +780,7 @@ export const resources = [
       'A curated list of awesome Python frameworks, libraries, software and resources',
     repoOwnerName: 'vinta',
     repoOwner: 'Vinta Chen',
-    category: ['language'],
+    category: ['language', 'podcast'],
   },
   {
     id: 75,
@@ -777,7 +791,7 @@ export const resources = [
       'A curated list of awesome frameworks, libraries and software for the Java programming language.',
     repoOwnerName: 'akullpp',
     repoOwner: 'Andreas Kull',
-    category: ['language'],
+    category: ['language', 'podcast'],
   },
   {
     id: 76,
@@ -820,7 +834,7 @@ export const resources = [
       'free courses from reputable universities like MIT, Stanford and Princeton that satisfy the same requirements as an undergraduate Computer Science degree.',
     repoOwnerName: 'ForrestKnight',
     repoOwner: 'Forrest Knight',
-    category: ['course'],
+    category: ['course', 'language'],
   },
   {
     id: 80,
@@ -872,7 +886,7 @@ export const resources = [
       'A curated list of awesome Competitive Programming, Algorithm and Data Structure resources http://codeforces.com/blog/entry/23054',
     repoOwnerName: 'lnishan',
     repoOwner: 'Jasmine Chen',
-    category: ['frontend', 'web-dev', 'mob-dev'],
+    category: ['course', 'language'],
   },
   {
     id: 85,
@@ -883,7 +897,7 @@ export const resources = [
       'List of awesome university courses for learning Computer Science!',
     repoOwnerName: 'prakhar1989',
     repoOwner: 'Prakhar Srivastav',
-    category: ['course'],
+    category: ['course', 'langauge'],
   },
   {
     id: 86,
@@ -893,7 +907,7 @@ export const resources = [
     description: 'Path to a free self-taught education in Computer Science!',
     repoOwnerName: 'ossu',
     repoOwner: 'Open Source Society University',
-    category: ['course'],
+    category: ['course', 'language'],
   },
   {
     id: 87,
@@ -935,7 +949,7 @@ export const resources = [
     description: 'Collection of awesome podcasts',
     repoOwnerName: 'rShetty',
     repoOwner: 'Rajeev N Bharshetty',
-    category: ['frontend', 'web-dev', 'mob-dev'],
+    category: ['frontend', 'backend', 'podcast'],
   },
   {
     id: 91,

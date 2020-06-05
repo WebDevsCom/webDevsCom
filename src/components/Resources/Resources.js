@@ -87,6 +87,7 @@ const Resources = ({
     'Language',
     'Project',
     'Course',
+    'Podcast',
   ];
 
   var filteredResources = [];
