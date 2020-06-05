@@ -915,7 +915,7 @@ export const resources = [
       'A list of cool features of Git and GitHub. http://git.io/sheet',
     repoOwnerName: 'tiimgreen',
     repoOwner: 'Tim Green',
-    category: ['web-dev', 'mob-dev'],
+    category: ['web-dev', 'mob-dev', 'frontend', 'backend'],
   },
   {
     id: 89,
