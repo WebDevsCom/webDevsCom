@@ -254,21 +254,21 @@ const Modal = ({ authorRepos, setModal, currentRepoId }) => {
                 <div className='message-body'>
                   {repo.description}
                   <br></br>
-                  <div
-                    className='is-flex is-horizontal-center'
-                    style={{ marginTop: '10px' }}
-                  >
-                    <a
-                      className={
-                        repo.id === currentRepoId
-                          ? 'disabled button is-link has-text-white button-special is-rounded'
-                          : 'button is-link has-text-white button-special is-rounded'
-                      }
-                      href={`/resources/${repo.id}`}
+                  {repo.id !== currentRepoId && (
+                    <div
+                      className='is-flex is-horizontal-center'
+                      style={{ marginTop: '10px' }}
                     >
-                      View
-                    </a>
-                  </div>
+                      <a
+                        className={
+                          'button button box-shadow-lift button-special is-rounded'
+                        }
+                        href={`/resources/${repo.id}`}
+                      >
+                        View
+                      </a>
+                    </div>
+                  )}
                 </div>
               </article>
             </article>
