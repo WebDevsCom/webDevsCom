@@ -70,10 +70,10 @@ const Resources = ({
     'computer science',
     'Design',
     'Developer',
-    'interview',
+    'react',
     'javascript',
     'Programmer',
-    'Project',
+    'code',
     'Resources',
     'web',
   ];
@@ -172,7 +172,8 @@ const Resources = ({
 
   useEffect(() => {
     document.getElementById('clear').addEventListener('click', () => {
-      handleInputChange('');
+      const inputVal = document.querySelector('input').value;
+      if (inputVal !== '') handleInputChange('');
     });
     // eslint-disable-next-line
   }, []);
