@@ -13,8 +13,9 @@ import {
   Filter,
   Folder,
 } from 'react-feather';
+import { withRouter } from 'react-router-dom';
 
-const Features = () => {
+const Features = ({ history }) => {
   return (
     <section id='features' className='container' style={{ marginTop: '1rem' }}>
       <div className='features'>
@@ -26,7 +27,10 @@ const Features = () => {
         </div>
         <div className='columns'>
           <div className='column is-5 is-offset-1'>
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/1')}
+            >
               <Codepen size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>Design Resources</h3>
@@ -37,7 +41,10 @@ const Features = () => {
               </div>
             </div>
 
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/4')}
+            >
               <Youtube size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>Top Youtube Channels</h3>
@@ -48,7 +55,10 @@ const Features = () => {
               </div>
             </div>
 
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/55')}
+            >
               <HelpCircle size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>FAQ in Interview</h3>
@@ -60,7 +70,10 @@ const Features = () => {
             </div>
           </div>
           <div className='column is-5'>
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/5')}
+            >
               <Chrome size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>App Ideas</h3>
@@ -71,18 +84,24 @@ const Features = () => {
               </div>
             </div>
 
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/3')}
+            >
               <UserPlus size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>Developer Portfolios</h3>
                 <p>
-                  Collection of so many Developer Portfolios, from which you
-                  can get inspired to acheive great.
+                  Collection of so many Developer Portfolios, from which you can
+                  get inspired to acheive great.
                 </p>
               </div>
             </div>
 
-            <div className='feature-card'>
+            <div
+              className='feature-card'
+              onClick={() => history.push('/resources/2')}
+            >
               <UploadCloud size={70} color='#00d1b2' />
               <div className='meta'>
                 <h3 className='has-text-info'>Public APIs</h3>
@@ -194,4 +213,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default withRouter(Features);
