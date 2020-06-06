@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "791260f8eacaad61b3197fa1f08bb929",
+    "revision": "2c6e9159c2f2b34dea0f2064ed4e4790",
     "url": "/webDevsCom/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webDevsCom/static/css/2.5592ad1b.chunk.css"
   },
   {
-    "revision": "c1ec7b29e3f8db491eb5",
+    "revision": "210e8e89b0065e799033",
     "url": "/webDevsCom/static/css/3.a2c18f5e.chunk.css"
   },
   {
-    "revision": "060e6dca1899f1965b81",
-    "url": "/webDevsCom/static/css/main.2666d455.chunk.css"
+    "revision": "1ef9e27ba7e5b0089425",
+    "url": "/webDevsCom/static/css/main.f934d34f.chunk.css"
   },
   {
     "revision": "603218c7dc5e8d2e5fb6",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webDevsCom/static/js/2.66786df1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1ec7b29e3f8db491eb5",
-    "url": "/webDevsCom/static/js/3.2da8e2b8.chunk.js"
+    "revision": "210e8e89b0065e799033",
+    "url": "/webDevsCom/static/js/3.da9b36e1.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/webDevsCom/static/js/3.2da8e2b8.chunk.js.LICENSE.txt"
+    "url": "/webDevsCom/static/js/3.da9b36e1.chunk.js.LICENSE.txt"
   },
   {
     "revision": "05227b96486e8d9ffd3d",
@@ -40,23 +40,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webDevsCom/static/js/4.d536d88a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33ef647127338ae41ee2",
-    "url": "/webDevsCom/static/js/5.89cdf244.chunk.js"
+    "revision": "07eac31cf641dd248069",
+    "url": "/webDevsCom/static/js/5.c88a9ba5.chunk.js"
   },
   {
-    "revision": "4cfe5578c3ec850af510",
-    "url": "/webDevsCom/static/js/6.2de2188a.chunk.js"
+    "revision": "bf9bd9cd634aaffae8a9",
+    "url": "/webDevsCom/static/js/6.9023cfb8.chunk.js"
   },
   {
-    "revision": "4d5698d70f910a0ac3ce",
-    "url": "/webDevsCom/static/js/7.992537f1.chunk.js"
+    "revision": "5eddef29b0babd8b9d8e",
+    "url": "/webDevsCom/static/js/7.0f2c807b.chunk.js"
   },
   {
-    "revision": "060e6dca1899f1965b81",
-    "url": "/webDevsCom/static/js/main.f2891867.chunk.js"
+    "revision": "1ef9e27ba7e5b0089425",
+    "url": "/webDevsCom/static/js/main.3d063a94.chunk.js"
   },
   {
-    "revision": "0bc3ac3d4ee013376d02",
-    "url": "/webDevsCom/static/js/runtime-main.190a5cf5.js"
+    "revision": "a91a524c54a7ae3e810a",
+    "url": "/webDevsCom/static/js/runtime-main.e978f6df.js"
   }
 ]);
