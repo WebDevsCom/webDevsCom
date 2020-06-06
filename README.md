@@ -38,5 +38,9 @@ If you're new to contributing to Open Source on Github, [this guide](https://gui
 
 show your  :heart: and  :+1: by giving :star: to this Repo. if this project helped you in anyways!
 
+## Stars History
+
+[![Stargazers over time](https://starchart.cc/WebDevsCom/WebDevsCom.svg)](https://starchart.cc/WebDevsCom/WebDevsCom)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
