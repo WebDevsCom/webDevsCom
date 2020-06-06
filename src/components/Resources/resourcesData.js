@@ -995,4 +995,25 @@ export const resources = [
     repoOwner: 'David Dias',
     category: ['web-dev'],
   },
+  {
+    id: 95,
+    link:
+      'https://raw.githubusercontent.com/vuejs/awesome-vue/master/README.md',
+    repoName: 'awesome-vue',
+    description: 'A curated list of awesome things related to Vue.js',
+    repoOwnerName: 'vuejs',
+    repoOwner: 'vuejs',
+    category: ['web-dev', 'frontend', 'podcast'],
+  },
+  {
+    id: 96,
+    link:
+      'https://raw.githubusercontent.com/vuejs/awesome-vue/master/awesome_vue_with_repo_info.md',
+    repoName: 'awesome-vue.js',
+    description:
+      'A curated list of awesome things related to Vue.js(tutorials, lib & plugins, project using vue.js, examples etc.)',
+    repoOwnerName: 'vuejs',
+    repoOwner: 'vuejs',
+    category: ['web-dev', 'frontend', 'podcast'],
+  },
 ];
