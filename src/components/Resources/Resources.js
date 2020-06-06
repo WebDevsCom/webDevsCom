@@ -10,6 +10,7 @@ const Resources = ({
   category,
 }) => {
   const [placeholder, setPlaceholder] = useState('');
+  const [filteredRes, setFilteredRes] = useState([]);
   const suggestions = [
     'brad traversy',
     'css',
@@ -90,82 +91,92 @@ const Resources = ({
     'Podcast',
   ];
 
-  var filteredResources = [];
+  useEffect(() => {
+    var filteredResources = [];
+    if (window.location.pathname === '/resources') {
+      if (category !== '' && searchInput === '') {
+        resources.forEach((resource) => {
+          resource.category.forEach((cat) => {
+            if (cat === category) {
+              filteredResources.push(resource);
+            }
+          });
+        });
+      } else {
+        filteredResources =
+          resources &&
+          resources.filter(
+            (resource) =>
+              resource.repoOwnerName
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.repoOwner
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.description
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.repoName
+                .toLowerCase()
+                .includes(searchInput.toLowerCase())
+          );
+      }
+    } else if (window.location.pathname === '/bookmarked') {
+      const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+      filteredResources =
+        bookmarks &&
+        bookmarks.map(
+          (bookmark) =>
+            resources.filter((resource) => resource.id === bookmark)[0]
+        );
+      if (category !== '' && searchInput === '') {
+        const newFilteredResources = [];
+        filteredResources &&
+          filteredResources.forEach((resource) => {
+            resource.category.forEach((cat) => {
+              if (cat === category) {
+                newFilteredResources.push(resource);
+              }
+            });
+          });
+        filteredResources = newFilteredResources;
+      } else {
+        filteredResources =
+          filteredResources &&
+          filteredResources.filter(
+            (resource) =>
+              resource.repoOwnerName
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.repoOwner
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.description
+                .toLowerCase()
+                .includes(searchInput.toLowerCase()) ||
+              resource.repoName
+                .toLowerCase()
+                .includes(searchInput.toLowerCase())
+          );
+      }
+    }
+
+    filteredResources =
+      filteredResources &&
+      filteredResources.sort((a, b) =>
+        ('' + a.repoName).localeCompare(b.repoName)
+      );
+    setFilteredRes(filteredResources);
+    // eslint-disable-next-line
+  }, [category, searchInput, window.location.pathname]);
+
   useEffect(() => {
     document.getElementById('clear').addEventListener('click', () => {
       handleInputChange('');
     });
-  });
+    // eslint-disable-next-line
+  }, []);
 
-  if (window.location.pathname === '/resources') {
-    if (category !== '' && searchInput === '') {
-      resources.forEach((resource) => {
-        resource.category.forEach((cat) => {
-          if (cat === category) {
-            filteredResources.push(resource);
-          }
-        });
-      });
-    } else {
-      filteredResources =
-        resources &&
-        resources.filter(
-          (resource) =>
-            resource.repoOwnerName
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.repoOwner
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.description
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
-        );
-    }
-  } else if (window.location.pathname === '/bookmarked') {
-    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-    filteredResources =
-      bookmarks &&
-      bookmarks.map(
-        (bookmark) =>
-          resources.filter((resource) => resource.id === bookmark)[0]
-      );
-    if (category !== '' && searchInput === '') {
-      const newFilteredResources = [];
-      filteredResources &&
-        filteredResources.forEach((resource) => {
-          resource.category.forEach((cat) => {
-            if (cat === category) {
-              newFilteredResources.push(resource);
-            }
-          });
-        });
-      filteredResources = newFilteredResources;
-    } else {
-      filteredResources =
-        filteredResources &&
-        filteredResources.filter(
-          (resource) =>
-            resource.repoOwnerName
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.repoOwner
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.description
-              .toLowerCase()
-              .includes(searchInput.toLowerCase()) ||
-            resource.repoName.toLowerCase().includes(searchInput.toLowerCase())
-        );
-    }
-  }
-
-  filteredResources =
-    filteredResources &&
-    filteredResources.sort((a, b) =>
-      ('' + a.repoName).localeCompare(b.repoName)
-    );
   return (
     <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
       <div
@@ -243,7 +254,7 @@ const Resources = ({
       </div>
       <ResourceCards
         searchInput={searchInput}
-        filteredResources={filteredResources}
+        filteredResources={filteredRes}
         category={category}
         handleChangeInCategory={handleChangeInCategory}
       />

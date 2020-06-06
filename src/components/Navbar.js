@@ -1,7 +1,6 @@
 import React from 'react';
 import { Terminal, Sun, Moon } from 'react-feather';
 import { Link, withRouter } from 'react-router-dom';
-import ReactTooltip from 'react-tooltip';
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const active = window.location.pathname;
@@ -40,7 +39,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       id='navbar'
       aria-label='main navigation'
     >
-      <ReactTooltip type='light' />
       <div className='navbar-brand'>
         <Link className='navbar-item' id='brand' to='/'>
           <Terminal color='blue' />
@@ -65,7 +63,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <Link
             className={`navbar-item ${active === '/' ? 'is-active' : ''}`}
             to='/'
-            data-tip='Go to Home page'
           >
             Home
           </Link>
@@ -75,7 +72,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               active.includes('/resources') ? 'is-active' : ''
             }`}
             to='/resources'
-            data-tip='Go to Resources Page'
           >
             Resources
           </Link>
@@ -85,7 +81,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               active === '/bookmarked' ? 'is-active' : ''
             }`}
             to='/bookmarked'
-            data-tip='Go to Bookmarked Page'
           >
             My BookMarks
           </Link>
@@ -95,7 +90,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             rel='noopener noreferrer'
             target='_blank'
             href='https://github.com/WebDevsCom/webDevsCom/graphs/contributors'
-            data-tip='See our Contributors'
           >
             Contributors
           </a>
