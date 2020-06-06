@@ -7,6 +7,8 @@
 [![Repo Link](https://img.shields.io/badge/Repo-Link-black.svg)](https://github.com/WebDevsCom/webDevsCom)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 
+#### [Looking for contributors in helping me to add this resources](https://github.com/WebDevsCom/webDevsCom/issues/9#issue-629936276) please not add more than 3 resources in one PR.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45959932/83921121-5a997f80-a79b-11ea-897d-e18634b0a9e1.png" width="100%">
 </p>
