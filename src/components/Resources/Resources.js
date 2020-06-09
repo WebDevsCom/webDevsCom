@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, XCircle } from 'react-feather';
+import { Search, XCircle, Eye, EyeOff } from 'react-feather';
 import { resources } from './resourcesData';
 import ResourceCards from './ResourceCards';
 
@@ -10,6 +10,7 @@ const Resources = ({
   category,
 }) => {
   const [placeholder, setPlaceholder] = useState('');
+  const [showSuggestion, setShowSuggestion] = useState(false);
   const [filteredRes, setFilteredRes] = useState([]);
   const suggestions = [
     'brad traversy',
@@ -208,10 +209,72 @@ const Resources = ({
           </div>
         </div>
       </div>
+
+      <div
+        className='has-text-centered is-hidden-tablet fadeInUp'
+        style={{ animationDelay: '.5s' }}
+      >
+        <button
+          onClick={() => setShowSuggestion((prev) => !prev)}
+          className='button'
+        >
+          <span className='icon is-small'>
+            {showSuggestion ? <EyeOff /> : <Eye />}
+          </span>
+          &emsp;{!showSuggestion ? 'View Suggestions' : 'Close Suggestions'}
+        </button>
+      </div>
+
+      {window.innerWidth < 767 ? (
+        showSuggestion ? (
+          <Suggestion
+            {...{
+              category,
+              categories,
+              filters,
+              handleChangeInCategory,
+              handleInputChange,
+            }}
+          />
+        ) : (
+          ''
+        )
+      ) : (
+        <Suggestion
+          {...{
+            category,
+            categories,
+            filters,
+            handleChangeInCategory,
+            handleInputChange,
+          }}
+        />
+      )}
+      <ResourceCards
+        searchInput={searchInput}
+        filteredResources={filteredRes}
+        category={category}
+        handleChangeInCategory={handleChangeInCategory}
+      />
+    </div>
+  );
+};
+
+export default Resources;
+
+const Suggestion = ({
+  filters,
+  categories,
+  category,
+  handleInputChange,
+  handleChangeInCategory,
+}) => {
+  return (
+    <>
       <div style={{ padding: '10px' }}>
         <div
           className='tags fadeInUp'
-          style={{ justifyContent: 'center', animationDelay: '.5s' }}
+          style={{ justifyContent: 'center', animationDelay: '.15s' }}
         >
           {filters.map((filter, index) => (
             <span
@@ -229,8 +292,10 @@ const Resources = ({
         className='tags fadeInUp'
         id='category-tags'
         style={{
-          animationDelay: '0.75s',
+          animationDelay: '0.5s',
           justifyContent: 'center',
+          padding: '0 10px',
+          marginBottom: '0',
         }}
       >
         {categories.map((cat, i) => (
@@ -240,8 +305,8 @@ const Resources = ({
             className={
               (category === '' && cat === 'All') ||
               cat.toLowerCase() === category
-                ? 'tag active-tag'
-                : 'tag'
+                ? 'tag is-white active-tag'
+                : 'tag is-white'
             }
             style={{ cursor: 'pointer' }}
             onClick={() =>
@@ -253,14 +318,6 @@ const Resources = ({
           </span>
         ))}
       </div>
-      <ResourceCards
-        searchInput={searchInput}
-        filteredResources={filteredRes}
-        category={category}
-        handleChangeInCategory={handleChangeInCategory}
-      />
-    </div>
+    </>
   );
 };
-
-export default Resources;

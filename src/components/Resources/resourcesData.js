@@ -1016,4 +1016,113 @@ export const resources = [
     repoOwner: 'vuejs',
     category: ['web-dev', 'frontend', 'podcast'],
   },
+  {
+    id: 97,
+    link:
+      'https://raw.githubusercontent.com/vsouza/awesome-ios/master/README.md',
+    repoName: 'awesome-ios',
+    description:
+      'A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects http://awesomeios.com',
+    repoOwnerName: 'vsouza',
+    repoOwner: 'Vinicius Souza',
+    category: ['mob-dev', 'podcast'],
+  },
+  {
+    id: 98,
+    link:
+      'https://raw.githubusercontent.com/JStumpp/awesome-android/master/readme.md',
+    repoName: 'awesome-android',
+    description: 'A curated list of awesome Android packages and resources.',
+    repoOwnerName: 'JStumpp',
+    repoOwner: 'Jürgen Stumpp',
+    category: ['mob-dev', 'podcast'],
+  },
+  {
+    id: 99,
+    link:
+      'https://raw.githubusercontent.com/jondot/awesome-react-native/master/README.md',
+    repoName: 'awesome-react-native',
+    description:
+      'Awesome React Native components, news, tools, and learning material! http://www.awesome-react-native.com',
+    repoOwnerName: 'jondot',
+    repoOwner: 'Dotan J. Nahum',
+    category: ['mob-dev', 'podcast'],
+  },
+  {
+    id: 100,
+    link:
+      'https://raw.githubusercontent.com/deephacks/awesome-jvm/master/readme.md',
+    repoName: 'awesome-jvm',
+    description:
+      'A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.',
+    repoOwnerName: 'deephacks',
+    repoOwner: 'deephacks',
+    category: ['language'],
+  },
+  {
+    id: 101,
+    link:
+      'https://raw.githubusercontent.com/donnemartin/awesome-aws/master/README.md',
+    repoName: 'awesome-aws',
+    description:
+      'A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.',
+    repoOwnerName: 'donnemartin',
+    repoOwner: 'Donne Martin',
+    category: ['mob-dev', 'web-dev'],
+  },
+  {
+    id: 102,
+    link:
+      'https://raw.githubusercontent.com/donnemartin/system-design-primer/master/README.md',
+    repoName: 'system-design-primer',
+    description:
+      'Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.',
+    repoOwnerName: 'donnemartin',
+    repoOwner: 'Donne Martin',
+    category: ['interview', 'web-dev', 'course'],
+  },
+  {
+    id: 103,
+    link:
+      'https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/README.md',
+    repoName: 'data-science-ipython-notebooks',
+    description:
+      'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.',
+    repoOwnerName: 'donnemartin',
+    repoOwner: 'Donne Martin',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 104,
+    link:
+      'https://raw.githubusercontent.com/donnemartin/dev-setup/master/README.md',
+    repoName: 'dev-setup',
+    description:
+      'macOS development environment setup: Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.',
+    repoOwnerName: 'donnemartin',
+    repoOwner: 'Donne Martin',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 105,
+    link:
+      'https://raw.githubusercontent.com/miguelmota/awesome-amazon-alexa/master/README.md',
+    repoName: 'awesome-amazon-alexa',
+    description:
+      'Curated list of awesome resources for the Amazon Alexa platform.',
+    repoOwnerName: 'miguelmota',
+    repoOwner: 'Miguel Mota',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 106,
+    link:
+      'https://raw.githubusercontent.com/miguelmota/awesome-amazon-alexa/master/README.md',
+    repoName: 'awesome-qt',
+    description:
+      'Curated list of awesome resources for the Amazon Alexa platform.',
+    repoOwnerName: 'miguelmota',
+    repoOwner: 'Miguel Mota',
+    category: ['interview', 'course'],
+  },
 ];

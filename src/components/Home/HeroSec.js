@@ -4,7 +4,7 @@ import Contributor from './Contributor';
 
 const HeroSec = () => {
   return (
-    <div>
+    <div style={{ minHeight: '100vh' }}>
       <section className='section'>
         <div className='container'>
           <div className='column has-text-centered is-hidden-touch'>
