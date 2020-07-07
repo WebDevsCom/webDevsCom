@@ -1230,4 +1230,67 @@ export const resources = [
     repoOwner: 'Diego Cardozo',
     category: ['interview', 'course'],
   },
+  {
+    id: 117,
+    link:
+      'https://raw.githubusercontent.com/noahbuscher/inspire/master/README.md',
+    repoName: 'inspire',
+    description: 'Collection of web design & dev links',
+    repoOwnerName: 'noahbuscher',
+    repoOwner: 'Noah Buscher',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 118,
+    link:
+      'https://raw.githubusercontent.com/wasabeef/awesome-android-ui/master/README.md',
+    repoName: 'awesome-android-ui',
+    description: 'A curated list of awesome Android UI/UX libraries',
+    repoOwnerName: 'wasabeef',
+    repoOwner: 'Daichi Furiya',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 119,
+    link:
+      'https://raw.githubusercontent.com/ember-community-russia/awesome-ember/master/README.md',
+    repoName: 'awesome-ember',
+    description:
+      'A curated list of awesome Ember.js stuff like addons, articles, videos, gists and more.',
+    repoOwnerName: 'ember-community-russia',
+    repoOwner: 'ember-community-russia',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 120,
+    link:
+      'https://raw.githubusercontent.com/cjwirth/awesome-ios-ui/master/README.md',
+    repoName: 'awesome-ios-ui',
+    description: 'A curated list of awesome iOS UI/UX libraries',
+    repoOwnerName: 'cjwirth',
+    repoOwner: 'Caesar Wirth',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 121,
+    link:
+      'https://raw.githubusercontent.com/Urigo/awesome-meteor/master/README.md',
+    repoName: 'awesome-meteor',
+    description:
+      'A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things',
+    repoOwnerName: 'Urigo',
+    repoOwner: 'Uri Goldshtein',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 122,
+    link:
+      'https://raw.githubusercontent.com/Urigo/awesome-meteor/master/README.md',
+    repoName: 'awesome-meteor',
+    description:
+      'A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things',
+    repoOwnerName: 'Urigo',
+    repoOwner: 'Uri Goldshtein',
+    category: ['interview', 'course'],
+  },
 ];
