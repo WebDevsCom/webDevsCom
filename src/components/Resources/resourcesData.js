@@ -378,7 +378,7 @@ export const resources = [
     description: 'A curated list of resources for learning programming.',
     repoOwnerName: 'Michael0x2a',
     repoOwner: 'Michael Lee',
-    category: ['langauge', 'web-dev', 'mob-dev'],
+    category: ['language', 'web-dev', 'mob-dev'],
   },
   {
     id: 37,
@@ -589,7 +589,7 @@ export const resources = [
     description: 'Useful resources for creating apps with Electron.',
     repoOwnerName: 'sindresorhus',
     repoOwner: 'Sindre Sorhus',
-    category: ['web-dev', 'langauge'],
+    category: ['web-dev', 'language'],
   },
   {
     id: 57,
@@ -897,7 +897,7 @@ export const resources = [
       'List of awesome university courses for learning Computer Science!',
     repoOwnerName: 'prakhar1989',
     repoOwner: 'Prakhar Srivastav',
-    category: ['course', 'langauge'],
+    category: ['course', 'language'],
   },
   {
     id: 86,
@@ -1090,7 +1090,7 @@ export const resources = [
       'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.',
     repoOwnerName: 'donnemartin',
     repoOwner: 'Donne Martin',
-    category: ['interview', 'course'],
+    category: ['language', 'course'],
   },
   {
     id: 104,
@@ -1101,7 +1101,7 @@ export const resources = [
       'macOS development environment setup: Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.',
     repoOwnerName: 'donnemartin',
     repoOwner: 'Donne Martin',
-    category: ['interview', 'course'],
+    category: ['mob-dev', 'web-dev'],
   },
   {
     id: 105,
@@ -1112,7 +1112,7 @@ export const resources = [
       'Curated list of awesome resources for the Amazon Alexa platform.',
     repoOwnerName: 'miguelmota',
     repoOwner: 'Miguel Mota',
-    category: ['interview', 'course'],
+    category: ['project', 'frontend'],
   },
   {
     id: 106,
@@ -1123,7 +1123,7 @@ export const resources = [
       'A curated list of awesome tools, libraries, and resources for the Qt framework.',
     repoOwnerName: 'JesseTG',
     repoOwner: 'Jesse Talavera-Greenberg',
-    category: ['interview', 'course'],
+    category: ['frontend', 'project'],
   },
   {
     id: 107,
@@ -1133,7 +1133,7 @@ export const resources = [
     description: 'Curated List of React Components & Libraries.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 108,
@@ -1144,7 +1144,7 @@ export const resources = [
       'A collection of awesome Ruby libraries, tools, frameworks and software',
     repoOwnerName: 'markets',
     repoOwner: 'Marc Anguera Insa',
-    category: ['interview', 'course'],
+    category: ['web-dev'],
   },
   {
     id: 109,
@@ -1154,7 +1154,7 @@ export const resources = [
       'A curated list of awesome R packages, frameworks and software.',
     repoOwnerName: 'qinwf',
     repoOwner: 'qinwf',
-    category: ['interview', 'course'],
+    category: ['language', 'podcast'],
   },
   {
     id: 110,
@@ -1165,7 +1165,7 @@ export const resources = [
       'A curated list of amazingly awesome PHP libraries, resources and shiny things.',
     repoOwnerName: 'ziadoz',
     repoOwner: 'Jamie York',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'podcast', 'language'],
   },
   {
     id: 111,
@@ -1176,7 +1176,7 @@ export const resources = [
       'A curated list of awesome Kotlin related stuff Inspired by awesome-java.',
     repoOwnerName: 'KotlinBy',
     repoOwner: 'Kotlin Community',
-    category: ['interview', 'course'],
+    category: ['mob-dev', 'language'],
   },
   {
     id: 112,
@@ -1198,7 +1198,7 @@ export const resources = [
       'This is a guide intended to introduce to Web Components. Everyone can contribute here!',
     repoOwnerName: 'mateusortiz',
     repoOwner: 'Mateus Ortiz',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 114,
@@ -1208,7 +1208,7 @@ export const resources = [
     description: 'A collection of awesome Polymer resources.',
     repoOwnerName: 'Granze',
     repoOwner: 'Maurizio Mangione',
-    category: ['interview', 'course'],
+    category: ['project'],
   },
   {
     id: 115,
@@ -1218,7 +1218,7 @@ export const resources = [
     description: 'A list of resources for backbone.js',
     repoOwnerName: 'sadcitizen',
     repoOwner: 'Eugene Abrosimov',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'project', 'frontend'],
   },
   {
     id: 116,
@@ -1228,7 +1228,7 @@ export const resources = [
     description: ' A curated list of awesome HTML5 resources',
     repoOwnerName: 'diegocard',
     repoOwner: 'Diego Cardozo',
-    category: ['interview', 'course'],
+    category: ['frontend', 'web-dev'],
   },
   {
     id: 117,
@@ -1238,7 +1238,7 @@ export const resources = [
     description: 'Collection of web design & dev links',
     repoOwnerName: 'noahbuscher',
     repoOwner: 'Noah Buscher',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'mob-dev'],
   },
   {
     id: 118,
@@ -1248,7 +1248,7 @@ export const resources = [
     description: 'A curated list of awesome Android UI/UX libraries',
     repoOwnerName: 'wasabeef',
     repoOwner: 'Daichi Furiya',
-    category: ['interview', 'course'],
+    category: ['frontend', 'mob-dev'],
   },
   {
     id: 119,
@@ -1259,7 +1259,7 @@ export const resources = [
       'A curated list of awesome Ember.js stuff like addons, articles, videos, gists and more.',
     repoOwnerName: 'ember-community-russia',
     repoOwner: 'ember-community-russia',
-    category: ['interview', 'course'],
+    category: ['web-dev'],
   },
   {
     id: 120,
@@ -1269,7 +1269,7 @@ export const resources = [
     description: 'A curated list of awesome iOS UI/UX libraries',
     repoOwnerName: 'cjwirth',
     repoOwner: 'Caesar Wirth',
-    category: ['interview', 'course'],
+    category: ['mob-dev', 'frontend'],
   },
   {
     id: 121,
@@ -1280,7 +1280,7 @@ export const resources = [
       'A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things',
     repoOwnerName: 'Urigo',
     repoOwner: 'Uri Goldshtein',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'mob-dev'],
   },
   {
     id: 122,
@@ -1291,7 +1291,7 @@ export const resources = [
       'A curated list of CSS Flexible Box Layout Module or only Flexbox.',
     repoOwnerName: 'afonsopacifer',
     repoOwner: 'Afonso Pacifer',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 123,
@@ -1300,7 +1300,7 @@ export const resources = [
     description: 'A list of D3 libraries, plugins and utilities',
     repoOwnerName: 'webkid',
     repoOwner: 'webkid',
-    category: ['interview', 'course'],
+    category: ['frontend', 'web-dev'],
   },
   {
     id: 124,
@@ -1311,7 +1311,7 @@ export const resources = [
       'A curated list of awesome jQuery plugins, resources and other shiny things.',
     repoOwnerName: 'petk',
     repoOwner: 'Peter Kokot',
-    category: ['interview', 'course'],
+    category: ['web-dev'],
   },
   {
     id: 125,
@@ -1322,7 +1322,7 @@ export const resources = [
       'A collection of awesome resources for building progressive web apps',
     repoOwnerName: 'TalAter',
     repoOwner: 'Tal Ater',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'mob-dev'],
   },
   {
     id: 126,
@@ -1333,7 +1333,7 @@ export const resources = [
       'A curated list of awesome programming, development, technical support and discussion channels, groups, communities, resources and other shiny things',
     repoOwnerName: 'phpearth',
     repoOwner: 'phpearth',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'mob-dev', 'language', 'course'],
   },
   {
     id: 127,
@@ -1343,7 +1343,7 @@ export const resources = [
     description: 'A curated list of awesome WebAudio packages and resources.',
     repoOwnerName: 'notthetup',
     repoOwner: 'Chinmay Pendharkar',
-    category: ['interview', 'course'],
+    category: ['web-dev'],
   },
   {
     id: 128,
@@ -1353,7 +1353,7 @@ export const resources = [
     description: 'A curated list of awesome static websites services',
     repoOwnerName: 'agarrharr',
     repoOwner: 'Adam Garrett-Harris',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 129,
@@ -1363,7 +1363,7 @@ export const resources = [
     description: 'A curated list of command line apps',
     repoOwnerName: 'agarrharr',
     repoOwner: 'Adam Garrett-Harris',
-    category: ['interview', 'course'],
+    category: ['project'],
   },
   {
     id: 130,
@@ -1374,7 +1374,7 @@ export const resources = [
       'Resources for inspiration, lists of software, libraries and other stuff related to Motion UI design, animations and transitions.',
     repoOwnerName: 'fliptheweb',
     repoOwner: 'Artur Kornakov',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend', 'mob-dev'],
   },
   {
     id: 131,
@@ -1385,7 +1385,7 @@ export const resources = [
       'Collection of text editing resources and libraries for the web',
     repoOwnerName: 'dok',
     repoOwner: 'Sean',
-    category: ['interview', 'course'],
+    category: ['project', 'web-dev', 'frontend'],
   },
   {
     id: 132,
@@ -1395,7 +1395,7 @@ export const resources = [
     description: 'Awesome list of Draft.js resources',
     repoOwnerName: 'nikgraf',
     repoOwner: 'Nik Graf',
-    category: ['interview', 'course'],
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 133,
@@ -1406,6 +1406,6 @@ export const resources = [
       'A collection of awesome resources for learning Service Workers',
     repoOwnerName: 'TalAter',
     repoOwner: 'Tal Ater',
-    category: ['interview', 'course'],
+    category: ['web-dev'],
   },
 ];
