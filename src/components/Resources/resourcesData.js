@@ -1285,12 +1285,127 @@ export const resources = [
   {
     id: 122,
     link:
-      'https://raw.githubusercontent.com/Urigo/awesome-meteor/master/README.md',
-    repoName: 'awesome-meteor',
+      'https://raw.githubusercontent.com/afonsopacifer/awesome-flexbox/master/README.md',
+    repoName: 'awesome-flexbox',
     description:
-      'A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things',
-    repoOwnerName: 'Urigo',
-    repoOwner: 'Uri Goldshtein',
+      'A curated list of CSS Flexible Box Layout Module or only Flexbox.',
+    repoOwnerName: 'afonsopacifer',
+    repoOwner: 'Afonso Pacifer',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 123,
+    link: 'https://raw.githubusercontent.com/wbkd/awesome-d3/master/README.md',
+    repoName: 'awesome-d3',
+    description: 'A list of D3 libraries, plugins and utilities',
+    repoOwnerName: 'webkid',
+    repoOwner: 'webkid',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 124,
+    link:
+      'https://raw.githubusercontent.com/petk/awesome-jquery/master/README.md',
+    repoName: 'awesome-jquery',
+    description:
+      'A curated list of awesome jQuery plugins, resources and other shiny things.',
+    repoOwnerName: 'petk',
+    repoOwner: 'Peter Kokot',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 125,
+    link:
+      'https://raw.githubusercontent.com/TalAter/awesome-progressive-web-apps/master/README.md',
+    repoName: 'awesome-progressive-web-apps',
+    description:
+      'A collection of awesome resources for building progressive web apps',
+    repoOwnerName: 'TalAter',
+    repoOwner: 'Tal Ater',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 126,
+    link:
+      'https://raw.githubusercontent.com/phpearth/awesome-community/master/README.md',
+    repoName: 'awesome-community',
+    description:
+      'A curated list of awesome programming, development, technical support and discussion channels, groups, communities, resources and other shiny things',
+    repoOwnerName: 'phpearth',
+    repoOwner: 'phpearth',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 127,
+    link:
+      'https://raw.githubusercontent.com/notthetup/awesome-webaudio/master/readme.md',
+    repoName: 'awesome-webaudio',
+    description: 'A curated list of awesome WebAudio packages and resources.',
+    repoOwnerName: 'notthetup',
+    repoOwner: 'Chinmay Pendharkar',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 128,
+    link:
+      'https://raw.githubusercontent.com/agarrharr/awesome-static-website-services/master/readme.md',
+    repoName: 'awesome-static-website-services',
+    description: 'A curated list of awesome static websites services',
+    repoOwnerName: 'agarrharr',
+    repoOwner: 'Adam Garrett-Harris',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 129,
+    link:
+      'https://raw.githubusercontent.com/agarrharr/awesome-cli-apps/master/readme.md',
+    repoName: 'awesome-cli-apps',
+    description: 'A curated list of command line apps',
+    repoOwnerName: 'agarrharr',
+    repoOwner: 'Adam Garrett-Harris',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 130,
+    link:
+      'https://raw.githubusercontent.com/fliptheweb/motion-ui-design/master/README.md',
+    repoName: 'motion-ui-design',
+    description:
+      'Resources for inspiration, lists of software, libraries and other stuff related to Motion UI design, animations and transitions.',
+    repoOwnerName: 'fliptheweb',
+    repoOwner: 'Artur Kornakov',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 131,
+    link:
+      'https://raw.githubusercontent.com/dok/awesome-text-editing/master/README.md',
+    repoName: 'awesome-text-editing',
+    description:
+      'Collection of text editing resources and libraries for the web',
+    repoOwnerName: 'dok',
+    repoOwner: 'Sean',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 132,
+    link:
+      'https://raw.githubusercontent.com/nikgraf/awesome-draft-js/master/README.md',
+    repoName: 'awesome-draft-js',
+    description: 'Awesome list of Draft.js resources',
+    repoOwnerName: 'nikgraf',
+    repoOwner: 'Nik Graf',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 133,
+    link:
+      'https://raw.githubusercontent.com/TalAter/awesome-service-workers/master/README.md',
+    repoName: 'awesome-service-workers',
+    description:
+      'A collection of awesome resources for learning Service Workers',
+    repoOwnerName: 'TalAter',
+    repoOwner: 'Tal Ater',
     category: ['interview', 'course'],
   },
 ];
