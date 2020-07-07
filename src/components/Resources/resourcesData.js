@@ -1135,4 +1135,58 @@ export const resources = [
     repoOwner: 'Romuald Brillout',
     category: ['interview', 'course'],
   },
+  {
+    id: 108,
+    link:
+      'https://raw.githubusercontent.com/markets/awesome-ruby/master/README.md',
+    repoName: 'awesome-ruby',
+    description:
+      'A collection of awesome Ruby libraries, tools, frameworks and software',
+    repoOwnerName: 'markets',
+    repoOwner: 'Marc Anguera Insa',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 109,
+    link: 'https://raw.githubusercontent.com/qinwf/awesome-R/master/README.md',
+    repoName: 'awesome-R',
+    description:
+      'A curated list of awesome R packages, frameworks and software.',
+    repoOwnerName: 'qinwf',
+    repoOwner: 'qinwf',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 110,
+    link:
+      'https://raw.githubusercontent.com/ziadoz/awesome-php/master/README.md',
+    repoName: 'awesome-php',
+    description:
+      'A curated list of amazingly awesome PHP libraries, resources and shiny things.',
+    repoOwnerName: 'ziadoz',
+    repoOwner: 'Jamie York',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 111,
+    link:
+      'https://raw.githubusercontent.com/KotlinBy/awesome-kotlin/readme/README.md',
+    repoName: 'awesome-kotlin',
+    description:
+      'A curated list of awesome Kotlin related stuff Inspired by awesome-java.',
+    repoOwnerName: 'KotlinBy',
+    repoOwner: 'Kotlin Community',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 112,
+    link:
+      'https://raw.githubusercontent.com/davidsonfellipe/awesome-wpo/master/README.md',
+    repoName: 'awesome-wpo',
+    description:
+      'A curated list of Web Performance Optimization. Everyone can contribute here!',
+    repoOwnerName: 'davidsonfellipe',
+    repoOwner: 'Davidson Fellipe',
+    category: ['interview', 'course'],
+  },
 ];
