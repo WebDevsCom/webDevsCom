@@ -1189,4 +1189,45 @@ export const resources = [
     repoOwner: 'Davidson Fellipe',
     category: ['interview', 'course'],
   },
+  {
+    id: 113,
+    link:
+      'https://raw.githubusercontent.com/mateusortiz/webcomponents-the-right-way/master/README.md',
+    repoName: 'webcomponents-the-right-way',
+    description:
+      'This is a guide intended to introduce to Web Components. Everyone can contribute here!',
+    repoOwnerName: 'mateusortiz',
+    repoOwner: 'Mateus Ortiz',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 114,
+    link:
+      'https://raw.githubusercontent.com/Granze/awesome-polymer/master/README.md',
+    repoName: 'awesome-polymer',
+    description: 'A collection of awesome Polymer resources.',
+    repoOwnerName: 'Granze',
+    repoOwner: 'Maurizio Mangione',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 115,
+    link:
+      'https://raw.githubusercontent.com/sadcitizen/awesome-backbone/master/README.md',
+    repoName: 'awesome-backbone',
+    description: 'A list of resources for backbone.js',
+    repoOwnerName: 'sadcitizen',
+    repoOwner: 'Eugene Abrosimov',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 116,
+    link:
+      'https://raw.githubusercontent.com/diegocard/awesome-html5/master/README.md',
+    repoName: 'awesome-html5',
+    description: ' A curated list of awesome HTML5 resources',
+    repoOwnerName: 'diegocard',
+    repoOwner: 'Diego Cardozo',
+    category: ['interview', 'course'],
+  },
 ];
