@@ -1117,12 +1117,22 @@ export const resources = [
   {
     id: 106,
     link:
-      'https://raw.githubusercontent.com/miguelmota/awesome-amazon-alexa/master/README.md',
+      'https://raw.githubusercontent.com/JesseTG/awesome-qt/master/README.md',
     repoName: 'awesome-qt',
     description:
-      'Curated list of awesome resources for the Amazon Alexa platform.',
-    repoOwnerName: 'miguelmota',
-    repoOwner: 'Miguel Mota',
+      'A curated list of awesome tools, libraries, and resources for the Qt framework.',
+    repoOwnerName: 'JesseTG',
+    repoOwner: 'Jesse Talavera-Greenberg',
+    category: ['interview', 'course'],
+  },
+  {
+    id: 107,
+    link:
+      'https://raw.githubusercontent.com/brillout/awesome-react-components/master/README.md',
+    repoName: 'awesome-react-components',
+    description: 'Curated List of React Components & Libraries.',
+    repoOwnerName: 'brillout',
+    repoOwner: 'Romuald Brillout',
     category: ['interview', 'course'],
   },
 ];
