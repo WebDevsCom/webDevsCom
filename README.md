@@ -1,6 +1,6 @@
 # WEBDEVSCOM
 
-> Community to help web developers by providing them helpful resources and giving experience of open source contribution. 
+> Community to help developers by providing them all kinds of free resources at one place. 
 
 [![Author](https://img.shields.io/badge/Author-Binu42-brightgreen.svg)](http://binu42.netlify.com/)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
