@@ -721,7 +721,7 @@ export const resources = [
   {
     id: 69,
     link:
-      'https://raw.githubusercontent.com/sindresorhus/awesome/master/readme.md',
+      'https://raw.githubusercontent.com/sindresorhus/awesome/main/readme.md',
     repoName: 'awesome',
     description: 'Awesome lists about all kinds of interesting topics',
     repoOwnerName: 'sindresorhus',
