@@ -3,13 +3,11 @@ import Navbar from './components/Navbar';
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Footer from './components/Footer';
+import ResourceREADME from './components/Resources/ResourceREADME';
 import ScrollToTopBtn from './components/ScrollToTopBtn';
 import Spinner from './components/Spinner';
 
 const Home = lazy(() => import('./components/Home/Home'));
-const ResourceREADME = lazy(() =>
-  import('./components/Resources/ResourceREADME')
-);
 const Resources = lazy(() => import('./components/Resources/Resources'));
 
 function App() {
