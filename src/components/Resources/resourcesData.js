@@ -1408,4 +1408,36 @@ export const resources = [
     repoOwner: 'Tal Ater',
     category: ['web-dev'],
   },
+  {  
+    id: 134,
+    link:
+      'https://raw.githubusercontent.com/quobit/awesome-python-in-education/master/README.md',
+    repoName: 'awesome-python-in-education',
+    description:
+      'A curated list of resources about Python in Education',
+    repoOwnerName: 'quobit',
+    repoOwner: 'José Carlos García',
+    category: ['language'],
+  },
+  {
+    id: 135,
+    link:
+      'https://raw.githubusercontent.com/aloisdg/awesome-regex/master/README.md',
+    repoName: 'awesome-regex',
+    description:
+      'A curated collection of awesome Regex libraries, tools, frameworks and software',
+    repoOwnerName: 'aloisdg',
+    repoOwner: 'Aloïs de Gouvello',
+    category: ['language'],
+  },
+    {
+    id: 136,
+    link:
+      'https://raw.githubusercontent.com/sw-yx/spark-joy/master/README.md',
+    description:
+      'Design tools and tips for developers in a hurry',
+    repoOwnerName: 'sw-yx',
+    repoOwner: 'Shawn Swyx Wang',
+    category: ['frontend', 'web-dev', 'mob-dev'],
+  },
 ];
