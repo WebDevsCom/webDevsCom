@@ -220,7 +220,7 @@ ul ol {
 
 #repo-owner-info {
   position: fixed;
-  bottom: 80px;
+  bottom: 100px;
   left: 30px;
   z-index: 5;
   background-color: #c9cff8 !important;
