@@ -199,7 +199,7 @@ ul ol {
 #topBtn {
   display: none;
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 30px;
   z-index: 5;
   background-color: #c9cff8 !important;
@@ -212,7 +212,7 @@ ul ol {
 
 #bookmarkBtn {
   position: fixed;
-  bottom: 50px;
+  bottom: 24px;
   left: 30px;
   z-index: 5;
   background-color: #c9cff8 !important;
@@ -220,7 +220,7 @@ ul ol {
 
 #repo-owner-info {
   position: fixed;
-  bottom: 100px;
+  bottom: 80px;
   left: 30px;
   z-index: 5;
   background-color: #c9cff8 !important;
@@ -380,7 +380,7 @@ code {
   }
 
   #repo-owner-info {
-    bottom: 50px;
+    bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
   }
