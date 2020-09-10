@@ -1,10 +1,11 @@
 import React from 'react';
 import HeroSec from './HeroSec';
 import Features from './Features';
+import Page from '../Utils/Page';
 
 const Home = () => {
   return (
-    <div>
+    <Page title="Explore">
       <HeroSec />
       <Features />
       <section className='hero space is-medium'>
@@ -19,7 +20,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>
+    </Page>
   );
 };
 

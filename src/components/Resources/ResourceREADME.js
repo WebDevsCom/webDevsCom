@@ -8,6 +8,7 @@ import CodeBlock from './code-blocks';
 import ReadmeUtilsBtn from './ReadmeUtilsBtn';
 import { slug } from 'github-slugger';
 import PdfContainer from './PdfContainer';
+import Page from '../Utils/Page';
 
 const ResourceREADME = (props) => {
   const [markdown, setMarkdown] = useState('');
@@ -68,7 +69,7 @@ const ResourceREADME = (props) => {
           images[i].setAttribute(
             'src',
             `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
-              repoInfo.repoName
+            repoInfo.repoName
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -87,7 +88,7 @@ const ResourceREADME = (props) => {
           el[i].setAttribute(
             'href',
             `https://github.com/${repoInfo.repoOwnerName}/${
-              repoInfo.repoName
+            repoInfo.repoName
             }/blob/master${el[i].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -148,48 +149,50 @@ const ResourceREADME = (props) => {
   if (loading) return <Spinner />;
 
   return (
-    <div className='container' id='markdown'>
-      <div id='table-of-contents'></div>
-      <ReadmeUtilsBtn
-        isBookMarked={isBookMarked}
-        removeBookmark={removeBookmark}
-        bookmarkIt={bookmarkIt}
-        setModal={setModalOpen}
-      />
-      <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
-        <div id='markdown-content'>
-          <div
-            className='has-text-centered fadeInUp'
-            style={{ padding: '10px 0 20px', animationDelay: '.5s' }}
-          >
-            <a
-              href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
-              className='button button-special box-shadow-lift is-medium is-rounded'
-              target='_blank'
-              rel='noopener noreferrer'
-              id='view-on-github'
-            >
-              <GitHub /> <span> &emsp;View on Github</span>
-            </a>
-          </div>
-          <div>
-            <ReactMarkdown
-              source={markdown}
-              escapeHtml={false}
-              renderers={{ code: CodeBlock }}
-            />
-          </div>
-        </div>
-      </PdfContainer>
-
-      {isModalOpen && (
-        <Modal
-          authorRepos={authorRepos}
+    <Page title={repoInfo.repoName}>
+      <div className='container' id='markdown'>
+        <div id='table-of-contents'></div>
+        <ReadmeUtilsBtn
+          isBookMarked={isBookMarked}
+          removeBookmark={removeBookmark}
+          bookmarkIt={bookmarkIt}
           setModal={setModalOpen}
-          currentRepoId={repoInfo.id}
         />
-      )}
-    </div>
+        <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
+          <div id='markdown-content'>
+            <div
+              className='has-text-centered fadeInUp'
+              style={{ padding: '10px 0 20px', animationDelay: '.5s' }}
+            >
+              <a
+                href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
+                className='button button-special box-shadow-lift is-medium is-rounded'
+                target='_blank'
+                rel='noopener noreferrer'
+                id='view-on-github'
+              >
+                <GitHub /> <span> &emsp;View on Github</span>
+              </a>
+            </div>
+            <div>
+              <ReactMarkdown
+                source={markdown}
+                escapeHtml={false}
+                renderers={{ code: CodeBlock }}
+              />
+            </div>
+          </div>
+        </PdfContainer>
+
+        {isModalOpen && (
+          <Modal
+            authorRepos={authorRepos}
+            setModal={setModalOpen}
+            currentRepoId={repoInfo.id}
+          />
+        )}
+      </div>
+    </Page>
   );
 };
 

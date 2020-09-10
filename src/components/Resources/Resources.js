@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, XCircle, Eye, EyeOff } from 'react-feather';
 import { resources } from './resourcesData';
 import ResourceCards from './ResourceCards';
+import Page from '../Utils/Page';
 
 const Resources = ({
   searchInput,
@@ -12,6 +13,7 @@ const Resources = ({
   const [placeholder, setPlaceholder] = useState('');
   const [showSuggestion, setShowSuggestion] = useState(false);
   const [filteredRes, setFilteredRes] = useState([]);
+  const [pageTitle, setPageTitle] = useState("Resources");
   const suggestions = [
     'brad traversy',
     'css',
@@ -95,6 +97,7 @@ const Resources = ({
   useEffect(() => {
     var filteredResources = [];
     if (window.location.pathname === '/resources') {
+      setPageTitle(`${category}${searchInput} Resources`);
       if (category !== '' && searchInput === '') {
         resources.forEach((resource) => {
           resource.category.forEach((cat) => {
@@ -123,6 +126,7 @@ const Resources = ({
           );
       }
     } else if (window.location.pathname === '/bookmarked') {
+      setPageTitle(`${category}${searchInput} Bookmarked Resources`);
       const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
       filteredResources =
         bookmarks &&
@@ -180,83 +184,85 @@ const Resources = ({
   }, []);
 
   return (
-    <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
-      <div
-        className='field has-addons has-addons-centered fadeInUp'
-        style={{ animationDelay: '.25s' }}
-      >
-        <p className='control has-icons-left box-shadow-lift'>
-          <input
-            className='input'
-            type='text'
-            onChange={(e) => handleInputChange(e.target.value)}
-            placeholder={'Search for ' + placeholder}
-            value={searchInput}
-          />
-          <span className='icon is-small is-left'>
-            <Search color='#00d1b2' />
-          </span>
-        </p>
-        <div className='control' id='clear'>
-          <div
-            className='button is-primary'
-            disabled={searchInput.trim() === '' ? true : false}
-            style={{ backgroundColor: '#00d1b2' }}
-          >
-            <span className='icon is-small'>
-              <XCircle />
+    <Page title={pageTitle}>
+      <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
+        <div
+          className='field has-addons has-addons-centered fadeInUp'
+          style={{ animationDelay: '.25s' }}
+        >
+          <p className='control has-icons-left box-shadow-lift'>
+            <input
+              className='input'
+              type='text'
+              onChange={(e) => handleInputChange(e.target.value)}
+              placeholder={'Search for ' + placeholder}
+              value={searchInput}
+            />
+            <span className='icon is-small is-left'>
+              <Search color='#00d1b2' />
             </span>
+          </p>
+          <div className='control' id='clear'>
+            <div
+              className='button is-primary'
+              disabled={searchInput.trim() === '' ? true : false}
+              style={{ backgroundColor: '#00d1b2' }}
+            >
+              <span className='icon is-small'>
+                <XCircle />
+              </span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div
-        className='has-text-centered is-hidden-tablet fadeInUp'
-        style={{ animationDelay: '.5s' }}
-      >
-        <button
-          onClick={() => setShowSuggestion((prev) => !prev)}
-          className='button'
+        <div
+          className='has-text-centered is-hidden-tablet fadeInUp'
+          style={{ animationDelay: '.5s' }}
         >
-          <span className='icon is-small'>
-            {showSuggestion ? <EyeOff /> : <Eye />}
-          </span>
+          <button
+            onClick={() => setShowSuggestion((prev) => !prev)}
+            className='button'
+          >
+            <span className='icon is-small'>
+              {showSuggestion ? <EyeOff /> : <Eye />}
+            </span>
           &emsp;{!showSuggestion ? 'View Suggestions' : 'Close Suggestions'}
-        </button>
-      </div>
+          </button>
+        </div>
 
-      {window.innerWidth < 767 ? (
-        showSuggestion ? (
-          <Suggestion
-            {...{
-              category,
-              categories,
-              filters,
-              handleChangeInCategory,
-              handleInputChange,
-            }}
-          />
+        {window.innerWidth < 767 ? (
+          showSuggestion ? (
+            <Suggestion
+              {...{
+                category,
+                categories,
+                filters,
+                handleChangeInCategory,
+                handleInputChange,
+              }}
+            />
+          ) : (
+              ''
+            )
         ) : (
-          ''
-        )
-      ) : (
-        <Suggestion
-          {...{
-            category,
-            categories,
-            filters,
-            handleChangeInCategory,
-            handleInputChange,
-          }}
+            <Suggestion
+              {...{
+                category,
+                categories,
+                filters,
+                handleChangeInCategory,
+                handleInputChange,
+              }}
+            />
+          )}
+        <ResourceCards
+          searchInput={searchInput}
+          filteredResources={filteredRes}
+          category={category}
+          handleChangeInCategory={handleChangeInCategory}
         />
-      )}
-      <ResourceCards
-        searchInput={searchInput}
-        filteredResources={filteredRes}
-        category={category}
-        handleChangeInCategory={handleChangeInCategory}
-      />
-    </div>
+      </div>
+    </Page>
   );
 };
 
@@ -304,7 +310,7 @@ const Suggestion = ({
             key={i}
             className={
               (category === '' && cat === 'All') ||
-              cat.toLowerCase() === category
+                cat.toLowerCase() === category
                 ? 'tag is-white active-tag'
                 : 'tag is-white'
             }
