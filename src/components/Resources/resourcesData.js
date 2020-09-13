@@ -1438,4 +1438,31 @@ export const resources = [
     repoOwner: 'Shawn Swyx Wang',
     category: ['frontend', 'web-dev', 'mob-dev'],
   },
+  {
+    id: 137,
+    link: 'https://raw.githubusercontent.com/mitalipalekar/tech-internship-resources/master/README.md',
+    repoName: 'tech-internship-resources ',
+    description: 'This is a list of resources that I have compiled through my own software engineering internship search.',
+    repoOwnerName: 'mitalipalekar',
+    repoOwner: 'Mitali Palekar',
+    category: ['interview']
+  },
+  {
+    id: 138,
+    link: 'https://raw.githubusercontent.com/codebytere/so-you-want-an-internship/master/README.md',
+    repoName: 'so-you-want-an-internship',
+    description: 'for those seeking software engineering internships ',
+    repoOwnerName: 'codebytere',
+    repoOwner: 'Shelley Vohr',
+    category: ['interview']
+  },
+  {
+    id: 139,
+    link: 'https://raw.githubusercontent.com/vicky002/TheUltimateInternshipGuide/master/README.md',
+    repoName: 'TheUltimateInternshipGuide ',
+    description: 'Best guide for internship. ',
+    repoOwnerName: 'vicky002',
+    repoOwner: 'Vikesh Tiwari',
+    category:['interview']
+  }
 ];
