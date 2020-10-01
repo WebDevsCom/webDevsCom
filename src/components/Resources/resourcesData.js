@@ -1459,10 +1459,37 @@ export const resources = [
   {
     id: 139,
     link: 'https://raw.githubusercontent.com/vicky002/TheUltimateInternshipGuide/master/README.md',
-    repoName: 'TheUltimateInternshipGuide ',
+    repoName: 'TheUltimateInternshipGuide',
     description: 'Best guide for internship. ',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
-    category:['interview']
-  }
+    category: ['interview']
+  },
+  {
+    id: 140,
+    link: 'https://raw.githubusercontent.com/vicky002/1000_Projects/master/README.md',
+    repoName: '1000_Projects',
+    description: ' Mega List of practical projects that one can solve in any programming language!',
+    repoOwnerName: 'vicky002',
+    repoOwner: 'Vikesh Tiwari',
+    category: ['project']
+  },
+  {
+    id: 141,
+    link: 'https://raw.githubusercontent.com/mikesprague/udacity-nanodegrees/master/README.md',
+    repoName: 'udacity-nanodegrees',
+    description: 'List of Udacity Nanodegree programs with links to the free courses in their curricula',
+    repoOwnerName: 'mikesprague',
+    repoOwner: 'Michael Sprague',
+    category: ['project', 'course']
+  },
+  {
+    id: 142,
+    link: 'https://raw.githubusercontent.com/karan/Projects/master/README.md',
+    repoName: 'Projects',
+    description: 'A list of practical projects that anyone can solve in any programming language.',
+    repoOwnerName: 'karan',
+    repoOwner: 'Karan Goel',
+    category: ['project']
+  },
 ];
