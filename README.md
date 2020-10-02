@@ -87,7 +87,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.binu.live"><img src="https://avatars2.githubusercontent.com/u/45959932?v=4" width="100px;" alt=""/><br /><sub><b>Binu kumar</b></sub></a><br /><a href="#infra-Binu42" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/WebDevsCom/webDevsCom/commits?author=Binu42" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.binu.live"><img src="https://avatars2.githubusercontent.com/u/45959932?v=4" width="100px;" alt=""/><br /><sub><b>Binu kumar</b></sub></a><br /><a href="#infra-Binu42" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/WebDevsCom/webDevsCom/commits?author=Binu42" title="Code">💻</a> <a href="https://github.com/WebDevsCom/webDevsCom/commits?author=Binu42" title="Tests">⚠️</a> <a href="#maintenance-Binu42" title="Maintenance">🚧</a> <a href="#ideas-Binu42" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
