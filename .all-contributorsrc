@@ -12,7 +12,10 @@
       "profile": "http://www.binu.live",
       "contributions": [
         "infra",
-        "code"
+        "code",
+        "test",
+        "maintenance",
+        "ideas"
       ]
     }
   ],
