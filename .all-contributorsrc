@@ -35,6 +35,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jackdolgin",
+      "name": "Jack Dolgin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29798528?v=4",
+      "profile": "http://jackdolgin.org",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
