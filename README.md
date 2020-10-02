@@ -1,6 +1,6 @@
 # WEBDEVSCOM
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > Community to help developers by providing them all kinds of free resources at one place. 
@@ -88,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://www.binu.live"><img src="https://avatars2.githubusercontent.com/u/45959932?v=4" width="100px;" alt=""/><br /><sub><b>Binu kumar</b></sub></a><br /><a href="#infra-Binu42" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/WebDevsCom/webDevsCom/commits?author=Binu42" title="Code">💻</a> <a href="https://github.com/WebDevsCom/webDevsCom/commits?author=Binu42" title="Tests">⚠️</a> <a href="#maintenance-Binu42" title="Maintenance">🚧</a> <a href="#ideas-Binu42" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://jaydeepkhatri.me/"><img src="https://avatars0.githubusercontent.com/u/29619945?v=4" width="100px;" alt=""/><br /><sub><b>Jaydeep Khatri</b></sub></a><br /><a href="#content-jaydeepkhatri" title="Content">🖋</a></td>
   </tr>
 </table>
 

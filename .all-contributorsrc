@@ -17,6 +17,15 @@
         "maintenance",
         "ideas"
       ]
+    },
+    {
+      "login": "jaydeepkhatri",
+      "name": "Jaydeep Khatri",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29619945?v=4",
+      "profile": "https://jaydeepkhatri.me/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
