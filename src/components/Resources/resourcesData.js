@@ -1451,7 +1451,7 @@ export const resources = [
     id: 138,
     link: 'https://raw.githubusercontent.com/codebytere/so-you-want-an-internship/master/README.md',
     repoName: 'so-you-want-an-internship',
-    description: 'for those seeking software engineering internships ',
+    description: 'for those seeking software engineering internships',
     repoOwnerName: 'codebytere',
     repoOwner: 'Shelley Vohr',
     category: ['interview']
@@ -1460,7 +1460,7 @@ export const resources = [
     id: 139,
     link: 'https://raw.githubusercontent.com/vicky002/TheUltimateInternshipGuide/master/README.md',
     repoName: 'TheUltimateInternshipGuide',
-    description: 'Best guide for internship. ',
+    description: 'Best guide for internship.',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
     category: ['interview']
@@ -1492,4 +1492,31 @@ export const resources = [
     repoOwner: 'Karan Goel',
     category: ['project']
   },
+  {
+    id: 143,
+    link: 'https://raw.githubusercontent.com/NirantK/awesome-project-ideas/master/README.md',
+    repoName: 'awesome-project-ideas',
+    description: 'Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas',
+    repoOwnerName: 'NirantK',
+    repoOwner: 'Nirant',
+    category: ['project']
+  },
+  {
+    id: 144,
+    link: 'https://raw.githubusercontent.com/ossu/data-science/master/README.md',
+    repoName: 'data-science',
+    description: '📊 Path to a free self-taught education in Data Science!',
+    repoOwnerName: 'ossu',
+    repoOwner: 'Open Source Society University',
+    category: ['course', 'project']
+  },
+  {
+    id: 145,
+    link: 'https://raw.githubusercontent.com/satwikkansal/wtfpython/master/README.md',
+    repoName: 'wtfpython',
+    description: 'What the f*ck Python?',
+    repoOwnerName: 'satwikkansal',
+    repoOwner: 'Satwik Kansal',
+    category: ['project', 'course']
+  }
 ];
