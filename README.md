@@ -91,6 +91,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jaydeepkhatri.me/"><img src="https://avatars0.githubusercontent.com/u/29619945?v=4" width="100px;" alt=""/><br /><sub><b>Jaydeep Khatri</b></sub></a><br /><a href="#content-jaydeepkhatri" title="Content">🖋</a></td>
     <td align="center"><a href="https://themesberg.com"><img src="https://avatars1.githubusercontent.com/u/8052108?v=4" width="100px;" alt=""/><br /><sub><b>Zoltán Szőgyényi</b></sub></a><br /><a href="#content-zoltanszogyenyi" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/hdquemada"><img src="https://avatars3.githubusercontent.com/u/44162051?v=4" width="100px;" alt=""/><br /><sub><b>Hector Quemada</b></sub></a><br /><a href="#content-hdquemada" title="Content">🖋</a></td>
+    <td align="center"><a href="http://jackdolgin.org"><img src="https://avatars0.githubusercontent.com/u/29798528?v=4" width="100px;" alt=""/><br /><sub><b>Jack Dolgin</b></sub></a><br /><a href="#content-jackdolgin" title="Content">🖋</a></td>
   </tr>
 </table>
 
