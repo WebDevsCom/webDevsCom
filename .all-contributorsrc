@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Binu42",
+      "name": "Binu kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/45959932?v=4",
+      "profile": "http://www.binu.live",
+      "contributions": [
+        "infra",
+        "code",
+        "test",
+        "maintenance",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "webDevsCom",
+  "projectOwner": "WebDevsCom",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
