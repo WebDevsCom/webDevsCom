@@ -1518,5 +1518,32 @@ export const resources = [
     repoOwnerName: 'satwikkansal',
     repoOwner: 'Satwik Kansal',
     category: ['project', 'course']
+  },
+  {
+    id: 146,
+    link: 'https://raw.githubusercontent.com/getify/You-Dont-Know-JS/2nd-ed/README.md',
+    repoName: 'You-Dont-Know-JS',
+    description: 'A series of books diving deep into the core mechanisms of the JavaScript language.',
+    repoOwnerName: 'getify',
+    repoOwner: 'Kyle Simpson',
+    category: ['web-dev', 'frontend']
+  },
+  {
+    id: 147,
+    link: 'https://raw.githubusercontent.com/open-wc/open-wc/master/README.md',
+    repoName: 'open-wc',
+    description: 'Open Web Components: guides, tools and libraries for modern web development and web components',
+    repoOwnerName: 'open-wc',
+    repoOwner: 'open-wc',
+    category: ['web-dev', 'frontend', 'project']
+  },
+  {
+    id: 148,
+    link: 'https://raw.githubusercontent.com/tabler/tabler-icons/master/README.md',
+    repoName: 'tabler-icons',
+    description: 'A set of over 850 free MIT-licensed high-quality SVG icons for you to use in your web projects.',
+    repoOwnerName: 'tabler',
+    repoOwner: 'tabler',
+    category: ['web-dev', 'frontend', 'project']
   }
 ];
