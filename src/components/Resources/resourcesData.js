@@ -1545,5 +1545,32 @@ export const resources = [
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
     category: ['project', 'course', 'backend','web-dev']
+  },
+  {
+    id: 149,
+    link: 'https://raw.githubusercontent.com/bmorelli25/Become-A-Full-Stack-Web-Developer/master/README.md',
+    repoName: 'Become-A-Full-Stack-Web-Developer',
+    description: 'Free resources for learning Full Stack Web Development.',
+    repoOwnerName: 'bmorelli25',
+    repoOwner: 'Brandon Morelli',
+    category: ['project', 'course', 'backend','web-dev']
+  },
+  {
+    id: 150,
+    link: 'https://raw.githubusercontent.com/brillout/awesome-redux/master/readme.md',
+    repoName: 'awesome-redux',
+    description: 'Catalog of Redux Libraries & Learning Material.',
+    repoOwnerName: 'brillout',
+    repoOwner: 'Romuald Brillout',
+    category: ['project', 'course', 'backend','web-dev']
+  },
+  {
+    id: 151,
+    link: 'https://raw.githubusercontent.com/webpack-contrib/awesome-webpack/master/README.md',
+    repoName: 'awesome-webpack',
+    description: 'A curated list of awesome Webpack resources, libraries and tools',
+    repoOwnerName: 'webpack-contrib',
+    repoOwner: 'webpack-contrib',
+    category: ['project', 'course', 'backend','web-dev']
   }
 ];
