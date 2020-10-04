@@ -1518,5 +1518,32 @@ export const resources = [
     repoOwnerName: 'satwikkansal',
     repoOwner: 'Satwik Kansal',
     category: ['project', 'course']
+  },
+  {
+    id: 146,
+    link: 'https://raw.githubusercontent.com/hoya012/deep_learning_object_detection/master/README.md',
+    repoName: 'deep_learning_object_detection',
+    description: 'A paper list of object detection using deep learning.',
+    repoOwnerName: 'hoya012',
+    repoOwner: 'Hoseong Lee',
+    category: ['project', 'course']
+  },
+  {
+    id: 147,
+    link: 'https://raw.githubusercontent.com/jtoy/awesome-tensorflow/master/README.md',
+    repoName: 'awesome-tensorflow',
+    description: 'TensorFlow - A curated list of dedicated resources http://tensorflow.org',
+    repoOwnerName: 'jtoy',
+    repoOwner: 'jtoy',
+    category: ['project', 'course', 'backend']
+  },
+  {
+    id: 148,
+    link: 'https://raw.githubusercontent.com/enochtangg/quick-SQL-cheatsheet/master/README.md',
+    repoName: 'quick-SQL-cheatsheet',
+    description: 'A quick reminder of all SQL queries and examples on how to use them.',
+    repoOwnerName: 'enochtangg',
+    repoOwner: 'Enoch Tang',
+    category: ['project', 'course', 'backend','web-dev']
   }
 ];
