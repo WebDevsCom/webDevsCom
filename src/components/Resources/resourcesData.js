@@ -1544,7 +1544,7 @@ export const resources = [
     description: 'A quick reminder of all SQL queries and examples on how to use them.',
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 149,
@@ -1553,7 +1553,7 @@ export const resources = [
     description: 'Free resources for learning Full Stack Web Development.',
     repoOwnerName: 'bmorelli25',
     repoOwner: 'Brandon Morelli',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 150,
@@ -1562,7 +1562,7 @@ export const resources = [
     description: 'Catalog of Redux Libraries & Learning Material.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 151,
@@ -1571,7 +1571,7 @@ export const resources = [
     description: 'A curated list of awesome Webpack resources, libraries and tools',
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 152,
@@ -1580,7 +1580,7 @@ export const resources = [
     description: 'A curated list of awesome Browserify resources, libraries, and tools.',
     repoOwnerName: 'browserify',
     repoOwner: 'browserify',
-    category: ['project','backend','frontend']
+    category: ['project', 'backend', 'frontend']
   },
   {
     id: 153,
@@ -1589,15 +1589,15 @@ export const resources = [
     description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
     repoOwnerName: 'Famolus',
     repoOwner: 'Famolus',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 154,
     link: 'https://raw.githubusercontent.com/websemantics/awesome-ant-design/master/README.md',
     repoName: 'awesome-ant-design',
     description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
-    repoOwnerName: 'Adnan M.Sagar, PhD',
-    repoOwner: 'websemantics',
-    category: ['project','frontend']
+    repoOwnerName: 'websemantics',
+    repoOwner: 'Adnan M.Sagar, PhD',
+    category: ['project', 'frontend']
   }
 ];
