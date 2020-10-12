@@ -1544,7 +1544,7 @@ export const resources = [
     description: 'A quick reminder of all SQL queries and examples on how to use them.',
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 149,
@@ -1553,7 +1553,7 @@ export const resources = [
     description: 'Free resources for learning Full Stack Web Development.',
     repoOwnerName: 'bmorelli25',
     repoOwner: 'Brandon Morelli',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 150,
@@ -1562,7 +1562,7 @@ export const resources = [
     description: 'Catalog of Redux Libraries & Learning Material.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 151,
@@ -1571,7 +1571,7 @@ export const resources = [
     description: 'A curated list of awesome Webpack resources, libraries and tools',
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 152,
@@ -1580,7 +1580,7 @@ export const resources = [
     description: 'A curated list of awesome Browserify resources, libraries, and tools.',
     repoOwnerName: 'browserify',
     repoOwner: 'browserify',
-    category: ['project','backend','frontend']
+    category: ['project', 'backend', 'frontend']
   },
   {
     id: 153,
@@ -1589,15 +1589,15 @@ export const resources = [
     description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
     repoOwnerName: 'Famolus',
     repoOwner: 'Famolus',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 154,
     link: 'https://raw.githubusercontent.com/websemantics/awesome-ant-design/master/README.md',
     repoName: 'awesome-ant-design',
     description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
-    repoOwnerName: 'Adnan M.Sagar, PhD',
-    repoOwner: 'websemantics',
+    repoOwnerName: 'websemantics',
+    repoOwner: 'Adnan M.Sagar, PhD',
     category: ['project','frontend']
   },
   {
@@ -1605,8 +1605,8 @@ export const resources = [
     link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
     repoName: 'awesome-less',
     description:'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
-    repoOwnerName: 'Lucas Bassetti',
-    repoOwner: 'LucasBassetti',
+    repoOwnerName: 'LucasBassetti',
+    repoOwner: 'Lucas Bassetti',
     category: ['project','frontend']
   },
   {
@@ -1614,8 +1614,8 @@ export const resources = [
     link: 'https://raw.githubusercontent.com/sjfricke/awesome-webgl/master/README.md',
     repoName: 'awesome-webgl',
     description:'This is a curated list of awesome WebGL libraries, resources and much more.',
-    repoOwnerName: 'Spencer',
-    repoOwner: 'sjfricke',
+    repoOwnerName: 'sjfricke',
+    repoOwner: 'Spencer',
     category: ['project','frontend']
   },
   {
@@ -1623,8 +1623,8 @@ export const resources = [
     link: 'https://raw.githubusercontent.com/unicodeveloper/awesome-nextjs/master/README.md',
     repoName: 'awesome-nextjs',
     description:'Curated list of resources: books, videos, articles about using Next.js.',
-    repoOwnerName: 'Prosper Otemuyiwa',
-    repoOwner: 'unicodeveloper',
+    repoOwnerName: 'unicodeveloper',
+    repoOwner: 'Prosper Otemuyiwa',
     category: ['project','frontend','backend']
   }
 
