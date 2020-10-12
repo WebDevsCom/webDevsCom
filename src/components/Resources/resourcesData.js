@@ -1598,6 +1598,34 @@ export const resources = [
     description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
     repoOwnerName: 'websemantics',
     repoOwner: 'Adnan M.Sagar, PhD',
-    category: ['project', 'frontend']
+    category: ['project','frontend']
+  },
+  {
+    id: 155,
+    link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
+    repoName: 'awesome-less',
+    description:'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
+    repoOwnerName: 'LucasBassetti',
+    repoOwner: 'Lucas Bassetti',
+    category: ['project','frontend']
+  },
+  {
+    id: 156,
+    link: 'https://raw.githubusercontent.com/sjfricke/awesome-webgl/master/README.md',
+    repoName: 'awesome-webgl',
+    description:'This is a curated list of awesome WebGL libraries, resources and much more.',
+    repoOwnerName: 'sjfricke',
+    repoOwner: 'Spencer',
+    category: ['project','frontend']
+  },
+  {
+    id: 157,
+    link: 'https://raw.githubusercontent.com/unicodeveloper/awesome-nextjs/master/README.md',
+    repoName: 'awesome-nextjs',
+    description:'Curated list of resources: books, videos, articles about using Next.js.',
+    repoOwnerName: 'unicodeveloper',
+    repoOwner: 'Prosper Otemuyiwa',
+    category: ['project','frontend','backend']
   }
+
 ];
