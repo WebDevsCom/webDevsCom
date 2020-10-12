@@ -1572,5 +1572,32 @@ export const resources = [
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
     category: ['project', 'course', 'backend','web-dev']
+  },
+  {
+    id: 152,
+    link: 'https://raw.githubusercontent.com/webpack-contrib/awesome-webpack/master/README.md',
+    repoName: 'Awesome Browserify',
+    description: 'A curated list of awesome Browserify resources, libraries, and tools.',
+    repoOwnerName: 'browserify',
+    repoOwner: 'browserify',
+    category: ['project','backend','frontend']
+  },
+  {
+    id: 153,
+    link: 'https://raw.githubusercontent.com/Famolus/awesome-sass/master/README.md',
+    repoName: 'Awesome Sass',
+    description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
+    repoOwnerName: 'Famolus',
+    repoOwner: 'Famolus',
+    category: ['project','frontend']
+  },
+  {
+    id: 154,
+    link: 'https://raw.githubusercontent.com/websemantics/awesome-ant-design/master/README.md',
+    repoName: 'awesome-ant-design',
+    description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
+    repoOwnerName: 'Adnan M.Sagar, PhD',
+    repoOwner: 'websemantics',
+    category: ['project','frontend']
   }
 ];
