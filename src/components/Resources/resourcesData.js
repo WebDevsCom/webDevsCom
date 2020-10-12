@@ -1599,5 +1599,33 @@ export const resources = [
     repoOwnerName: 'Adnan M.Sagar, PhD',
     repoOwner: 'websemantics',
     category: ['project','frontend']
+  },
+  {
+    id: 155,
+    link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
+    repoName: 'awesome-less',
+    description:'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
+    repoOwnerName: 'Lucas Bassetti',
+    repoOwner: 'LucasBassetti',
+    category: ['project','frontend']
+  },
+  {
+    id: 156,
+    link: 'https://raw.githubusercontent.com/sjfricke/awesome-webgl/master/README.md',
+    repoName: 'awesome-webgl',
+    description:'This is a curated list of awesome WebGL libraries, resources and much more.',
+    repoOwnerName: 'Spencer',
+    repoOwner: 'sjfricke',
+    category: ['project','frontend']
+  },
+  {
+    id: 157,
+    link: 'https://raw.githubusercontent.com/unicodeveloper/awesome-nextjs/master/README.md',
+    repoName: 'awesome-nextjs',
+    description:'Curated list of resources: books, videos, articles about using Next.js.',
+    repoOwnerName: 'Prosper Otemuyiwa',
+    repoOwner: 'unicodeveloper',
+    category: ['project','frontend','backend']
   }
+
 ];
