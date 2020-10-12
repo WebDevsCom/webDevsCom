@@ -1544,33 +1544,115 @@ export const resources = [
     description: 'A quick reminder of all SQL queries and examples on how to use them.',
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
-    category: ['project', 'course', 'backend','web-dev']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 149,
-    link: 'https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer/blob/master/README.md',
+    link: 'https://raw.githubusercontent.com/bmorelli25/Become-A-Full-Stack-Web-Developer/master/README.md',
     repoName: 'Become-A-Full-Stack-Web-Developer',
-    description: '100+ Free resources for learning Full Stack Web Development',
+    description: 'Free resources for learning Full Stack Web Development.',
     repoOwnerName: 'bmorelli25',
     repoOwner: 'Brandon Morelli',
-    category: ['project', 'course', 'backend','web-dev', 'frontend']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 150,
-    link: 'https://github.com/brillout/awesome-redux/blob/master/readme.md',
+    link: 'https://raw.githubusercontent.com/brillout/awesome-redux/master/readme.md',
     repoName: 'awesome-redux',
-    description: 'Redux Libraries & Learning Material',
+    description: 'Catalog of Redux Libraries & Learning Material.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['project', 'course', 'frontend']
+    category: ['project', 'course', 'backend', 'web-dev']
   },
   {
     id: 151,
-    link: 'https://github.com/webpack-contrib/awesome-webpack/blob/master/README.md',
+    link: 'https://raw.githubusercontent.com/webpack-contrib/awesome-webpack/master/README.md',
     repoName: 'awesome-webpack',
-    description: 'A curated list of awesome Webpack resources, libraries, tools and applications',
+    description: 'A curated list of awesome Webpack resources, libraries and tools',
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
-    category: ['backend']
+    category: ['project', 'course', 'backend', 'web-dev']
+  },
+  {
+    id: 152,
+    link: 'https://raw.githubusercontent.com/webpack-contrib/awesome-webpack/master/README.md',
+    repoName: 'Awesome Browserify',
+    description: 'A curated list of awesome Browserify resources, libraries, and tools.',
+    repoOwnerName: 'browserify',
+    repoOwner: 'browserify',
+    category: ['project', 'backend', 'frontend']
+  },
+  {
+    id: 153,
+    link: 'https://raw.githubusercontent.com/Famolus/awesome-sass/master/README.md',
+    repoName: 'Awesome Sass',
+    description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
+    repoOwnerName: 'Famolus',
+    repoOwner: 'Famolus',
+    category: ['project', 'frontend']
+  },
+  {
+    id: 154,
+    link: 'https://raw.githubusercontent.com/websemantics/awesome-ant-design/master/README.md',
+    repoName: 'awesome-ant-design',
+    description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
+    repoOwnerName: 'websemantics',
+    repoOwner: 'Adnan M.Sagar, PhD',
+    category: ['project','frontend']
+  },
+  {
+    id: 155,
+    link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
+    repoName: 'awesome-less',
+    description:'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
+    repoOwnerName: 'LucasBassetti',
+    repoOwner: 'Lucas Bassetti',
+    category: ['project','frontend']
+  },
+  {
+    id: 156,
+    link: 'https://raw.githubusercontent.com/sjfricke/awesome-webgl/master/README.md',
+    repoName: 'awesome-webgl',
+    description:'This is a curated list of awesome WebGL libraries, resources and much more.',
+    repoOwnerName: 'sjfricke',
+    repoOwner: 'Spencer',
+    category: ['project','frontend']
+  },
+  {
+    id: 157,
+    link: 'https://raw.githubusercontent.com/unicodeveloper/awesome-nextjs/master/README.md',
+    repoName: 'awesome-nextjs',
+    description:'Curated list of resources: books, videos, articles about using Next.js.',
+    repoOwnerName: 'unicodeveloper',
+    repoOwner: 'Prosper Otemuyiwa',
+    category: ['project','frontend','backend']
+  },
+  {
+    id: 158,
+    link: 'https://raw.githubusercontent.com/web-padawan/awesome-lit-html/master/README.md',
+    repoName: 'awesome-lit-html',
+    description:'A curated list of awesome lit-html resources.',
+    repoOwnerName: 'web-padawan',
+    repoOwner: 'Serhii Kulykov',
+    category: ['project','frontend']
+  },
+  {
+    id: 159,
+    link: 'https://raw.githubusercontent.com/automata/awesome-jamstack/master/README.md',
+    repoName: 'awesome-jamstack',
+    description:'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
+    repoOwnerName: 'automata',
+    repoOwner: 'Vilson Vieira',
+    category: ['project','frontend','backend']
+  },
+  {
+    id: 160,
+    link: 'https://raw.githubusercontent.com/henrikwirth/awesome-wordpress-gatsby/master/README.md',
+    repoName: 'awesome-wordpress-gatsby',
+    description:'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
+    repoOwnerName: 'henrikwirth',
+    repoOwner: 'Henrik Wirth',
+    category: ['project','frontend']
   }
+
 ];
