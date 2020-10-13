@@ -1680,6 +1680,33 @@ export const resources = [
     repoOwnerName: 'aniftyco',
     repoOwner: 'NiftyCo',
     category: ['project','frontend']
+  },
+  {
+    id: 164,
+    link: 'https://raw.githubusercontent.com/sergey-pimenov/awesome-web-animation/master/readme.md',
+    repoName: 'awesome-web-animation',
+    description:'This list contains the most useful tools and data for creating web animations.',
+    repoOwnerName: 'sergey-pimenov',
+    repoOwner: 'Sergey Pimenov',
+    category: ['project','frontend','course']
+  },
+  {
+    id: 165,
+    link: 'https://raw.githubusercontent.com/jetli/awesome-yew/master/README.md',
+    repoName: 'awesome-yew',
+    description:'A curated list of awesome things related to Yew.',
+    repoOwnerName: 'jetli',
+    repoOwner: 'Jet Li',
+    category: ['project','frontend']
+  },
+  {
+    id: 166,
+    link: 'https://raw.githubusercontent.com/nadunindunil/awesome-material-ui/master/README.md',
+    repoName: 'awesome-material-ui',
+    description:'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
+    repoOwnerName: 'nadunindunil',
+    repoOwner: 'Nadun Indunil',
+    category: ['project','frontend']
   }
 
 ];
