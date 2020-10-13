@@ -1653,6 +1653,33 @@ export const resources = [
     repoOwnerName: 'henrikwirth',
     repoOwner: 'Henrik Wirth',
     category: ['project','frontend']
+  },
+  {
+    id: 161,
+    link: 'https://raw.githubusercontent.com/myshov/awesome-mobile-web-development/master/README.md',
+    repoName: 'awesome-mobile-web-development',
+    description:'All that you need to create a great mobile web experience.',
+    repoOwnerName: 'myshov',
+    repoOwner: 'Alexander Myshov',
+    category: ['project','frontend','course','mob-dev']
+  },
+  {
+    id: 162,
+    link: 'https://raw.githubusercontent.com/csabapalfi/awesome-pagespeed-metrics/master/README.md',
+    repoName: 'awesome-pagespeed-metrics',
+    description:'Metrics to help understand page speed and user experience.',
+    repoOwnerName: 'csabapalfi',
+    repoOwner: 'Csaba Palfi',
+    category: ['project','frontend']
+  },
+  {
+    id: 163,
+    link: 'https://raw.githubusercontent.com/aniftyco/awesome-tailwindcss/master/README.md',
+    repoName: 'awesome-tailwindcss',
+    description:'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
+    repoOwnerName: 'aniftyco',
+    repoOwner: 'NiftyCo',
+    category: ['project','frontend']
   }
 
 ];
