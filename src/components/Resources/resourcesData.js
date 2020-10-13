@@ -1626,6 +1626,33 @@ export const resources = [
     repoOwnerName: 'unicodeveloper',
     repoOwner: 'Prosper Otemuyiwa',
     category: ['project','frontend','backend']
+  },
+  {
+    id: 158,
+    link: 'https://raw.githubusercontent.com/web-padawan/awesome-lit-html/master/README.md',
+    repoName: 'awesome-lit-html',
+    description:'A curated list of awesome lit-html resources.',
+    repoOwnerName: 'web-padawan',
+    repoOwner: 'Serhii Kulykov',
+    category: ['project','frontend']
+  },
+  {
+    id: 159,
+    link: 'https://raw.githubusercontent.com/automata/awesome-jamstack/master/README.md',
+    repoName: 'awesome-jamstack',
+    description:'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
+    repoOwnerName: 'automata',
+    repoOwner: 'Vilson Vieira',
+    category: ['project','frontend','backend']
+  },
+  {
+    id: 160,
+    link: 'https://raw.githubusercontent.com/henrikwirth/awesome-wordpress-gatsby/master/README.md',
+    repoName: 'awesome-wordpress-gatsby',
+    description:'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
+    repoOwnerName: 'henrikwirth',
+    repoOwner: 'Henrik Wirth',
+    category: ['project','frontend']
   }
 
 ];
