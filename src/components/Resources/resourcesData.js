@@ -1707,6 +1707,15 @@ export const resources = [
     repoOwnerName: 'nadunindunil',
     repoOwner: 'Nadun Indunil',
     category: ['project','frontend']
+  },
+  {
+    id: 167,
+    link: 'https://github.com/bradtraversy/ui_components/blob/master/readme.md',
+    repoName: 'ui_components',
+    description: 'Collection of HTML & CSS UI components, useful for Frontend',
+    repoOwnerName: 'bradtraversy',
+    repoOwner: 'Brad Traversy',
+    category: ['frontend', 'web-dev']
   }
 
 ];
