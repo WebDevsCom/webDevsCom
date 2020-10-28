@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Codepen,
   Youtube,
@@ -12,199 +12,204 @@ import {
   Minimize,
   Filter,
   Folder,
-} from 'react-feather';
-import { withRouter } from 'react-router-dom';
+} from "react-feather";
+import { withRouter } from "react-router-dom";
 
 const Features = ({ history }) => {
   return (
-    <section id='features' className='container' style={{ marginTop: '1rem' }}>
-      <div className='features'>
-        <div className='features-title has-text-centered'>
-          <h3 className='title is-3 is-bold'>
-            Check Hundreds of Sources in One Place
+    <section id="features" className="container" style={{ marginTop: "1rem" }}>
+      <div className="features">
+        <div className="features-title has-text-centered">
+          <h3 className="title is-3 is-bold">
+            Access Hundreds of Resources in One Place.
           </h3>
-          <p>Our contributors have aggregated everything for you</p>
+          <p>Our contributors have aggregated all the information you need!</p>
         </div>
-        <div className='columns'>
-          <div className='column is-5 is-offset-1'>
+        <div className="columns">
+          <div className="column is-5 is-offset-1">
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/1')}
+              className="feature-card"
+              onClick={() => history.push("/resources/1")}
             >
-              <Codepen size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>Design Resources</h3>
+              <Codepen size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">Design Resources</h3>
                 <p>
-                  All the Resources which a Developer can use for their Design
-                  to Create Beautiful UI/UX.
+                  Take your UI/UX creative journey further. Find all the
+                  resources you need as a developer to create beautiful and
+                  memorable UI/UX.
                 </p>
               </div>
             </div>
 
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/4')}
+              className="feature-card"
+              onClick={() => history.push("/resources/4")}
             >
-              <Youtube size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>Top Youtube Channels</h3>
+              <Youtube size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">Top Youtube Channels</h3>
                 <p>
-                  All the Top coding youtube channels form which you can learn
-                  various things about Coding are Here.
+                  Watch time tested and top coding channels on youtube. Learn
+                  from the best. Learn all the tricks of the game here, we have
+                  your back.
                 </p>
               </div>
             </div>
 
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/55')}
+              className="feature-card"
+              onClick={() => history.push("/resources/55")}
             >
-              <HelpCircle size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>FAQ in Interview</h3>
+              <HelpCircle size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">FAQ in Interview</h3>
                 <p>
-                  Frequently asked Interview Questions and Their Detailed
-                  explaination with Examples are Here.
+                  Here we Frequently asked Interview Questions and detailed
+                  explainations with examples on how to answer them.
                 </p>
               </div>
             </div>
           </div>
-          <div className='column is-5'>
+          <div className="column is-5">
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/5')}
+              className="feature-card"
+              onClick={() => history.push("/resources/5")}
             >
-              <Chrome size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>App Ideas</h3>
+              <Chrome size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">App Ideas</h3>
                 <p>
-                  Various different kinds of app ideas for different levels of
-                  programmers are Here.
+                  Pick various kind of application development project ideas for
+                  different levels of programmers are Here.
                 </p>
               </div>
             </div>
 
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/3')}
+              className="feature-card"
+              onClick={() => history.push("/resources/3")}
             >
-              <UserPlus size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>Developer Portfolios</h3>
+              <UserPlus size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">Developer Portfolios</h3>
                 <p>
-                  Collection of so many Developer Portfolios, from which you can
-                  get inspired to acheive great.
+                  Have a look at our collection of top Developer Portfolios. We
+                  hope you will be inspired to put in more effort to acheive
+                  greatness.
                 </p>
               </div>
             </div>
 
             <div
-              className='feature-card'
-              onClick={() => history.push('/resources/2')}
+              className="feature-card"
+              onClick={() => history.push("/resources/2")}
             >
-              <UploadCloud size={70} color='#00d1b2' />
-              <div className='meta'>
-                <h3 className='has-text-info'>Public APIs</h3>
+              <UploadCloud size={70} color="#00d1b2" />
+              <div className="meta">
+                <h3 className="has-text-info">Public APIs</h3>
                 <p>
-                  Collection of different kinds of Free APIs to use in your
-                  software and web Development.
+                  Play around with a collection of several Free APIs to ease
+                  your software and web development experiences.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='section' style={{ textAlign: 'center' }}>
-        <div className='features'>
-          <div className='features-title'>
-            <h3 className='title is-3 is-bold'>Contribute Code</h3>
+      <div className="section" style={{ textAlign: "center" }}>
+        <div className="features">
+          <div className="features-title">
+            <h3 className="title is-3 is-bold">Contribute Code</h3>
             <p>Contribute to this Open Source Project to Help Developers</p>
           </div>
         </div>
 
-        <div className='columns is-multiline has-padding-10'>
-          <div className='column is-4 has-text-centered'>
-            <span className='has-text-primary has-margin-bottom-20'>
+        <div className="columns is-multiline has-padding-10">
+          <div className="column is-4 has-text-centered">
+            <span className="has-text-primary has-margin-bottom-20">
               <AlertCircle size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Report Issue</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              open an issue if you want to suggest new feature or report any bug
-              you found.
+            <div className="is-size-5 has-text-weight-bold">Report Issue</div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              Open an issue if you want to suggest new feature or report a bug.
             </div>
           </div>
 
-          <div className='column is-4  has-text-centered '>
-            <span className='has-text-primary has-margin-bottom-20'>
+          <div className="column is-4  has-text-centered ">
+            <span className="has-text-primary has-margin-bottom-20">
               <Star size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Star</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              show your support by giving star to this Repo. if this project
-              helped you in anyways!
+            <div className="is-size-5 has-text-weight-bold">Star</div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              We hope that, this website will help you to become a better
+              programmer. Show your support by giving us a star.
             </div>
           </div>
 
-          <div className='column is-4  has-text-centered '>
-            <span className='has-text-primary has-margin-bottom-20'>
+          <div className="column is-4  has-text-centered ">
+            <span className="has-text-primary has-margin-bottom-20">
               <GitMerge size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Pull Request</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              Pull requests are welcome. if you want to change something on
-              website Raise PR.
+            <div className="is-size-5 has-text-weight-bold">Pull Request</div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              You are welcomed to send a pull request if you want to make
+              changes or increase publicity for this project!
             </div>
           </div>
         </div>
       </div>
       <div
-        className='section'
-        style={{ marginBottom: '3rem', textAlign: 'center' }}
+        className="section"
+        style={{ marginBottom: "3rem", textAlign: "center" }}
       >
-        <div className='features'>
-          <div className='features-title'>
-            <h3 className='title is-3 is-bold'>Features</h3>
-            <p>Features of this website.</p>
+        <div className="features">
+          <div className="features-title">
+            <h3 className="title is-3 is-bold">Special Features</h3>
+            <p>Special features of this website includes</p>
           </div>
         </div>
 
-        <div className='columns is-multiline has-padding-10'>
-          <div className='column is-4 has-text-centered'>
-            <span className='has-text-primary has-margin-bottom-20'>
+        <div className="columns is-multiline has-padding-10">
+          <div className="column is-4 has-text-centered">
+            <span className="has-text-primary has-margin-bottom-20">
               <Minimize size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Responsive</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              Reading a Readme of a Repo in mobile is very difficult for users.
-              this website solve this issue.
+            <div className="is-size-5 has-text-weight-bold">Responsive</div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              Reading a Readme of a Repo on a mobile phone device is a challenge
+              for most users. This website supports responiveness on all
+              devices.
             </div>
           </div>
 
-          <div className='column is-4  has-text-centered '>
-            <span className='has-text-primary has-margin-bottom-20'>
+          <div className="column is-4  has-text-centered ">
+            <span className="has-text-primary has-margin-bottom-20">
               <Filter size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Filter</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              Good and handy feature to Filter resources according to your
-              requirements and read it.
+            <div className="is-size-5 has-text-weight-bold">
+              Resource Filter
+            </div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              Provides a good and handy feature to filter resources according to
+              your requirements and needs.
             </div>
           </div>
 
-          <div className='column is-4  has-text-centered '>
-            <span className='has-text-primary has-margin-bottom-20'>
+          <div className="column is-4  has-text-centered ">
+            <span className="has-text-primary has-margin-bottom-20">
               <Folder size={45} />
             </span>
 
-            <div className='is-size-5 has-text-weight-bold'>Collection</div>
-            <div className='is-size-6 has-text-centered has-margin-top-20'>
-              collected several resources which we thought that it will be
-              helpful for coders.
+            <div className="is-size-5 has-text-weight-bold">Collection</div>
+            <div className="is-size-6 has-text-centered has-margin-top-20">
+              A collection of several useful resources we think might be helpful
+              on your coding journey.
             </div>
           </div>
         </div>
