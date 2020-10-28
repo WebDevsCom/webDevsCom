@@ -1707,6 +1707,32 @@ export const resources = [
     repoOwnerName: 'nadunindunil',
     repoOwner: 'Nadun Indunil',
     category: ['project','frontend']
+  },
+  {
+    id: 167,
+    link: 'https://raw.githubusercontent.com/humiaozuzu/awesome-flask/master/README.md',
+    repoName: 'awesome-flask',
+    description:'A curated list of awesome Flask resources and plugins',
+    repoOwnerName: 'humiaozuzu',
+    repoOwner: 'Maple',
+    category: ['project','frontend', 'web-dev']
+  },
+  {
+    id: 168,
+    link: 'https://raw.githubusercontent.com/uralbash/awesome-pyramid/master/README.md',
+    repoName: 'awesome-pyramid',
+    description:'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
+    repoOwnerName: 'uralbash',
+    repoOwner: 'uralbash',
+    category: ['project','frontend', 'web-dev']
+  },
+  {
+    id: 169,
+    link: 'https://raw.githubusercontent.com/FriendsOfCake/awesome-cakephp/master/README.md',
+    repoName: 'awesome-cakephp',
+    description:'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
+    repoOwnerName: 'FriendsOfCake',
+    repoOwner: 'Friends Of Cake',
+    category: ['project','backend', 'web-dev']
   }
-
 ];
