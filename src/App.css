@@ -392,6 +392,12 @@ code {
   }
 }
 
+@media (min-width: 600px) {
+  .features .feature-card {
+    height: 155px;
+  }
+}
+
 /* Dark mode */
 .dark-mode {
   background-color: #24292e !important;
