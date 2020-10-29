@@ -18,7 +18,7 @@ const HeroSec = () => {
               style={{ animationDelay: ".5s" }}
             >
               We have collected over 1000+ free recources to make your make your
-              development journey hustle free Enjoy the experience.
+              development journey hustle free. Enjoy the experience.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>
@@ -44,8 +44,8 @@ const HeroSec = () => {
               className="subtitle has-text-grey is-4 fadeInUp"
               style={{ animationDelay: ".5s" }}
             >
-              we provide you all the Free Resources to you, which is collected
-              by 1000+ numbers of peoples.
+              We provide you with Free Resources collected by 1000+
+              contributers.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>

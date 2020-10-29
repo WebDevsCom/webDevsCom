@@ -35,8 +35,8 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">Design Resources</h3>
                 <p>
-                  Take your UI/UX creative journey further. Find all the
-                  resources you need as a developer to create beautiful and
+                  Take your UI/UX creative journey a little further. Find all
+                  the resources you need as a developer to create beautiful and
                   memorable UI/UX.
                 </p>
               </div>
@@ -51,7 +51,7 @@ const Features = ({ history }) => {
                 <h3 className="has-text-info">Top Youtube Channels</h3>
                 <p>
                   Watch time tested and top coding channels on youtube. Learn
-                  from the best. Learn all the tricks of the game here, we have
+                  from the best. Learn all the tricks of the game here. We have
                   your back.
                 </p>
               </div>
@@ -65,8 +65,9 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">FAQ in Interview</h3>
                 <p>
-                  Here we Frequently asked Interview Questions and detailed
-                  explainations with examples on how to answer them.
+                  Here we give you links to resources of Frequently asked
+                  Interview Questions and their explainations with examples on
+                  how to answer them.
                 </p>
               </div>
             </div>
@@ -80,8 +81,8 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">App Ideas</h3>
                 <p>
-                  Pick various kind of application development project ideas for
-                  different levels of programmers are Here.
+                  Pick from the pool of app development project ideas at all
+                  levels of programming.
                 </p>
               </div>
             </div>
@@ -94,7 +95,7 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">Developer Portfolios</h3>
                 <p>
-                  Have a look at our collection of top Developer Portfolios. We
+                  Have a look at our collection of top Developers Portfolio. We
                   hope you will be inspired to put in more effort to acheive
                   greatness.
                 </p>
@@ -109,8 +110,8 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">Public APIs</h3>
                 <p>
-                  Play around with a collection of several Free APIs to ease
-                  your software and web development experiences.
+                  Play around with a collection of handreds of public APIs to
+                  ease your software and web development experiences.
                 </p>
               </div>
             </div>
@@ -133,7 +134,8 @@ const Features = ({ history }) => {
 
             <div className="is-size-5 has-text-weight-bold">Report Issue</div>
             <div className="is-size-6 has-text-centered has-margin-top-20">
-              Open an issue if you want to suggest new feature or report a bug.
+              Open an issue if you want to suggest a new feature or report a
+              bug.
             </div>
           </div>
 
@@ -145,7 +147,7 @@ const Features = ({ history }) => {
             <div className="is-size-5 has-text-weight-bold">Star</div>
             <div className="is-size-6 has-text-centered has-margin-top-20">
               We hope that, this website will help you to become a better
-              programmer. Show your support by giving us a star.
+              programmer. Show your support by giving us a star on GitHub.
             </div>
           </div>
 
@@ -169,7 +171,7 @@ const Features = ({ history }) => {
         <div className="features">
           <div className="features-title">
             <h3 className="title is-3 is-bold">Special Features</h3>
-            <p>Special features of this website includes</p>
+            <p>Special features of this website include...</p>
           </div>
         </div>
 
@@ -183,7 +185,7 @@ const Features = ({ history }) => {
             <div className="is-size-6 has-text-centered has-margin-top-20">
               Reading a Readme of a Repo on a mobile phone device is a challenge
               for most users. This website supports responiveness on all
-              devices.
+              devices, even you are viewing a Repo.
             </div>
           </div>
 
@@ -209,7 +211,7 @@ const Features = ({ history }) => {
             <div className="is-size-5 has-text-weight-bold">Collection</div>
             <div className="is-size-6 has-text-centered has-margin-top-20">
               A collection of several useful resources we think might be helpful
-              on your coding journey.
+              to you as a programmer.
             </div>
           </div>
         </div>
