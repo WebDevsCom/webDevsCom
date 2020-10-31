@@ -1734,5 +1734,14 @@ export const resources = [
     repoOwnerName: 'FriendsOfCake',
     repoOwner: 'Friends Of Cake',
     category: ['project', 'backend', 'web-dev']
+  },
+  {
+    id: 170,
+    link: 'https://github.com/PizzaPokerGuy/ultimate-coding-resources/blob/master/README.md',
+    repoName: 'ultimate-coding-resources',
+    description: 'A collection of the best resources for programming, web development, computer science and more.',
+    repoOwnerName: 'PizzaPokerGuy',
+    repoOwner: 'Dylan C. Israel',
+    category: ['project', 'frontend', 'backend', 'web-dev']
   }
 ];
