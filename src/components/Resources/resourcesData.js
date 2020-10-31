@@ -1598,141 +1598,150 @@ export const resources = [
     description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
     repoOwnerName: 'websemantics',
     repoOwner: 'Adnan M.Sagar, PhD',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 155,
     link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
     repoName: 'awesome-less',
-    description:'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
+    description: 'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
     repoOwnerName: 'LucasBassetti',
     repoOwner: 'Lucas Bassetti',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 156,
     link: 'https://raw.githubusercontent.com/sjfricke/awesome-webgl/master/README.md',
     repoName: 'awesome-webgl',
-    description:'This is a curated list of awesome WebGL libraries, resources and much more.',
+    description: 'This is a curated list of awesome WebGL libraries, resources and much more.',
     repoOwnerName: 'sjfricke',
     repoOwner: 'Spencer',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 157,
     link: 'https://raw.githubusercontent.com/unicodeveloper/awesome-nextjs/master/README.md',
     repoName: 'awesome-nextjs',
-    description:'Curated list of resources: books, videos, articles about using Next.js.',
+    description: 'Curated list of resources: books, videos, articles about using Next.js.',
     repoOwnerName: 'unicodeveloper',
     repoOwner: 'Prosper Otemuyiwa',
-    category: ['project','frontend','backend']
+    category: ['project', 'frontend', 'backend']
   },
   {
     id: 158,
     link: 'https://raw.githubusercontent.com/web-padawan/awesome-lit-html/master/README.md',
     repoName: 'awesome-lit-html',
-    description:'A curated list of awesome lit-html resources.',
+    description: 'A curated list of awesome lit-html resources.',
     repoOwnerName: 'web-padawan',
     repoOwner: 'Serhii Kulykov',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 159,
     link: 'https://raw.githubusercontent.com/automata/awesome-jamstack/master/README.md',
     repoName: 'awesome-jamstack',
-    description:'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
+    description: 'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
     repoOwnerName: 'automata',
     repoOwner: 'Vilson Vieira',
-    category: ['project','frontend','backend']
+    category: ['project', 'frontend', 'backend']
   },
   {
     id: 160,
     link: 'https://raw.githubusercontent.com/henrikwirth/awesome-wordpress-gatsby/master/README.md',
     repoName: 'awesome-wordpress-gatsby',
-    description:'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
+    description: 'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
     repoOwnerName: 'henrikwirth',
     repoOwner: 'Henrik Wirth',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 161,
     link: 'https://raw.githubusercontent.com/myshov/awesome-mobile-web-development/master/README.md',
     repoName: 'awesome-mobile-web-development',
-    description:'All that you need to create a great mobile web experience.',
+    description: 'All that you need to create a great mobile web experience.',
     repoOwnerName: 'myshov',
     repoOwner: 'Alexander Myshov',
-    category: ['project','frontend','course','mob-dev']
+    category: ['project', 'frontend', 'course', 'mob-dev']
   },
   {
     id: 162,
     link: 'https://raw.githubusercontent.com/csabapalfi/awesome-pagespeed-metrics/master/README.md',
     repoName: 'awesome-pagespeed-metrics',
-    description:'Metrics to help understand page speed and user experience.',
+    description: 'Metrics to help understand page speed and user experience.',
     repoOwnerName: 'csabapalfi',
     repoOwner: 'Csaba Palfi',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 163,
     link: 'https://raw.githubusercontent.com/aniftyco/awesome-tailwindcss/master/README.md',
     repoName: 'awesome-tailwindcss',
-    description:'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
+    description: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
     repoOwnerName: 'aniftyco',
     repoOwner: 'NiftyCo',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 164,
     link: 'https://raw.githubusercontent.com/sergey-pimenov/awesome-web-animation/master/readme.md',
     repoName: 'awesome-web-animation',
-    description:'This list contains the most useful tools and data for creating web animations.',
+    description: 'This list contains the most useful tools and data for creating web animations.',
     repoOwnerName: 'sergey-pimenov',
     repoOwner: 'Sergey Pimenov',
-    category: ['project','frontend','course']
+    category: ['project', 'frontend', 'course']
   },
   {
     id: 165,
     link: 'https://raw.githubusercontent.com/jetli/awesome-yew/master/README.md',
     repoName: 'awesome-yew',
-    description:'A curated list of awesome things related to Yew.',
+    description: 'A curated list of awesome things related to Yew.',
     repoOwnerName: 'jetli',
     repoOwner: 'Jet Li',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 166,
     link: 'https://raw.githubusercontent.com/nadunindunil/awesome-material-ui/master/README.md',
     repoName: 'awesome-material-ui',
-    description:'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
+    description: 'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
     repoOwnerName: 'nadunindunil',
     repoOwner: 'Nadun Indunil',
-    category: ['project','frontend']
+    category: ['project', 'frontend']
   },
   {
     id: 167,
     link: 'https://raw.githubusercontent.com/humiaozuzu/awesome-flask/master/README.md',
     repoName: 'awesome-flask',
-    description:'A curated list of awesome Flask resources and plugins',
+    description: 'A curated list of awesome Flask resources and plugins',
     repoOwnerName: 'humiaozuzu',
     repoOwner: 'Maple',
-    category: ['project','frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev']
   },
   {
     id: 168,
     link: 'https://raw.githubusercontent.com/uralbash/awesome-pyramid/master/README.md',
     repoName: 'awesome-pyramid',
-    description:'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
+    description: 'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
     repoOwnerName: 'uralbash',
     repoOwner: 'uralbash',
-    category: ['project','frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev']
   },
   {
     id: 169,
     link: 'https://raw.githubusercontent.com/FriendsOfCake/awesome-cakephp/master/README.md',
     repoName: 'awesome-cakephp',
-    description:'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
+    description: 'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
     repoOwnerName: 'FriendsOfCake',
     repoOwner: 'Friends Of Cake',
-    category: ['project','backend', 'web-dev']
+    category: ['project', 'backend', 'web-dev']
+  },
+  {
+    id: 170,
+    link: 'https://github.com/PizzaPokerGuy/ultimate-coding-resources/blob/master/README.md',
+    repoName: 'ultimate-coding-resources',
+    description: 'A collection of the best resources for programming, web development, computer science and more.',
+    repoOwnerName: 'PizzaPokerGuy',
+    repoOwner: 'PizzaPokerGuy',
+    category: ['project', 'frontend', 'backend', 'web-dev']
   }
 ];
