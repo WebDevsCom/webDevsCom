@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/webDevsCom/static/css/main.b24d6539.chunk.css",
-    "main.js": "/webDevsCom/static/js/main.b7ca48ac.chunk.js",
-    "main.js.map": "/webDevsCom/static/js/main.b7ca48ac.chunk.js.map",
-    "runtime-main.js": "/webDevsCom/static/js/runtime-main.bf9f8fe1.js",
-    "runtime-main.js.map": "/webDevsCom/static/js/runtime-main.bf9f8fe1.js.map",
+    "main.js": "/webDevsCom/static/js/main.7e269cf3.chunk.js",
+    "main.js.map": "/webDevsCom/static/js/main.7e269cf3.chunk.js.map",
+    "runtime-main.js": "/webDevsCom/static/js/runtime-main.31eef221.js",
+    "runtime-main.js.map": "/webDevsCom/static/js/runtime-main.31eef221.js.map",
     "static/css/2.ebd2bdea.chunk.css": "/webDevsCom/static/css/2.ebd2bdea.chunk.css",
     "static/js/2.2771f2ee.chunk.js": "/webDevsCom/static/js/2.2771f2ee.chunk.js",
     "static/js/2.2771f2ee.chunk.js.map": "/webDevsCom/static/js/2.2771f2ee.chunk.js.map",
@@ -12,10 +12,10 @@
     "static/js/3.080381a5.chunk.js.map": "/webDevsCom/static/js/3.080381a5.chunk.js.map",
     "static/js/4.c1e2297c.chunk.js": "/webDevsCom/static/js/4.c1e2297c.chunk.js",
     "static/js/4.c1e2297c.chunk.js.map": "/webDevsCom/static/js/4.c1e2297c.chunk.js.map",
-    "static/js/5.2281294d.chunk.js": "/webDevsCom/static/js/5.2281294d.chunk.js",
-    "static/js/5.2281294d.chunk.js.map": "/webDevsCom/static/js/5.2281294d.chunk.js.map",
+    "static/js/5.a0db6f24.chunk.js": "/webDevsCom/static/js/5.a0db6f24.chunk.js",
+    "static/js/5.a0db6f24.chunk.js.map": "/webDevsCom/static/js/5.a0db6f24.chunk.js.map",
     "index.html": "/webDevsCom/index.html",
-    "precache-manifest.46e7969219e0da19c32c1dd600a60289.js": "/webDevsCom/precache-manifest.46e7969219e0da19c32c1dd600a60289.js",
+    "precache-manifest.7c121b3957134b0868088fbceb7ba47c.js": "/webDevsCom/precache-manifest.7c121b3957134b0868088fbceb7ba47c.js",
     "service-worker.js": "/webDevsCom/service-worker.js",
     "static/css/2.ebd2bdea.chunk.css.map": "/webDevsCom/static/css/2.ebd2bdea.chunk.css.map",
     "static/css/main.b24d6539.chunk.css.map": "/webDevsCom/static/css/main.b24d6539.chunk.css.map",
@@ -23,10 +23,10 @@
     "static/js/3.080381a5.chunk.js.LICENSE.txt": "/webDevsCom/static/js/3.080381a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf9f8fe1.js",
+    "static/js/runtime-main.31eef221.js",
     "static/css/2.ebd2bdea.chunk.css",
     "static/js/2.2771f2ee.chunk.js",
     "static/css/main.b24d6539.chunk.css",
-    "static/js/main.b7ca48ac.chunk.js"
+    "static/js/main.7e269cf3.chunk.js"
   ]
 }
