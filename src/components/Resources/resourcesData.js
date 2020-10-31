@@ -1741,7 +1741,7 @@ export const resources = [
     repoName: 'ultimate-coding-resources',
     description: 'A collection of the best resources for programming, web development, computer science and more.',
     repoOwnerName: 'PizzaPokerGuy',
-    repoOwner: 'PizzaPokerGuy',
+    repoOwner: 'Dylan C. Israel',
     category: ['project', 'frontend', 'backend', 'web-dev']
   }
 ];
