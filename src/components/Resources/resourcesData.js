@@ -1737,7 +1737,7 @@ export const resources = [
   },
   {
     id: 170,
-    link: 'https://github.com/PizzaPokerGuy/ultimate-coding-resources/blob/master/README.md',
+    link: 'https://raw.githubusercontent.com/PizzaPokerGuy/ultimate-coding-resources/master/README.md',
     repoName: 'ultimate-coding-resources',
     description: 'A collection of the best resources for programming, web development, computer science and more.',
     repoOwnerName: 'PizzaPokerGuy',

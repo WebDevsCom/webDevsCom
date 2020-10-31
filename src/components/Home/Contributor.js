@@ -26,7 +26,11 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='https://github.com/pkumars397'>
+          <a
+            href='https://github.com/pkumars397'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
@@ -38,7 +42,11 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='https://github.com/VolailleInc'>
+          <a
+            href='https://github.com/VolailleInc'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
@@ -50,7 +58,11 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='https://github.com/jaydeepkhatri'>
+          <a
+            href='https://github.com/jaydeepkhatri'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
@@ -78,7 +90,11 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='https://github.com/harshloco'>
+          <a
+            href='https://github.com/harshloco'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
@@ -90,11 +106,15 @@ const Contributor = () => {
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
         >
-          <a href='#!'>
+          <a
+            href='https://github.com/jmannfeld'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
               className='is-rounded avatar-home'
               alt='user-profile'
-              src='https://randomuser.me/api/portraits/women/15.jpg'
+              src='https://avatars1.githubusercontent.com/u/16351524?s=400&u=262ab7ef3ad8077b69faeb9d0b4ea187f41ab688&v=4'
             />
           </a>
         </figure>
