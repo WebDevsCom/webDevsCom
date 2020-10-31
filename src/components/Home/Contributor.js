@@ -1,14 +1,17 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
+import ReactTooltip from 'react-tooltip';
 
 const Contributor = () => {
   return (
     <div className='column fadeInUp' style={{ animationDelay: '.75s' }}>
+      <ReactTooltip type="light" />
       <h1>Contributors for this website.</h1>
       <div className='column' style={{ marginLeft: '1rem' }}>
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Binu Kumar"
         >
           <a
             href='https://github.com/Binu42'
@@ -25,6 +28,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Prashant Kumar"
         >
           <a
             href='https://github.com/pkumars397'
@@ -41,6 +45,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Abdul-Razak"
         >
           <a
             href='https://github.com/VolailleInc'
@@ -57,6 +62,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Jaydeep Khatri"
         >
           <a
             href='https://github.com/jaydeepkhatri'
@@ -73,6 +79,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Zoltán Szőgyényi"
         >
           <a
             href='https://github.com/zoltanszogyenyi'
@@ -89,6 +96,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Harshpreet Singh"
         >
           <a
             href='https://github.com/harshloco'
@@ -105,6 +113,7 @@ const Contributor = () => {
         <figure
           className='image is-48x48 is-inline-flex'
           style={{ marginLeft: '-1rem' }}
+          data-tip="Jordan Mannfeld"
         >
           <a
             href='https://github.com/jmannfeld'
