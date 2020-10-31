@@ -79,6 +79,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jmannfeld",
+      "name": "Jordan Mannfeld",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16351524?v=4",
+      "profile": "https://github.com/jmannfeld",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
