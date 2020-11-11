@@ -1,6 +1,6 @@
 # WEBDEVSCOM
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > Community to help developers by providing them all kinds of free resources at one place. 
@@ -94,6 +94,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/hdquemada"><img src="https://avatars3.githubusercontent.com/u/44162051?v=4" width="100px;" alt=""/><br /><sub><b>Hector Quemada</b></sub></a><br /><a href="#content-hdquemada" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/pkumars397"><img src="https://avatars1.githubusercontent.com/u/45540448?v=4" width="100px;" alt=""/><br /><sub><b>Prashant Kumar</b></sub></a><br /><a href="#content-pkumars397" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/harshloco"><img src="https://avatars1.githubusercontent.com/u/5271603?v=4" width="100px;" alt=""/><br /><sub><b>Harshpreet Singh</b></sub></a><br /><a href="#content-harshloco" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.panafsoft.com"><img src="https://avatars1.githubusercontent.com/u/36109125?v=4" width="100px;" alt=""/><br /><sub><b>Abdul-Razak</b></sub></a><br /><a href="#content-VolailleInc" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/jmannfeld"><img src="https://avatars2.githubusercontent.com/u/16351524?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Mannfeld</b></sub></a><br /><a href="#content-jmannfeld" title="Content">🖋</a></td>
   </tr>
 </table>
 

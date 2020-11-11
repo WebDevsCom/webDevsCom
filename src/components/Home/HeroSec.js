@@ -9,7 +9,7 @@ const HeroSec = () => {
         <div className="container">
           <div className="column has-text-centered is-hidden-touch">
             <p className="title fadeInUp" style={{ animationDelay: "0.25s" }}>
-              <span style={{ fontSize: "5.1rem" }}>
+              <span style={{ fontSize: "5rem" }}>
                 Hello Developer, welcome home!
               </span>
             </p>
@@ -17,8 +17,8 @@ const HeroSec = () => {
               className="subtitle is-3 has-text-grey fadeInUp"
               style={{ animationDelay: ".5s" }}
             >
-              We have collected over 1000+ free recources to make your make your
-              development journey hustle free. Enjoy the experience.
+              We have collected over 1000+ free recources to make your
+              development journey hustle free Enjoy the experience.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>
@@ -35,17 +35,17 @@ const HeroSec = () => {
 
           <div className="column has-text-centered is-hidden-desktop">
             <p
-              className="title is-1 fadeInUp"
+              className="title is-2 fadeInUp"
               style={{ animationDelay: ".25s" }}
             >
-              Are You a Developer?
+              Hello Developer, welcome home!
             </p>
             <p
-              className="subtitle has-text-grey is-4 fadeInUp"
+              className="subtitle has-text-grey is-5 fadeInUp"
               style={{ animationDelay: ".5s" }}
             >
-              We provide you with Free Resources collected by 1000+
-              contributers.
+              We have collected over 1000+ free recources to make your
+              development journey hustle free Enjoy the experience.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>
