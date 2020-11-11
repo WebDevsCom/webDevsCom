@@ -82,7 +82,7 @@ const Features = ({ history }) => {
                 <h3 className="has-text-info">App Ideas</h3>
                 <p>
                   Pick from the pool of app development project ideas at all
-                  levels of programming.
+                  levels of programming. Learn and get Experience from Building them.
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ const Features = ({ history }) => {
               <div className="meta">
                 <h3 className="has-text-info">Public APIs</h3>
                 <p>
-                  Play around with a collection of handreds of public APIs to
+                  Play around with a collection of hundreds of public APIs to
                   ease your software and web development experiences.
                 </p>
               </div>
