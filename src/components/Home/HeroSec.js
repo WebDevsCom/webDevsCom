@@ -17,8 +17,8 @@ const HeroSec = () => {
               className="subtitle is-3 has-text-grey fadeInUp"
               style={{ animationDelay: ".5s" }}
             >
-              We have collected over 1000+ free recources to make your
-              development journey hustle free Enjoy the experience.
+              We have collected over 1000+ free resources to make your
+              development journey hassle free Enjoy the experience.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>
@@ -44,8 +44,8 @@ const HeroSec = () => {
               className="subtitle has-text-grey is-5 fadeInUp"
               style={{ animationDelay: ".5s" }}
             >
-              We have collected over 1000+ free recources to make your
-              development journey hustle free Enjoy the experience.
+              We have collected over 1000+ free resources to make your
+              development journey hassle free Enjoy the experience.
             </p>
             <Contributor />
             <div className="column fadeInUp" style={{ animationDelay: "1s" }}>
