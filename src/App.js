@@ -2,6 +2,7 @@ import React, { useState, useEffect, Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import { hotjar } from 'react-hotjar';
 import Footer from './components/Footer';
 import ResourceREADME from './components/Resources/ResourceREADME';
 import ScrollToTopBtn from './components/ScrollToTopBtn';
@@ -32,7 +33,7 @@ function App() {
 
   useEffect(() => {
     const isDarkMode = JSON.parse(localStorage.getItem('dark-mode'));
-
+    hotjar.initialize(2074416, 6);
     if (isDarkMode === true) {
       setDarkMode(true);
     } else {

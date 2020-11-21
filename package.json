@@ -17,6 +17,7 @@
     "react-dom": "^16.13.1",
     "react-feather": "^2.0.8",
     "react-github-btn": "^1.2.0",
+    "react-hotjar": "^2.2.1",
     "react-markdown": "^4.3.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
