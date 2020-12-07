@@ -158,6 +158,35 @@
   }
 }
 
+.owner {
+  box-shadow: 0 0 0 0 #21bf73;
+  -webkit-animation: owner 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: owner 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: owner 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: owner 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@-webkit-keyframes owner {
+  to {
+    box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+  }
+}
+@-moz-keyframes owner {
+  to {
+    box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+  }
+}
+@-ms-keyframes owner {
+  to {
+    box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+  }
+}
+@keyframes owner {
+  to {
+    box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+  }
+}
+
 #cover-spin::after {
   content: '';
   display: block;

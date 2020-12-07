@@ -19,7 +19,7 @@ const Contributor = () => {
             rel='noopener noreferrer'
           >
             <img
-              className='is-rounded avatar-home'
+              className='is-rounded avatar-home owner'
               alt='user-profile'
               src='https://avatars3.githubusercontent.com/u/45959932?s=400&u=c45629c87cad71dcdc8d2d86808c9c52ec1fc68b&v=4'
             />
