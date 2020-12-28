@@ -1743,5 +1743,86 @@ export const resources = [
     repoOwnerName: 'PizzaPokerGuy',
     repoOwner: 'Dylan C. Israel',
     category: ['project', 'frontend', 'backend', 'web-dev']
+  },
+  {
+    id: 171,
+    link: 'https://raw.githubusercontent.com/sitepoint-editors/awesome-symfony/master/README.md',
+    repoName: 'awesome-symfony',
+    description: 'A list of awesome Symfony bundles, utilities and resources.',
+    repoOwnerName: 'sitepoint-editors',
+    repoOwner: 'SitePoint Editors',
+    category: ['course', 'project']
+  },
+  {
+    id: 172,
+    link: 'https://raw.githubusercontent.com/chiraggude/awesome-laravel/master/README.md',
+    repoName: 'awesome-laravel',
+    description: 'A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem',
+    repoOwnerName: 'chiraggude',
+    repoOwner: 'Chirag Gude',
+    category: ['web-dev', 'project', 'course', 'backend']
+  },
+  {
+    id: 173,
+    link: 'https://raw.githubusercontent.com/gramantin/awesome-rails/master/README.md',
+    repoName: 'awesome-rails',
+    description: 'A curated list of awesome things related to Ruby on Rails',
+    repoOwnerName: 'gramantin',
+    repoOwner: 'Gramantin',
+    category: ['web-dev', 'project', 'course', 'backend', 'frontend']
+  },
+  {
+    id: 174,
+    link: 'https://raw.githubusercontent.com/phanan/htaccess/master/README.md',
+    repoName: 'htaccess',
+    description: 'A collection of useful .htaccess snippets.',
+    repoOwnerName: 'phanan',
+    repoOwner: 'Phan An',
+    category: ['web-dev', 'project', 'frontend']
+  },
+  {
+    id: 175,
+    link: 'https://raw.githubusercontent.com/fcambus/nginx-resources/master/README.md',
+    repoName: 'nginx-resources',
+    description: 'A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine',
+    repoOwnerName: 'fcambus',
+    repoOwner: 'Frederic Cambus',
+    category: ['web-dev', 'mob-dev', 'course']
+  },
+  {
+    id: 176,
+    link: 'https://raw.githubusercontent.com/pmuens/awesome-serverless/master/README.md',
+    repoName: 'awesome-serverless',
+    description: ' Curated list of resources related to serverless computing and serverless architectures.',
+    repoOwnerName: 'pmuens',
+    repoOwner: 'Philipp Muens',
+    category: ['web-dev', 'mob-dev', 'course']
+  },
+  {
+    id: 177,
+    link: 'https://raw.githubusercontent.com/academic/awesome-datascience/live/README.md',
+    repoName: 'awesome-datascience',
+    description: 'An awesome Data Science repository to learn and apply for real world problems.',
+    repoOwnerName: 'academic',
+    repoOwner: 'Academic.io',
+    category: ['project', 'course']
+  },
+  {
+    id: 178,
+    link: 'https://raw.githubusercontent.com/arbox/machine-learning-with-ruby/master/readme.md',
+    repoName: 'machine-learning-with-ruby',
+    description: 'Curated list: Resources for machine learning in Ruby',
+    repoOwnerName: 'arbox',
+    repoOwner: 'Andrei Beliankou',
+    category: ['project', 'course']
+  },
+  {
+    id: 179,
+    link: 'https://raw.githubusercontent.com/edobashira/speech-language-processing/master/README.rst',
+    repoName: 'speech-language-processing',
+    description: 'A curated list of speech and natural language processing resources',
+    repoOwnerName: 'edobashira',
+    repoOwner: 'Paul Dixon',
+    category: ['project', 'course', 'frontend']
   }
 ];
