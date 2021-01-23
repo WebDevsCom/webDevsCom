@@ -1811,4 +1811,85 @@ export const resources = [
     repoOwner: 'Christos',
     category: ['project', 'course']
   },
+  {
+    id: 182,
+    link: 'https://raw.githubusercontent.com/kjw0612/awesome-deep-vision/master/README.md',
+    repoName: 'awesome-deep-vision',
+    description: 'A curated list of deep learning resources for computer vision',
+    repoOwnerName: 'kjw0612',
+    repoOwner: 'Jiwon Kim',
+    category: ['project', 'course']
+  },
+  {
+    id: 183,
+    link: 'https://raw.githubusercontent.com/analysis-tools-dev/static-analysis/master/README.md',
+    repoName: 'static-analysis',
+    description: 'A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.',
+    repoOwnerName: 'analysis-tools-dev',
+    repoOwner: 'analysis-tools-dev',
+    category: ['project', 'course']
+  },
+  {
+    id: 184,
+    link: 'https://raw.githubusercontent.com/onurakpolat/awesome-bigdata/master/README.md',
+    repoName: 'awesome-bigdata',
+    description: 'A curated list of awesome big data frameworks, ressources and other awesomeness.',
+    repoOwnerName: 'onurakpolat',
+    repoOwner: 'Onur Akpolat',
+    category: ['project', 'course']
+  },
+  {
+    id: 185,
+    link: 'https://raw.githubusercontent.com/awesomedata/awesome-public-datasets/master/README.rst',
+    repoName: 'awesome-public-datasets',
+    description: 'A topic-centric list of HQ open datasets.',
+    repoOwnerName: 'awesomedata',
+    repoOwner: 'AwesomeData',
+    category: ['project']
+  },
+  {
+    id: 186,
+    link: 'https://raw.githubusercontent.com/youngwookim/awesome-hadoop/master/README.md',
+    repoName: 'awesome-hadoop',
+    description: 'A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources',
+    repoOwnerName: 'youngwookim',
+    repoOwner: 'Youngwoo Kim',
+    category: ['project', 'backend']
+  },
+  {
+    id: 187,
+    link: 'https://raw.githubusercontent.com/igorbarinov/awesome-data-engineering/master/README.md',
+    repoName: 'awesome-data-engineering',
+    description: 'A curated list of data engineering tools for software developers',
+    repoOwnerName: 'igorbarinov',
+    repoOwner: 'Igor Barinov',
+    category: ['project', 'backend']
+  },
+  {
+    id: 188,
+    link: 'https://raw.githubusercontent.com/JanVanRyswyck/awesome-talks/master/README.md',
+    repoName: 'awesome-talks',
+    description: 'Awesome online talks and screencasts',
+    repoOwnerName: 'JanVanRyswyck',
+    repoOwner: 'Jan Van Ryswyck',
+    category: ['podcast']
+  },
+  {
+    id: 189,
+    link: 'https://raw.githubusercontent.com/gaerae/awesome-algorithms-education/master/readme-en.md',
+    repoName: 'awesome-algorithms-education',
+    description: 'A curated list to learning and practicing about algorithm.',
+    repoOwnerName: 'gaerae',
+    repoOwner: 'gaerae',
+    category: ['course', 'interview']
+  },
+  {
+    id: 190,
+    link: 'https://raw.githubusercontent.com/enjalot/algovis/master/README.md',
+    repoName: 'algovis',
+    description: 'collection of projects and links about algorithm visualization',
+    repoOwnerName: 'enjalot',
+    repoOwner: 'Ian Johnson',
+    category: ['course', 'interview']
+  },
 ];
