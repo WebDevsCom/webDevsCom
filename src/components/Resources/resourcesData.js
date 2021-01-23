@@ -687,38 +687,6 @@ export const resources = [
     category: ['mob-dev', 'interview'],
   },
   {
-    id: 66,
-    link:
-      'https://raw.githubusercontent.com/themesberg/pixel-bootstrap-ui-kit/master/README.md',
-    repoName: 'pixel-bootstrap-ui-kit',
-    description:
-      'Pixel Lite - Free Bootstrap 4 UI Kit that will help you prototype and design beautiful, creative and modern websites.',
-    repoOwnerName: 'themesberg',
-    repoOwner: 'Themesberg',
-    category: ['frontend', 'web-dev'],
-  },
-  {
-    id: 67,
-    link:
-      'https://raw.githubusercontent.com/themesberg/windows-95-ui-kit/master/README.md',
-    repoName: 'windows-95-ui-kit',
-    description: '💾 Windows 95 UI Kit design made with Bootstrap 4 components',
-    repoOwnerName: 'themesberg',
-    repoOwner: 'Themesberg',
-    category: ['frontend', 'web-dev'],
-  },
-  {
-    id: 68,
-    link:
-      'https://raw.githubusercontent.com/themesberg/neumorphism-ui-bootstrap/master/README.md',
-    repoName: 'neumorphism-ui-bootstrap',
-    description:
-      'Neumorphism design inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework',
-    repoOwnerName: 'themesberg',
-    repoOwner: 'Themesberg',
-    category: ['frontend', 'web-dev'],
-  },
-  {
     id: 69,
     link:
       'https://raw.githubusercontent.com/sindresorhus/awesome/main/readme.md',
@@ -1815,14 +1783,5 @@ export const resources = [
     repoOwnerName: 'arbox',
     repoOwner: 'Andrei Beliankou',
     category: ['project', 'course']
-  },
-  {
-    id: 179,
-    link: 'https://raw.githubusercontent.com/edobashira/speech-language-processing/master/README.rst',
-    repoName: 'speech-language-processing',
-    description: 'A curated list of speech and natural language processing resources',
-    repoOwnerName: 'edobashira',
-    repoOwner: 'Paul Dixon',
-    category: ['project', 'course', 'frontend']
   }
 ];
