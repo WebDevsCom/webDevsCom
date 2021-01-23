@@ -1783,5 +1783,32 @@ export const resources = [
     repoOwnerName: 'arbox',
     repoOwner: 'Andrei Beliankou',
     category: ['project', 'course']
-  }
+  },
+  {
+    id: 179,
+    link: 'https://raw.githubusercontent.com/sobolevn/awesome-cryptography/master/README.md',
+    repoName: 'awesome-cryptography',
+    description: 'A curated list of cryptography resources and links.',
+    repoOwnerName: 'sobolevn',
+    repoOwner: 'Nikita Sobolev',
+    category: ['project', 'course']
+  },
+  {
+    id: 180,
+    link: 'https://raw.githubusercontent.com/jbhuang0604/awesome-computer-vision/master/README.md',
+    repoName: 'awesome-computer-vision',
+    description: 'A curated list of awesome computer vision resources',
+    repoOwnerName: 'jbhuang0604',
+    repoOwner: 'Jia-Bin Huang',
+    category: ['project', 'course']
+  },
+  {
+    id: 181,
+    link: 'https://raw.githubusercontent.com/ChristosChristofidis/awesome-deep-learning/master/README.md',
+    repoName: 'awesome-deep-learning',
+    description: 'A curated list of awesome Deep Learning tutorials, projects and communities.',
+    repoOwnerName: 'ChristosChristofidis',
+    repoOwner: 'Christos',
+    category: ['project', 'course']
+  },
 ];
