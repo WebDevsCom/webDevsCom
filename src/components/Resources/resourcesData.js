@@ -1058,7 +1058,7 @@ export const resources = [
       'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.',
     repoOwnerName: 'donnemartin',
     repoOwner: 'Donne Martin',
-    category: ['language', 'course'],
+    category: ['language', 'course', 'data-science'],
   },
   {
     id: 104,
@@ -1467,7 +1467,7 @@ export const resources = [
     description: 'Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas',
     repoOwnerName: 'NirantK',
     repoOwner: 'Nirant',
-    category: ['project']
+    category: ['project', 'data-science']
   },
   {
     id: 144,
@@ -1476,7 +1476,7 @@ export const resources = [
     description: '📊 Path to a free self-taught education in Data Science!',
     repoOwnerName: 'ossu',
     repoOwner: 'Open Source Society University',
-    category: ['course', 'project']
+    category: ['course', 'project', 'data-science']
   },
   {
     id: 145,
@@ -1773,7 +1773,7 @@ export const resources = [
     description: 'An awesome Data Science repository to learn and apply for real world problems.',
     repoOwnerName: 'academic',
     repoOwner: 'Academic.io',
-    category: ['project', 'course']
+    category: ['project', 'course', 'data-science']
   },
   {
     id: 178,
@@ -1782,7 +1782,7 @@ export const resources = [
     description: 'Curated list: Resources for machine learning in Ruby',
     repoOwnerName: 'arbox',
     repoOwner: 'Andrei Beliankou',
-    category: ['project', 'course']
+    category: ['project', 'course', 'data-science']
   },
   {
     id: 179,
@@ -1800,7 +1800,7 @@ export const resources = [
     description: 'A curated list of awesome computer vision resources',
     repoOwnerName: 'jbhuang0604',
     repoOwner: 'Jia-Bin Huang',
-    category: ['project', 'course']
+    category: ['project', 'course', 'data-science']
   },
   {
     id: 181,
@@ -1809,7 +1809,7 @@ export const resources = [
     description: 'A curated list of awesome Deep Learning tutorials, projects and communities.',
     repoOwnerName: 'ChristosChristofidis',
     repoOwner: 'Christos',
-    category: ['project', 'course']
+    category: ['project', 'course', 'data-science']
   },
   {
     id: 182,
@@ -1818,7 +1818,7 @@ export const resources = [
     description: 'A curated list of deep learning resources for computer vision',
     repoOwnerName: 'kjw0612',
     repoOwner: 'Jiwon Kim',
-    category: ['project', 'course']
+    category: ['project', 'course', 'data-science']
   },
   {
     id: 183,
@@ -1845,7 +1845,7 @@ export const resources = [
     description: 'A topic-centric list of HQ open datasets.',
     repoOwnerName: 'awesomedata',
     repoOwner: 'AwesomeData',
-    category: ['project']
+    category: ['project', 'data-science']
   },
   {
     id: 186,
@@ -1863,7 +1863,7 @@ export const resources = [
     description: 'A curated list of data engineering tools for software developers',
     repoOwnerName: 'igorbarinov',
     repoOwner: 'Igor Barinov',
-    category: ['project', 'backend']
+    category: ['project', 'backend', 'data-science']
   },
   {
     id: 188,
@@ -1891,5 +1891,95 @@ export const resources = [
     repoOwnerName: 'enjalot',
     repoOwner: 'Ian Johnson',
     category: ['course', 'interview']
+  },
+  {
+    id: 191,
+    link: 'https://raw.githubusercontent.com/owainlewis/awesome-artificial-intelligence/master/README.md',
+    repoName: 'awesome-artificial-intelligence',
+    description: 'A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.',
+    repoOwnerName: 'owainlewis',
+    repoOwner: 'Owain Lewis',
+    category: ['course', 'project', 'data-science']
+  },
+  {
+    id: 192,
+    link: 'https://raw.githubusercontent.com/marcobiedermann/search-engine-optimization/main/readme.md',
+    repoName: 'search-engine-optimization',
+    description: ' A helpful checklist/collection of Search Engine Optimization (SEO) tips and techniques.',
+    repoOwnerName: 'marcobiedermann',
+    repoOwner: 'Marco Biedermann',
+    category: ['course', 'project', 'frontend']
+  },
+  {
+    id: 193,
+    link: 'https://raw.githubusercontent.com/rossant/awesome-math/master/README.md',
+    repoName: 'awesome-math',
+    description: 'A curated list of awesome mathematics resources',
+    repoOwnerName: 'rossant',
+    repoOwner: 'Cyrille Rossant',
+    category: ['course', 'project', 'interview']
+  },
+  {
+    id: 194,
+    link: 'https://raw.githubusercontent.com/passy/awesome-recursion-schemes/master/README.md',
+    repoName: 'awesome-recursion-schemes',
+    description: 'Resources for learning and using recursion schemes.',
+    repoOwnerName: 'passy',
+    repoOwner: 'Pascal Hartig',
+    category: ['podcast', 'course']
+  },
+  {
+    id: 195,
+    link: 'https://raw.githubusercontent.com/dariubs/GoBooks/master/README.md',
+    repoName: 'GoBooks',
+    description: 'List of Golang books',
+    repoOwnerName: 'dariubs',
+    repoOwner: 'Dariush Abbasi',
+    category: ['project', 'backend', 'course', 'language', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 196,
+    link: 'https://raw.githubusercontent.com/RomanTsegelskyi/rbooks/master/README.md',
+    repoName: 'rbooks',
+    description: 'A curated list of #rstats books',
+    repoOwnerName: 'RomanTsegelskyi',
+    repoOwner: 'Roman Tsegelskyi',
+    category: ['project', 'course', 'language']
+  },
+  {
+    id: 197,
+    link: 'https://raw.githubusercontent.com/hackerkid/Mind-Expanding-Books/master/README.md',
+    repoName: 'Mind-Expanding-Books',
+    description: ' Books everyone should read!',
+    repoOwnerName: 'hackerkid',
+    repoOwner: 'Vishnu Ks',
+    category: ['productive']
+  },
+  {
+    id: 198,
+    link: 'https://raw.githubusercontent.com/mhinz/vim-galore/master/README.md',
+    repoName: 'vim-galore',
+    description: ' All things Vim!',
+    repoOwnerName: 'mhinz',
+    repoOwner: 'Marco Hinz',
+    category: ['productive']
+  },
+  {
+    id: 199,
+    link: 'https://raw.githubusercontent.com/mehcode/awesome-atom/master/README.md',
+    repoName: 'awesome-atom',
+    description: 'A curated list of delightful Atom packages and resources.',
+    repoOwnerName: 'mehcode',
+    repoOwner: 'Ryan Leckey',
+    category: ['productive']
+  },
+  {
+    id: 200,
+    link: 'https://raw.githubusercontent.com/viatsko/awesome-vscode/master/README.md',
+    repoName: 'awesome-vscode',
+    description: 'A curated list of delightful VS Code packages and resources.',
+    repoOwnerName: 'viatsko',
+    repoOwner: 'Valerii Iatsko',
+    category: ['productive']
   },
 ];

@@ -357,7 +357,7 @@ ul ol {
 }
 
 #active-dot {
-  border: 2px solid #0f0606;
+  border: 2px solid #00ffea;
   cursor: default;
   pointer-events: none;
 }
@@ -368,6 +368,14 @@ ul ol {
 
 .mob-dev {
   background: #00d1b2;
+}
+
+.productive {
+  background: #2c0b1f;
+}
+
+.data-science {
+  background: #f54752;
 }
 
 /* tag */
@@ -574,4 +582,8 @@ code {
 .dark-mode #category-tags .active-tag {
   background-color: #a0a0a06e;
   color: #f1f1f1;
+}
+
+.dark-mode #active-dot {
+  border: 2px solid #f5f5f5;
 }

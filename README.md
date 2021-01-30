@@ -65,6 +65,8 @@ If you're new to contribute to Open Source on Github, [this guide](https://guide
   - course
   - podcast
   - interview
+  - productive
+  - data-science
 
 
 ## Show your support

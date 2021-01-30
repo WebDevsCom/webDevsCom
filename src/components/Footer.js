@@ -26,7 +26,7 @@ const Footer = () => {
             <Facebook color='blue' className='icon' />
           </a>
           <a
-            href='https://www.instagram.com/binu__42/'
+            href='https://www.instagram.com/krbinu42/'
             target='_blank'
             rel='noopener noreferrer'
             className='button button-special is-rounded box-shadow-lift'
@@ -44,7 +44,7 @@ const Footer = () => {
             <GitHub className='icon' />
           </a>
           <a
-            href='https://twitter.com/BinuKum59882786'
+            href='https://twitter.com/kbinu42'
             target='_blank'
             rel='noopener noreferrer'
             className='button button-special is-rounded box-shadow-lift'
@@ -53,7 +53,7 @@ const Footer = () => {
             <Twitter color='#1DA1F2' className='icon' />
           </a>
           <a
-            href='https://www.linkedin.com/in/binu-kumar-5a7038146/'
+            href='https://www.linkedin.com/in/binukumar/'
             target='_blank'
             rel='noopener noreferrer'
             className='is-hidden-touch button button-special is-rounded box-shadow-lift'

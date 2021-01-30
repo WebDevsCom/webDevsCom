@@ -69,6 +69,7 @@ const Resources = ({
 
   const filters = [
     'App',
+    'Book',
     'Awesome',
     'computer science',
     'Design',
@@ -85,6 +86,7 @@ const Resources = ({
     'All',
     'Web-dev',
     'Mob-dev',
+    'data-science',
     'Interview',
     'Frontend',
     'Backend',
@@ -92,6 +94,7 @@ const Resources = ({
     'Project',
     'Course',
     'Podcast',
+    "productive",
   ];
 
   useEffect(() => {
