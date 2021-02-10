@@ -51,6 +51,7 @@
 
 .no-data {
   position: relative;
+  width: 100%;
 }
 
 .no-data--image {

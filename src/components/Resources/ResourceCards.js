@@ -30,9 +30,9 @@ const ResourceCards = ({
               <NoData
                 text={
                   searchInput === '' && category === ''
-                    ? 'You have not Bookmarked any Resources. Bookmark Resources to Read it later.'
+                    ? 'You have not Bookmarked any Resources.'
                     : category !== ''
-                      ? `You have not Bookmarked any Resources of category "${category}". Bookmark Resources to Read it later.`
+                      ? `You have not Bookmarked any Resources of category "${category}".`
                       : `You have not Bookmarked any resources with search keyword "${searchInput}"`
                 }
               />
