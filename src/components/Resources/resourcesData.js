@@ -106,7 +106,6 @@ export const resources = [
       'web-dev',
       'mob-dev',
       'course',
-      'language',
     ],
   },
   {

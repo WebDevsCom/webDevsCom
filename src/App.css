@@ -52,6 +52,10 @@
 .no-data {
   position: relative;
   width: 100%;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .no-data--image {
@@ -66,6 +70,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #e7305b;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* markdown */
