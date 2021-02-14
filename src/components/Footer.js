@@ -63,11 +63,11 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='column has-text-centered'>
+      {/* <div className='column has-text-centered'>
         <p className='subtitle is-7 is-capitalized has-text-danger'>
           This Project is just for Learning and teaching purposes.
         </p>
-      </div>
+      </div> */}
       <div className='column has-text-centered'>
         <p className='menu-label'>
           Made with <Heart color='red' fill='red' size='15px' />{' '}
