@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "netlify": "npm run build && netlify deploy --dir build && netlify deploy --prod --dir build",
-    "gitDeploy": "rm -rf ../'webdevscom deploy/static'  && mv -vf build/* ../'webdevscom deploy/' &&  cd ../'webdevscom deploy/' && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom",
+    "gitDeploy": "rm -rf ../'webdevscom deploy/*'  && cp -r build/* ../webdevscom\\ deploy/ && cd ../webdevscom\\ deploy/ && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom",
     "deploy": "npm run netlify && npm run gitDeploy"
   },
   "eslintConfig": {

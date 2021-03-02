@@ -184,9 +184,9 @@ const Features = ({ history }) => {
 
             <div className="is-size-5 has-text-weight-bold">Responsive</div>
             <div className="is-size-6 has-text-centered has-margin-top-20">
-              Reading a Readme of a Repo on a mobile phone device is a challenge
+              Reading a Readme of a Repo on a mobile phone devices is a challenge
               for most users. This website supports responsiveness on all
-              devices, even you are viewing a Repo.
+              devices.
             </div>
           </div>
 
