@@ -80,7 +80,7 @@ const Resources = ({
     'code',
     'Resources',
     'web',
-  ];
+  ].sort((a, b) => a.localeCompare(b));
 
   const categories = [
     'All',
@@ -95,7 +95,7 @@ const Resources = ({
     'Course',
     'Podcast',
     "productive",
-  ];
+  ].sort((a, b) => a.localeCompare(b));
 
   useEffect(() => {
     var filteredResources = [];
