@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  View our <a href="http://webdevscom.github.io/">Website</a>.
+  View our Website on <a href="http://webdevscom.github.io/">Github Pages</a> | <a href="http://webdevscom.netlify.com/">Website on Netlify</a>.
  </p>
 
 ## Main Libraries/Frameworks Used
