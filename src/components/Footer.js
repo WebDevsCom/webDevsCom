@@ -76,7 +76,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            By WEBDEVSCOM
+            By Binu Kumar
           </a>{' '}
           <br />
           &copy;2020
