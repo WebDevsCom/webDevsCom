@@ -539,11 +539,6 @@ code {
   background-color: #00d1b2;
 }
 
-.dark-mode #view-on-github,
-.dark-mode #download-pdf {
-  padding: 0 10px !important;
-}
-
 .dark-mode .box-shadow-lift {
   box-shadow: -1px -1px 1px 0 #ffffff3b, 1px 1px 1px 0 #0808088e !important;
 }
