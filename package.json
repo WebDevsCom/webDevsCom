@@ -2,7 +2,7 @@
   "name": "webdevscom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://webDevsCom.github.io/webDevsCom",
+  "homepage": "https://webDevsCom.github.io",
   "dependencies": {
     "@progress/kendo-drawing": "^1.7.0",
     "@progress/kendo-react-pdf": "^3.14.0",
@@ -28,8 +28,9 @@
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && rm -rf ../'webdevscom deploy/static'  && mv -vf build/* ../'webdevscom deploy/' &&  cd ../'webdevscom deploy/' && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom"
+    "netlify": "npm run build && netlify deploy --dir build && netlify deploy --prod --dir build",
+    "gitDeploy": "rm -rf ../'webdevscom deploy/static'  && mv -vf build/* ../'webdevscom deploy/' &&  cd ../'webdevscom deploy/' && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom",
+    "deploy": "npm run netlify && npm run gitDeploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,7 +47,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "devDependencies": {}
 }
