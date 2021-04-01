@@ -509,7 +509,7 @@ export const resources = [
   {
     id: 49,
     link:
-      'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/en-EN/README.md',
+      'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/README.md',
     repoName: 'javascript-questions',
     description:
       'A long list of (advanced) JavaScript questions, and their explanations sparkles',
@@ -1981,4 +1981,22 @@ export const resources = [
     repoOwner: 'Valerii Iatsko',
     category: ['productive']
   },
+  {
+    id: 201,
+    link: 'https://raw.githubusercontent.com/kennymkchan/interview-questions-in-javascript/master/README.md',
+    repoName: 'interview-questions-in-javascript',
+    description: 'A mostly reasonable collection of technical software development interview questions solved in Javascript',
+    repoOwnerName: 'kennymkchan',
+    repoOwner: 'Kenny Chan',
+    category: ['web-dev', 'interview', 'frontend', 'backend']
+  },
+  {
+    id: 202,
+    link: 'https://raw.githubusercontent.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions/master/README.md',
+    repoName: '123-Essential-JavaScript-Interview-Questions',
+    description: 'JavaScript interview Questions',
+    repoOwnerName: 'ganqqwerty',
+    repoOwner: 'Yuri Katkov',
+    category: ['web-dev', 'interview', 'frontend', 'backend']
+  }
 ];
