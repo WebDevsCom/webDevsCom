@@ -1988,7 +1988,7 @@ export const resources = [
     description: 'A mostly reasonable collection of technical software development interview questions solved in Javascript',
     repoOwnerName: 'kennymkchan',
     repoOwner: 'Kenny Chan',
-    category: ['web-dev', 'interview', 'frontend', 'backend']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
   },
   {
     id: 202,
@@ -1997,6 +1997,6 @@ export const resources = [
     description: 'JavaScript interview Questions',
     repoOwnerName: 'ganqqwerty',
     repoOwner: 'Yuri Katkov',
-    category: ['web-dev', 'interview', 'frontend', 'backend']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
   }
 ];
