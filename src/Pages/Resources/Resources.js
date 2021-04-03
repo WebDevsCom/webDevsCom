@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Search, XCircle, Eye, EyeOff } from 'react-feather';
-import { resources } from './resourcesData';
+import resources from '../../data/resourcesData';
 import ResourceCards from './ResourceCards';
-import Page from '../Utils/Page';
+import Page from '../../Components/Page';
 
 const Resources = ({
   searchInput,
@@ -245,19 +245,19 @@ const Resources = ({
               }}
             />
           ) : (
-              ''
-            )
+            ''
+          )
         ) : (
-            <Suggestion
-              {...{
-                category,
-                categories,
-                filters,
-                handleChangeInCategory,
-                handleInputChange,
-              }}
-            />
-          )}
+          <Suggestion
+            {...{
+              category,
+              categories,
+              filters,
+              handleChangeInCategory,
+              handleInputChange,
+            }}
+          />
+        )}
         <ResourceCards
           searchInput={searchInput}
           filteredResources={filteredRes}

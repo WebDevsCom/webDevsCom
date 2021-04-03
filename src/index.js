@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import 'bulma/css/bulma.min.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import ScrollToTop from './components/Utils/ScrollToTop';
+import ScrollToTop from './Components/ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>

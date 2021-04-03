@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Axios from 'axios';
-import Spinner from '../Spinner';
-import { resources } from './resourcesData';
+import Spinner from '../../Components/Spinner';
+import resources from '../../data/resourcesData';
 import { GitHub } from 'react-feather';
 import CodeBlock from './code-blocks';
 import ReadmeUtilsBtn from './ReadmeUtilsBtn';
 import { slug } from 'github-slugger';
 import PdfContainer from './PdfContainer';
-import Page from '../Utils/Page';
+import Page from '../../Components/Page';
 
 const ResourceREADME = (props) => {
   const [markdown, setMarkdown] = useState('');
@@ -68,8 +68,7 @@ const ResourceREADME = (props) => {
         if (images[i].src.includes(window.location.origin)) {
           images[i].setAttribute(
             'src',
-            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
-            repoInfo.repoName
+            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -87,8 +86,7 @@ const ResourceREADME = (props) => {
         ) {
           el[i].setAttribute(
             'href',
-            `https://github.com/${repoInfo.repoOwnerName}/${
-            repoInfo.repoName
+            `https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
             }/blob/master${el[i].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
