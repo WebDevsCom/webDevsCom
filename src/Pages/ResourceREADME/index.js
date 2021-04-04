@@ -124,6 +124,7 @@ const ResourceREADME = (props) => {
 
   useEffect(() => {
     setLoading(true);
+    setModalOpen(false);
     const id = props.match.params.id;
 
     const repo = resources.find(
@@ -136,8 +137,7 @@ const ResourceREADME = (props) => {
         setLoading(false);
       });
     }
-    // eslint-disable-next-line
-  }, []);
+  }, [props.match.params.id]);
 
   useEffect(() => {
     isModalOpen

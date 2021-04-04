@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const OtherReposByAuthorModal = ({ authorRepos, setModal, currentRepoId }) => {
   return (
@@ -74,14 +75,14 @@ const OtherReposByAuthorModal = ({ authorRepos, setModal, currentRepoId }) => {
                       className='is-flex is-horizontal-center'
                       style={{ marginTop: '10px' }}
                     >
-                      <a
+                      <Link
                         className={
                           'button button box-shadow-lift button-special is-rounded'
                         }
-                        href={`/resources/${repo.id}`}
+                        to={`/resources/${repo.id}`}
                       >
                         View
-                      </a>
+                      </Link>
                     </div>
                   )}
                 </div>
