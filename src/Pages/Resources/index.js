@@ -4,7 +4,7 @@ import resources from '../../data/resourcesData';
 import ResourceCards from './ResourceCards';
 import Page from '../../Components/Page';
 import Suggestion from './Suggestion';
-import SearchInput from '../../Components/SearchInput';
+import SearchInput from './SearchInput';
 
 const Resources = () => {
   const [searchInput, setSearchInput] = useState('');
@@ -20,13 +20,13 @@ const Resources = () => {
 
   const handleChangeInCategory = (val) => {
     if (searchInput !== '') setSearchInput('');
-    const removeActiveEle = document.getElementById(
-      category === '' ? 'all' : category
-    );
-    if (removeActiveEle) removeActiveEle.classList.remove('active-tag');
+    // const removeActiveEle = document.getElementById(
+    //   category === '' ? 'all' : category
+    // );
+    // if (removeActiveEle) removeActiveEle.classList.remove('active-tag');
     setCategory(val);
-    const element = document.getElementById(val === '' ? 'all' : val);
-    if (element) element.classList.add('active-tag');
+    // const element = document.getElementById(val === '' ? 'all' : val);
+    // if (element) element.classList.add('active-tag');
   };
 
   useEffect(() => {

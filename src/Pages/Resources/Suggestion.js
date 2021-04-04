@@ -34,6 +34,7 @@ const Suggestion = ({
     'Podcast',
     "productive",
   ].sort((a, b) => a.localeCompare(b));
+
   return (
     <>
       <div style={{ padding: '10px' }}>
