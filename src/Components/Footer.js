@@ -79,7 +79,7 @@ const Footer = () => {
             By Binu Kumar
           </a>{' '}
           <br />
-          &copy;2020
+          &copy;{new Date().getFullYear()}
         </p>
       </div>
     </footer>

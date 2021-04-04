@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Axios from 'axios';
-import Spinner from '../Spinner';
-import { resources } from './resourcesData';
-import { GitHub } from 'react-feather';
+import Spinner from '../../Components/Spinner';
+import resources from '../../data/resourcesData';
 import CodeBlock from './code-blocks';
 import ReadmeUtilsBtn from './ReadmeUtilsBtn';
 import { slug } from 'github-slugger';
 import PdfContainer from './PdfContainer';
-import Page from '../Utils/Page';
+import Page from '../../Components/Page';
+import OtherReposByAuthorModal from './OtherReposByAuthorModal';
 
 const ResourceREADME = (props) => {
   const [markdown, setMarkdown] = useState('');
@@ -21,7 +21,7 @@ const ResourceREADME = (props) => {
 
   useEffect(() => {
     setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
-    var BookMarked =
+    let BookMarked =
       bookmarks && bookmarks.find((bookMarkId) => repoInfo.id === bookMarkId);
     setBookMarked(BookMarked ? true : false);
 
@@ -68,8 +68,7 @@ const ResourceREADME = (props) => {
         if (images[i].src.includes(window.location.origin)) {
           images[i].setAttribute(
             'src',
-            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
-            repoInfo.repoName
+            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -87,8 +86,7 @@ const ResourceREADME = (props) => {
         ) {
           el[i].setAttribute(
             'href',
-            `https://github.com/${repoInfo.repoOwnerName}/${
-            repoInfo.repoName
+            `https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
             }/blob/master${el[i].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
@@ -115,6 +113,7 @@ const ResourceREADME = (props) => {
       localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
   };
+
   const removeBookmark = () => {
     setBookMarked(false);
     const bookMarks =
@@ -158,34 +157,18 @@ const ResourceREADME = (props) => {
           bookmarkIt={bookmarkIt}
           setModal={setModalOpen}
         />
-        <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName}>
+        <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName} ownerName={repoInfo.repoOwnerName}>
           <div id='markdown-content'>
-            <div
-              className='has-text-centered fadeInUp'
-              style={{ padding: '10px 0 20px', animationDelay: '.5s' }}
-            >
-              <a
-                href={`https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/`}
-                className='button button-special box-shadow-lift is-medium is-rounded'
-                target='_blank'
-                rel='noopener noreferrer'
-                id='view-on-github'
-              >
-                <GitHub /> <span> &emsp;View on Github</span>
-              </a>
-            </div>
-            <div>
-              <ReactMarkdown
-                source={markdown}
-                escapeHtml={false}
-                renderers={{ code: CodeBlock }}
-              />
-            </div>
+            <ReactMarkdown
+              source={markdown}
+              escapeHtml={false}
+              renderers={{ code: CodeBlock }}
+            />
           </div>
         </PdfContainer>
 
         {isModalOpen && (
-          <Modal
+          <OtherReposByAuthorModal
             authorRepos={authorRepos}
             setModal={setModalOpen}
             currentRepoId={repoInfo.id}
@@ -197,102 +180,3 @@ const ResourceREADME = (props) => {
 };
 
 export default ResourceREADME;
-
-const Modal = ({ authorRepos, setModal, currentRepoId }) => {
-  return (
-    <div className='modal is-active'>
-      <div
-        className='modal-background'
-        style={{ cursor: 'pointer' }}
-        onClick={() => setModal(false)}
-      />
-      <div className='modal-card'>
-        <header className='modal-card-head'>
-          <p className='modal-card-title has-text-primary'>
-            {authorRepos[0].repoOwner}
-          </p>
-          <button className='delete' onClick={() => setModal(false)} />
-        </header>
-        <section className='modal-card-body'>
-          <div className='is-flex is-horizontal-center'>
-            <figure className='image is-128x128'>
-              <a
-                href={`https://github.com/${authorRepos[0].repoOwnerName}`}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  className='is-rounded avatar-home'
-                  alt={authorRepos[0].repoOwnerName}
-                  src={`https://avatars.githubusercontent.com/${authorRepos[0].repoOwnerName}`}
-                />
-              </a>
-            </figure>
-          </div>
-          <div className='has-text-centered'>
-            <p
-              className='is-5 subtitle has-text-centered has-text-primary'
-              style={{ marginBottom: '0' }}
-            >
-              {authorRepos[0].repoOwner}
-            </p>
-            <a
-              href={`https://github.com/${authorRepos[0].repoOwnerName}`}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              @{authorRepos[0].repoOwnerName}
-            </a>
-          </div>
-          <hr className='navbar-divider'></hr>
-          <p className='subtitle is-4 has-text-primary'>
-            Resources available by {authorRepos[0].repoOwner}
-          </p>
-          {authorRepos.map((repo) => (
-            <article className='message is-info' key={repo.id}>
-              <div className='message-header'>
-                <p>{repo.repoName}</p>
-                <div id='categories'>
-                  {repo.category.map((cat, index) => (
-                    <span
-                      data-tip={cat}
-                      key={index}
-                      className={`category ${cat}`}
-                      style={{ cursor: 'default' }}
-                    ></span>
-                  ))}
-                </div>
-              </div>
-              <article className='message is-info'>
-                <div className='message-body'>
-                  {repo.description}
-                  <br></br>
-                  {repo.id !== currentRepoId && (
-                    <div
-                      className='is-flex is-horizontal-center'
-                      style={{ marginTop: '10px' }}
-                    >
-                      <a
-                        className={
-                          'button button box-shadow-lift button-special is-rounded'
-                        }
-                        href={`/resources/${repo.id}`}
-                      >
-                        View
-                      </a>
-                    </div>
-                  )}
-                </div>
-              </article>
-            </article>
-          ))}
-        </section>
-        <footer className='modal-card-foot'>
-          <button className='button' onClick={() => setModal(false)}>
-            Close
-          </button>
-        </footer>
-      </div>
-    </div>
-  );
-};

@@ -1,5 +1,5 @@
 import React from 'react'
-import no_data from '../../assets/no_data.svg'
+import no_data from '../assets/no_data.svg'
 
 const NoData = ({ text }) => {
   return (

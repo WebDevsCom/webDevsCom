@@ -1,4 +1,4 @@
-export const resources = [
+export default [
   {
     id: 1,
     link:
