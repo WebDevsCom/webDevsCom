@@ -6,22 +6,10 @@ import Page from '../../Components/Page';
 import Suggestion from './Suggestion';
 import SearchInput from './SearchInput';
 
-const Resources = () => {
-  const [searchInput, setSearchInput] = useState('');
-  const [category, setCategory] = useState('all');
+const Resources = ({ searchInput, category, handleChangeInCategory, handleInputChange }) => {
   const [showSuggestion, setShowSuggestion] = useState(false);
   const [filteredRes, setFilteredRes] = useState([]);
   const [pageTitle, setPageTitle] = useState("Resources");
-
-  const handleInputChange = (value) => {
-    if (category !== 'all') handleChangeInCategory('all');
-    setSearchInput(value);
-  };
-
-  const handleChangeInCategory = (val) => {
-    if (searchInput !== '') setSearchInput('');
-    setCategory(val);
-  };
 
   const filterResources = (resources) => {
     let filteredResources = [];

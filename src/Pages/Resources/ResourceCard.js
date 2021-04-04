@@ -4,6 +4,7 @@ import { Star, GitPullRequest, Eye } from 'react-feather';
 
 const ResourceCard = ({ resource, history, category, handleChangeInCategory }) => {
   const { id, repoName, repoOwner, repoOwnerName, category: categories, description } = resource;
+
   return (
     <div
       key={id}

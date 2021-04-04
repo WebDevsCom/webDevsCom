@@ -13,6 +13,10 @@
   background-color: #f8faff !important;
 }
 
+.m-1 {
+  margin: 10px !important;
+}
+
 /* Hero Section */
 .space {
   background: linear-gradient(90deg, #f8faff 19px, transparent 1%) center,

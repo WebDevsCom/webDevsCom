@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Download } from 'react-feather';
+import React, { createRef, useEffect, useState } from 'react';
+import { Download, GitHub } from 'react-feather';
 import { savePDF } from '@progress/kendo-react-pdf';
 
 class DocService {
@@ -25,12 +25,12 @@ class DocService {
 
 const Doc = new DocService();
 
-export default (props) => {
-  const bodyRef = React.createRef();
-  const [disable, setDisable] = React.useState(false);
+export default ({ name, ownerName, children }) => {
+  const bodyRef = createRef();
+  const [disable, setDisable] = useState(false);
   const createPdf = () => {
     setDisable(true);
-    Doc.createPdf(bodyRef.current, props.name, setDisable);
+    Doc.createPdf(bodyRef.current, name, setDisable);
   };
 
   useEffect(() => {
@@ -47,20 +47,33 @@ export default (props) => {
         {disable ? (
           <div id='cover-spin'></div>
         ) : (
-          <button
-            className='button button-special box-shadow-lift is-primary is-medium is-rounded fadeInUp'
-            onClick={createPdf}
-            style={{ animationDelay: '0.25s' }}
-            id='download-pdf'
-            disabled={disable}
+          <div
+            className='has-text-centered fadeInUp'
+            style={{ animationDelay: '.5s' }}
           >
-            <Download />
-            <span>&emsp;Download PDF</span>
-          </button>
+            <button
+              className='button button-special m-1 box-shadow-lift is-primary is-medium is-rounded'
+              onClick={createPdf}
+              id='download-pdf'
+              disabled={disable}
+            >
+              <Download />
+              <span>&emsp;Download PDF</span>
+            </button>
+            <a
+              href={`https://github.com/${ownerName}/${name}/`}
+              className='button button-special m-1 box-shadow-lift is-medium is-rounded'
+              target='_blank'
+              rel='noopener noreferrer'
+              id='view-on-github'
+            >
+              <GitHub /> <span> &emsp;View on Github</span>
+            </a>
+          </div>
         )}
       </div>
       <section className='pdf-body' ref={bodyRef}>
-        {props.children}
+        {children}
       </section>
     </section>
   );
