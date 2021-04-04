@@ -33,7 +33,7 @@ const ResourceCards = ({
         />
       ) : (
         filteredResources.map((resource) => (
-          <ResourceCard {...{ resource, handleChangeInCategory, category }} />
+          <ResourceCard key={resource.id} {...{ resource, handleChangeInCategory, category }} />
         ))
       )}
     </div>

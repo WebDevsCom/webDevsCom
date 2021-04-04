@@ -11,8 +11,9 @@ const Contributor = () => {
       <div className='column' style={{ marginLeft: '1rem' }}>
         {
           contributors.map(contributor => {
-            const { name, userId, avatar } = contributor;
+            const { id, name, userId, avatar } = contributor;
             return <figure
+              key={id}
               className='image is-48x48 is-inline-flex'
               style={{ marginLeft: '-1rem' }}
               data-tip={name}

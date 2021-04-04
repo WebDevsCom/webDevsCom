@@ -21,7 +21,7 @@ const ResourceREADME = (props) => {
 
   useEffect(() => {
     setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
-    var BookMarked =
+    let BookMarked =
       bookmarks && bookmarks.find((bookMarkId) => repoInfo.id === bookMarkId);
     setBookMarked(BookMarked ? true : false);
 
