@@ -1,10 +1,10 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { hotjar } from 'react-hotjar';
-import Footer from './Components/Footer';
-import ResourceREADME from './Pages/Resources/ResourceREADME';
+import ResourceREADME from './Pages/ResourceREADME';
 import ScrollToTopBtn from './Components/ScrollToTopBtn';
 import Spinner from './Components/Spinner';
 

@@ -69,14 +69,14 @@ const Suggestion = ({
             id={cat.toLowerCase()}
             key={i}
             className={
-              (category === '' && cat === 'All') ||
+              (category === 'all' && cat === 'All') ||
                 cat.toLowerCase() === category
                 ? 'tag is-white active-tag'
                 : 'tag is-white'
             }
             style={{ cursor: 'pointer' }}
             onClick={() =>
-              handleChangeInCategory(cat === 'All' ? '' : cat.toLowerCase())
+              handleChangeInCategory(cat.toLowerCase())
             }
           >
             <span className={`category ${cat.toLowerCase()}`}></span>

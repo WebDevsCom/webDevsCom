@@ -8,97 +8,77 @@ import SearchInput from './SearchInput';
 
 const Resources = () => {
   const [searchInput, setSearchInput] = useState('');
-  const [category, setCategory] = useState('');
+  const [category, setCategory] = useState('all');
   const [showSuggestion, setShowSuggestion] = useState(false);
   const [filteredRes, setFilteredRes] = useState([]);
   const [pageTitle, setPageTitle] = useState("Resources");
 
   const handleInputChange = (value) => {
-    if (category !== '') handleChangeInCategory('');
+    if (category !== 'all') handleChangeInCategory('all');
     setSearchInput(value);
   };
 
   const handleChangeInCategory = (val) => {
     if (searchInput !== '') setSearchInput('');
-    // const removeActiveEle = document.getElementById(
-    //   category === '' ? 'all' : category
-    // );
-    // if (removeActiveEle) removeActiveEle.classList.remove('active-tag');
     setCategory(val);
-    // const element = document.getElementById(val === '' ? 'all' : val);
-    // if (element) element.classList.add('active-tag');
   };
 
-  useEffect(() => {
-    var filteredResources = [];
-    if (window.location.pathname === '/resources') {
-      setPageTitle(`${category}${searchInput} Resources`);
-      if (category !== '' && searchInput === '') {
+  const filterResources = (resources) => {
+    let filteredResources = [];
+
+    if (category !== 'all') {
+      const newFilteredResources = [];
+      resources &&
         resources.forEach((resource) => {
           resource.category.forEach((cat) => {
             if (cat === category) {
-              filteredResources.push(resource);
+              newFilteredResources.push(resource);
             }
           });
         });
-      } else {
-        filteredResources =
-          resources &&
-          resources.filter(
-            (resource) =>
-              resource.repoOwnerName
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.repoOwner
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.description
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.repoName
-                .toLowerCase()
-                .includes(searchInput.toLowerCase())
-          );
-      }
+      filteredResources = newFilteredResources;
+    } else if (searchInput !== '') {
+      const searchText = searchInput.toLowerCase();
+      filteredResources =
+        resources &&
+        resources.filter(
+          (resource) =>
+            resource.repoOwnerName
+              .toLowerCase()
+              .includes(searchText) ||
+            resource.repoOwner
+              .toLowerCase()
+              .includes(searchText) ||
+            resource.description
+              .toLowerCase()
+              .includes(searchText) ||
+            resource.repoName
+              .toLowerCase()
+              .includes(searchText)
+        );
+    } else {
+      return resources;
+    }
+
+    return filteredResources;
+  }
+
+  useEffect(() => {
+    let filteredResources = [];
+
+    if (window.location.pathname === '/resources') {
+      setPageTitle(`${category}${searchInput} Resources`);
+      filteredResources = filterResources(resources);
     } else if (window.location.pathname === '/bookmarked') {
       setPageTitle(`${category}${searchInput} Bookmarked Resources`);
       const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-      filteredResources =
+      const bookmarkedResources =
         bookmarks &&
         bookmarks.map(
           (bookmark) =>
             resources.filter((resource) => resource.id === bookmark)[0]
         );
-      if (category !== '' && searchInput === '') {
-        const newFilteredResources = [];
-        filteredResources &&
-          filteredResources.forEach((resource) => {
-            resource.category.forEach((cat) => {
-              if (cat === category) {
-                newFilteredResources.push(resource);
-              }
-            });
-          });
-        filteredResources = newFilteredResources;
-      } else {
-        filteredResources =
-          filteredResources &&
-          filteredResources.filter(
-            (resource) =>
-              resource.repoOwnerName
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.repoOwner
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.description
-                .toLowerCase()
-                .includes(searchInput.toLowerCase()) ||
-              resource.repoName
-                .toLowerCase()
-                .includes(searchInput.toLowerCase())
-          );
-      }
+      filteredResources = filterResources(bookmarkedResources);
     }
 
     filteredResources =
