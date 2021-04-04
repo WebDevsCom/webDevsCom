@@ -1,11 +1,11 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import ScrollToTopBtn from './Components/ScrollToTopBtn';
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { hotjar } from 'react-hotjar';
 import ResourceREADME from './Pages/ResourceREADME';
-import ScrollToTopBtn from './Components/ScrollToTopBtn';
 import Spinner from './Components/Spinner';
 
 const Home = lazy(() => import('./Pages/Home'));
