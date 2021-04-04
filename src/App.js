@@ -12,24 +12,7 @@ const Home = lazy(() => import('./Pages/Home'));
 const Resources = lazy(() => import('./Pages/Resources'));
 
 function App() {
-  const [searchInput, setSearchInput] = useState('');
-  const [category, setCategory] = useState('');
   const [darkMode, setDarkMode] = useState(null);
-  const handleInputChange = (value) => {
-    if (category !== '') handleChangeInCategory('');
-    setSearchInput(value);
-  };
-
-  const handleChangeInCategory = (val) => {
-    if (searchInput !== '') setSearchInput('');
-    const removeActiveEle = document.getElementById(
-      category === '' ? 'all' : category
-    );
-    if (removeActiveEle) removeActiveEle.classList.remove('active-tag');
-    setCategory(val);
-    const element = document.getElementById(val === '' ? 'all' : val);
-    if (element) element.classList.add('active-tag');
-  };
 
   useEffect(() => {
     const isDarkMode = JSON.parse(localStorage.getItem('dark-mode'));
@@ -62,12 +45,7 @@ function App() {
             exact
             path={['/resources', '/bookmarked']}
             render={() => (
-              <Resources
-                handleInputChange={handleInputChange}
-                searchInput={searchInput}
-                handleChangeInCategory={handleChangeInCategory}
-                category={category}
-              />
+              <Resources />
             )}
           />
           <Route

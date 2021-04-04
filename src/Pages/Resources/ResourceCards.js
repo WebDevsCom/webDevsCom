@@ -125,10 +125,7 @@ const ResourceCards = ({
                   <footer className='card-footer'>
                     <a
                       href={
-                        `https://github.com/${resource.repoOwnerName}` +
-                        '/' +
-                        resource.repoName +
-                        '/stargazers'
+                        `https://github.com/${resource.repoOwnerName}/${resource.repoName}/stargazers`
                       }
                       target='_blank'
                       rel='noopener noreferrer'
@@ -146,10 +143,7 @@ const ResourceCards = ({
                     </Link>
                     <a
                       href={
-                        `https://github.com/${resource.repoOwnerName}` +
-                        '/' +
-                        resource.repoName +
-                        '/network/members'
+                        `https://github.com/${resource.repoOwnerName}/${resource.repoName}/network/members`
                       }
                       target='_blank'
                       rel='noopener noreferrer'

@@ -40,6 +40,7 @@ export default (props) => {
       document.querySelector('body').classList.remove('overflow-hidden');
     }
   }, [disable]);
+
   return (
     <section>
       <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>

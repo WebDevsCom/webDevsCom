@@ -113,6 +113,7 @@ const ResourceREADME = (props) => {
       localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
   };
+
   const removeBookmark = () => {
     setBookMarked(false);
     const bookMarks =
