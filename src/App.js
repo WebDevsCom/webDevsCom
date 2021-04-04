@@ -8,8 +8,8 @@ import ResourceREADME from './Pages/Resources/ResourceREADME';
 import ScrollToTopBtn from './Components/ScrollToTopBtn';
 import Spinner from './Components/Spinner';
 
-const Home = lazy(() => import('./Pages/Home/Home'));
-const Resources = lazy(() => import('./Pages/Resources/Resources'));
+const Home = lazy(() => import('./Pages/Home'));
+const Resources = lazy(() => import('./Pages/Resources'));
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
@@ -49,6 +49,7 @@ function App() {
       document.querySelector('body').classList.remove('dark-mode');
     }
   }, [darkMode]);
+
   return (
     <div className='App'>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />

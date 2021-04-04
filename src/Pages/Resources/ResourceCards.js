@@ -77,6 +77,7 @@ const ResourceCards = ({
                               className='is-rounded avatar-home'
                               alt={resource.repoOwnerName}
                               src={`https://avatars.githubusercontent.com/${resource.repoOwnerName}`}
+                              loading="lazy"
                             />
                           </a>
                         </figure>
