@@ -38,7 +38,7 @@ if you have not installed nodeJS install it. then:-
 If you're new to contribute to Open Source on Github, [this guide](https://guides.github.com/activities/contributing-to-open-source/) can help you get started. Please check out the [contribution guide](CONTRIBUTING.md) for more details on how issues and pull requests work.
 
 ### Steps to add Resources
-* go to [/src/components/Resources/resourcesData.js](https://github.com/WebDevsCom/webDevsCom/blob/master/src/components/Resources/resourcesData.js)
+* go to [/src/data/resourcesData.js](https://github.com/WebDevsCom/webDevsCom/blob/master/src/data/resourcesData.js)
 * structure of Data to add 
   
 ```javascript 
