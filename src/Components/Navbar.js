@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Terminal, Sun, Moon } from 'react-feather';
 import { Link, withRouter } from 'react-router-dom';
+import ThemeContext from '../context/theme/themeContext'
 
-const Navbar = ({ darkMode, setDarkMode }) => {
+const Navbar = () => {
+  const themeContext = new useContext(ThemeContext);
+  const { isDarkMode, toggleTheme } = themeContext;
   const active = window.location.pathname;
   document.addEventListener('DOMContentLoaded', () => {
     const $navbarBurgers = Array.prototype.slice.call(
@@ -68,18 +71,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </Link>
 
           <Link
-            className={`navbar-item ${
-              active.includes('/resources') ? 'is-active' : ''
-            }`}
+            className={`navbar-item ${active.includes('/resources') ? 'is-active' : ''
+              }`}
             to='/resources'
           >
             Resources
           </Link>
 
           <Link
-            className={`navbar-item ${
-              active === '/bookmarked' ? 'is-active' : ''
-            }`}
+            className={`navbar-item ${active === '/bookmarked' ? 'is-active' : ''
+              }`}
             to='/bookmarked'
           >
             My BookMarks
@@ -96,9 +97,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <div
             className='navbar-item'
             style={{ cursor: 'pointer' }}
-            onClick={() => setDarkMode(!darkMode)}
+            onClick={toggleTheme}
           >
-            {darkMode ? <Sun color='#00d1b2' /> : <Moon color='#00d1b2' />}
+            {isDarkMode ? <Sun color='#00d1b2' /> : <Moon color='#00d1b2' />}
           </div>
         </div>
       </div>
