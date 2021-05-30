@@ -24,15 +24,11 @@ jobs:
 
     - name: Build
       run: npm run build
-
+      
     - name: Deploy
-      run: |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
-        git remote set-url origin git@github.com:WebDevsCom/webDevsCom.github.io.git
-        git push origin master
+      uses: s0/git-publish-subdir-action@develop
       env:
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        repository: ${{ github.repository }}
+        REPO: git@github.com:WebDevsCom/webDevsCom.github.io.git
+        BRANCH: master
+        FOLDER: build
+        SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
