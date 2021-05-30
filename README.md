@@ -6,6 +6,7 @@
 > Community to help developers by providing them all kinds of free resources at one place. 
 
 [![Author](https://img.shields.io/badge/Author-Binu42-brightgreen.svg)](http://binu42.netlify.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/59163947-b980-4aac-a382-38e8fc98329b/deploy-status)](https://app.netlify.com/sites/webdevscom/deploys)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Repo Link](https://img.shields.io/badge/Repo-Link-black.svg)](https://github.com/WebDevsCom/webDevsCom)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
