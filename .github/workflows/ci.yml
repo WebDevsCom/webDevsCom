@@ -29,7 +29,7 @@ jobs:
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/webDevsCom.github.io
+        git remote set-url origin https://${github_token}@github.com/WebDevsCom/webDevsCom.github.io
         git push origin master
       env:
         user_name: 'github-actions[bot]'
