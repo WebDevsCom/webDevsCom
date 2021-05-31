@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 import ThemeContext from '../context/theme/themeContext'
 
 const Navbar = () => {
-  const themeContext = new useContext(ThemeContext);
+  const themeContext = useContext(ThemeContext);
   const { isDarkMode, toggleTheme } = themeContext;
   const active = window.location.pathname;
   document.addEventListener('DOMContentLoaded', () => {

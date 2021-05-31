@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Search, XCircle } from 'react-feather';
+import resourceContext from '../../context/resources/resourceContext';
 
-const SearchInput = ({ searchInput, handleInputChange }) => {
+const SearchInput = () => {
+  const ResourceContext = useContext(resourceContext);
+  const { setSearchText, searchText } = ResourceContext;
   const [placeholder, setPlaceholder] = useState('');
 
   const suggestions = [
@@ -66,9 +69,9 @@ const SearchInput = ({ searchInput, handleInputChange }) => {
         <input
           className='input'
           type='text'
-          onChange={(e) => handleInputChange(e.target.value)}
+          onChange={(e) => setSearchText(e.target.value)}
           placeholder={'Search for ' + placeholder}
-          value={searchInput}
+          value={searchText}
         />
         <span className='icon is-small is-left'>
           <Search color='#00d1b2' />
@@ -77,7 +80,8 @@ const SearchInput = ({ searchInput, handleInputChange }) => {
       <div className='control' id='clear'>
         <div
           className='button is-primary'
-          disabled={searchInput.trim() === '' ? true : false}
+          disabled={searchText.trim() === '' ? true : false}
+          onClick={e => setSearchText("")}
           style={{ backgroundColor: '#00d1b2' }}
         >
           <span className='icon is-small'>

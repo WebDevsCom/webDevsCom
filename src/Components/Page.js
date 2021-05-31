@@ -1,16 +1,23 @@
-import React, { useEffect } from 'react'
+import React, { memo, useContext, useEffect } from 'react'
+import resourceContext from '../context/resources/resourceContext';
 
 // used to change title of page
-function Page(props) {
+function Page({ title, children }) {
+  const ResourceContext = useContext(resourceContext) || {};
+  const { pageTitle } = ResourceContext;
   useEffect(() => {
-    document.title = `${props.title} | WebDevsCom`
+    if (title)
+      document.title = `${title} | WebDevsCom`;
+    else
+      document.title = `${pageTitle} | WebDevsCom`;
     // eslint-disable-next-line
-  }, [props.title]);
+  }, [pageTitle, title]);
+
   return (
     <>
-      {props.children}
+      {children}
     </>
   )
 }
 
-export default Page;
+export default memo(Page);
