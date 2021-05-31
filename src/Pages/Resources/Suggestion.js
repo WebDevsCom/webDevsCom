@@ -1,11 +1,8 @@
-import React from 'react'
+import React, { useContext, useMemo } from 'react'
+import resourceContext from '../../context/resources/resourceContext';
 
-const Suggestion = ({
-  category,
-  handleInputChange,
-  handleChangeInCategory,
-}) => {
-  const filters = [
+const Suggestion = () => {
+  const filters = useMemo(() => ([
     'App',
     'Book',
     'Awesome',
@@ -18,9 +15,9 @@ const Suggestion = ({
     'code',
     'Resources',
     'web',
-  ].sort((a, b) => a.localeCompare(b));
+  ].sort((a, b) => a.localeCompare(b))), []);
 
-  const categories = [
+  const categories = useMemo(() => ([
     'All',
     'Web-dev',
     'Mob-dev',
@@ -33,7 +30,10 @@ const Suggestion = ({
     'Course',
     'Podcast',
     "productive",
-  ].sort((a, b) => a.localeCompare(b));
+  ].sort((a, b) => a.localeCompare(b))), []);
+
+  const ResourceContext = useContext(resourceContext);
+  const { setSearchText, category, setCategory } = ResourceContext;
 
   return (
     <>
@@ -47,7 +47,7 @@ const Suggestion = ({
               key={index}
               className='tag is-primary'
               style={{ cursor: 'pointer' }}
-              onClick={() => handleInputChange(filter)}
+              onClick={() => setSearchText(filter)}
             >
               {filter}
             </span>
@@ -76,7 +76,7 @@ const Suggestion = ({
             }
             style={{ cursor: 'pointer' }}
             onClick={() =>
-              handleChangeInCategory(cat.toLowerCase())
+              setCategory(cat.toLowerCase())
             }
           >
             <span className={`category ${cat.toLowerCase()}`}></span>

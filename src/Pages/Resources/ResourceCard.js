@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { memo, useContext } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { Star, GitPullRequest, Eye } from 'react-feather';
+import resourceContext from '../../context/resources/resourceContext';
 
-const ResourceCard = ({ resource, history, category, handleChangeInCategory }) => {
+const ResourceCard = memo(({ resource, history }) => {
   const { id, repoName, repoOwner, repoOwnerName, category: categories, description } = resource;
+
+  const ResourceContext = useContext(resourceContext);
+  const { category, setCategory } = ResourceContext;
 
   return (
     <div
@@ -83,7 +87,7 @@ const ResourceCard = ({ resource, history, category, handleChangeInCategory }) =
                 title={cat}
                 key={index}
                 onClick={() =>
-                  handleChangeInCategory(cat.toLowerCase())
+                  setCategory(cat.toLowerCase())
                 }
                 id={cat === category ? 'active-dot' : ''}
                 className={`category ${cat}`}
@@ -125,6 +129,6 @@ const ResourceCard = ({ resource, history, category, handleChangeInCategory }) =
       </div>
     </div>
   )
-}
+})
 
 export default withRouter(ResourceCard);
