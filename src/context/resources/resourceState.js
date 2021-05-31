@@ -19,8 +19,8 @@ const ResourceState = props => {
         (bookmark) =>
           resources.filter((resource) => resource.id === bookmark)[0]
       );
-    return bookmarkedResources;
-  }, [])
+    return bookmarkedResources || [];
+  }, [localStorage.getItem('bookmarks')])
 
   const sortResources = (resources) => {
     return resources.sort((a, b) =>

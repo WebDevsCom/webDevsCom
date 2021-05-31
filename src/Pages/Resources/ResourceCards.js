@@ -19,13 +19,12 @@ const ResourceCards = memo(() => {
             Please try searching for something else.`} />
         ) : (
           resources.length === 0 &&
-          window.location.pathname === '/bookmarked') ||
-          resources === null ? (
+          window.location.pathname === '/bookmarked') ? (
           <NoData
             text={
-              searchText === '' && category === ''
+              searchText === '' && category === 'all'
                 ? 'You have not Bookmarked any Resources.'
-                : category !== ''
+                : category !== 'all'
                   ? `You have not Bookmarked any Resources of category "${category}".`
                   : `You have not Bookmarked any resources with search keyword "${searchText}"`
             }
