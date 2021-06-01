@@ -8,6 +8,7 @@ import ReadmeUtilsBtn from './ReadmeUtilsBtn';
 import { slug } from 'github-slugger';
 import PdfContainer from './PdfContainer';
 import Page from '../../Components/Page';
+import NoData from '../../Components/NoData';
 import OtherReposByAuthorModal from './OtherReposByAuthorModal';
 
 const ResourceREADME = (props) => {
@@ -22,13 +23,14 @@ const ResourceREADME = (props) => {
   useEffect(() => {
     setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
     let BookMarked =
-      bookmarks && bookmarks.find((bookMarkId) => repoInfo.id === bookMarkId);
+      bookmarks?.find((bookMarkId) => repoInfo?.id === bookMarkId);
     setBookMarked(BookMarked ? true : false);
 
+    // Todo: need to make it better sometime later.
     if (loading === false) {
       const repos = [];
       resources.forEach((resource) => {
-        if (resource.repoOwnerName === repoInfo.repoOwnerName) {
+        if (resource.repoOwnerName === repoInfo?.repoOwnerName) {
           repos.push(resource);
         }
       });
@@ -126,7 +128,6 @@ const ResourceREADME = (props) => {
     setLoading(true);
     setModalOpen(false);
     const id = props.match.params.id;
-
     const repo = resources.find(
       (resource) => String(resource.id) === String(id)
     );
@@ -144,6 +145,9 @@ const ResourceREADME = (props) => {
       ? document.querySelector('html').classList.add('is-clipped')
       : document.querySelector('html').classList.remove('is-clipped');
   }, [isModalOpen]);
+
+  if (!repoInfo)
+    return <NoData text="Not able to find the Resource which you are looking for." />
 
   if (loading) return <Spinner />;
 
