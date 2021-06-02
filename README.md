@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  View our Website on <a href="http://webdevscom.github.io/">Github Pages</a> | <a href="http://webdevscom.netlify.com/">Website on Netlify</a>.
+  View our Website on <a href="http://webdevscom.github.io/">GitHub Pages</a> | <a href="http://webdevscom.netlify.com/">Website on Netlify</a>.
  </p>
 
 ## Main Libraries/Frameworks Used
@@ -36,7 +36,7 @@ if you have not installed nodeJS install it. then:-
 ## Contribute
 > Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-If you're new to contribute to Open Source on Github, [this guide](https://guides.github.com/activities/contributing-to-open-source/) can help you get started. Please check out the [contribution guide](CONTRIBUTING.md) for more details on how issues and pull requests work.
+If you're new to contribute to Open Source on GitHub, [this guide](https://guides.github.com/activities/contributing-to-open-source/) can help you get started. Please check out the [contribution guide](CONTRIBUTING.md) for more details on how issues and pull requests work.
 
 ### Steps to add Resources
 * go to [/src/data/resourcesData.js](https://github.com/WebDevsCom/webDevsCom/blob/master/src/data/resourcesData.js)
