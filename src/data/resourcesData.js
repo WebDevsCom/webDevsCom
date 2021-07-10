@@ -1998,5 +1998,14 @@ export default [
     repoOwnerName: 'ganqqwerty',
     repoOwner: 'Yuri Katkov',
     category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
+  },  
+  {
+    id: 203,
+    link: 'https://raw.githubusercontent.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions/master/README.md',
+    repoName: 'anoter-portfolio',
+    description: 'Developer Portfolio',
+    repoOwnerName: 'harshgoel05',
+    repoOwner: 'Harsh Goel',
+    category: ['web-dev', 'frontend', 'backend', 'project']
   }
 ];
