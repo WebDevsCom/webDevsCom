@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import {
   Heart,
   Facebook,
@@ -8,10 +8,9 @@ import {
   Linkedin,
 } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
-import ThemeContext from '../context/theme/themeContext'
+
 const Footer = () => {
-  const themeContext = useContext(ThemeContext);
-  const { isDarkMode} = themeContext;
+  
   return (
     <footer className='footer'>
       <ReactTooltip type='light' />
