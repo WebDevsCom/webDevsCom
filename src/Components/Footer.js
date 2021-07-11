@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   Heart,
   Facebook,
@@ -8,8 +8,10 @@ import {
   Linkedin,
 } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
-
+import ThemeContext from '../context/theme/themeContext'
 const Footer = () => {
+  const themeContext = useContext(ThemeContext);
+  const { isDarkMode} = themeContext;
   return (
     <footer className='footer'>
       <ReactTooltip type='light' />
@@ -23,7 +25,7 @@ const Footer = () => {
             className='button button-special is-rounded box-shadow-lift'
             data-tip='connect on Facebook 🦸‍♂'
           >
-            <Facebook color='blue' className='icon' />
+            {isDarkMode? <Facebook color='white' className='icon' /> : <Facebook color='blue' className='icon' />}
           </a>
           <a
             href='https://www.instagram.com/krbinu42/'
@@ -72,12 +74,16 @@ const Footer = () => {
         <p className='menu-label'>
           Made with <Heart color='red' fill='red' size='15px' />{' '}
           <a
+          className="Link-hover"
             href='https://binu42.netlify.com'
             target='_blank'
+          //  style={{color:"#3273dc"}}
+            
             rel='noopener noreferrer'
           >
             By Binu Kumar
-          </a>{' '}
+          </a>
+          {' '}
           <br />
           &copy;{new Date().getFullYear()}
         </p>

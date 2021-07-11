@@ -129,7 +129,7 @@
 }
 
 #markdown a {
-  color: #0479fb;
+  color: white;
   word-wrap: break-word;
 }
 
@@ -526,6 +526,7 @@ code {
   background-color: #24292e !important;
 }
 
+
 .dark-mode .title {
   color: #eae7d9 !important;
 }
@@ -631,4 +632,13 @@ code {
 
 .dark-mode #active-dot {
   border: 2px solid #f5f5f5;
+}
+.dark-mode .Link-hover
+{
+  color:#3273dc;
+}
+.dark-mode .Link-hover:hover
+{
+ 
+color:white;
 }
