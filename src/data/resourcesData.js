@@ -2001,9 +2001,9 @@ export default [
   },  
   {
     id: 203,
-    link: 'https://raw.githubusercontent.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/harshgoel05/another-portfolio/master/README.md',
     repoName: 'anoter-portfolio',
-    description: 'Developer Portfolio',
+    description: 'Developer Portfolio built on NextJS',
     repoOwnerName: 'harshgoel05',
     repoOwner: 'Harsh Goel',
     category: ['web-dev', 'frontend', 'backend', 'project']
