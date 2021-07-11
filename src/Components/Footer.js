@@ -25,7 +25,7 @@ const Footer = () => {
             className='button button-special is-rounded box-shadow-lift'
             data-tip='connect on Facebook 🦸‍♂'
           >
-            {isDarkMode? <Facebook color='#21bf73' className='icon' /> : <Facebook color='blue' className='icon' />}
+           <Facebook color='blue' className='icon' />
           </a>
           <a
             href='https://www.instagram.com/krbinu42/'
