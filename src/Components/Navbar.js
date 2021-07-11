@@ -44,7 +44,7 @@ const Navbar = () => {
     >
       <div className='navbar-brand'>
         <Link className='navbar-item' id='brand' to='/'>
-        {isDarkMode? <Terminal color='white' /> : <Terminal color='blue' />}
+        <Terminal color='blue' />
           &emsp;WEBDEVSCOM
         </Link>
 

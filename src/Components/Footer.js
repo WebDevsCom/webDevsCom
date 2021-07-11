@@ -25,7 +25,7 @@ const Footer = () => {
             className='button button-special is-rounded box-shadow-lift'
             data-tip='connect on Facebook 🦸‍♂'
           >
-            {isDarkMode? <Facebook color='white' className='icon' /> : <Facebook color='blue' className='icon' />}
+            <Facebook color='blue' className='icon' />
           </a>
           <a
             href='https://www.instagram.com/krbinu42/'
@@ -82,8 +82,7 @@ const Footer = () => {
             rel='noopener noreferrer'
           >
             By Binu Kumar
-          </a>
-          {' '}
+          </a>{' '}
           <br />
           &copy;{new Date().getFullYear()}
         </p>
