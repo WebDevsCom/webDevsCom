@@ -1,7 +1,15 @@
-* go to [/src/components/Resources/resourcesData.js](https://github.com/WebDevsCom/webDevsCom/blob/master/src/components/Resources/resourcesData.js)
-* structure of Data to add 
-  
-```javascript 
+## Contribute
+
+> Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+If you're new to contribute to Open Source on GitHub, [this guide](https://guides.github.com/activities/contributing-to-open-source/) can help you get started. Please check out the [contribution guide](CONTRIBUTING.md) for more details on how issues and pull requests work.
+
+### Steps to add Resources
+
+- go to [/src/data/resourcesData.js](https://github.com/WebDevsCom/webDevsCom/blob/master/src/data/resourcesData.js)
+- structure of Data to add
+
+```javascript
 {
     id: 9,  // +1 than last available resource data
     link:
@@ -15,7 +23,7 @@
 }
 ```
 
-* available categories:-
+- available categories:-
   - web-dev
   - mob-dev
   - frontend
@@ -25,3 +33,5 @@
   - course
   - podcast
   - interview
+  - productive
+  - data-science
