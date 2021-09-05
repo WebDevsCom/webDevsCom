@@ -97,6 +97,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Muhammed-Rahif",
+      "name": "Muhammed Rahif",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73386156?v=4",
+      "profile": "http://muhammed-rahif.github.io",
+      "contributions": [
+        "data",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
