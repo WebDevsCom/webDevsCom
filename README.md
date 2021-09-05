@@ -1,6 +1,6 @@
 # WEBDEVSCOM
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > Community to help developers by providing them all kinds of free resources at one place. 
@@ -103,6 +103,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jmannfeld"><img src="https://avatars2.githubusercontent.com/u/16351524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jordan Mannfeld</b></sub></a><br /><a href="#content-jmannfeld" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Lord-Aman"><img src="https://avatars1.githubusercontent.com/u/65647302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aman</b></sub></a><br /><a href="#content-Lord-Aman" title="Content">🖋</a></td>
     <td align="center"><a href="http://muhammed-rahif.github.io"><img src="https://avatars.githubusercontent.com/u/73386156?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammed Rahif</b></sub></a><br /><a href="#data-Muhammed-Rahif" title="Data">🔣</a> <a href="#content-Muhammed-Rahif" title="Content">🖋</a></td>
+    <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="#content-eltociear" title="Content">🖋</a></td>
   </tr>
 </table>
 
