@@ -6,8 +6,8 @@ import Footer from './Components/Footer';
 import ScrollToTopBtn from './Components/ScrollToTopBtn';
 import Spinner from './Components/Spinner';
 import ResourceREADME from './Pages/ResourceREADME';
-import ThemeState from './context/theme/themeState'
-import ResourceState from './context/resources/resourceState'
+import ThemeState from './context/theme/themeState';
+import ResourceState from './context/resources/resourceState';
 import './App.css';
 
 const Home = lazy(() => import('./Pages/Home'));
@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className='App'>
+    <div className="App">
       <ThemeState>
         <Navbar />
         <ScrollToTopBtn />
@@ -27,21 +27,15 @@ function App() {
         <Suspense fallback={<Spinner />}>
           <Switch>
             <ResourceState>
-              <Route exact path='/' component={Home} />
+              <Route exact path="/" component={Home} />
+              <Route exact path={['/resources', '/bookmarked']} render={() => <Resources />} />
               <Route
                 exact
-                path={['/resources', '/bookmarked']}
-                render={() => (
-                  <Resources />
-                )}
-              />
-              <Route
-                exact
-                path='/resources/:id'
+                path="/resources/:id"
                 render={(props) => <ResourceREADME {...props} />}
               />
             </ResourceState>
-            <Redirect to='/' />
+            <Redirect to="/" />
           </Switch>
         </Suspense>
         <Footer />

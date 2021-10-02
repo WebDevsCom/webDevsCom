@@ -30,7 +30,8 @@
     "eject": "react-scripts eject",
     "netlify": "npm run build && netlify deploy --dir build && netlify deploy --prod --dir build",
     "gitDeploy": "rm -rf ../'webdevscom deploy/*'  && cp -r build/* ../webdevscom\\ deploy/ && cd ../webdevscom\\ deploy/ && git add . && git commit -m 'new build' && git push origin master && cd ../webdevscom",
-    "deploy": "npm run netlify && npm run gitDeploy"
+    "deploy": "npm run netlify && npm run gitDeploy",
+    "lint": "eslint ./src --fix "
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.26.1"
   }
 }

@@ -2,39 +2,32 @@ import React from 'react';
 import { Bookmark, MoreVertical } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 
-const ReadmeUtilsBtn = ({
-  isBookMarked,
-  removeBookmark,
-  bookmarkIt,
-  setModal,
-}) => {
+function ReadmeUtilsBtn({ isBookMarked, removeBookmark, bookmarkIt, setModal }) {
   return (
     <>
-      <ReactTooltip type='light' />
+      <ReactTooltip type="light" />
+
       <div
-        id='bookmarkBtn'
-        className='button button-special is-rounded box-shadow-lift'
-        style={{ cursor: 'pointer' }}
-        onClick={() => (isBookMarked ? removeBookmark() : bookmarkIt())}
+        className="button button-special is-rounded box-shadow-lift"
         data-tip={isBookMarked ? 'Remove from Bookmark' : 'Add to Bookmark'}
-      >
-        <Bookmark
-          color='blue'
-          fill={isBookMarked ? 'blue' : '#c9cff8'}
-          className='icon'
-        />
-      </div>
-      <div
-        id='repo-owner-info'
-        className='button button-special is-rounded box-shadow-lift'
+        id="bookmarkBtn"
+        onClick={() => (isBookMarked ? removeBookmark() : bookmarkIt())}
         style={{ cursor: 'pointer' }}
-        onClick={() => setModal(true)}
-        data-tip='See more from Repo owners'
       >
-        <MoreVertical color='blue' fill='blue' className='icon' />
+        <Bookmark className="icon" color="blue" fill={isBookMarked ? 'blue' : '#c9cff8'} />
+      </div>
+
+      <div
+        className="button button-special is-rounded box-shadow-lift"
+        data-tip="See more from Repo owners"
+        id="repo-owner-info"
+        onClick={() => setModal(true)}
+        style={{ cursor: 'pointer' }}
+      >
+        <MoreVertical className="icon" color="blue" fill="blue" />
       </div>
     </>
   );
-};
+}
 
 export default ReadmeUtilsBtn;

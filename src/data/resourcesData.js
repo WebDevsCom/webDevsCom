@@ -1,8 +1,7 @@
 export default [
   {
     id: 1,
-    link:
-      'https://raw.githubusercontent.com/bradtraversy/design-resources-for-developers/master/readme.md',
+    link: 'https://raw.githubusercontent.com/bradtraversy/design-resources-for-developers/master/readme.md',
     repoName: 'design-resources-for-developers',
     description:
       'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more',
@@ -12,19 +11,16 @@ export default [
   },
   {
     id: 2,
-    link:
-      'https://raw.githubusercontent.com/public-apis/public-apis/master/README.md',
+    link: 'https://raw.githubusercontent.com/public-apis/public-apis/master/README.md',
     repoName: 'public-apis',
-    description:
-      'A collective list of free APIs for use in software and web development.',
+    description: 'A collective list of free APIs for use in software and web development.',
     repoOwnerName: 'public-apis',
     repoOwner: 'public-apis',
     category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 3,
-    link:
-      'https://raw.githubusercontent.com/emmabostian/developer-portfolios/master/README.md',
+    link: 'https://raw.githubusercontent.com/emmabostian/developer-portfolios/master/README.md',
     repoName: 'developer-portfolios',
     description: 'A list of developer portfolios for your inspiration',
     repoOwnerName: 'emmabostian',
@@ -33,26 +29,17 @@ export default [
   },
   {
     id: 4,
-    link:
-      'https://raw.githubusercontent.com/ErikCH/DevYouTubeList/master/README.md',
+    link: 'https://raw.githubusercontent.com/ErikCH/DevYouTubeList/master/README.md',
     repoName: 'DevYouTubeList',
     description:
       'A curated list of amazing development channels on YouTube. These include web development, back-end development, front-end development live coders and more!',
     repoOwnerName: 'ErikCH',
     repoOwner: 'Erik Hanchett',
-    category: [
-      'backend',
-      'frontend',
-      'web-dev',
-      'mob-dev',
-      'course',
-      'language',
-    ],
+    category: ['backend', 'frontend', 'web-dev', 'mob-dev', 'course', 'language'],
   },
   {
     id: 5,
-    link:
-      'https://raw.githubusercontent.com/florinpop17/app-ideas/master/README.md',
+    link: 'https://raw.githubusercontent.com/florinpop17/app-ideas/master/README.md',
     repoName: 'app-ideas',
     description:
       'A Collection of application ideas which can be used to improve your coding skills.',
@@ -62,8 +49,7 @@ export default [
   },
   {
     id: 6,
-    link:
-      'https://raw.githubusercontent.com/lauragift21/awesome-learning-resources/master/README.md',
+    link: 'https://raw.githubusercontent.com/lauragift21/awesome-learning-resources/master/README.md',
     repoName: 'awesome-learning-resources',
     description: 'list of resources on Web Development.',
     repoOwnerName: 'lauragift21',
@@ -72,8 +58,7 @@ export default [
   },
   {
     id: 7,
-    link:
-      'https://raw.githubusercontent.com/alexpate/awesome-design-systems/master/README.md',
+    link: 'https://raw.githubusercontent.com/alexpate/awesome-design-systems/master/README.md',
     repoName: 'awesome-design-systems',
     description:
       'A design system is a collection of documentation on principles and best practices, that helps guide a team to build digital products.',
@@ -83,8 +68,7 @@ export default [
   },
   {
     id: 8,
-    link:
-      'https://raw.githubusercontent.com/alexpate/design-system-talks/master/README.md',
+    link: 'https://raw.githubusercontent.com/alexpate/design-system-talks/master/README.md',
     repoName: 'design-system-talks',
     description: 'A collection of talks on design systems',
     repoOwnerName: 'alexpate',
@@ -93,25 +77,17 @@ export default [
   },
   {
     id: 9,
-    link:
-      'https://raw.githubusercontent.com/dipakkr/A-to-Z-Resources-for-Students/master/README.md',
+    link: 'https://raw.githubusercontent.com/dipakkr/A-to-Z-Resources-for-Students/master/README.md',
     repoName: 'A-to-Z-Resources-for-Students',
     description:
       'Curated list of resources for college students. you should definitely check this out.',
     repoOwnerName: 'dipakkr',
     repoOwner: 'Deepak Kumar',
-    category: [
-      'backend',
-      'frontend',
-      'web-dev',
-      'mob-dev',
-      'course',
-    ],
+    category: ['backend', 'frontend', 'web-dev', 'mob-dev', 'course'],
   },
   {
     id: 10,
-    link:
-      'https://raw.githubusercontent.com/sdmg15/Best-websites-a-programmer-should-visit/master/README.md',
+    link: 'https://raw.githubusercontent.com/sdmg15/Best-websites-a-programmer-should-visit/master/README.md',
     repoName: 'Best-websites-a-programmer-should-visit',
     description:
       'useful lists of websites for coders, must know to get always informed in order and learn new stuffs. ',
@@ -121,8 +97,7 @@ export default [
   },
   {
     id: 11,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/javascript.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/javascript.md',
     repoName: 'FAQ - javascript',
     description: 'FAQ javascript questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -131,8 +106,7 @@ export default [
   },
   {
     id: 12,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/react.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/react.md',
     repoName: 'FAQ - React',
     description: 'FAQ React questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -141,8 +115,7 @@ export default [
   },
   {
     id: 13,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/redux.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/redux.md',
     repoName: 'FAQ - Redux',
     description: 'FAQ redux questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -151,8 +124,7 @@ export default [
   },
   {
     id: 14,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/vuejs.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/vuejs.md',
     repoName: 'FAQ - VueJS',
     description: 'FAQ VueJS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -161,8 +133,7 @@ export default [
   },
   {
     id: 15,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angular.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angular.md',
     repoName: 'FAQ - Angular',
     description: 'FAQ Angular questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -171,8 +142,7 @@ export default [
   },
   {
     id: 16,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/nodejs.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/nodejs.md',
     repoName: 'FAQ - nodeJS',
     description: 'FAQ nodeJS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -181,8 +151,7 @@ export default [
   },
   {
     id: 17,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angularjs.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/angularjs.md',
     repoName: 'FAQ - AngularJS',
     description: 'FAQ AngularJS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -191,8 +160,7 @@ export default [
   },
   {
     id: 18,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/bootstrap.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/bootstrap.md',
     repoName: 'FAQ - BootStrap',
     description: 'FAQ BootStrap questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -201,8 +169,7 @@ export default [
   },
   {
     id: 19,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/css.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/css.md',
     repoName: 'FAQ - CSS',
     description: 'FAQ CSS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -211,8 +178,7 @@ export default [
   },
   {
     id: 20,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/html5.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/html5.md',
     repoName: 'FAQ - HTML5',
     description: 'FAQ HTML5 questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -221,8 +187,7 @@ export default [
   },
   {
     id: 21,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sass.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sass.md',
     repoName: 'FAQ - SASS',
     description: 'FAQ SASS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -231,8 +196,7 @@ export default [
   },
   {
     id: 22,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/webpack.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/webpack.md',
     repoName: 'FAQ - WEBpack',
     description: 'FAQ WEBpack questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -241,8 +205,7 @@ export default [
   },
   {
     id: 23,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/mongodb.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/mongodb.md',
     repoName: 'FAQ - mongoDB',
     description: 'FAQ mongoDB questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -251,8 +214,7 @@ export default [
   },
   {
     id: 24,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sql.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/sql.md',
     repoName: 'FAQ - SQL',
     description: 'FAQ SQL questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -261,8 +223,7 @@ export default [
   },
   {
     id: 25,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/graphql.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/graphql.md',
     repoName: 'FAQ - GraphQL',
     description: 'FAQ GraphQL questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -271,8 +232,7 @@ export default [
   },
   {
     id: 26,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/c.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/c.md',
     repoName: 'FAQ - C#',
     description: 'FAQ C# questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -281,8 +241,7 @@ export default [
   },
   {
     id: 27,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/golang.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/golang.md',
     repoName: 'FAQ - GOLANG',
     description: 'FAQ GOLANG questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -291,8 +250,7 @@ export default [
   },
   {
     id: 28,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/java.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/java.md',
     repoName: 'FAQ - JAVA',
     description: 'FAQ JAVA questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -301,8 +259,7 @@ export default [
   },
   {
     id: 29,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/typeScript.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/typeScript.md',
     repoName: 'FAQ - TypeScript',
     description: 'FAQ TypeScript questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -311,8 +268,7 @@ export default [
   },
   {
     id: 30,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/aws.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/aws.md',
     repoName: 'FAQ - AWS',
     description: 'FAQ AWS questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -321,8 +277,7 @@ export default [
   },
   {
     id: 31,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/git.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/git.md',
     repoName: 'FAQ - GIT',
     description: 'FAQ GIT questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -331,8 +286,7 @@ export default [
   },
   {
     id: 32,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/code-problems.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/code-problems.md',
     repoName: 'FAQ - code problems',
     description: 'FAQ Code problems questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -341,8 +295,7 @@ export default [
   },
   {
     id: 33,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/data-structures.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/data-structures.md',
     repoName: 'FAQ - data structures',
     description: 'FAQ Data Structures questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -351,8 +304,7 @@ export default [
   },
   {
     id: 34,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/design-patterns.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/design-patterns.md',
     repoName: 'FAQ - Design patterns',
     description: 'FAQ Design Patterns questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -361,8 +313,7 @@ export default [
   },
   {
     id: 35,
-    link:
-      'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/agile.md',
+    link: 'https://raw.githubusercontent.com/FAQGURU/FAQGURU/master/topics/en/agile.md',
     repoName: 'FAQ - Agile',
     description: 'FAQ Agile questions in interviews',
     repoOwnerName: 'FAQGURU',
@@ -371,8 +322,7 @@ export default [
   },
   {
     id: 36,
-    link:
-      'https://raw.githubusercontent.com/Michael0x2a/curated-programming-resources/master/resources.md',
+    link: 'https://raw.githubusercontent.com/Michael0x2a/curated-programming-resources/master/resources.md',
     repoName: 'curated-programming-resources',
     description: 'A curated list of resources for learning programming.',
     repoOwnerName: 'Michael0x2a',
@@ -381,8 +331,7 @@ export default [
   },
   {
     id: 37,
-    link:
-      'https://raw.githubusercontent.com/charlax/professional-programming/master/README.md',
+    link: 'https://raw.githubusercontent.com/charlax/professional-programming/master/README.md',
     repoName: 'professional-programming',
     description: 'A collection of full-stack resources for programmers.',
     repoOwnerName: 'charlax',
@@ -391,8 +340,7 @@ export default [
   },
   {
     id: 38,
-    link:
-      'https://raw.githubusercontent.com/charlax/engineering-management/master/README.md',
+    link: 'https://raw.githubusercontent.com/charlax/engineering-management/master/README.md',
     repoName: 'engineering-management',
     description:
       'A collection of inspiring resources related to engineering management and tech leadership',
@@ -402,8 +350,7 @@ export default [
   },
   {
     id: 39,
-    link:
-      'https://raw.githubusercontent.com/tuvtran/project-based-learning/master/README.md',
+    link: 'https://raw.githubusercontent.com/tuvtran/project-based-learning/master/README.md',
     repoName: 'project-based-learning',
     description:
       'A list of programming tutorials in which learners build an application from scratch. These tutorials are divided into different primary programming languages.',
@@ -413,8 +360,7 @@ export default [
   },
   {
     id: 40,
-    link:
-      'https://raw.githubusercontent.com/MunGell/awesome-for-beginners/master/README.md',
+    link: 'https://raw.githubusercontent.com/MunGell/awesome-for-beginners/master/README.md',
     repoName: 'awesome-for-beginners',
     description: 'A list of awesome beginners-friendly projects.',
     repoOwnerName: 'MunGell',
@@ -423,30 +369,25 @@ export default [
   },
   {
     id: 41,
-    link:
-      'https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/README.md',
+    link: 'https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/README.md',
     repoName: 'developer-roadmap',
-    description:
-      'Roadmap to becoming a web developer in 2020 https://roadmap.sh',
+    description: 'Roadmap to becoming a web developer in 2020 https://roadmap.sh',
     repoOwnerName: 'kamranahmedse',
     repoOwner: 'Kamran Ahmed',
     category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 42,
-    link:
-      'https://raw.githubusercontent.com/mtdvio/every-programmer-should-know/master/README.md',
+    link: 'https://raw.githubusercontent.com/mtdvio/every-programmer-should-know/master/README.md',
     repoName: 'every-programmer-should-know',
-    description:
-      'A collection of (mostly) technical things every software developer should know',
+    description: 'A collection of (mostly) technical things every software developer should know',
     repoOwnerName: 'mtdvio',
     repoOwner: 'MTDV',
     category: ['web-dev', 'mob-dev'],
   },
   {
     id: 43,
-    link:
-      'https://raw.githubusercontent.com/hardikvasa/awesome-programming/master/README.md',
+    link: 'https://raw.githubusercontent.com/hardikvasa/awesome-programming/master/README.md',
     repoName: 'awesome-programming',
     description:
       'A curated list of awesome programming talks, articles, books, resources and more!!',
@@ -456,8 +397,7 @@ export default [
   },
   {
     id: 44,
-    link:
-      'https://raw.githubusercontent.com/elsewhencode/project-guidelines/master/README.md',
+    link: 'https://raw.githubusercontent.com/elsewhencode/project-guidelines/master/README.md',
     repoName: 'project-guidelines',
     description: 'A set of best practices for JavaScript projects',
     repoOwnerName: 'elsewhencode',
@@ -466,8 +406,7 @@ export default [
   },
   {
     id: 45,
-    link:
-      'https://raw.githubusercontent.com/RitikPatni/Front-End-Web-Development-Resources/master/README.md',
+    link: 'https://raw.githubusercontent.com/RitikPatni/Front-End-Web-Development-Resources/master/README.md',
     repoName: 'Front-End-Web-Development-Resources',
     description:
       'This repository contains content which will be helpful in your journey as a front-end Web Developer https://resources.ritikpatni.me/',
@@ -477,8 +416,7 @@ export default [
   },
   {
     id: 46,
-    link:
-      'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md',
+    link: 'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md',
     repoName: 'free-for-dev',
     description:
       'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev https://free-for.dev/',
@@ -488,8 +426,7 @@ export default [
   },
   {
     id: 47,
-    link:
-      'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/README.md',
+    link: 'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/README.md',
     repoName: 'clean-code-javascript',
     description: 'Clean Code concepts adapted for JavaScript',
     repoOwnerName: 'ryanmcdermott',
@@ -498,8 +435,7 @@ export default [
   },
   {
     id: 48,
-    link:
-      'https://raw.githubusercontent.com/ryanmcdermott/code-review-tips/master/README.md',
+    link: 'https://raw.githubusercontent.com/ryanmcdermott/code-review-tips/master/README.md',
     repoName: 'code-review-tips',
     description: 'microscope Common problems to look for in a code review',
     repoOwnerName: 'ryanmcdermott',
@@ -508,19 +444,16 @@ export default [
   },
   {
     id: 49,
-    link:
-      'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/README.md',
     repoName: 'javascript-questions',
-    description:
-      'A long list of (advanced) JavaScript questions, and their explanations sparkles',
+    description: 'A long list of (advanced) JavaScript questions, and their explanations sparkles',
     repoOwnerName: 'lydiahallie',
     repoOwner: 'Lydia Hallie',
     category: ['language', 'interview'],
   },
   {
     id: 50,
-    link:
-      'https://raw.githubusercontent.com/denysdovhan/wtfjs/master/README.md',
+    link: 'https://raw.githubusercontent.com/denysdovhan/wtfjs/master/README.md',
     repoName: 'wtfjs',
     description: 'A list of funny and tricky JavaScript examples.',
     repoOwnerName: 'denysdovhan',
@@ -529,8 +462,7 @@ export default [
   },
   {
     id: 51,
-    link:
-      'https://raw.githubusercontent.com/denysdovhan/bash-handbook/master/README.md',
+    link: 'https://raw.githubusercontent.com/denysdovhan/bash-handbook/master/README.md',
     repoName: 'bash-handbook',
     description: ' For those who wanna learn Bash',
     repoOwnerName: 'denysdovhan',
@@ -539,19 +471,16 @@ export default [
   },
   {
     id: 52,
-    link:
-      'https://raw.githubusercontent.com/jwasham/coding-interview-university/master/README.md',
+    link: 'https://raw.githubusercontent.com/jwasham/coding-interview-university/master/README.md',
     repoName: 'coding-interview-university',
-    description:
-      ' A complete computer science study plan to become a software engineer.',
+    description: ' A complete computer science study plan to become a software engineer.',
     repoOwnerName: 'jwasham',
     repoOwner: 'John Washam',
     category: ['web-dev', 'mob-dev', 'course', 'interview'],
   },
   {
     id: 53,
-    link:
-      'https://raw.githubusercontent.com/leonardomso/33-js-concepts/master/README.md',
+    link: 'https://raw.githubusercontent.com/leonardomso/33-js-concepts/master/README.md',
     repoName: '33-js-concepts',
     description: 'scroll 33 concepts every JavaScript developer should know.',
     repoOwnerName: 'leonardomso',
@@ -560,8 +489,7 @@ export default [
   },
   {
     id: 54,
-    link:
-      'https://raw.githubusercontent.com/mbeaudru/modern-js-cheatsheet/master/README.md',
+    link: 'https://raw.githubusercontent.com/mbeaudru/modern-js-cheatsheet/master/README.md',
     repoName: 'modern-js-cheatsheet',
     description:
       'Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.',
@@ -571,8 +499,7 @@ export default [
   },
   {
     id: 55,
-    link:
-      'https://raw.githubusercontent.com/MaximAbramchuck/awesome-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/MaximAbramchuck/awesome-interview-questions/master/README.md',
     repoName: 'awesome-interview-questions',
     description:
       ' A curated awesome list of lists of interview questions. Feel free to contribute!.',
@@ -582,8 +509,7 @@ export default [
   },
   {
     id: 56,
-    link:
-      'https://raw.githubusercontent.com/sindresorhus/awesome-electron/master/readme.md',
+    link: 'https://raw.githubusercontent.com/sindresorhus/awesome-electron/master/readme.md',
     repoName: 'awesome-electron',
     description: 'Useful resources for creating apps with Electron.',
     repoOwnerName: 'sindresorhus',
@@ -592,8 +518,7 @@ export default [
   },
   {
     id: 57,
-    link:
-      'https://raw.githubusercontent.com/JacobWylie/Web-Dev-Learning-Resources/master/README.md',
+    link: 'https://raw.githubusercontent.com/JacobWylie/Web-Dev-Learning-Resources/master/README.md',
     repoName: 'Web-Dev-Learning-Resources',
     description:
       'Collection of my favorite web development resources for beginners and professionals alike.',
@@ -603,8 +528,7 @@ export default [
   },
   {
     id: 58,
-    link:
-      'https://raw.githubusercontent.com/sudheerj/reactjs-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/sudheerj/reactjs-interview-questions/master/README.md',
     repoName: 'reactjs-interview-questions',
     description:
       'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!',
@@ -614,8 +538,7 @@ export default [
   },
   {
     id: 59,
-    link:
-      'https://raw.githubusercontent.com/sudheerj/angular-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/sudheerj/angular-interview-questions/master/README.md',
     repoName: 'angular-interview-questions',
     description: 'List of 300 Angular Interview Questions and answers[WIP]',
     repoOwnerName: 'sudheerj',
@@ -624,8 +547,7 @@ export default [
   },
   {
     id: 60,
-    link:
-      'https://raw.githubusercontent.com/sudheerj/javascript-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/sudheerj/javascript-interview-questions/master/README.md',
     repoName: 'javascript-interview-questions',
     description: 'List of 1000 JavaScript Interview Questions',
     repoOwnerName: 'sudheerj',
@@ -634,8 +556,7 @@ export default [
   },
   {
     id: 61,
-    link:
-      'https://raw.githubusercontent.com/sudheerj/vuejs-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/sudheerj/vuejs-interview-questions/master/README.md',
     repoName: 'vuejs-interview-questions',
     description: 'List of 300 VueJS Interview Questions And Answers',
     repoOwnerName: 'sudheerj',
@@ -644,8 +565,7 @@ export default [
   },
   {
     id: 62,
-    link:
-      'https://raw.githubusercontent.com/neutraltone/awesome-stock-resources/master/README.md',
+    link: 'https://raw.githubusercontent.com/neutraltone/awesome-stock-resources/master/README.md',
     repoName: 'awesome-stock-resources',
     description:
       ' A collection of links for free stock photography, video and Illustration websites',
@@ -655,8 +575,7 @@ export default [
   },
   {
     id: 63,
-    link:
-      'https://raw.githubusercontent.com/LisaDziuba/Awesome-Design-Tools/master/README.md',
+    link: 'https://raw.githubusercontent.com/LisaDziuba/Awesome-Design-Tools/master/README.md',
     repoName: 'Awesome-Design-Tools',
     description:
       'The best design tools and plugins for everything point_right https://flawlessapp.io/designtools',
@@ -666,8 +585,7 @@ export default [
   },
   {
     id: 64,
-    link:
-      'https://raw.githubusercontent.com/gztchan/awesome-design/master/README.md',
+    link: 'https://raw.githubusercontent.com/gztchan/awesome-design/master/README.md',
     repoName: 'awesome-design',
     description: 'Curated design resources. ',
     repoOwnerName: 'gztchan',
@@ -676,19 +594,16 @@ export default [
   },
   {
     id: 65,
-    link:
-      'https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/README.md',
+    link: 'https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/README.md',
     repoName: 'android-interview-questions',
-    description:
-      'Your Cheat Sheet For Android Interview - Android Interview Questions',
+    description: 'Your Cheat Sheet For Android Interview - Android Interview Questions',
     repoOwnerName: 'MindorksOpenSource',
     repoOwner: 'MindOrks',
     category: ['mob-dev', 'interview'],
   },
   {
     id: 69,
-    link:
-      'https://raw.githubusercontent.com/sindresorhus/awesome/main/readme.md',
+    link: 'https://raw.githubusercontent.com/sindresorhus/awesome/main/readme.md',
     repoName: 'awesome',
     description: 'Awesome lists about all kinds of interesting topics',
     repoOwnerName: 'sindresorhus',
@@ -697,8 +612,7 @@ export default [
   },
   {
     id: 70,
-    link:
-      'https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md',
+    link: 'https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md',
     repoName: 'awesome-nodejs',
     description: 'Delightful Node.js packages and resources https://node.cool',
     repoOwnerName: 'sindresorhus',
@@ -707,8 +621,7 @@ export default [
   },
   {
     id: 71,
-    link:
-      'https://raw.githubusercontent.com/sorrycc/awesome-javascript/master/README.md',
+    link: 'https://raw.githubusercontent.com/sorrycc/awesome-javascript/master/README.md',
     repoName: 'awesome-javascript',
     description:
       ' A collection of awesome browser-side JavaScript libraries, resources and shiny things.',
@@ -718,41 +631,34 @@ export default [
   },
   {
     id: 72,
-    link:
-      'https://raw.githubusercontent.com/uhub/awesome-javascript/master/README.md',
+    link: 'https://raw.githubusercontent.com/uhub/awesome-javascript/master/README.md',
     repoName: 'awesome-javascript',
-    description:
-      'A curated list of awesome JavaScript frameworks, libraries and software.',
+    description: 'A curated list of awesome JavaScript frameworks, libraries and software.',
     repoOwnerName: 'uhub',
     repoOwner: 'uhub',
     category: ['language', 'web-dev'],
   },
   {
     id: 73,
-    link:
-      'https://raw.githubusercontent.com/micromata/awesome-javascript-learning/master/readme.md',
+    link: 'https://raw.githubusercontent.com/micromata/awesome-javascript-learning/master/readme.md',
     repoName: 'awesome-javascript-learning',
-    description:
-      'A tiny list limited to the best JavaScript Learning Resources',
+    description: 'A tiny list limited to the best JavaScript Learning Resources',
     repoOwnerName: 'micromata',
     repoOwner: 'Micromata GmbH',
     category: ['language', 'course'],
   },
   {
     id: 74,
-    link:
-      'https://raw.githubusercontent.com/vinta/awesome-python/master/README.md',
+    link: 'https://raw.githubusercontent.com/vinta/awesome-python/master/README.md',
     repoName: 'awesome-python',
-    description:
-      'A curated list of awesome Python frameworks, libraries, software and resources',
+    description: 'A curated list of awesome Python frameworks, libraries, software and resources',
     repoOwnerName: 'vinta',
     repoOwner: 'Vinta Chen',
     category: ['language', 'podcast'],
   },
   {
     id: 75,
-    link:
-      'https://raw.githubusercontent.com/akullpp/awesome-java/master/README.md',
+    link: 'https://raw.githubusercontent.com/akullpp/awesome-java/master/README.md',
     repoName: 'awesome-java',
     description:
       'A curated list of awesome frameworks, libraries and software for the Java programming language.',
@@ -762,8 +668,7 @@ export default [
   },
   {
     id: 76,
-    link:
-      'https://raw.githubusercontent.com/avelino/awesome-go/master/README.md',
+    link: 'https://raw.githubusercontent.com/avelino/awesome-go/master/README.md',
     repoName: 'awesome-go',
     description:
       'A curated list of awesome Go frameworks, libraries and software https://awesome-go.com/',
@@ -773,19 +678,16 @@ export default [
   },
   {
     id: 77,
-    link:
-      'https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md',
+    link: 'https://raw.githubusercontent.com/yissachar/awesome-dart/master/README.md',
     repoName: 'awesome-dart',
-    description:
-      'A curated list of awesome Dart frameworks, libraries, and software',
+    description: 'A curated list of awesome Dart frameworks, libraries, and software',
     repoOwnerName: 'yissachar',
     repoOwner: 'yissachar',
     category: ['mob-dev'],
   },
   {
     id: 78,
-    link:
-      'https://raw.githubusercontent.com/rust-unofficial/awesome-rust/master/README.md',
+    link: 'https://raw.githubusercontent.com/rust-unofficial/awesome-rust/master/README.md',
     repoName: 'awesome-rust',
     description: 'A curated list of Rust code and resources.',
     repoOwnerName: 'rust-unofficial',
@@ -794,8 +696,7 @@ export default [
   },
   {
     id: 79,
-    link:
-      'https://raw.githubusercontent.com/ForrestKnight/open-source-cs/master/README.md',
+    link: 'https://raw.githubusercontent.com/ForrestKnight/open-source-cs/master/README.md',
     repoName: 'open-source-cs',
     description:
       'free courses from reputable universities like MIT, Stanford and Princeton that satisfy the same requirements as an undergraduate Computer Science degree.',
@@ -805,8 +706,7 @@ export default [
   },
   {
     id: 80,
-    link:
-      'https://raw.githubusercontent.com/enaqx/awesome-react/master/README.md',
+    link: 'https://raw.githubusercontent.com/enaqx/awesome-react/master/README.md',
     repoName: 'awesome-react',
     description: 'A collection of awesome things regarding React ecosystem',
     repoOwnerName: 'enaqx',
@@ -815,8 +715,7 @@ export default [
   },
   {
     id: 81,
-    link:
-      'https://raw.githubusercontent.com/awesome-css-group/awesome-css/master/README.md',
+    link: 'https://raw.githubusercontent.com/awesome-css-group/awesome-css/master/README.md',
     repoName: 'awesome-css',
     description: 'A curated contents of amazing CSS :)',
     repoOwnerName: 'awesome-css-group',
@@ -825,8 +724,7 @@ export default [
   },
   {
     id: 82,
-    link:
-      'https://raw.githubusercontent.com/PatrickJS/awesome-angular/gh-pages/README.md',
+    link: 'https://raw.githubusercontent.com/PatrickJS/awesome-angular/gh-pages/README.md',
     repoName: 'awesome-angular',
     description: ' A curated list of awesome Angular resources',
     repoOwnerName: 'PatrickJS',
@@ -835,8 +733,7 @@ export default [
   },
   {
     id: 83,
-    link:
-      'https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md',
+    link: 'https://raw.githubusercontent.com/veggiemonk/awesome-docker/master/README.md',
     repoName: 'awesome-docker',
     description:
       'A curated list of Docker resources and projects https://awesome-docker.netlify.app',
@@ -846,8 +743,7 @@ export default [
   },
   {
     id: 84,
-    link:
-      'https://raw.githubusercontent.com/lnishan/awesome-competitive-programming/master/README.md',
+    link: 'https://raw.githubusercontent.com/lnishan/awesome-competitive-programming/master/README.md',
     repoName: 'awesome-competitive-programming',
     description:
       'A curated list of awesome Competitive Programming, Algorithm and Data Structure resources http://codeforces.com/blog/entry/23054',
@@ -857,19 +753,16 @@ export default [
   },
   {
     id: 85,
-    link:
-      'https://raw.githubusercontent.com/prakhar1989/awesome-courses/master/README.md',
+    link: 'https://raw.githubusercontent.com/prakhar1989/awesome-courses/master/README.md',
     repoName: 'awesome-courses',
-    description:
-      'List of awesome university courses for learning Computer Science!',
+    description: 'List of awesome university courses for learning Computer Science!',
     repoOwnerName: 'prakhar1989',
     repoOwner: 'Prakhar Srivastav',
     category: ['course', 'language'],
   },
   {
     id: 86,
-    link:
-      'https://raw.githubusercontent.com/ossu/computer-science/master/README.md',
+    link: 'https://raw.githubusercontent.com/ossu/computer-science/master/README.md',
     repoName: 'computer-science',
     description: 'Path to a free self-taught education in Computer Science!',
     repoOwnerName: 'ossu',
@@ -878,8 +771,7 @@ export default [
   },
   {
     id: 87,
-    link:
-      'https://raw.githubusercontent.com/Solido/awesome-flutter/master/source.md',
+    link: 'https://raw.githubusercontent.com/Solido/awesome-flutter/master/source.md',
     repoName: 'awesome-flutter',
     description:
       'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.',
@@ -889,19 +781,16 @@ export default [
   },
   {
     id: 88,
-    link:
-      'https://raw.githubusercontent.com/tiimgreen/github-cheat-sheet/master/README.md',
+    link: 'https://raw.githubusercontent.com/tiimgreen/github-cheat-sheet/master/README.md',
     repoName: 'github-cheat-sheet',
-    description:
-      'A list of cool features of Git and GitHub. http://git.io/sheet',
+    description: 'A list of cool features of Git and GitHub. http://git.io/sheet',
     repoOwnerName: 'tiimgreen',
     repoOwner: 'Tim Green',
     category: ['web-dev', 'mob-dev', 'frontend', 'backend'],
   },
   {
     id: 89,
-    link:
-      'https://raw.githubusercontent.com/jorgegonzalez/beginner-projects/master/README.md',
+    link: 'https://raw.githubusercontent.com/jorgegonzalez/beginner-projects/master/README.md',
     repoName: 'beginner-projects',
     description: 'A list of projects for beginners.',
     repoOwnerName: 'jorgegonzalez',
@@ -910,8 +799,7 @@ export default [
   },
   {
     id: 90,
-    link:
-      'https://raw.githubusercontent.com/rShetty/awesome-podcasts/master/README.md',
+    link: 'https://raw.githubusercontent.com/rShetty/awesome-podcasts/master/README.md',
     repoName: 'awesome-podcasts',
     description: 'Collection of awesome podcasts',
     repoOwnerName: 'rShetty',
@@ -920,41 +808,34 @@ export default [
   },
   {
     id: 91,
-    link:
-      'https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/README.md',
+    link: 'https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/README.md',
     repoName: 'Front-End-Performance-Checklist',
-    description:
-      'The only Front-End Performance Checklist that runs faster than the others',
+    description: 'The only Front-End Performance Checklist that runs faster than the others',
     repoOwnerName: 'thedaviddias',
     repoOwner: 'David Dias',
     category: ['web-dev'],
   },
   {
     id: 92,
-    link:
-      'https://raw.githubusercontent.com/thedaviddias/Resources-Front-End-Beginner/master/README.md',
+    link: 'https://raw.githubusercontent.com/thedaviddias/Resources-Front-End-Beginner/master/README.md',
     repoName: 'Resources-Front-End-Beginner',
-    description:
-      'The most essential list of resources for Front-End beginners (us gb canada & fr)',
+    description: 'The most essential list of resources for Front-End beginners (us gb canada & fr)',
     repoOwnerName: 'thedaviddias',
     repoOwner: 'David Dias',
     category: ['web-dev'],
   },
   {
     id: 93,
-    link:
-      'https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/README.md',
+    link: 'https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/README.md',
     repoName: 'Front-End-Checklist',
-    description:
-      'The perfect Front-End Checklist for modern websites and meticulous developers',
+    description: 'The perfect Front-End Checklist for modern websites and meticulous developers',
     repoOwnerName: 'thedaviddias',
     repoOwner: 'David Dias',
     category: ['web-dev'],
   },
   {
     id: 94,
-    link:
-      'https://raw.githubusercontent.com/thedaviddias/Front-End-Design-Checklist/master/README.md',
+    link: 'https://raw.githubusercontent.com/thedaviddias/Front-End-Design-Checklist/master/README.md',
     repoName: 'Front-End-Design-Checklist',
     description:
       ' The Design Checklist for Creative Web Designers and Patient Front-End Developers',
@@ -964,8 +845,7 @@ export default [
   },
   {
     id: 95,
-    link:
-      'https://raw.githubusercontent.com/vuejs/awesome-vue/master/README.md',
+    link: 'https://raw.githubusercontent.com/vuejs/awesome-vue/master/README.md',
     repoName: 'awesome-vue',
     description: 'A curated list of awesome things related to Vue.js',
     repoOwnerName: 'vuejs',
@@ -974,8 +854,7 @@ export default [
   },
   {
     id: 96,
-    link:
-      'https://raw.githubusercontent.com/vuejs/awesome-vue/master/awesome_vue_with_repo_info.md',
+    link: 'https://raw.githubusercontent.com/vuejs/awesome-vue/master/awesome_vue_with_repo_info.md',
     repoName: 'awesome-vue.js',
     description:
       'A curated list of awesome things related to Vue.js(tutorials, lib & plugins, project using vue.js, examples etc.)',
@@ -985,8 +864,7 @@ export default [
   },
   {
     id: 97,
-    link:
-      'https://raw.githubusercontent.com/vsouza/awesome-ios/master/README.md',
+    link: 'https://raw.githubusercontent.com/vsouza/awesome-ios/master/README.md',
     repoName: 'awesome-ios',
     description:
       'A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects http://awesomeios.com',
@@ -996,8 +874,7 @@ export default [
   },
   {
     id: 98,
-    link:
-      'https://raw.githubusercontent.com/JStumpp/awesome-android/master/readme.md',
+    link: 'https://raw.githubusercontent.com/JStumpp/awesome-android/master/readme.md',
     repoName: 'awesome-android',
     description: 'A curated list of awesome Android packages and resources.',
     repoOwnerName: 'JStumpp',
@@ -1006,8 +883,7 @@ export default [
   },
   {
     id: 99,
-    link:
-      'https://raw.githubusercontent.com/jondot/awesome-react-native/master/README.md',
+    link: 'https://raw.githubusercontent.com/jondot/awesome-react-native/master/README.md',
     repoName: 'awesome-react-native',
     description:
       'Awesome React Native components, news, tools, and learning material! http://www.awesome-react-native.com',
@@ -1017,8 +893,7 @@ export default [
   },
   {
     id: 100,
-    link:
-      'https://raw.githubusercontent.com/deephacks/awesome-jvm/master/readme.md',
+    link: 'https://raw.githubusercontent.com/deephacks/awesome-jvm/master/readme.md',
     repoName: 'awesome-jvm',
     description:
       'A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.',
@@ -1028,8 +903,7 @@ export default [
   },
   {
     id: 101,
-    link:
-      'https://raw.githubusercontent.com/donnemartin/awesome-aws/master/README.md',
+    link: 'https://raw.githubusercontent.com/donnemartin/awesome-aws/master/README.md',
     repoName: 'awesome-aws',
     description:
       'A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.',
@@ -1039,8 +913,7 @@ export default [
   },
   {
     id: 102,
-    link:
-      'https://raw.githubusercontent.com/donnemartin/system-design-primer/master/README.md',
+    link: 'https://raw.githubusercontent.com/donnemartin/system-design-primer/master/README.md',
     repoName: 'system-design-primer',
     description:
       'Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.',
@@ -1050,8 +923,7 @@ export default [
   },
   {
     id: 103,
-    link:
-      'https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/README.md',
+    link: 'https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/README.md',
     repoName: 'data-science-ipython-notebooks',
     description:
       'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.',
@@ -1061,8 +933,7 @@ export default [
   },
   {
     id: 104,
-    link:
-      'https://raw.githubusercontent.com/donnemartin/dev-setup/master/README.md',
+    link: 'https://raw.githubusercontent.com/donnemartin/dev-setup/master/README.md',
     repoName: 'dev-setup',
     description:
       'macOS development environment setup: Easy-to-understand instructions with automated setup scripts for developer tools like Vim, Sublime Text, Bash, iTerm, Python data analysis, Spark, Hadoop MapReduce, AWS, Heroku, JavaScript web development, Android development, common data stores, and dev-based OS X defaults.',
@@ -1072,30 +943,25 @@ export default [
   },
   {
     id: 105,
-    link:
-      'https://raw.githubusercontent.com/miguelmota/awesome-amazon-alexa/master/README.md',
+    link: 'https://raw.githubusercontent.com/miguelmota/awesome-amazon-alexa/master/README.md',
     repoName: 'awesome-amazon-alexa',
-    description:
-      'Curated list of awesome resources for the Amazon Alexa platform.',
+    description: 'Curated list of awesome resources for the Amazon Alexa platform.',
     repoOwnerName: 'miguelmota',
     repoOwner: 'Miguel Mota',
     category: ['project', 'frontend'],
   },
   {
     id: 106,
-    link:
-      'https://raw.githubusercontent.com/JesseTG/awesome-qt/master/README.md',
+    link: 'https://raw.githubusercontent.com/JesseTG/awesome-qt/master/README.md',
     repoName: 'awesome-qt',
-    description:
-      'A curated list of awesome tools, libraries, and resources for the Qt framework.',
+    description: 'A curated list of awesome tools, libraries, and resources for the Qt framework.',
     repoOwnerName: 'JesseTG',
     repoOwner: 'Jesse Talavera-Greenberg',
     category: ['frontend', 'project'],
   },
   {
     id: 107,
-    link:
-      'https://raw.githubusercontent.com/brillout/awesome-react-components/master/README.md',
+    link: 'https://raw.githubusercontent.com/brillout/awesome-react-components/master/README.md',
     repoName: 'awesome-react-components',
     description: 'Curated List of React Components & Libraries.',
     repoOwnerName: 'brillout',
@@ -1104,11 +970,9 @@ export default [
   },
   {
     id: 108,
-    link:
-      'https://raw.githubusercontent.com/markets/awesome-ruby/master/README.md',
+    link: 'https://raw.githubusercontent.com/markets/awesome-ruby/master/README.md',
     repoName: 'awesome-ruby',
-    description:
-      'A collection of awesome Ruby libraries, tools, frameworks and software',
+    description: 'A collection of awesome Ruby libraries, tools, frameworks and software',
     repoOwnerName: 'markets',
     repoOwner: 'Marc Anguera Insa',
     category: ['web-dev'],
@@ -1117,49 +981,41 @@ export default [
     id: 109,
     link: 'https://raw.githubusercontent.com/qinwf/awesome-R/master/README.md',
     repoName: 'awesome-R',
-    description:
-      'A curated list of awesome R packages, frameworks and software.',
+    description: 'A curated list of awesome R packages, frameworks and software.',
     repoOwnerName: 'qinwf',
     repoOwner: 'qinwf',
     category: ['language', 'podcast'],
   },
   {
     id: 110,
-    link:
-      'https://raw.githubusercontent.com/ziadoz/awesome-php/master/README.md',
+    link: 'https://raw.githubusercontent.com/ziadoz/awesome-php/master/README.md',
     repoName: 'awesome-php',
-    description:
-      'A curated list of amazingly awesome PHP libraries, resources and shiny things.',
+    description: 'A curated list of amazingly awesome PHP libraries, resources and shiny things.',
     repoOwnerName: 'ziadoz',
     repoOwner: 'Jamie York',
     category: ['web-dev', 'podcast', 'language'],
   },
   {
     id: 111,
-    link:
-      'https://raw.githubusercontent.com/KotlinBy/awesome-kotlin/readme/README.md',
+    link: 'https://raw.githubusercontent.com/KotlinBy/awesome-kotlin/readme/README.md',
     repoName: 'awesome-kotlin',
-    description:
-      'A curated list of awesome Kotlin related stuff Inspired by awesome-java.',
+    description: 'A curated list of awesome Kotlin related stuff Inspired by awesome-java.',
     repoOwnerName: 'KotlinBy',
     repoOwner: 'Kotlin Community',
     category: ['mob-dev', 'language'],
   },
   {
     id: 112,
-    link:
-      'https://raw.githubusercontent.com/davidsonfellipe/awesome-wpo/master/README.md',
+    link: 'https://raw.githubusercontent.com/davidsonfellipe/awesome-wpo/master/README.md',
     repoName: 'awesome-wpo',
-    description:
-      'A curated list of Web Performance Optimization. Everyone can contribute here!',
+    description: 'A curated list of Web Performance Optimization. Everyone can contribute here!',
     repoOwnerName: 'davidsonfellipe',
     repoOwner: 'Davidson Fellipe',
     category: ['interview', 'course'],
   },
   {
     id: 113,
-    link:
-      'https://raw.githubusercontent.com/mateusortiz/webcomponents-the-right-way/master/README.md',
+    link: 'https://raw.githubusercontent.com/mateusortiz/webcomponents-the-right-way/master/README.md',
     repoName: 'webcomponents-the-right-way',
     description:
       'This is a guide intended to introduce to Web Components. Everyone can contribute here!',
@@ -1169,8 +1025,7 @@ export default [
   },
   {
     id: 114,
-    link:
-      'https://raw.githubusercontent.com/Granze/awesome-polymer/master/README.md',
+    link: 'https://raw.githubusercontent.com/Granze/awesome-polymer/master/README.md',
     repoName: 'awesome-polymer',
     description: 'A collection of awesome Polymer resources.',
     repoOwnerName: 'Granze',
@@ -1179,8 +1034,7 @@ export default [
   },
   {
     id: 115,
-    link:
-      'https://raw.githubusercontent.com/sadcitizen/awesome-backbone/master/README.md',
+    link: 'https://raw.githubusercontent.com/sadcitizen/awesome-backbone/master/README.md',
     repoName: 'awesome-backbone',
     description: 'A list of resources for backbone.js',
     repoOwnerName: 'sadcitizen',
@@ -1189,8 +1043,7 @@ export default [
   },
   {
     id: 116,
-    link:
-      'https://raw.githubusercontent.com/diegocard/awesome-html5/master/README.md',
+    link: 'https://raw.githubusercontent.com/diegocard/awesome-html5/master/README.md',
     repoName: 'awesome-html5',
     description: ' A curated list of awesome HTML5 resources',
     repoOwnerName: 'diegocard',
@@ -1199,8 +1052,7 @@ export default [
   },
   {
     id: 117,
-    link:
-      'https://raw.githubusercontent.com/noahbuscher/inspire/master/README.md',
+    link: 'https://raw.githubusercontent.com/noahbuscher/inspire/master/README.md',
     repoName: 'inspire',
     description: 'Collection of web design & dev links',
     repoOwnerName: 'noahbuscher',
@@ -1209,8 +1061,7 @@ export default [
   },
   {
     id: 118,
-    link:
-      'https://raw.githubusercontent.com/wasabeef/awesome-android-ui/master/README.md',
+    link: 'https://raw.githubusercontent.com/wasabeef/awesome-android-ui/master/README.md',
     repoName: 'awesome-android-ui',
     description: 'A curated list of awesome Android UI/UX libraries',
     repoOwnerName: 'wasabeef',
@@ -1219,8 +1070,7 @@ export default [
   },
   {
     id: 119,
-    link:
-      'https://raw.githubusercontent.com/ember-community-russia/awesome-ember/master/README.md',
+    link: 'https://raw.githubusercontent.com/ember-community-russia/awesome-ember/master/README.md',
     repoName: 'awesome-ember',
     description:
       'A curated list of awesome Ember.js stuff like addons, articles, videos, gists and more.',
@@ -1230,8 +1080,7 @@ export default [
   },
   {
     id: 120,
-    link:
-      'https://raw.githubusercontent.com/cjwirth/awesome-ios-ui/master/README.md',
+    link: 'https://raw.githubusercontent.com/cjwirth/awesome-ios-ui/master/README.md',
     repoName: 'awesome-ios-ui',
     description: 'A curated list of awesome iOS UI/UX libraries',
     repoOwnerName: 'cjwirth',
@@ -1240,8 +1089,7 @@ export default [
   },
   {
     id: 121,
-    link:
-      'https://raw.githubusercontent.com/Urigo/awesome-meteor/master/README.md',
+    link: 'https://raw.githubusercontent.com/Urigo/awesome-meteor/master/README.md',
     repoName: 'awesome-meteor',
     description:
       'A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things',
@@ -1251,11 +1099,9 @@ export default [
   },
   {
     id: 122,
-    link:
-      'https://raw.githubusercontent.com/afonsopacifer/awesome-flexbox/master/README.md',
+    link: 'https://raw.githubusercontent.com/afonsopacifer/awesome-flexbox/master/README.md',
     repoName: 'awesome-flexbox',
-    description:
-      'A curated list of CSS Flexible Box Layout Module or only Flexbox.',
+    description: 'A curated list of CSS Flexible Box Layout Module or only Flexbox.',
     repoOwnerName: 'afonsopacifer',
     repoOwner: 'Afonso Pacifer',
     category: ['web-dev', 'frontend'],
@@ -1271,30 +1117,25 @@ export default [
   },
   {
     id: 124,
-    link:
-      'https://raw.githubusercontent.com/petk/awesome-jquery/master/README.md',
+    link: 'https://raw.githubusercontent.com/petk/awesome-jquery/master/README.md',
     repoName: 'awesome-jquery',
-    description:
-      'A curated list of awesome jQuery plugins, resources and other shiny things.',
+    description: 'A curated list of awesome jQuery plugins, resources and other shiny things.',
     repoOwnerName: 'petk',
     repoOwner: 'Peter Kokot',
     category: ['web-dev'],
   },
   {
     id: 125,
-    link:
-      'https://raw.githubusercontent.com/TalAter/awesome-progressive-web-apps/master/README.md',
+    link: 'https://raw.githubusercontent.com/TalAter/awesome-progressive-web-apps/master/README.md',
     repoName: 'awesome-progressive-web-apps',
-    description:
-      'A collection of awesome resources for building progressive web apps',
+    description: 'A collection of awesome resources for building progressive web apps',
     repoOwnerName: 'TalAter',
     repoOwner: 'Tal Ater',
     category: ['web-dev', 'mob-dev'],
   },
   {
     id: 126,
-    link:
-      'https://raw.githubusercontent.com/phpearth/awesome-community/master/README.md',
+    link: 'https://raw.githubusercontent.com/phpearth/awesome-community/master/README.md',
     repoName: 'awesome-community',
     description:
       'A curated list of awesome programming, development, technical support and discussion channels, groups, communities, resources and other shiny things',
@@ -1304,8 +1145,7 @@ export default [
   },
   {
     id: 127,
-    link:
-      'https://raw.githubusercontent.com/notthetup/awesome-webaudio/master/readme.md',
+    link: 'https://raw.githubusercontent.com/notthetup/awesome-webaudio/master/readme.md',
     repoName: 'awesome-webaudio',
     description: 'A curated list of awesome WebAudio packages and resources.',
     repoOwnerName: 'notthetup',
@@ -1314,8 +1154,7 @@ export default [
   },
   {
     id: 128,
-    link:
-      'https://raw.githubusercontent.com/agarrharr/awesome-static-website-services/master/readme.md',
+    link: 'https://raw.githubusercontent.com/agarrharr/awesome-static-website-services/master/readme.md',
     repoName: 'awesome-static-website-services',
     description: 'A curated list of awesome static websites services',
     repoOwnerName: 'agarrharr',
@@ -1324,8 +1163,7 @@ export default [
   },
   {
     id: 129,
-    link:
-      'https://raw.githubusercontent.com/agarrharr/awesome-cli-apps/master/readme.md',
+    link: 'https://raw.githubusercontent.com/agarrharr/awesome-cli-apps/master/readme.md',
     repoName: 'awesome-cli-apps',
     description: 'A curated list of command line apps',
     repoOwnerName: 'agarrharr',
@@ -1334,8 +1172,7 @@ export default [
   },
   {
     id: 130,
-    link:
-      'https://raw.githubusercontent.com/fliptheweb/motion-ui-design/master/README.md',
+    link: 'https://raw.githubusercontent.com/fliptheweb/motion-ui-design/master/README.md',
     repoName: 'motion-ui-design',
     description:
       'Resources for inspiration, lists of software, libraries and other stuff related to Motion UI design, animations and transitions.',
@@ -1345,19 +1182,16 @@ export default [
   },
   {
     id: 131,
-    link:
-      'https://raw.githubusercontent.com/dok/awesome-text-editing/master/README.md',
+    link: 'https://raw.githubusercontent.com/dok/awesome-text-editing/master/README.md',
     repoName: 'awesome-text-editing',
-    description:
-      'Collection of text editing resources and libraries for the web',
+    description: 'Collection of text editing resources and libraries for the web',
     repoOwnerName: 'dok',
     repoOwner: 'Sean',
     category: ['project', 'web-dev', 'frontend'],
   },
   {
     id: 132,
-    link:
-      'https://raw.githubusercontent.com/nikgraf/awesome-draft-js/master/README.md',
+    link: 'https://raw.githubusercontent.com/nikgraf/awesome-draft-js/master/README.md',
     repoName: 'awesome-draft-js',
     description: 'Awesome list of Draft.js resources',
     repoOwnerName: 'nikgraf',
@@ -1366,19 +1200,16 @@ export default [
   },
   {
     id: 133,
-    link:
-      'https://raw.githubusercontent.com/TalAter/awesome-service-workers/master/README.md',
+    link: 'https://raw.githubusercontent.com/TalAter/awesome-service-workers/master/README.md',
     repoName: 'awesome-service-workers',
-    description:
-      'A collection of awesome resources for learning Service Workers',
+    description: 'A collection of awesome resources for learning Service Workers',
     repoOwnerName: 'TalAter',
     repoOwner: 'Tal Ater',
     category: ['web-dev'],
   },
   {
     id: 134,
-    link:
-      'https://raw.githubusercontent.com/quobit/awesome-python-in-education/master/README.md',
+    link: 'https://raw.githubusercontent.com/quobit/awesome-python-in-education/master/README.md',
     repoName: 'awesome-python-in-education',
     description: 'A curated list of resources about Python in Education',
     repoOwnerName: 'quobit',
@@ -1387,11 +1218,9 @@ export default [
   },
   {
     id: 135,
-    link:
-      'https://raw.githubusercontent.com/aloisdg/awesome-regex/master/README.md',
+    link: 'https://raw.githubusercontent.com/aloisdg/awesome-regex/master/README.md',
     repoName: 'awesome-regex',
-    description:
-      'A curated collection of awesome Regex libraries, tools, frameworks and software',
+    description: 'A curated collection of awesome Regex libraries, tools, frameworks and software',
     repoOwnerName: 'aloisdg',
     repoOwner: 'Aloïs de Gouvello',
     category: ['language'],
@@ -1409,10 +1238,11 @@ export default [
     id: 137,
     link: 'https://raw.githubusercontent.com/mitalipalekar/tech-internship-resources/master/README.md',
     repoName: 'tech-internship-resources ',
-    description: 'This is a list of resources that I have compiled through my own software engineering internship search.',
+    description:
+      'This is a list of resources that I have compiled through my own software engineering internship search.',
     repoOwnerName: 'mitalipalekar',
     repoOwner: 'Mitali Palekar',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 138,
@@ -1421,7 +1251,7 @@ export default [
     description: 'for those seeking software engineering internships',
     repoOwnerName: 'codebytere',
     repoOwner: 'Shelley Vohr',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 139,
@@ -1430,7 +1260,7 @@ export default [
     description: 'Best guide for internship.',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 140,
@@ -1439,16 +1269,17 @@ export default [
     description: ' Mega List of practical projects that one can solve in any programming language!',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 141,
     link: 'https://raw.githubusercontent.com/mikesprague/udacity-nanodegrees/master/README.md',
     repoName: 'udacity-nanodegrees',
-    description: 'List of Udacity Nanodegree programs with links to the free courses in their curricula',
+    description:
+      'List of Udacity Nanodegree programs with links to the free courses in their curricula',
     repoOwnerName: 'mikesprague',
     repoOwner: 'Michael Sprague',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 142,
@@ -1457,7 +1288,7 @@ export default [
     description: 'A list of practical projects that anyone can solve in any programming language.',
     repoOwnerName: 'karan',
     repoOwner: 'Karan Goel',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 143,
@@ -1466,7 +1297,7 @@ export default [
     description: 'Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas',
     repoOwnerName: 'NirantK',
     repoOwner: 'Nirant',
-    category: ['project', 'data-science']
+    category: ['project', 'data-science'],
   },
   {
     id: 144,
@@ -1475,7 +1306,7 @@ export default [
     description: '📊 Path to a free self-taught education in Data Science!',
     repoOwnerName: 'ossu',
     repoOwner: 'Open Source Society University',
-    category: ['course', 'project', 'data-science']
+    category: ['course', 'project', 'data-science'],
   },
   {
     id: 145,
@@ -1484,7 +1315,7 @@ export default [
     description: 'What the f*ck Python?',
     repoOwnerName: 'satwikkansal',
     repoOwner: 'Satwik Kansal',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 146,
@@ -1493,7 +1324,7 @@ export default [
     description: 'A paper list of object detection using deep learning.',
     repoOwnerName: 'hoya012',
     repoOwner: 'Hoseong Lee',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 147,
@@ -1502,7 +1333,7 @@ export default [
     description: 'TensorFlow - A curated list of dedicated resources http://tensorflow.org',
     repoOwnerName: 'jtoy',
     repoOwner: 'jtoy',
-    category: ['project', 'course', 'backend']
+    category: ['project', 'course', 'backend'],
   },
   {
     id: 148,
@@ -1511,7 +1342,7 @@ export default [
     description: 'A quick reminder of all SQL queries and examples on how to use them.',
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 149,
@@ -1520,7 +1351,7 @@ export default [
     description: 'Free resources for learning Full Stack Web Development.',
     repoOwnerName: 'bmorelli25',
     repoOwner: 'Brandon Morelli',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 150,
@@ -1529,7 +1360,7 @@ export default [
     description: 'Catalog of Redux Libraries & Learning Material.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 151,
@@ -1538,7 +1369,7 @@ export default [
     description: 'A curated list of awesome Webpack resources, libraries and tools',
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 152,
@@ -1547,34 +1378,37 @@ export default [
     description: 'A curated list of awesome Browserify resources, libraries, and tools.',
     repoOwnerName: 'browserify',
     repoOwner: 'browserify',
-    category: ['project', 'backend', 'frontend']
+    category: ['project', 'backend', 'frontend'],
   },
   {
     id: 153,
     link: 'https://raw.githubusercontent.com/Famolus/awesome-sass/master/README.md',
     repoName: 'Awesome Sass',
-    description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
+    description:
+      'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
     repoOwnerName: 'Famolus',
     repoOwner: 'Famolus',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 154,
     link: 'https://raw.githubusercontent.com/websemantics/awesome-ant-design/master/README.md',
     repoName: 'awesome-ant-design',
-    description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
+    description:
+      'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
     repoOwnerName: 'websemantics',
     repoOwner: 'Adnan M.Sagar, PhD',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 155,
     link: 'https://raw.githubusercontent.com/LucasBassetti/awesome-less/master/README.md',
     repoName: 'awesome-less',
-    description: 'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
+    description:
+      'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
     repoOwnerName: 'LucasBassetti',
     repoOwner: 'Lucas Bassetti',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 156,
@@ -1583,7 +1417,7 @@ export default [
     description: 'This is a curated list of awesome WebGL libraries, resources and much more.',
     repoOwnerName: 'sjfricke',
     repoOwner: 'Spencer',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 157,
@@ -1592,7 +1426,7 @@ export default [
     description: 'Curated list of resources: books, videos, articles about using Next.js.',
     repoOwnerName: 'unicodeveloper',
     repoOwner: 'Prosper Otemuyiwa',
-    category: ['project', 'frontend', 'backend']
+    category: ['project', 'frontend', 'backend'],
   },
   {
     id: 158,
@@ -1601,25 +1435,27 @@ export default [
     description: 'A curated list of awesome lit-html resources.',
     repoOwnerName: 'web-padawan',
     repoOwner: 'Serhii Kulykov',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 159,
     link: 'https://raw.githubusercontent.com/automata/awesome-jamstack/master/README.md',
     repoName: 'awesome-jamstack',
-    description: 'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
+    description:
+      'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
     repoOwnerName: 'automata',
     repoOwner: 'Vilson Vieira',
-    category: ['project', 'frontend', 'backend']
+    category: ['project', 'frontend', 'backend'],
   },
   {
     id: 160,
     link: 'https://raw.githubusercontent.com/henrikwirth/awesome-wordpress-gatsby/master/README.md',
     repoName: 'awesome-wordpress-gatsby',
-    description: 'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
+    description:
+      'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
     repoOwnerName: 'henrikwirth',
     repoOwner: 'Henrik Wirth',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 161,
@@ -1628,7 +1464,7 @@ export default [
     description: 'All that you need to create a great mobile web experience.',
     repoOwnerName: 'myshov',
     repoOwner: 'Alexander Myshov',
-    category: ['project', 'frontend', 'course', 'mob-dev']
+    category: ['project', 'frontend', 'course', 'mob-dev'],
   },
   {
     id: 162,
@@ -1637,16 +1473,17 @@ export default [
     description: 'Metrics to help understand page speed and user experience.',
     repoOwnerName: 'csabapalfi',
     repoOwner: 'Csaba Palfi',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 163,
     link: 'https://raw.githubusercontent.com/aniftyco/awesome-tailwindcss/master/README.md',
     repoName: 'awesome-tailwindcss',
-    description: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
+    description:
+      'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
     repoOwnerName: 'aniftyco',
     repoOwner: 'NiftyCo',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 164,
@@ -1655,7 +1492,7 @@ export default [
     description: 'This list contains the most useful tools and data for creating web animations.',
     repoOwnerName: 'sergey-pimenov',
     repoOwner: 'Sergey Pimenov',
-    category: ['project', 'frontend', 'course']
+    category: ['project', 'frontend', 'course'],
   },
   {
     id: 165,
@@ -1664,16 +1501,17 @@ export default [
     description: 'A curated list of awesome things related to Yew.',
     repoOwnerName: 'jetli',
     repoOwner: 'Jet Li',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 166,
     link: 'https://raw.githubusercontent.com/nadunindunil/awesome-material-ui/master/README.md',
     repoName: 'awesome-material-ui',
-    description: 'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
+    description:
+      'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
     repoOwnerName: 'nadunindunil',
     repoOwner: 'Nadun Indunil',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 167,
@@ -1682,34 +1520,37 @@ export default [
     description: 'A curated list of awesome Flask resources and plugins',
     repoOwnerName: 'humiaozuzu',
     repoOwner: 'Maple',
-    category: ['project', 'frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev'],
   },
   {
     id: 168,
     link: 'https://raw.githubusercontent.com/uralbash/awesome-pyramid/master/README.md',
     repoName: 'awesome-pyramid',
-    description: 'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
+    description:
+      'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
     repoOwnerName: 'uralbash',
     repoOwner: 'uralbash',
-    category: ['project', 'frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev'],
   },
   {
     id: 169,
     link: 'https://raw.githubusercontent.com/FriendsOfCake/awesome-cakephp/master/README.md',
     repoName: 'awesome-cakephp',
-    description: 'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
+    description:
+      'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
     repoOwnerName: 'FriendsOfCake',
     repoOwner: 'Friends Of Cake',
-    category: ['project', 'backend', 'web-dev']
+    category: ['project', 'backend', 'web-dev'],
   },
   {
     id: 170,
     link: 'https://raw.githubusercontent.com/PizzaPokerGuy/ultimate-coding-resources/master/README.md',
     repoName: 'ultimate-coding-resources',
-    description: 'A collection of the best resources for programming, web development, computer science and more.',
+    description:
+      'A collection of the best resources for programming, web development, computer science and more.',
     repoOwnerName: 'PizzaPokerGuy',
     repoOwner: 'Dylan C. Israel',
-    category: ['project', 'frontend', 'backend', 'web-dev']
+    category: ['project', 'frontend', 'backend', 'web-dev'],
   },
   {
     id: 171,
@@ -1718,16 +1559,17 @@ export default [
     description: 'A list of awesome Symfony bundles, utilities and resources.',
     repoOwnerName: 'sitepoint-editors',
     repoOwner: 'SitePoint Editors',
-    category: ['course', 'project']
+    category: ['course', 'project'],
   },
   {
     id: 172,
     link: 'https://raw.githubusercontent.com/chiraggude/awesome-laravel/master/README.md',
     repoName: 'awesome-laravel',
-    description: 'A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem',
+    description:
+      'A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem',
     repoOwnerName: 'chiraggude',
     repoOwner: 'Chirag Gude',
-    category: ['web-dev', 'project', 'course', 'backend']
+    category: ['web-dev', 'project', 'course', 'backend'],
   },
   {
     id: 173,
@@ -1736,7 +1578,7 @@ export default [
     description: 'A curated list of awesome things related to Ruby on Rails',
     repoOwnerName: 'gramantin',
     repoOwner: 'Gramantin',
-    category: ['web-dev', 'project', 'course', 'backend', 'frontend']
+    category: ['web-dev', 'project', 'course', 'backend', 'frontend'],
   },
   {
     id: 174,
@@ -1745,7 +1587,7 @@ export default [
     description: 'A collection of useful .htaccess snippets.',
     repoOwnerName: 'phanan',
     repoOwner: 'Phan An',
-    category: ['web-dev', 'project', 'frontend']
+    category: ['web-dev', 'project', 'frontend'],
   },
   {
     id: 175,
@@ -1754,16 +1596,17 @@ export default [
     description: 'A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine',
     repoOwnerName: 'fcambus',
     repoOwner: 'Frederic Cambus',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 176,
     link: 'https://raw.githubusercontent.com/pmuens/awesome-serverless/master/README.md',
     repoName: 'awesome-serverless',
-    description: ' Curated list of resources related to serverless computing and serverless architectures.',
+    description:
+      ' Curated list of resources related to serverless computing and serverless architectures.',
     repoOwnerName: 'pmuens',
     repoOwner: 'Philipp Muens',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 177,
@@ -1772,7 +1615,7 @@ export default [
     description: 'An awesome Data Science repository to learn and apply for real world problems.',
     repoOwnerName: 'academic',
     repoOwner: 'Academic.io',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 178,
@@ -1781,7 +1624,7 @@ export default [
     description: 'Curated list: Resources for machine learning in Ruby',
     repoOwnerName: 'arbox',
     repoOwner: 'Andrei Beliankou',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 179,
@@ -1790,7 +1633,7 @@ export default [
     description: 'A curated list of cryptography resources and links.',
     repoOwnerName: 'sobolevn',
     repoOwner: 'Nikita Sobolev',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 180,
@@ -1799,7 +1642,7 @@ export default [
     description: 'A curated list of awesome computer vision resources',
     repoOwnerName: 'jbhuang0604',
     repoOwner: 'Jia-Bin Huang',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 181,
@@ -1808,7 +1651,7 @@ export default [
     description: 'A curated list of awesome Deep Learning tutorials, projects and communities.',
     repoOwnerName: 'ChristosChristofidis',
     repoOwner: 'Christos',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 182,
@@ -1817,16 +1660,17 @@ export default [
     description: 'A curated list of deep learning resources for computer vision',
     repoOwnerName: 'kjw0612',
     repoOwner: 'Jiwon Kim',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 183,
     link: 'https://raw.githubusercontent.com/analysis-tools-dev/static-analysis/master/README.md',
     repoName: 'static-analysis',
-    description: 'A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.',
+    description:
+      'A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.',
     repoOwnerName: 'analysis-tools-dev',
     repoOwner: 'analysis-tools-dev',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 184,
@@ -1835,7 +1679,7 @@ export default [
     description: 'A curated list of awesome big data frameworks, ressources and other awesomeness.',
     repoOwnerName: 'onurakpolat',
     repoOwner: 'Onur Akpolat',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 185,
@@ -1844,7 +1688,7 @@ export default [
     description: 'A topic-centric list of HQ open datasets.',
     repoOwnerName: 'awesomedata',
     repoOwner: 'AwesomeData',
-    category: ['project', 'data-science']
+    category: ['project', 'data-science'],
   },
   {
     id: 186,
@@ -1853,7 +1697,7 @@ export default [
     description: 'A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources',
     repoOwnerName: 'youngwookim',
     repoOwner: 'Youngwoo Kim',
-    category: ['project', 'backend']
+    category: ['project', 'backend'],
   },
   {
     id: 187,
@@ -1862,7 +1706,7 @@ export default [
     description: 'A curated list of data engineering tools for software developers',
     repoOwnerName: 'igorbarinov',
     repoOwner: 'Igor Barinov',
-    category: ['project', 'backend', 'data-science']
+    category: ['project', 'backend', 'data-science'],
   },
   {
     id: 188,
@@ -1871,7 +1715,7 @@ export default [
     description: 'Awesome online talks and screencasts',
     repoOwnerName: 'JanVanRyswyck',
     repoOwner: 'Jan Van Ryswyck',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 189,
@@ -1880,7 +1724,7 @@ export default [
     description: 'A curated list to learning and practicing about algorithm.',
     repoOwnerName: 'gaerae',
     repoOwner: 'gaerae',
-    category: ['course', 'interview']
+    category: ['course', 'interview'],
   },
   {
     id: 190,
@@ -1889,25 +1733,27 @@ export default [
     description: 'collection of projects and links about algorithm visualization',
     repoOwnerName: 'enjalot',
     repoOwner: 'Ian Johnson',
-    category: ['course', 'interview']
+    category: ['course', 'interview'],
   },
   {
     id: 191,
     link: 'https://raw.githubusercontent.com/owainlewis/awesome-artificial-intelligence/master/README.md',
     repoName: 'awesome-artificial-intelligence',
-    description: 'A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.',
+    description:
+      'A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.',
     repoOwnerName: 'owainlewis',
     repoOwner: 'Owain Lewis',
-    category: ['course', 'project', 'data-science']
+    category: ['course', 'project', 'data-science'],
   },
   {
     id: 192,
     link: 'https://raw.githubusercontent.com/marcobiedermann/search-engine-optimization/main/readme.md',
     repoName: 'search-engine-optimization',
-    description: ' A helpful checklist/collection of Search Engine Optimization (SEO) tips and techniques.',
+    description:
+      ' A helpful checklist/collection of Search Engine Optimization (SEO) tips and techniques.',
     repoOwnerName: 'marcobiedermann',
     repoOwner: 'Marco Biedermann',
-    category: ['course', 'project', 'frontend']
+    category: ['course', 'project', 'frontend'],
   },
   {
     id: 193,
@@ -1916,7 +1762,7 @@ export default [
     description: 'A curated list of awesome mathematics resources',
     repoOwnerName: 'rossant',
     repoOwner: 'Cyrille Rossant',
-    category: ['course', 'project', 'interview']
+    category: ['course', 'project', 'interview'],
   },
   {
     id: 194,
@@ -1925,7 +1771,7 @@ export default [
     description: 'Resources for learning and using recursion schemes.',
     repoOwnerName: 'passy',
     repoOwner: 'Pascal Hartig',
-    category: ['podcast', 'course']
+    category: ['podcast', 'course'],
   },
   {
     id: 195,
@@ -1934,7 +1780,7 @@ export default [
     description: 'List of Golang books',
     repoOwnerName: 'dariubs',
     repoOwner: 'Dariush Abbasi',
-    category: ['project', 'backend', 'course', 'language', 'web-dev', 'mob-dev']
+    category: ['project', 'backend', 'course', 'language', 'web-dev', 'mob-dev'],
   },
   {
     id: 196,
@@ -1943,7 +1789,7 @@ export default [
     description: 'A curated list of #rstats books',
     repoOwnerName: 'RomanTsegelskyi',
     repoOwner: 'Roman Tsegelskyi',
-    category: ['project', 'course', 'language']
+    category: ['project', 'course', 'language'],
   },
   {
     id: 197,
@@ -1952,7 +1798,7 @@ export default [
     description: ' Books everyone should read!',
     repoOwnerName: 'hackerkid',
     repoOwner: 'Vishnu Ks',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 198,
@@ -1961,7 +1807,7 @@ export default [
     description: ' All things Vim!',
     repoOwnerName: 'mhinz',
     repoOwner: 'Marco Hinz',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 199,
@@ -1970,7 +1816,7 @@ export default [
     description: 'A curated list of delightful Atom packages and resources.',
     repoOwnerName: 'mehcode',
     repoOwner: 'Ryan Leckey',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 200,
@@ -1979,16 +1825,17 @@ export default [
     description: 'A curated list of delightful VS Code packages and resources.',
     repoOwnerName: 'viatsko',
     repoOwner: 'Valerii Iatsko',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 201,
     link: 'https://raw.githubusercontent.com/kennymkchan/interview-questions-in-javascript/master/README.md',
     repoName: 'interview-questions-in-javascript',
-    description: 'A mostly reasonable collection of technical software development interview questions solved in Javascript',
+    description:
+      'A mostly reasonable collection of technical software development interview questions solved in Javascript',
     repoOwnerName: 'kennymkchan',
     repoOwner: 'Kenny Chan',
-    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language'],
   },
   {
     id: 202,
@@ -1997,7 +1844,7 @@ export default [
     description: 'JavaScript interview Questions',
     repoOwnerName: 'ganqqwerty',
     repoOwner: 'Yuri Katkov',
-    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language'],
   },
   {
     id: 203,
@@ -2006,7 +1853,7 @@ export default [
     description: ' A list of Game Development resources to make magic happen.',
     repoOwnerName: 'ellisonleao',
     repoOwner: 'Ellison',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 204,
@@ -2015,43 +1862,46 @@ export default [
     description: 'A curated list of awesome Unity assets, resources, and more.',
     repoOwnerName: 'RyanNielson',
     repoOwner: 'Ryan Nielson',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 205,
     link: 'https://raw.githubusercontent.com/gbdev/awesome-gbdev/master/README.md',
     repoName: 'awesome-gbdev',
-    description: 'A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.',
+    description:
+      'A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.',
     repoOwnerName: 'gbdev',
     repoOwner: 'gbdev',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 206,
     link: 'https://raw.githubusercontent.com/phillipadsmith/awesome-github/master/README.md',
     repoName: 'awesome-github',
-    description: 'A curated list of GitHub\'s awesomeness',
+    description: "A curated list of GitHub's awesomeness",
     repoOwnerName: 'phillipadsmith',
     repoOwner: 'Phillip Smith',
-    category: ['web-dev', 'mob-dev', 'project']
+    category: ['web-dev', 'mob-dev', 'project'],
   },
   {
     id: 207,
     link: 'https://raw.githubusercontent.com/jondot/awesome-devenv/master/README.md',
     repoName: 'awesome-devenv',
-    description: 'A curated list of awesome tools, resources and workflow tips making an awesome development environment',
+    description:
+      'A curated list of awesome tools, resources and workflow tips making an awesome development environment',
     repoOwnerName: 'jondot',
     repoOwner: 'Dotan J. Nahum',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 208,
     link: 'https://raw.githubusercontent.com/alebcay/awesome-shell/master/README.md',
     repoName: 'awesome-shell',
-    description: 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.',
+    description:
+      'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.',
     repoOwnerName: 'alebcay',
     repoOwner: 'Caleb Xu',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 210,
@@ -2060,7 +1910,7 @@ export default [
     description: 'A collection of ZSH frameworks, plugins, themes and tutorials.',
     repoOwnerName: 'unixorn',
     repoOwner: 'Joe Block',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 211,
@@ -2069,7 +1919,7 @@ export default [
     description: 'git and git flow cheat sheet',
     repoOwnerName: 'arslanbilal',
     repoOwner: 'Bilal Arslan',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 212,
@@ -2078,7 +1928,7 @@ export default [
     description: 'Most commonly used git tips and tricks.',
     repoOwnerName: 'git-tips',
     repoOwner: 'git-tips',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 213,
@@ -2087,7 +1937,7 @@ export default [
     description: 'A curated list of add-ons that extend/enhance the git CLI.',
     repoOwnerName: 'stevemao',
     repoOwner: 'Steve Mao',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 214,
@@ -2096,7 +1946,7 @@ export default [
     description: 'A curated list of SSH resources.',
     repoOwnerName: 'moul',
     repoOwner: 'Manfred Touron',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 215,
@@ -2105,7 +1955,7 @@ export default [
     description: 'Delightful Hyper plugins, themes, and resources',
     repoOwnerName: 'bnb',
     repoOwner: 'Tierney Cyren',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 216,
@@ -2114,7 +1964,7 @@ export default [
     description: 'A curated list of delightful PowerShell modules and resources',
     repoOwnerName: 'janikvonrotz',
     repoOwner: 'Janik Vonrotz',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 217,
@@ -2123,7 +1973,7 @@ export default [
     description: 'A curated list of Terminal frameworks, plugins & resources for CLI lovers.',
     repoOwnerName: 'k4m4',
     repoOwner: 'Nikolaos Kamarinakis',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 218,
@@ -2132,7 +1982,7 @@ export default [
     description: 'A curated list of awesome actions to use on GitHub',
     repoOwnerName: 'sdras',
     repoOwner: 'Sarah Drasner',
-    category: ['productive', 'project']
+    category: ['productive', 'project'],
   },
   {
     id: 219,
@@ -2141,7 +1991,7 @@ export default [
     description: 'A curated list of podcasts we like to listen to.',
     repoOwnerName: 'ayr-ton',
     repoOwner: 'Ayrton Araújo Santana',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 220,
@@ -2150,16 +2000,17 @@ export default [
     description: 'A list of amazing Newsletters',
     repoOwnerName: 'zudochkin',
     repoOwner: 'Dmitry Zudochkin',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 221,
     link: 'https://raw.githubusercontent.com/victorlaerte/awesome-it-quotes/master/README.md',
     repoName: 'awesome-it-quotes',
-    description: 'This is a list of awesome IT quotes. The aim is to collect all relevant quotes said over the history of IT.',
+    description:
+      'This is a list of awesome IT quotes. The aim is to collect all relevant quotes said over the history of IT.',
     repoOwnerName: 'victorlaerte',
     repoOwner: 'Victor Laerte Oliveira',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 222,
@@ -2168,6 +2019,6 @@ export default [
     description: 'A curated list of awesome MySQL software, libraries, tools and resources',
     repoOwnerName: 'shlomi-noach',
     repoOwner: 'Shlomi Noach',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
 ];

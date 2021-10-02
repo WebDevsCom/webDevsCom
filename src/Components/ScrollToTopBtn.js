@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowUpCircle } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 
-const ScrollToTopBtn = () => {
+function ScrollToTopBtn() {
   let scrolling = false;
   window.onscroll = function () {
     scrolling = true;
@@ -34,18 +34,19 @@ const ScrollToTopBtn = () => {
   }
   return (
     <>
-      <ReactTooltip type='light' />
+      <ReactTooltip type="light" />
+
       <div
-        id='topBtn'
-        className='button button-special is-rounded box-shadow-lift'
-        style={{ cursor: 'pointer' }}
+        className="button button-special is-rounded box-shadow-lift"
+        data-tip="Scroll back to top"
+        id="topBtn"
         onClick={topFunction}
-        data-tip='Scroll back to top'
+        style={{ cursor: 'pointer' }}
       >
-        <ArrowUpCircle color='blue' className='icon' />
+        <ArrowUpCircle className="icon" color="blue" />
       </div>
     </>
   );
-};
+}
 
 export default ScrollToTopBtn;

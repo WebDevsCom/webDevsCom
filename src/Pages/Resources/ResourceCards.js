@@ -9,31 +9,27 @@ const ResourceCards = memo(() => {
 
   return (
     <div
-      className='columns is-multiline is-centered fadeInUp'
+      className="columns is-multiline is-centered fadeInUp"
       style={{ margin: 'auto', animationDelay: '0.85s' }}
     >
-      {
-        resources.length === 0 &&
-          window.location.pathname === '/resources' ? (
-          <NoData text={`There is no resources present for searched Keyword ${searchText}.
-            Please try searching for something else.`} />
-        ) : (
-          resources.length === 0 &&
-          window.location.pathname === '/bookmarked') ? (
-          <NoData
-            text={
-              searchText === '' && category === 'all'
-                ? 'You have not Bookmarked any Resources.'
-                : category !== 'all'
-                  ? `You have not Bookmarked any Resources of category "${category}".`
-                  : `You have not Bookmarked any resources with search keyword "${searchText}"`
-            }
-          />
-        ) : (
-          resources.map((resource) => (
-            <ResourceCard key={resource.id} resource={resource} />
-          ))
-        )}
+      {resources.length === 0 && window.location.pathname === '/resources' ? (
+        <NoData
+          text={`There is no resources present for searched Keyword ${searchText}.
+            Please try searching for something else.`}
+        />
+      ) : resources.length === 0 && window.location.pathname === '/bookmarked' ? (
+        <NoData
+          text={
+            searchText === '' && category === 'all'
+              ? 'You have not Bookmarked any Resources.'
+              : category !== 'all'
+              ? `You have not Bookmarked any Resources of category "${category}".`
+              : `You have not Bookmarked any resources with search keyword "${searchText}"`
+          }
+        />
+      ) : (
+        resources.map((resource) => <ResourceCard key={resource.id} resource={resource} />)
+      )}
     </div>
   );
 });

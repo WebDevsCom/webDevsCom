@@ -5,35 +5,31 @@ import Page from '../../Components/Page';
 import Suggestion from './Suggestion';
 import SearchInput from './SearchInput';
 
-const Resources = () => {
+function Resources() {
   const [showSuggestion, setShowSuggestion] = useState(false);
 
   return (
     <Page>
-      <div className='container' style={{ marginTop: '1rem', width: '100%' }}>
+      <div className="container" style={{ marginTop: '1rem', width: '100%' }}>
         <SearchInput />
+
         <div
-          className='has-text-centered is-hidden-tablet fadeInUp'
+          className="has-text-centered is-hidden-tablet fadeInUp"
           style={{ animationDelay: '.5s' }}
         >
-          <button
-            onClick={() => setShowSuggestion((prev) => !prev)}
-            className='button'
-          >
-            <span className='icon is-small'>
-              {showSuggestion ? <EyeOff /> : <Eye />}
-            </span>
-            &emsp;{!showSuggestion ? 'View Suggestions' : 'Close Suggestions'}
+          <button className="button" onClick={() => setShowSuggestion((prev) => !prev)}>
+            <span className="icon is-small">{showSuggestion ? <EyeOff /> : <Eye />}</span>
+
+            {!showSuggestion ? 'View Suggestions' : 'Close Suggestions'}
           </button>
         </div>
 
-        {(window.innerWidth > 767 || showSuggestion) && (
-          <Suggestion />
-        )}
+        {(window.innerWidth > 767 || showSuggestion) && <Suggestion />}
+
         <ResourceCards />
       </div>
     </Page>
   );
-};
+}
 
 export default Resources;

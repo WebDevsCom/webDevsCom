@@ -22,8 +22,7 @@ const ResourceREADME = (props) => {
 
   useEffect(() => {
     setBookMarks(JSON.parse(localStorage.getItem('bookmarks')));
-    let BookMarked =
-      bookmarks?.find((bookMarkId) => repoInfo?.id === bookMarkId);
+    let BookMarked = bookmarks?.find((bookMarkId) => repoInfo?.id === bookMarkId);
     setBookMarked(BookMarked ? true : false);
 
     // Todo: need to make it better sometime later.
@@ -62,19 +61,19 @@ const ResourceREADME = (props) => {
 
       const table = document.querySelectorAll('#markdown table');
       for (i = 0; i < table.length; i++)
-        table[i].className =
-          'table is-hoverable is-dark is-fullwidth is-striped';
+        table[i].className = 'table is-hoverable is-dark is-fullwidth is-striped';
 
       const images = document.querySelectorAll('img');
       for (i = 0; i < images.length; i++) {
         if (images[i].src.includes(window.location.origin)) {
           images[i].setAttribute(
             'src',
-            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
+            `https://raw.githubusercontent.com/${repoInfo.repoOwnerName}/${
+              repoInfo.repoName
             }/master${images[i].src
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
-              .replace('/resources', '')}`
+              .replace('/resources', '')}`,
           );
         }
       }
@@ -83,16 +82,16 @@ const ResourceREADME = (props) => {
       for (i = 0; i < el.length; i++) {
         if (
           el[i].href.includes('./') ||
-          (el[i].href.includes('.md') &&
-            el[i].href.includes(window.location.origin))
+          (el[i].href.includes('.md') && el[i].href.includes(window.location.origin))
         ) {
           el[i].setAttribute(
             'href',
-            `https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName
-            }/blob/master${el[i].href
+            `https://github.com/${repoInfo.repoOwnerName}/${repoInfo.repoName}/blob/master${el[
+              i
+            ].href
               .replace(window.location.origin, '')
               .replace(window.location.pathname, '')
-              .replace('/resources', '')}`
+              .replace('/resources', '')}`,
           );
           el[i].setAttribute('target', '_blank');
         } else if (!el[i].href.includes('#')) {
@@ -118,8 +117,7 @@ const ResourceREADME = (props) => {
 
   const removeBookmark = () => {
     setBookMarked(false);
-    const bookMarks =
-      bookmarks && bookmarks.filter((bookmarkId) => bookmarkId !== repoInfo.id);
+    const bookMarks = bookmarks && bookmarks.filter((bookmarkId) => bookmarkId !== repoInfo.id);
     setBookMarks(bookMarks);
     localStorage.setItem('bookmarks', JSON.stringify(bookMarks));
   };
@@ -128,9 +126,7 @@ const ResourceREADME = (props) => {
     setLoading(true);
     setModalOpen(false);
     const id = props.match.params.id;
-    const repo = resources.find(
-      (resource) => String(resource.id) === String(id)
-    );
+    const repo = resources.find((resource) => String(resource.id) === String(id));
     setRepoInfo(repo);
     if (repo) {
       Axios.get(repo.link).then((markdown) => {
@@ -146,28 +142,27 @@ const ResourceREADME = (props) => {
       : document.querySelector('html').classList.remove('is-clipped');
   }, [isModalOpen]);
 
-  if (!repoInfo)
-    return <NoData text="Not able to find the Resource which you are looking for." />
+  if (!repoInfo) return <NoData text="Not able to find the Resource which you are looking for." />;
 
   if (loading) return <Spinner />;
 
   return (
     <Page title={repoInfo.repoName}>
-      <div className='container' id='markdown'>
-        <div id='table-of-contents'></div>
+      <div className="container" id="markdown">
+        <div id="table-of-contents"></div>
         <ReadmeUtilsBtn
           isBookMarked={isBookMarked}
           removeBookmark={removeBookmark}
           bookmarkIt={bookmarkIt}
           setModal={setModalOpen}
         />
-        <PdfContainer forcePageBreak='.page-break' name={repoInfo.repoName} ownerName={repoInfo.repoOwnerName}>
-          <div id='markdown-content'>
-            <ReactMarkdown
-              source={markdown}
-              escapeHtml={false}
-              renderers={{ code: CodeBlock }}
-            />
+        <PdfContainer
+          forcePageBreak=".page-break"
+          name={repoInfo.repoName}
+          ownerName={repoInfo.repoOwnerName}
+        >
+          <div id="markdown-content">
+            <ReactMarkdown source={markdown} escapeHtml={false} renderers={{ code: CodeBlock }} />
           </div>
         </PdfContainer>
 
