@@ -2089,4 +2089,85 @@ export default [
     repoOwner: 'Steve Mao',
     category: ['productive']
   },
+  {
+    id: 214,
+    link: 'https://raw.githubusercontent.com/moul/awesome-ssh/master/README.md',
+    repoName: 'awesome-ssh',
+    description: 'A curated list of SSH resources.',
+    repoOwnerName: 'moul',
+    repoOwner: 'Manfred Touron',
+    category: ['productive']
+  },
+  {
+    id: 215,
+    link: 'https://raw.githubusercontent.com/bnb/awesome-hyper/master/README.md',
+    repoName: 'awesome-hyper',
+    description: 'Delightful Hyper plugins, themes, and resources',
+    repoOwnerName: 'bnb',
+    repoOwner: 'Tierney Cyren',
+    category: ['productive']
+  },
+  {
+    id: 216,
+    link: 'https://raw.githubusercontent.com/janikvonrotz/awesome-powershell/master/readme.md',
+    repoName: 'awesome-powershell',
+    description: 'A curated list of delightful PowerShell modules and resources',
+    repoOwnerName: 'janikvonrotz',
+    repoOwner: 'Janik Vonrotz',
+    category: ['productive']
+  },
+  {
+    id: 217,
+    link: 'https://raw.githubusercontent.com/k4m4/terminals-are-sexy/master/readme.md',
+    repoName: 'terminals-are-sexy',
+    description: 'A curated list of Terminal frameworks, plugins & resources for CLI lovers.',
+    repoOwnerName: 'k4m4',
+    repoOwner: 'Nikolaos Kamarinakis',
+    category: ['productive']
+  },
+  {
+    id: 218,
+    link: 'https://raw.githubusercontent.com/sdras/awesome-actions/main/README.md',
+    repoName: 'awesome-actions',
+    description: 'A curated list of awesome actions to use on GitHub',
+    repoOwnerName: 'sdras',
+    repoOwner: 'Sarah Drasner',
+    category: ['productive', 'project']
+  },
+  {
+    id: 219,
+    link: 'https://raw.githubusercontent.com/ayr-ton/awesome-geek-podcasts/master/README.md',
+    repoName: 'awesome-geek-podcasts',
+    description: 'A curated list of podcasts we like to listen to.',
+    repoOwnerName: 'ayr-ton',
+    repoOwner: 'Ayrton Araújo Santana',
+    category: ['podcast']
+  },
+  {
+    id: 220,
+    link: 'https://raw.githubusercontent.com/zudochkin/awesome-newsletters/master/README.md',
+    repoName: 'awesome-newsletters',
+    description: 'A list of amazing Newsletters',
+    repoOwnerName: 'zudochkin',
+    repoOwner: 'Dmitry Zudochkin',
+    category: ['podcast']
+  },
+  {
+    id: 221,
+    link: 'https://raw.githubusercontent.com/victorlaerte/awesome-it-quotes/master/README.md',
+    repoName: 'awesome-it-quotes',
+    description: 'This is a list of awesome IT quotes. The aim is to collect all relevant quotes said over the history of IT.',
+    repoOwnerName: 'victorlaerte',
+    repoOwner: 'Victor Laerte Oliveira',
+    category: ['productive']
+  },
+  {
+    id: 222,
+    link: 'https://raw.githubusercontent.com/shlomi-noach/awesome-mysql/master/README.md',
+    repoName: 'awesome-mysql',
+    description: 'A curated list of awesome MySQL software, libraries, tools and resources',
+    repoOwnerName: 'shlomi-noach',
+    repoOwner: 'Shlomi Noach',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
 ];
