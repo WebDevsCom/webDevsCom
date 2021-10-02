@@ -1998,5 +1998,95 @@ export default [
     repoOwnerName: 'ganqqwerty',
     repoOwner: 'Yuri Katkov',
     category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
-  }
+  },
+  {
+    id: 203,
+    link: 'https://raw.githubusercontent.com/ellisonleao/magictools/main/README.md',
+    repoName: 'magictools',
+    description: ' A list of Game Development resources to make magic happen.',
+    repoOwnerName: 'ellisonleao',
+    repoOwner: 'Ellison',
+    category: ['web-dev', 'frontend', 'backend']
+  },
+  {
+    id: 204,
+    link: 'https://raw.githubusercontent.com/RyanNielson/awesome-unity/master/README.md',
+    repoName: 'awesome-unity',
+    description: 'A curated list of awesome Unity assets, resources, and more.',
+    repoOwnerName: 'RyanNielson',
+    repoOwner: 'Ryan Nielson',
+    category: ['web-dev', 'frontend', 'backend']
+  },
+  {
+    id: 205,
+    link: 'https://raw.githubusercontent.com/gbdev/awesome-gbdev/master/README.md',
+    repoName: 'awesome-gbdev',
+    description: 'A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.',
+    repoOwnerName: 'gbdev',
+    repoOwner: 'gbdev',
+    category: ['web-dev', 'frontend', 'backend']
+  },
+  {
+    id: 206,
+    link: 'https://raw.githubusercontent.com/phillipadsmith/awesome-github/master/README.md',
+    repoName: 'awesome-github',
+    description: 'A curated list of GitHub\'s awesomeness',
+    repoOwnerName: 'phillipadsmith',
+    repoOwner: 'Phillip Smith',
+    category: ['web-dev', 'mob-dev', 'project']
+  },
+  {
+    id: 207,
+    link: 'https://raw.githubusercontent.com/jondot/awesome-devenv/master/README.md',
+    repoName: 'awesome-devenv',
+    description: 'A curated list of awesome tools, resources and workflow tips making an awesome development environment',
+    repoOwnerName: 'jondot',
+    repoOwner: 'Dotan J. Nahum',
+    category: ['project']
+  },
+  {
+    id: 208,
+    link: 'https://raw.githubusercontent.com/alebcay/awesome-shell/master/README.md',
+    repoName: 'awesome-shell',
+    description: 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.',
+    repoOwnerName: 'alebcay',
+    repoOwner: 'Caleb Xu',
+    category: ['project', 'productive']
+  },
+  {
+    id: 210,
+    link: 'https://raw.githubusercontent.com/unixorn/awesome-zsh-plugins/main/README.md',
+    repoName: 'awesome-zsh-plugins',
+    description: 'A collection of ZSH frameworks, plugins, themes and tutorials.',
+    repoOwnerName: 'unixorn',
+    repoOwner: 'Joe Block',
+    category: ['project', 'productive']
+  },
+  {
+    id: 211,
+    link: 'https://raw.githubusercontent.com/arslanbilal/git-cheat-sheet/master/README.md',
+    repoName: 'git-cheat-sheet',
+    description: 'git and git flow cheat sheet',
+    repoOwnerName: 'arslanbilal',
+    repoOwner: 'Bilal Arslan',
+    category: ['project', 'productive']
+  },
+  {
+    id: 212,
+    link: 'https://raw.githubusercontent.com/git-tips/tips/master/README.md',
+    repoName: 'tips',
+    description: 'Most commonly used git tips and tricks.',
+    repoOwnerName: 'git-tips',
+    repoOwner: 'git-tips',
+    category: ['project', 'productive']
+  },
+  {
+    id: 213,
+    link: 'https://raw.githubusercontent.com/stevemao/awesome-git-addons/master/README.md',
+    repoName: 'awesome-git-addons',
+    description: 'A curated list of add-ons that extend/enhance the git CLI.',
+    repoOwnerName: 'stevemao',
+    repoOwner: 'Steve Mao',
+    category: ['productive']
+  },
 ];
