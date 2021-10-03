@@ -1,24 +1,24 @@
-import React, { createRef, useEffect, useState } from 'react';
-import { Download, GitHub } from 'react-feather';
-import { savePDF } from '@progress/kendo-react-pdf';
+import React, { createRef, useEffect, useState } from "react";
+import { Download, GitHub } from "react-feather";
+import { savePDF } from "@progress/kendo-react-pdf";
 
 class DocService {
   createPdf = (html, name, setDisable) => {
     savePDF(
       html,
       {
-        title: 'webdevscom.github.io',
+        title: "webdevscom.github.io",
         scale: 0.8,
-        producer: 'WebDevsCom',
-        subject: 'Learning Resources',
-        creator: 'Binu kumar',
-        paperSize: 'Letter',
-        fileName: name + '.pdf',
+        producer: "WebDevsCom",
+        subject: "Learning Resources",
+        creator: "Binu kumar",
+        paperSize: "Letter",
+        fileName: name + ".pdf",
         margin: 5,
       },
       () => {
         setDisable(false);
-      }
+      },
     );
   };
 }
@@ -35,26 +35,26 @@ export default ({ name, ownerName, children }) => {
 
   useEffect(() => {
     if (disable) {
-      document.querySelector('body').classList.add('overflow-hidden');
+      document.querySelector("body").classList.add("overflow-hidden");
     } else {
-      document.querySelector('body').classList.remove('overflow-hidden');
+      document.querySelector("body").classList.remove("overflow-hidden");
     }
   }, [disable]);
 
   return (
     <section>
-      <div className='has-text-centered' style={{ padding: '10px 0 20px' }}>
+      <div className="has-text-centered" style={{ padding: "10px 0 20px" }}>
         {disable ? (
-          <div id='cover-spin'></div>
+          <div id="cover-spin"></div>
         ) : (
           <div
-            className='has-text-centered fadeInUp'
-            style={{ animationDelay: '.5s' }}
+            className="has-text-centered fadeInUp"
+            style={{ animationDelay: ".5s" }}
           >
             <button
-              className='button button-special m-1 box-shadow-lift is-primary is-medium is-rounded'
+              className="button button-special m-1 box-shadow-lift is-primary is-medium is-rounded"
               onClick={createPdf}
-              id='download-pdf'
+              id="download-pdf"
               disabled={disable}
             >
               <Download />
@@ -62,17 +62,17 @@ export default ({ name, ownerName, children }) => {
             </button>
             <a
               href={`https://github.com/${ownerName}/${name}/`}
-              className='button button-special m-1 box-shadow-lift is-medium is-rounded'
-              target='_blank'
-              rel='noopener noreferrer'
-              id='view-on-github'
+              className="button button-special m-1 box-shadow-lift is-medium is-rounded"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="view-on-github"
             >
               <GitHub /> <span> &emsp;View on Github</span>
             </a>
           </div>
         )}
       </div>
-      <section className='pdf-body' ref={bodyRef}>
+      <section className="pdf-body" ref={bodyRef}>
         {children}
       </section>
     </section>

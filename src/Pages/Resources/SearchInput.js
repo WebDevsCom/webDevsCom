@@ -1,21 +1,21 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Search, XCircle } from 'react-feather';
-import resourceContext from '../../context/resources/resourceContext';
+import React, { useContext, useEffect, useState } from "react";
+import { Search, XCircle } from "react-feather";
+import resourceContext from "../../context/resources/resourceContext";
 
 const SearchInput = () => {
   const ResourceContext = useContext(resourceContext);
   const { setSearchText, searchText } = ResourceContext;
-  const [placeholder, setPlaceholder] = useState('');
+  const [placeholder, setPlaceholder] = useState("");
 
   const suggestions = [
-    'brad traversy',
-    'css',
-    'react',
-    'angular',
-    'bradtraversy',
-    'course',
-    'university',
-    'curated'
+    "brad traversy",
+    "css",
+    "react",
+    "angular",
+    "bradtraversy",
+    "course",
+    "university",
+    "curated",
   ];
 
   // search placeholder text
@@ -37,7 +37,7 @@ const SearchInput = () => {
     const clearPlaceholder = (callback) => {
       if (placeholder.length > 0) {
         timeout = setTimeout(function () {
-          setPlaceholder('');
+          setPlaceholder("");
           clearPlaceholder(callback);
         }, 1000);
         return true;
@@ -62,35 +62,35 @@ const SearchInput = () => {
 
   return (
     <div
-      className='field has-addons has-addons-centered fadeInUp'
-      style={{ animationDelay: '.25s' }}
+      className="field has-addons has-addons-centered fadeInUp"
+      style={{ animationDelay: ".25s" }}
     >
-      <p className='control has-icons-left box-shadow-lift'>
+      <p className="control has-icons-left box-shadow-lift">
         <input
-          className='input'
-          type='text'
+          className="input"
+          type="text"
           onChange={(e) => setSearchText(e.target.value)}
-          placeholder={'Search for ' + placeholder}
+          placeholder={"Search for " + placeholder}
           value={searchText}
         />
-        <span className='icon is-small is-left'>
-          <Search color='#00d1b2' />
+        <span className="icon is-small is-left">
+          <Search color="#00d1b2" />
         </span>
       </p>
-      <div className='control' id='clear'>
+      <div className="control" id="clear">
         <div
-          className='button is-primary'
-          disabled={searchText.trim() === '' ? true : false}
-          onClick={e => setSearchText("")}
-          style={{ backgroundColor: '#00d1b2' }}
+          className="button is-primary"
+          disabled={searchText.trim() === "" ? true : false}
+          onClick={(e) => setSearchText("")}
+          style={{ backgroundColor: "#00d1b2" }}
         >
-          <span className='icon is-small'>
+          <span className="icon is-small">
             <XCircle />
           </span>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SearchInput
+export default SearchInput;

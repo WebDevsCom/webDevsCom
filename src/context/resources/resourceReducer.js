@@ -1,4 +1,4 @@
-import { SET_FILTERED_RESOURCES, SET_PAGE_TITLE } from '../types';
+import { SET_FILTERED_RESOURCES, SET_PAGE_TITLE } from "../types";
 
 export default (state, action) => {
   switch (action.type) {
@@ -9,4 +9,4 @@ export default (state, action) => {
     default:
       return state;
   }
-}
+};

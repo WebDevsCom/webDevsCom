@@ -1,4 +1,4 @@
-import { TOGGLE_THEME } from '../types';
+import { TOGGLE_THEME } from "../types";
 
 export default (state, action) => {
   switch (action.type) {
@@ -7,4 +7,4 @@ export default (state, action) => {
     default:
       return state;
   }
-}
+};

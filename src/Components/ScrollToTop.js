@@ -1,5 +1,5 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
+import React from "react";
+import { withRouter } from "react-router-dom";
 
 // used to scroll to top on router changes
 class ScrollToTop extends React.Component {
