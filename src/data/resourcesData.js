@@ -2170,4 +2170,58 @@ export default [
     repoOwner: 'Shlomi Noach',
     category: ['backend', 'web-dev', 'mob-dev']
   },
+  {
+    id: 223,
+    link: 'https://raw.githubusercontent.com/dahlia/awesome-sqlalchemy/master/README.rst',
+    repoName: 'awesome-sqlalchemy',
+    description: 'A curated list of awesome tools for SQLAlchemy',
+    repoOwnerName: 'dahlia',
+    repoOwner: 'Hong Minhee (洪 民憙)',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 224,
+    link: 'https://raw.githubusercontent.com/dhamaniasad/awesome-postgres/master/README.md',
+    repoName: 'awesome-postgres',
+    description: 'A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql',
+    repoOwnerName: 'dhamaniasad',
+    repoOwner: 'Asad Dhamani',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 225,
+    link: 'https://raw.githubusercontent.com/ramnes/awesome-mongodb/master/README.md',
+    repoName: 'awesome-mongodb',
+    description: '🍃 A curated list of awesome MongoDB resources, libraries, tools and applications',
+    repoOwnerName: 'ramnes',
+    repoOwner: 'Guillaume Gelin',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 226,
+    link: 'https://raw.githubusercontent.com/mgramin/awesome-db-tools/master/README.md',
+    repoName: 'awesome-db-tools',
+    description: 'Everything that makes working with databases easier',
+    repoOwnerName: 'mgramin',
+    repoOwner: 'mgramin',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 227,
+    link: 'https://raw.githubusercontent.com/davisonio/awesome-gif/master/readme.md',
+    repoName: 'awesome-gif',
+    description: 'A curated list of awesome GIF resources.',
+    repoOwnerName: 'davisonio',
+    repoOwner: 'Craig Davison',
+    category: ['frontend']
+  },
+  {
+    id: 228,
+    link: 'https://raw.githubusercontent.com/willianjusten/awesome-audio-visualization/master/Readme.md',
+    repoName: 'awesome-audio-visualization',
+    description: 'A curated list about Audio Visualization.',
+    repoOwnerName: 'willianjusten',
+    repoOwner: 'Willian Justen',
+    category: ['frontend', 'project']
+  },
 ];
