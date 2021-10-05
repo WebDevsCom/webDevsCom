@@ -2213,7 +2213,7 @@ export default [
     description: 'A curated list of awesome GIF resources.',
     repoOwnerName: 'davisonio',
     repoOwner: 'Craig Davison',
-    category: ['backend', 'frontend', 'web-dev', 'mob-dev']
+    category: ['frontend']
   },
   {
     id: 228,
@@ -2222,6 +2222,6 @@ export default [
     description: 'A curated list about Audio Visualization.',
     repoOwnerName: 'willianjusten',
     repoOwner: 'Willian Justen',
-    category: ['backend', 'frontend', 'web-dev', 'mob-dev', 'course', 'project']
+    category: ['frontend', 'project']
   },
 ];
