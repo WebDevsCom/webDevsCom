@@ -2224,4 +2224,58 @@ export default [
     repoOwner: 'Willian Justen',
     category: ['frontend', 'project']
   },
+  {
+    id: 229,
+    link: 'https://raw.githubusercontent.com/hangtwenty/dive-into-machine-learning/master/README.md',
+    repoName: 'dive-into-machine-learning',
+    description: 'Dive into Machine Learning with Python Jupyter notebook and scikit-learn!',
+    repoOwnerName: 'hangtwenty',
+    repoOwner: 'Michael Floering',
+    category: ['data-science', 'project']
+  },
+  {
+    id: 230,
+    link: 'https://raw.githubusercontent.com/micromata/awesome-css-learning/master/readme.md',
+    repoName: 'awesome-css-learning',
+    description: 'A tiny list limited to the best CSS Learning Resources',
+    repoOwnerName: 'micromata',
+    repoOwner: 'Micromata GmbH',
+    category: ['frontend', 'web-dev']
+  },
+  {
+    id: 231,
+    link: 'https://raw.githubusercontent.com/dend/awesome-product-management/master/README.md',
+    repoName: 'awesome-product-management',
+    description: 'A curated list of awesome resources for product/program managers to learn and grow.',
+    repoOwnerName: 'dend',
+    repoOwner: 'Den Delimarsky',
+    category: ['project', 'productive']
+  },
+  {
+    id: 232,
+    link: 'https://raw.githubusercontent.com/sbilly/awesome-security/master/README.md',
+    repoName: 'awesome-security',
+    description: 'A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.',
+    repoOwnerName: 'sbilly',
+    repoOwner: 'sbilly',
+    category: ['project', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 233,
+    link: 'https://raw.githubusercontent.com/apsdehal/awesome-ctf/master/README.md',
+    repoName: 'awesome-ctf',
+    description: 'A curated list of CTF frameworks, libraries, resources and softwares.',
+    repoOwnerName: 'apsdehal',
+    repoOwner: 'Amanpreet Singh',
+    category: ['web-dev']
+  },
+  {
+    id: 234,
+    link: 'https://raw.githubusercontent.com/rshipp/awesome-malware-analysis/main/README.md',
+    repoName: 'awesome-malware-analysis',
+    description: 'Defund the Police.',
+    repoOwnerName: 'rshipp',
+    repoOwner: 'Ryan Shipp',
+    category: ['web-dev']
+  },
 ];
