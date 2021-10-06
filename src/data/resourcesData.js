@@ -2278,4 +2278,49 @@ export default [
     repoOwner: 'Ryan Shipp',
     category: ['web-dev']
   },
+  {
+    id: 235,
+    link: 'https://raw.githubusercontent.com/ashishb/android-security-awesome/master/README.md',
+    repoName: 'android-security-awesome',
+    description: 'A collection of android security related resources',
+    repoOwnerName: 'ashishb',
+    repoOwner: 'Ashish Bhatia',
+    category: ['mob-dev', 'project']
+  },
+  {
+    id: 236,
+    link: 'https://raw.githubusercontent.com/carpedm20/awesome-hacking/master/README.md',
+    repoName: 'awesome-hacking',
+    description: 'A curated list of awesome Hacking tutorials, tools and resources',
+    repoOwnerName: 'carpedm20',
+    repoOwner: 'Taehoon Kim',
+    category: ['web-dev', 'productive']
+  },
+  {
+    id: 237,
+    link: 'https://raw.githubusercontent.com/meirwah/awesome-incident-response/master/README.md',
+    repoName: 'awesome-incident-response',
+    description: 'A curated list of tools for incident response',
+    repoOwnerName: 'meirwah',
+    repoOwner: 'Meir Wahnon',
+    category: ['project', 'productive']
+  },
+  {
+    id: 238,
+    link: 'https://raw.githubusercontent.com/qazbnm456/awesome-web-security/master/README.md',
+    repoName: 'awesome-web-security',
+    description: 'A curated list of Web Security materials and resources.',
+    repoOwnerName: 'qazbnm456',
+    repoOwner: 'Boik',
+    category: ['project', 'web-dev']
+  },
+  {
+    id: 239,
+    link: 'https://raw.githubusercontent.com/matiassingers/awesome-slack/master/README.md',
+    repoName: 'awesome-slack',
+    description: 'A curated list of awesome Slack related things',
+    repoOwnerName: 'matiassingers',
+    repoOwner: 'Matias Singers',
+    category: ['productive']
+  },
 ];
