@@ -1,12 +1,10 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
-import ReactTooltip from 'react-tooltip';
 import contributors from '../../data/contributors'
 
 const Contributor = () => {
   return (
     <div className='column fadeInUp' style={{ animationDelay: '.75s' }}>
-      <ReactTooltip type="light" />
       <h1>Contributors for this website.</h1>
       <div className='column' style={{ marginLeft: '1rem' }}>
         {
