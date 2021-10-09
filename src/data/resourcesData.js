@@ -2085,4 +2085,157 @@ export default [
     repoOwner: "Shlomi Noach",
     category: ["backend", "web-dev", "mob-dev"],
   },
+  {
+    id: 223,
+    link: 'https://raw.githubusercontent.com/dahlia/awesome-sqlalchemy/master/README.rst',
+    repoName: 'awesome-sqlalchemy',
+    description: 'A curated list of awesome tools for SQLAlchemy',
+    repoOwnerName: 'dahlia',
+    repoOwner: 'Hong Minhee (洪 民憙)',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 224,
+    link: 'https://raw.githubusercontent.com/dhamaniasad/awesome-postgres/master/README.md',
+    repoName: 'awesome-postgres',
+    description: 'A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql',
+    repoOwnerName: 'dhamaniasad',
+    repoOwner: 'Asad Dhamani',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 225,
+    link: 'https://raw.githubusercontent.com/ramnes/awesome-mongodb/master/README.md',
+    repoName: 'awesome-mongodb',
+    description: '🍃 A curated list of awesome MongoDB resources, libraries, tools and applications',
+    repoOwnerName: 'ramnes',
+    repoOwner: 'Guillaume Gelin',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 226,
+    link: 'https://raw.githubusercontent.com/mgramin/awesome-db-tools/master/README.md',
+    repoName: 'awesome-db-tools',
+    description: 'Everything that makes working with databases easier',
+    repoOwnerName: 'mgramin',
+    repoOwner: 'mgramin',
+    category: ['backend', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 227,
+    link: 'https://raw.githubusercontent.com/davisonio/awesome-gif/master/readme.md',
+    repoName: 'awesome-gif',
+    description: 'A curated list of awesome GIF resources.',
+    repoOwnerName: 'davisonio',
+    repoOwner: 'Craig Davison',
+    category: ['frontend']
+  },
+  {
+    id: 228,
+    link: 'https://raw.githubusercontent.com/willianjusten/awesome-audio-visualization/master/Readme.md',
+    repoName: 'awesome-audio-visualization',
+    description: 'A curated list about Audio Visualization.',
+    repoOwnerName: 'willianjusten',
+    repoOwner: 'Willian Justen',
+    category: ['frontend', 'project']
+  },
+  {
+    id: 229,
+    link: 'https://raw.githubusercontent.com/hangtwenty/dive-into-machine-learning/master/README.md',
+    repoName: 'dive-into-machine-learning',
+    description: 'Dive into Machine Learning with Python Jupyter notebook and scikit-learn!',
+    repoOwnerName: 'hangtwenty',
+    repoOwner: 'Michael Floering',
+    category: ['data-science', 'project']
+  },
+  {
+    id: 230,
+    link: 'https://raw.githubusercontent.com/micromata/awesome-css-learning/master/readme.md',
+    repoName: 'awesome-css-learning',
+    description: 'A tiny list limited to the best CSS Learning Resources',
+    repoOwnerName: 'micromata',
+    repoOwner: 'Micromata GmbH',
+    category: ['frontend', 'web-dev']
+  },
+  {
+    id: 231,
+    link: 'https://raw.githubusercontent.com/dend/awesome-product-management/master/README.md',
+    repoName: 'awesome-product-management',
+    description: 'A curated list of awesome resources for product/program managers to learn and grow.',
+    repoOwnerName: 'dend',
+    repoOwner: 'Den Delimarsky',
+    category: ['project', 'productive']
+  },
+  {
+    id: 232,
+    link: 'https://raw.githubusercontent.com/sbilly/awesome-security/master/README.md',
+    repoName: 'awesome-security',
+    description: 'A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.',
+    repoOwnerName: 'sbilly',
+    repoOwner: 'sbilly',
+    category: ['project', 'web-dev', 'mob-dev']
+  },
+  {
+    id: 233,
+    link: 'https://raw.githubusercontent.com/apsdehal/awesome-ctf/master/README.md',
+    repoName: 'awesome-ctf',
+    description: 'A curated list of CTF frameworks, libraries, resources and softwares.',
+    repoOwnerName: 'apsdehal',
+    repoOwner: 'Amanpreet Singh',
+    category: ['web-dev']
+  },
+  {
+    id: 234,
+    link: 'https://raw.githubusercontent.com/rshipp/awesome-malware-analysis/main/README.md',
+    repoName: 'awesome-malware-analysis',
+    description: 'Defund the Police.',
+    repoOwnerName: 'rshipp',
+    repoOwner: 'Ryan Shipp',
+    category: ['web-dev']
+  },
+  {
+    id: 235,
+    link: 'https://raw.githubusercontent.com/ashishb/android-security-awesome/master/README.md',
+    repoName: 'android-security-awesome',
+    description: 'A collection of android security related resources',
+    repoOwnerName: 'ashishb',
+    repoOwner: 'Ashish Bhatia',
+    category: ['mob-dev', 'project']
+  },
+  {
+    id: 236,
+    link: 'https://raw.githubusercontent.com/carpedm20/awesome-hacking/master/README.md',
+    repoName: 'awesome-hacking',
+    description: 'A curated list of awesome Hacking tutorials, tools and resources',
+    repoOwnerName: 'carpedm20',
+    repoOwner: 'Taehoon Kim',
+    category: ['web-dev', 'productive']
+  },
+  {
+    id: 237,
+    link: 'https://raw.githubusercontent.com/meirwah/awesome-incident-response/master/README.md',
+    repoName: 'awesome-incident-response',
+    description: 'A curated list of tools for incident response',
+    repoOwnerName: 'meirwah',
+    repoOwner: 'Meir Wahnon',
+    category: ['project', 'productive']
+  },
+  {
+    id: 238,
+    link: 'https://raw.githubusercontent.com/qazbnm456/awesome-web-security/master/README.md',
+    repoName: 'awesome-web-security',
+    description: 'A curated list of Web Security materials and resources.',
+    repoOwnerName: 'qazbnm456',
+    repoOwner: 'Boik',
+    category: ['project', 'web-dev']
+  },
+  {
+    id: 239,
+    link: 'https://raw.githubusercontent.com/matiassingers/awesome-slack/master/README.md',
+    repoName: 'awesome-slack',
+    description: 'A curated list of awesome Slack related things',
+    repoOwnerName: 'matiassingers',
+    repoOwner: 'Matias Singers',
+    category: ['productive']
+  },
 ];
