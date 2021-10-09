@@ -2370,15 +2370,6 @@ export default [
   },
   {
     id: 245,
-    link: 'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/README.md',
-    repoName: 'javascript-questions',
-    description: 'A long list of (advanced) JavaScript questions, and their explanations ',
-    repoOwnerName: 'lydiahallie',
-    repoOwner: 'Lydia Hallie',
-    category: ['web-dev', 'interview', 'course', "language"]
-  },
-  {
-    id: 246,
     link: 'https://raw.githubusercontent.com/goabstract/Marketing-for-Engineers/master/README.md',
     repoName: 'Marketing-for-Engineers',
     description: 'A curated collection of marketing articles & tools to grow your product.',
@@ -2387,7 +2378,7 @@ export default [
     category: ['productive', 'project']
   },
   {
-    id: 247,
+    id: 246,
     link: 'https://raw.githubusercontent.com/Twipped/InterviewThis/master/README.md',
     repoName: 'InterviewThis',
     description: 'An open source list of developer questions to ask prospective employers',
