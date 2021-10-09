@@ -2323,4 +2323,76 @@ export default [
     repoOwner: 'Matias Singers',
     category: ['productive']
   },
+  {
+    id: 240,
+    link: 'https://raw.githubusercontent.com/trimstray/the-book-of-secret-knowledge/master/README.md',
+    repoName: 'the-book-of-secret-knowledge',
+    description: 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.',
+    repoOwnerName: 'trimstray',
+    repoOwner: 'Michał Ży',
+    category: ['productive', 'web-dev']
+  },
+  {
+    id: 241,
+    link: 'https://raw.githubusercontent.com/danieldelcore/mega-interview-guide/master/README.md',
+    repoName: 'mega-interview-guide',
+    description: 'The MEGA interview guide, JavaSciript, Front End, Comp Sci',
+    repoOwnerName: 'danieldelcore',
+    repoOwner: 'Daniel Del Core',
+    category: ['frontend', 'interview']
+  },
+  {
+    id: 242,
+    link: 'https://raw.githubusercontent.com/danistefanovic/build-your-own-x/master/README.md',
+    repoName: 'build-your-own-x',
+    description: 'Build your own (insert technology here)',
+    repoOwnerName: 'danistefanovic',
+    repoOwner: 'Daniel Stefanovic',
+    category: ['web-dev', 'mob-dev', 'course']
+  },
+  {
+    id: 243,
+    link: 'https://raw.githubusercontent.com/Asabeneh/JavaScript-for-Everyone/master/readMe.md',
+    repoName: 'JavaScript-for-Everyone',
+    description: 'A step by step guide to learn JavaScript and programming',
+    repoOwnerName: 'Asabeneh',
+    repoOwner: 'Asabeneh',
+    category: ['web-dev', 'mob-dev', 'course']
+  },
+  {
+    id: 244,
+    link: 'https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/README.md',
+    repoName: 'javascript-algorithms',
+    description: 'Algorithms and data structures implemented in JavaScript with explanations and links to further readings',
+    repoOwnerName: 'trekhleb',
+    repoOwner: 'Oleksii Trekhleb',
+    category: ['web-dev', 'interview', 'course', "language"]
+  },
+  {
+    id: 245,
+    link: 'https://raw.githubusercontent.com/lydiahallie/javascript-questions/master/README.md',
+    repoName: 'javascript-questions',
+    description: 'A long list of (advanced) JavaScript questions, and their explanations ',
+    repoOwnerName: 'lydiahallie',
+    repoOwner: 'Lydia Hallie',
+    category: ['web-dev', 'interview', 'course', "language"]
+  },
+  {
+    id: 246,
+    link: 'https://raw.githubusercontent.com/goabstract/Marketing-for-Engineers/master/README.md',
+    repoName: 'Marketing-for-Engineers',
+    description: 'A curated collection of marketing articles & tools to grow your product.',
+    repoOwnerName: 'goabstract',
+    repoOwner: 'Abstract',
+    category: ['productive', 'project']
+  },
+  {
+    id: 247,
+    link: 'https://raw.githubusercontent.com/Twipped/InterviewThis/master/README.md',
+    repoName: 'InterviewThis',
+    description: 'An open source list of developer questions to ask prospective employers',
+    repoOwnerName: 'Twipped',
+    repoOwner: 'Jocelyn Badgley',
+    category: ['interview']
+  },
 ];
