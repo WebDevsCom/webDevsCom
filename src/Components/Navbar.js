@@ -44,7 +44,7 @@ const Navbar = () => {
     >
       <div className='navbar-brand'>
         <Link className='navbar-item' id='brand' to='/'>
-          <Terminal color='blue' />
+          <Terminal color={ isDarkMode ? '#FFCC4D' : 'blue'} />
           &emsp;WEBDEVSCOM
         </Link>
 
