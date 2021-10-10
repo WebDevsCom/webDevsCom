@@ -2386,4 +2386,13 @@ export default [
     repoOwner: 'Jocelyn Badgley',
     category: ['interview']
   },
+  {
+    id: 247,
+    link: 'https://raw.githubusercontent.com/londonappbrewery/Flutter-Course-Resources/master/README.md',
+    repoName: 'Flutter-Course-Resources',
+    description: 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp',
+    repoOwnerName: 'London App Brewery',
+    repoOwner: 'londonappbrewery',
+    category: ['mob-dev', 'frontend', 'course']
+  },
 ];
