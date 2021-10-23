@@ -5,7 +5,6 @@ const Suggestion = () => {
   const filters = useMemo(() => ([
     'App',
     'Book',
-    'Awesome',
     'computer science',
     'Design',
     'Developer',
