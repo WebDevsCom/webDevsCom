@@ -2530,4 +2530,67 @@ export default [
     repoOwner: 'Fabio Souto',
     category: ['frontend', 'data-science', 'mob-dev']
   },
+  {
+    id: 263,
+    link: 'https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/README.md',
+    repoName: 'awesome-LaTeX',
+    description: 'Curated list of LaTeX awesomeness',
+    repoOwnerName: 'egeerardyn',
+    repoOwner: 'Egon Geerardyn',
+    category: ['productive']
+  },
+  {
+    id: 264,
+    link: 'https://raw.githubusercontent.com/yungnickyoung/Java-Cheatsheet/master/README.md',
+    repoName: 'Java-Cheatsheet',
+    description: 'Java notes cheatsheet, focusing on fundamentals and useful interview tips',
+    repoOwnerName: 'yungnickyoung',
+    repoOwner: 'Nick Young',
+    category: ['language', 'interview']
+  },
+  {
+    id: 265,
+    link: 'https://raw.githubusercontent.com/yungnickyoung/Python-3-Cheatsheet/master/README.md',
+    repoName: 'Python-3-Cheatsheet',
+    description: 'Python 3 notes cheatsheet, focusing on fundamentals and useful interview tips',
+    repoOwnerName: 'yungnickyoung',
+    repoOwner: 'Nick Young',
+    category: ['language', 'interview']
+  },
+  {
+    id: 266,
+    link: 'https://raw.githubusercontent.com/keon/awesome-nlp/master/README.md',
+    repoName: 'awesome-nlp',
+    description: 'A curated list of resources dedicated to Natural Language Processing (NLP)',
+    repoOwnerName: 'keon',
+    repoOwner: 'Keon',
+    category: ['data-science', 'project']
+  },
+  {
+    id: 267,
+    link: 'https://raw.githubusercontent.com/jupeter/clean-code-php/master/README.md',
+    repoName: 'clean-code-php',
+    description: 'Clean Code concepts adapted for PHP',
+    repoOwnerName: 'jupeter',
+    repoOwner: 'Piotr Plenik',
+    category: ['language', 'web-dev', 'backend']
+  },
+  {
+    id: 268,
+    link: 'https://raw.githubusercontent.com/andrew--r/channels/master/README.md',
+    repoName: 'channels',
+    description: 'A collection of useful YouTube channels for javascript developers and web designers',
+    repoOwnerName: 'andrew--r',
+    repoOwner: 'Andrey Romanov',
+    category: ['web-dev', 'frontend']
+  },
+  {
+    id: 269,
+    link: 'https://raw.githubusercontent.com/andrew--r/frontend-case-studies/master/readme.md',
+    repoName: 'frontend-case-studies',
+    description: 'A curated list of technical talks and articles about real world enterprise frontend development',
+    repoOwnerName: 'andrew--r',
+    repoOwner: 'Andrey Romanov',
+    category: ['web-dev', 'frontend']
+  },
 ];
