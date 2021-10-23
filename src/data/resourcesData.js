@@ -2386,4 +2386,67 @@ export default [
     repoOwner: 'Jocelyn Badgley',
     category: ['interview']
   },
+  {
+    id: 247,
+    link: 'https://raw.githubusercontent.com/lukasz-madon/awesome-remote-job/master/README.md',
+    repoName: 'awesome-remote-job',
+    description: 'A curated list of awesome remote jobs and resources.',
+    repoOwnerName: 'lukasz-madon',
+    repoOwner: 'Lukasz',
+    category: ['interview']
+  },
+  {
+    id: 248,
+    link: 'https://raw.githubusercontent.com/jyguyomarch/awesome-productivity/master/README.md',
+    repoName: 'awesome-productivity',
+    description: 'A curated list of delightful productivity resources.',
+    repoOwnerName: 'jyguyomarch',
+    repoOwner: 'Jean-Yves Guyomarc\'h',
+    category: ['productive']
+  },
+  {
+    id: 249,
+    link: 'https://raw.githubusercontent.com/joho/awesome-code-review/master/readme.md',
+    repoName: 'awesome-code-review',
+    description: 'An "Awesome" list of code review resources - articles, papers, tools, etc',
+    repoOwnerName: 'joho',
+    repoOwner: 'John Barton',
+    category: ['productive', 'project']
+  },
+  {
+    id: 250,
+    link: 'https://raw.githubusercontent.com/briatte/awesome-network-analysis/master/README.md',
+    repoName: 'awesome-network-analysis',
+    description: 'A curated list of awesome network analysis resources.',
+    repoOwnerName: 'briatte',
+    repoOwner: 'François Briatte',
+    category: ['course', 'project']
+  },
+  {
+    id: 251,
+    link: 'https://raw.githubusercontent.com/rtckit/awesome-rtc/master/README.md',
+    repoName: 'awesome-rtc',
+    description: 'A curated list of awesome Real Time Communications resources',
+    repoOwnerName: 'rtckit',
+    repoOwner: 'rtckit',
+    category: ['course', 'project']
+  },
+  {
+    id: 252,
+    link: 'https://raw.githubusercontent.com/burningtree/awesome-json/master/README.md',
+    repoName: 'awesome-json',
+    description: 'A curated list of awesome JSON libraries and resources.',
+    repoOwnerName: 'burningtree',
+    repoOwner: 'tree',
+    category: ['course', 'project', 'language']
+  },
+  {
+    id: 253,
+    link: 'https://raw.githubusercontent.com/secretGeek/AwesomeCSV/master/README.md',
+    repoName: 'AwesomeCSV',
+    description: 'A curated list of awesome tools for dealing with CSV.',
+    repoOwnerName: 'secretGeek',
+    repoOwner: 'Leon Bambrick',
+    category: ['course', 'project', 'language']
+  },
 ];
