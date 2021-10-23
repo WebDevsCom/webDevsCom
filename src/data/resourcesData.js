@@ -2449,4 +2449,85 @@ export default [
     repoOwner: 'Leon Bambrick',
     category: ['course', 'project', 'language']
   },
+  {
+    id: 254,
+    link: 'https://raw.githubusercontent.com/AchoArnold/discount-for-student-dev/master/README.md',
+    repoName: 'discount-for-student-dev',
+    description: 'This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students',
+    repoOwnerName: 'AchoArnold',
+    repoOwner: 'Acho Arnold',
+    category: ['productive', 'project']
+  },
+  {
+    id: 255,
+    link: 'https://raw.githubusercontent.com/marmelab/awesome-rest/master/README.md',
+    repoName: 'awesome-rest',
+    description: 'A collaborative list of great resources about RESTful API architecture, development, test, and performance',
+    repoOwnerName: 'marmelab',
+    repoOwner: 'marmelab',
+    category: ['backend', 'project']
+  },
+  {
+    id: 256,
+    link: 'https://raw.githubusercontent.com/cicdops/awesome-ciandcd/master/README.md',
+    repoName: 'awesome-ciandcd',
+    description: 'continuous integration and continuous delivery',
+    repoOwnerName: 'cicdops',
+    repoOwner: 'cicdops',
+    category: ['course', 'productive', 'project']
+  },
+  {
+    id: 257,
+    link: 'https://raw.githubusercontent.com/melvin0008/awesome-projects-boilerplates/master/README.md',
+    repoName: 'awesome-projects-boilerplates',
+    description: 'Boilerplates for mobile and web apps',
+    repoOwnerName: 'melvin0008',
+    repoOwner: 'Melvin',
+    category: ['mob-dev', 'web-dev']
+  },
+  {
+    id: 258,
+    link: 'https://raw.githubusercontent.com/matiassingers/awesome-readme/master/readme.md',
+    repoName: 'awesome-readme',
+    description: 'A curated list of awesome READMEs',
+    repoOwnerName: 'matiassingers',
+    repoOwner: 'Matias Singers',
+    category: ['productive']
+  },
+  {
+    id: 259,
+    link: 'https://raw.githubusercontent.com/NARKOZ/guides/master/README.md',
+    repoName: 'guides',
+    description: 'Design and development guides',
+    repoOwnerName: 'NARKOZ',
+    repoOwner: 'Nihad Abbasov',
+    category: ['project', 'course', 'web-dev']
+  },
+  {
+    id: 260,
+    link: 'https://raw.githubusercontent.com/kilimchoi/engineering-blogs/master/README.md',
+    repoName: 'engineering-blogs',
+    description: 'A curated list of engineering blogs',
+    repoOwnerName: 'kilimchoi',
+    repoOwner: 'Kilim Choi',
+    category: ['productive']
+  },
+  {
+    id: 261,
+    link: 'https://raw.githubusercontent.com/chentsulin/awesome-graphql/master/README.md',
+    repoName: 'awesome-graphql',
+    description: 'Awesome list of GraphQL',
+    repoOwnerName: 'chentsulin',
+    repoOwner: 'C. T. Lin',
+    category: ['web-dev', 'frontend', 'backend']
+  },
+  {
+    id: 262,
+    link: 'https://raw.githubusercontent.com/fasouto/awesome-dataviz/master/README.md',
+    repoName: 'awesome-dataviz',
+    description: 'A curated list of awesome data visualization libraries and resources.',
+    repoOwnerName: 'fasouto',
+    repoOwner: 'Fabio Souto',
+    category: ['frontend', 'data-science', 'mob-dev']
+  },
 ];
