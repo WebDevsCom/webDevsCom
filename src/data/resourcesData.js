@@ -2593,4 +2593,130 @@ export default [
     repoOwner: 'Andrey Romanov',
     category: ['web-dev', 'frontend']
   },
+  {
+    id: 270,
+    link: 'https://raw.githubusercontent.com/learning-zone/javascript-interview-questions/master/README.md',
+    repoName: 'javascript-interview-questions',
+    description: '500+ JavaScript Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 271,
+    link: 'https://raw.githubusercontent.com/learning-zone/javascript-interview-questions/master/javascript-programs.md',
+    repoName: 'javascript-interview-questions',
+    description: '300+ JavaScript Coding Practice Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 272,
+    link: 'https://raw.githubusercontent.com/learning-zone/react-interview-questions/master/README.md',
+    repoName: 'react-interview-questions',
+    description: '500+ React Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 273,
+    link: 'https://raw.githubusercontent.com/learning-zone/nodejs-interview-questions/master/README.md',
+    repoName: 'nodejs-interview-questions',
+    description: 'Frequently Asked Node.js Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'backend', 'interview']
+  },
+  {
+    id: 274,
+    link: 'https://raw.githubusercontent.com/learning-zone/java-interview-questions/master/README.md',
+    repoName: 'java-interview-questions',
+    description: '1000+ Java Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'backend', 'interview']
+  },
+  {
+    id: 275,
+    link: 'https://raw.githubusercontent.com/learning-zone/python-interview-questions/master/README.md',
+    repoName: 'python-interview-questions',
+    description: '300+ Python Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'backend', 'interview']
+  },
+  {
+    id: 276,
+    link: 'https://raw.githubusercontent.com/learning-zone/mongodb-interview-questions/master/README.md',
+    repoName: 'mongodb-interview-questions',
+    description: 'MongoDB Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'backend', 'interview']
+  },
+  {
+    id: 277,
+    link: 'https://raw.githubusercontent.com/learning-zone/devops-interview-questions/master/README.md',
+    repoName: 'devops-interview-questions',
+    description: 'DevOps Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'interview']
+  },
+  {
+    id: 278,
+    link: 'https://raw.githubusercontent.com/learning-zone/angular-interview-questions/master/README.md',
+    repoName: 'angular-interview-questions',
+    description: 'Angular 9: A Practical Guide on Cracking the Job Interview',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 279,
+    link: 'https://raw.githubusercontent.com/learning-zone/css-interview-questions/master/README.md',
+    repoName: 'css-interview-questions',
+    description: '300+ CSS Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 280,
+    link: 'https://raw.githubusercontent.com/learning-zone/html-interview-questions/master/README.md',
+    repoName: 'html-interview-questions',
+    description: '100+ HTML5 Interview Questions',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 281,
+    link: 'https://raw.githubusercontent.com/learning-zone/mysql-interview-questions/master/README.md',
+    repoName: 'mysql-interview-questions',
+    description: 'MySQL Interview Questions and Answers',
+    repoOwnerName: 'learning-zone',
+    repoOwner: 'Pradeep Kumar',
+    category: ['web-dev', 'backend', 'interview']
+  },
+  {
+    id: 282,
+    link: 'https://raw.githubusercontent.com/sadanandpai/frontend-learning-kit/main/README.md',
+    repoName: 'frontend-learning-kit',
+    description: 'Highly recommended collections for frontend developers',
+    repoOwnerName: 'sadanandpai',
+    repoOwner: 'Sadanand Akshay Pai',
+    category: ['web-dev', 'frontend', 'interview']
+  },
+  {
+    id: 283,
+    link: 'https://raw.githubusercontent.com/sadanandpai/dsa-for-front-end-dev/main/README.md',
+    repoName: 'dsa-for-front-end-dev',
+    description: 'Data structures and algorithms for front-end interviews',
+    repoOwnerName: 'sadanandpai',
+    repoOwner: 'Sadanand Akshay Pai',
+    category: ['web-dev', 'frontend', 'interview']
+  },
 ];
