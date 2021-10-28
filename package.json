@@ -4,24 +4,21 @@
   "private": true,
   "homepage": "https://webDevsCom.github.io",
   "dependencies": {
-    "@progress/kendo-drawing": "^1.7.0",
-    "@progress/kendo-react-pdf": "^3.14.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "axios": "^0.19.2",
-    "bulma": "^0.8.2",
-    "github-slugger": "^1.3.0",
-    "highlight.js": "^10.0.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-feather": "^2.0.8",
-    "react-github-btn": "^1.2.0",
-    "react-hotjar": "^2.2.1",
-    "react-markdown": "^4.3.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "react-tooltip": "^4.2.6"
+    "@progress/kendo-drawing": "^1.15.0",
+    "@progress/kendo-react-pdf": "^4.10.0",
+    "axios": "^0.24.0",
+    "bulma": "^0.9.3",
+    "github-slugger": "^1.4.0",
+    "highlight.js": "^11.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
+    "react-github-btn": "^1.2.1",
+    "react-hotjar": "^4.0.0",
+    "react-markdown": "^7.1.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "react-tooltip": "^4.2.21"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,6 +32,18 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src /**/*.{js,jsx}": [
+      "eslint",
+      "pretty-quick — staged",
+      "git add"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -46,5 +55,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-react": "^7.26.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1"
   }
 }
