@@ -25,7 +25,13 @@
     "build": "react-scripts build && cp build/index.html build/404.html",
     "eject": "react-scripts eject",
     "netlify": "npm run build && netlify deploy --dir build && netlify deploy --prod --dir build",
-    "deploy": "npm run netlify"
+    "deploy": "npm run netlify",
+    "lint:test": "eslint . --ext .js --ext .jsx",
+    "lint:fix": "eslint . --ext .js --ext .jsx --fix",
+    "prettier": "prettier src/**/*.{js, jsx} --write",
+    "precommit": "npm run lint:fix && npm run prettier",
+    "prepush": "npm run lint:test",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +47,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
   }
 }

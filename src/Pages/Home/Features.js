@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Codepen,
   Youtube,
@@ -12,12 +12,12 @@ import {
   Minimize,
   Filter,
   Folder,
-} from "react-feather";
-import { withRouter } from "react-router-dom";
+} from 'react-feather';
+import { withRouter } from 'react-router-dom';
 
-const Features = ({ history }) => {
+function Features({ history }) {
   return (
-    <section id="features" className="container" style={{ marginTop: "1rem" }}>
+    <section id="features" className="container" style={{ marginTop: '1rem' }}>
       <div className="features">
         <div className="features-title has-text-centered">
           <h3 className="title is-3 is-bold">
@@ -29,7 +29,7 @@ const Features = ({ history }) => {
           <div className="column is-5 is-offset-1">
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/1")}
+              onClick={() => history.push('/resources/1')}
             >
               <Codepen size={70} color="#00d1b2" />
               <div className="meta">
@@ -44,7 +44,7 @@ const Features = ({ history }) => {
 
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/4")}
+              onClick={() => history.push('/resources/4')}
             >
               <Youtube size={70} color="#00d1b2" />
               <div className="meta">
@@ -59,7 +59,7 @@ const Features = ({ history }) => {
 
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/55")}
+              onClick={() => history.push('/resources/55')}
             >
               <HelpCircle size={70} color="#00d1b2" />
               <div className="meta">
@@ -75,7 +75,7 @@ const Features = ({ history }) => {
           <div className="column is-5">
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/5")}
+              onClick={() => history.push('/resources/5')}
             >
               <Chrome size={70} color="#00d1b2" />
               <div className="meta">
@@ -90,7 +90,7 @@ const Features = ({ history }) => {
 
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/3")}
+              onClick={() => history.push('/resources/3')}
             >
               <UserPlus size={70} color="#00d1b2" />
               <div className="meta">
@@ -105,7 +105,7 @@ const Features = ({ history }) => {
 
             <div
               className="feature-card"
-              onClick={() => history.push("/resources/2")}
+              onClick={() => history.push('/resources/2')}
             >
               <UploadCloud size={70} color="#00d1b2" />
               <div className="meta">
@@ -119,7 +119,7 @@ const Features = ({ history }) => {
           </div>
         </div>
       </div>
-      <div className="section" style={{ textAlign: "center" }}>
+      <div className="section" style={{ textAlign: 'center' }}>
         <div className="features">
           <div className="features-title">
             <h3 className="title is-3 is-bold">Contribute Code</h3>
@@ -167,7 +167,7 @@ const Features = ({ history }) => {
       </div>
       <div
         className="section"
-        style={{ marginBottom: "3rem", textAlign: "center" }}
+        style={{ marginBottom: '3rem', textAlign: 'center' }}
       >
         <div className="features">
           <div className="features-title">
@@ -219,6 +219,6 @@ const Features = ({ history }) => {
       </div>
     </section>
   );
-};
+}
 
 export default withRouter(Features);
