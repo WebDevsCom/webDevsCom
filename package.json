@@ -25,21 +25,14 @@
     "build": "react-scripts build && cp build/index.html build/404.html",
     "eject": "react-scripts eject",
     "netlify": "npm run build && netlify deploy --dir build && netlify deploy --prod --dir build",
-    "deploy": "npm run netlify"
+    "deploy": "npm run netlify",
+    "lint:test": "eslint . --ext .js --ext .jsx",
+    "lint:fix": "eslint . --ext .js --ext .jsx --fix",
+    "prettier": "prettier src/**/*.{js, jsx} --write",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
   },
   "browserslist": {
     "production": [
