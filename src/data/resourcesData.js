@@ -1412,7 +1412,7 @@ export default [
     description: 'This is a list of resources that I have compiled through my own software engineering internship search.',
     repoOwnerName: 'mitalipalekar',
     repoOwner: 'Mitali Palekar',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 138,
@@ -1421,7 +1421,7 @@ export default [
     description: 'for those seeking software engineering internships',
     repoOwnerName: 'codebytere',
     repoOwner: 'Shelley Vohr',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 139,
@@ -1430,7 +1430,7 @@ export default [
     description: 'Best guide for internship.',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 140,
@@ -1439,7 +1439,7 @@ export default [
     description: ' Mega List of practical projects that one can solve in any programming language!',
     repoOwnerName: 'vicky002',
     repoOwner: 'Vikesh Tiwari',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 141,
@@ -1448,7 +1448,7 @@ export default [
     description: 'List of Udacity Nanodegree programs with links to the free courses in their curricula',
     repoOwnerName: 'mikesprague',
     repoOwner: 'Michael Sprague',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 142,
@@ -1457,7 +1457,7 @@ export default [
     description: 'A list of practical projects that anyone can solve in any programming language.',
     repoOwnerName: 'karan',
     repoOwner: 'Karan Goel',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 143,
@@ -1466,7 +1466,7 @@ export default [
     description: 'Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas',
     repoOwnerName: 'NirantK',
     repoOwner: 'Nirant',
-    category: ['project', 'data-science']
+    category: ['project', 'data-science'],
   },
   {
     id: 144,
@@ -1475,7 +1475,7 @@ export default [
     description: '📊 Path to a free self-taught education in Data Science!',
     repoOwnerName: 'ossu',
     repoOwner: 'Open Source Society University',
-    category: ['course', 'project', 'data-science']
+    category: ['course', 'project', 'data-science'],
   },
   {
     id: 145,
@@ -1484,7 +1484,7 @@ export default [
     description: 'What the f*ck Python?',
     repoOwnerName: 'satwikkansal',
     repoOwner: 'Satwik Kansal',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 146,
@@ -1493,7 +1493,7 @@ export default [
     description: 'A paper list of object detection using deep learning.',
     repoOwnerName: 'hoya012',
     repoOwner: 'Hoseong Lee',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 147,
@@ -1502,7 +1502,7 @@ export default [
     description: 'TensorFlow - A curated list of dedicated resources http://tensorflow.org',
     repoOwnerName: 'jtoy',
     repoOwner: 'jtoy',
-    category: ['project', 'course', 'backend']
+    category: ['project', 'course', 'backend'],
   },
   {
     id: 148,
@@ -1511,7 +1511,7 @@ export default [
     description: 'A quick reminder of all SQL queries and examples on how to use them.',
     repoOwnerName: 'enochtangg',
     repoOwner: 'Enoch Tang',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 149,
@@ -1520,7 +1520,7 @@ export default [
     description: 'Free resources for learning Full Stack Web Development.',
     repoOwnerName: 'bmorelli25',
     repoOwner: 'Brandon Morelli',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 150,
@@ -1529,7 +1529,7 @@ export default [
     description: 'Catalog of Redux Libraries & Learning Material.',
     repoOwnerName: 'brillout',
     repoOwner: 'Romuald Brillout',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 151,
@@ -1538,7 +1538,7 @@ export default [
     description: 'A curated list of awesome Webpack resources, libraries and tools',
     repoOwnerName: 'webpack-contrib',
     repoOwner: 'webpack-contrib',
-    category: ['project', 'course', 'backend', 'web-dev']
+    category: ['project', 'course', 'backend', 'web-dev'],
   },
   {
     id: 152,
@@ -1547,7 +1547,7 @@ export default [
     description: 'A curated list of awesome Browserify resources, libraries, and tools.',
     repoOwnerName: 'browserify',
     repoOwner: 'browserify',
-    category: ['project', 'backend', 'frontend']
+    category: ['project', 'backend', 'frontend'],
   },
   {
     id: 153,
@@ -1556,7 +1556,7 @@ export default [
     description: 'Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.',
     repoOwnerName: 'Famolus',
     repoOwner: 'Famolus',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 154,
@@ -1565,7 +1565,7 @@ export default [
     description: 'A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date.',
     repoOwnerName: 'websemantics',
     repoOwner: 'Adnan M.Sagar, PhD',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 155,
@@ -1574,7 +1574,7 @@ export default [
     description: 'Curated list of awesome Less frameworks, libraries, style guides, articles, and resources. The main idea is that everyone can contribute here, so we can center all the informations about Less and keep up-to-date.',
     repoOwnerName: 'LucasBassetti',
     repoOwner: 'Lucas Bassetti',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 156,
@@ -1583,7 +1583,7 @@ export default [
     description: 'This is a curated list of awesome WebGL libraries, resources and much more.',
     repoOwnerName: 'sjfricke',
     repoOwner: 'Spencer',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 157,
@@ -1592,7 +1592,7 @@ export default [
     description: 'Curated list of resources: books, videos, articles about using Next.js.',
     repoOwnerName: 'unicodeveloper',
     repoOwner: 'Prosper Otemuyiwa',
-    category: ['project', 'frontend', 'backend']
+    category: ['project', 'frontend', 'backend'],
   },
   {
     id: 158,
@@ -1601,7 +1601,7 @@ export default [
     description: 'A curated list of awesome lit-html resources.',
     repoOwnerName: 'web-padawan',
     repoOwner: 'Serhii Kulykov',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 159,
@@ -1610,7 +1610,7 @@ export default [
     description: 'Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.',
     repoOwnerName: 'automata',
     repoOwner: 'Vilson Vieira',
-    category: ['project', 'frontend', 'backend']
+    category: ['project', 'frontend', 'backend'],
   },
   {
     id: 160,
@@ -1619,7 +1619,7 @@ export default [
     description: 'A curated list of resources about WordPress as a headless CMS with Gatsby as a Static Site Generator (SSG).',
     repoOwnerName: 'henrikwirth',
     repoOwner: 'Henrik Wirth',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 161,
@@ -1628,7 +1628,7 @@ export default [
     description: 'All that you need to create a great mobile web experience.',
     repoOwnerName: 'myshov',
     repoOwner: 'Alexander Myshov',
-    category: ['project', 'frontend', 'course', 'mob-dev']
+    category: ['project', 'frontend', 'course', 'mob-dev'],
   },
   {
     id: 162,
@@ -1637,7 +1637,7 @@ export default [
     description: 'Metrics to help understand page speed and user experience.',
     repoOwnerName: 'csabapalfi',
     repoOwner: 'Csaba Palfi',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 163,
@@ -1646,7 +1646,7 @@ export default [
     description: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.',
     repoOwnerName: 'aniftyco',
     repoOwner: 'NiftyCo',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 164,
@@ -1655,7 +1655,7 @@ export default [
     description: 'This list contains the most useful tools and data for creating web animations.',
     repoOwnerName: 'sergey-pimenov',
     repoOwner: 'Sergey Pimenov',
-    category: ['project', 'frontend', 'course']
+    category: ['project', 'frontend', 'course'],
   },
   {
     id: 165,
@@ -1664,7 +1664,7 @@ export default [
     description: 'A curated list of awesome things related to Yew.',
     repoOwnerName: 'jetli',
     repoOwner: 'Jet Li',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 166,
@@ -1673,7 +1673,7 @@ export default [
     description: 'Material-UI is a React components library for faster and easier web development. It follows Material Design from Google.',
     repoOwnerName: 'nadunindunil',
     repoOwner: 'Nadun Indunil',
-    category: ['project', 'frontend']
+    category: ['project', 'frontend'],
   },
   {
     id: 167,
@@ -1682,7 +1682,7 @@ export default [
     description: 'A curated list of awesome Flask resources and plugins',
     repoOwnerName: 'humiaozuzu',
     repoOwner: 'Maple',
-    category: ['project', 'frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev'],
   },
   {
     id: 168,
@@ -1691,7 +1691,7 @@ export default [
     description: 'A curated list of awesome Pyramid apps, projects and resources. Inspired by and based on awesome-python.',
     repoOwnerName: 'uralbash',
     repoOwner: 'uralbash',
-    category: ['project', 'frontend', 'web-dev']
+    category: ['project', 'frontend', 'web-dev'],
   },
   {
     id: 169,
@@ -1700,7 +1700,7 @@ export default [
     description: 'A curated list of amazingly awesome CakePHP 3.x+ plugins, resources and shiny things.',
     repoOwnerName: 'FriendsOfCake',
     repoOwner: 'Friends Of Cake',
-    category: ['project', 'backend', 'web-dev']
+    category: ['project', 'backend', 'web-dev'],
   },
   {
     id: 170,
@@ -1709,7 +1709,7 @@ export default [
     description: 'A collection of the best resources for programming, web development, computer science and more.',
     repoOwnerName: 'PizzaPokerGuy',
     repoOwner: 'Dylan C. Israel',
-    category: ['project', 'frontend', 'backend', 'web-dev']
+    category: ['project', 'frontend', 'backend', 'web-dev'],
   },
   {
     id: 171,
@@ -1718,7 +1718,7 @@ export default [
     description: 'A list of awesome Symfony bundles, utilities and resources.',
     repoOwnerName: 'sitepoint-editors',
     repoOwner: 'SitePoint Editors',
-    category: ['course', 'project']
+    category: ['course', 'project'],
   },
   {
     id: 172,
@@ -1727,7 +1727,7 @@ export default [
     description: 'A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem',
     repoOwnerName: 'chiraggude',
     repoOwner: 'Chirag Gude',
-    category: ['web-dev', 'project', 'course', 'backend']
+    category: ['web-dev', 'project', 'course', 'backend'],
   },
   {
     id: 173,
@@ -1736,7 +1736,7 @@ export default [
     description: 'A curated list of awesome things related to Ruby on Rails',
     repoOwnerName: 'gramantin',
     repoOwner: 'Gramantin',
-    category: ['web-dev', 'project', 'course', 'backend', 'frontend']
+    category: ['web-dev', 'project', 'course', 'backend', 'frontend'],
   },
   {
     id: 174,
@@ -1745,7 +1745,7 @@ export default [
     description: 'A collection of useful .htaccess snippets.',
     repoOwnerName: 'phanan',
     repoOwner: 'Phan An',
-    category: ['web-dev', 'project', 'frontend']
+    category: ['web-dev', 'project', 'frontend'],
   },
   {
     id: 175,
@@ -1754,7 +1754,7 @@ export default [
     description: 'A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine',
     repoOwnerName: 'fcambus',
     repoOwner: 'Frederic Cambus',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 176,
@@ -1763,7 +1763,7 @@ export default [
     description: ' Curated list of resources related to serverless computing and serverless architectures.',
     repoOwnerName: 'pmuens',
     repoOwner: 'Philipp Muens',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 177,
@@ -1772,7 +1772,7 @@ export default [
     description: 'An awesome Data Science repository to learn and apply for real world problems.',
     repoOwnerName: 'academic',
     repoOwner: 'Academic.io',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 178,
@@ -1781,7 +1781,7 @@ export default [
     description: 'Curated list: Resources for machine learning in Ruby',
     repoOwnerName: 'arbox',
     repoOwner: 'Andrei Beliankou',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 179,
@@ -1790,7 +1790,7 @@ export default [
     description: 'A curated list of cryptography resources and links.',
     repoOwnerName: 'sobolevn',
     repoOwner: 'Nikita Sobolev',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 180,
@@ -1799,7 +1799,7 @@ export default [
     description: 'A curated list of awesome computer vision resources',
     repoOwnerName: 'jbhuang0604',
     repoOwner: 'Jia-Bin Huang',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 181,
@@ -1808,7 +1808,7 @@ export default [
     description: 'A curated list of awesome Deep Learning tutorials, projects and communities.',
     repoOwnerName: 'ChristosChristofidis',
     repoOwner: 'Christos',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 182,
@@ -1817,7 +1817,7 @@ export default [
     description: 'A curated list of deep learning resources for computer vision',
     repoOwnerName: 'kjw0612',
     repoOwner: 'Jiwon Kim',
-    category: ['project', 'course', 'data-science']
+    category: ['project', 'course', 'data-science'],
   },
   {
     id: 183,
@@ -1826,7 +1826,7 @@ export default [
     description: 'A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.',
     repoOwnerName: 'analysis-tools-dev',
     repoOwner: 'analysis-tools-dev',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 184,
@@ -1835,7 +1835,7 @@ export default [
     description: 'A curated list of awesome big data frameworks, ressources and other awesomeness.',
     repoOwnerName: 'onurakpolat',
     repoOwner: 'Onur Akpolat',
-    category: ['project', 'course']
+    category: ['project', 'course'],
   },
   {
     id: 185,
@@ -1844,7 +1844,7 @@ export default [
     description: 'A topic-centric list of HQ open datasets.',
     repoOwnerName: 'awesomedata',
     repoOwner: 'AwesomeData',
-    category: ['project', 'data-science']
+    category: ['project', 'data-science'],
   },
   {
     id: 186,
@@ -1853,7 +1853,7 @@ export default [
     description: 'A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources',
     repoOwnerName: 'youngwookim',
     repoOwner: 'Youngwoo Kim',
-    category: ['project', 'backend']
+    category: ['project', 'backend'],
   },
   {
     id: 187,
@@ -1862,7 +1862,7 @@ export default [
     description: 'A curated list of data engineering tools for software developers',
     repoOwnerName: 'igorbarinov',
     repoOwner: 'Igor Barinov',
-    category: ['project', 'backend', 'data-science']
+    category: ['project', 'backend', 'data-science'],
   },
   {
     id: 188,
@@ -1871,7 +1871,7 @@ export default [
     description: 'Awesome online talks and screencasts',
     repoOwnerName: 'JanVanRyswyck',
     repoOwner: 'Jan Van Ryswyck',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 189,
@@ -1880,7 +1880,7 @@ export default [
     description: 'A curated list to learning and practicing about algorithm.',
     repoOwnerName: 'gaerae',
     repoOwner: 'gaerae',
-    category: ['course', 'interview']
+    category: ['course', 'interview'],
   },
   {
     id: 190,
@@ -1889,7 +1889,7 @@ export default [
     description: 'collection of projects and links about algorithm visualization',
     repoOwnerName: 'enjalot',
     repoOwner: 'Ian Johnson',
-    category: ['course', 'interview']
+    category: ['course', 'interview'],
   },
   {
     id: 191,
@@ -1898,7 +1898,7 @@ export default [
     description: 'A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.',
     repoOwnerName: 'owainlewis',
     repoOwner: 'Owain Lewis',
-    category: ['course', 'project', 'data-science']
+    category: ['course', 'project', 'data-science'],
   },
   {
     id: 192,
@@ -1907,7 +1907,7 @@ export default [
     description: ' A helpful checklist/collection of Search Engine Optimization (SEO) tips and techniques.',
     repoOwnerName: 'marcobiedermann',
     repoOwner: 'Marco Biedermann',
-    category: ['course', 'project', 'frontend']
+    category: ['course', 'project', 'frontend'],
   },
   {
     id: 193,
@@ -1916,7 +1916,7 @@ export default [
     description: 'A curated list of awesome mathematics resources',
     repoOwnerName: 'rossant',
     repoOwner: 'Cyrille Rossant',
-    category: ['course', 'project', 'interview']
+    category: ['course', 'project', 'interview'],
   },
   {
     id: 194,
@@ -1925,7 +1925,7 @@ export default [
     description: 'Resources for learning and using recursion schemes.',
     repoOwnerName: 'passy',
     repoOwner: 'Pascal Hartig',
-    category: ['podcast', 'course']
+    category: ['podcast', 'course'],
   },
   {
     id: 195,
@@ -1934,7 +1934,7 @@ export default [
     description: 'List of Golang books',
     repoOwnerName: 'dariubs',
     repoOwner: 'Dariush Abbasi',
-    category: ['project', 'backend', 'course', 'language', 'web-dev', 'mob-dev']
+    category: ['project', 'backend', 'course', 'language', 'web-dev', 'mob-dev'],
   },
   {
     id: 196,
@@ -1943,7 +1943,7 @@ export default [
     description: 'A curated list of #rstats books',
     repoOwnerName: 'RomanTsegelskyi',
     repoOwner: 'Roman Tsegelskyi',
-    category: ['project', 'course', 'language']
+    category: ['project', 'course', 'language'],
   },
   {
     id: 197,
@@ -1952,7 +1952,7 @@ export default [
     description: ' Books everyone should read!',
     repoOwnerName: 'hackerkid',
     repoOwner: 'Vishnu Ks',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 198,
@@ -1961,7 +1961,7 @@ export default [
     description: ' All things Vim!',
     repoOwnerName: 'mhinz',
     repoOwner: 'Marco Hinz',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 199,
@@ -1970,7 +1970,7 @@ export default [
     description: 'A curated list of delightful Atom packages and resources.',
     repoOwnerName: 'mehcode',
     repoOwner: 'Ryan Leckey',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 200,
@@ -1979,7 +1979,7 @@ export default [
     description: 'A curated list of delightful VS Code packages and resources.',
     repoOwnerName: 'viatsko',
     repoOwner: 'Valerii Iatsko',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 201,
@@ -1988,7 +1988,7 @@ export default [
     description: 'A mostly reasonable collection of technical software development interview questions solved in Javascript',
     repoOwnerName: 'kennymkchan',
     repoOwner: 'Kenny Chan',
-    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language'],
   },
   {
     id: 202,
@@ -1997,7 +1997,7 @@ export default [
     description: 'JavaScript interview Questions',
     repoOwnerName: 'ganqqwerty',
     repoOwner: 'Yuri Katkov',
-    category: ['web-dev', 'interview', 'frontend', 'backend', 'language']
+    category: ['web-dev', 'interview', 'frontend', 'backend', 'language'],
   },
   {
     id: 203,
@@ -2006,7 +2006,7 @@ export default [
     description: ' A list of Game Development resources to make magic happen.',
     repoOwnerName: 'ellisonleao',
     repoOwner: 'Ellison',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 204,
@@ -2015,7 +2015,7 @@ export default [
     description: 'A curated list of awesome Unity assets, resources, and more.',
     repoOwnerName: 'RyanNielson',
     repoOwner: 'Ryan Nielson',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 205,
@@ -2024,7 +2024,7 @@ export default [
     description: 'A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.',
     repoOwnerName: 'gbdev',
     repoOwner: 'gbdev',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 206,
@@ -2033,7 +2033,7 @@ export default [
     description: 'A curated list of GitHub\'s awesomeness',
     repoOwnerName: 'phillipadsmith',
     repoOwner: 'Phillip Smith',
-    category: ['web-dev', 'mob-dev', 'project']
+    category: ['web-dev', 'mob-dev', 'project'],
   },
   {
     id: 207,
@@ -2042,7 +2042,7 @@ export default [
     description: 'A curated list of awesome tools, resources and workflow tips making an awesome development environment',
     repoOwnerName: 'jondot',
     repoOwner: 'Dotan J. Nahum',
-    category: ['project']
+    category: ['project'],
   },
   {
     id: 208,
@@ -2051,7 +2051,7 @@ export default [
     description: 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.',
     repoOwnerName: 'alebcay',
     repoOwner: 'Caleb Xu',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 210,
@@ -2060,7 +2060,7 @@ export default [
     description: 'A collection of ZSH frameworks, plugins, themes and tutorials.',
     repoOwnerName: 'unixorn',
     repoOwner: 'Joe Block',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 211,
@@ -2069,7 +2069,7 @@ export default [
     description: 'git and git flow cheat sheet',
     repoOwnerName: 'arslanbilal',
     repoOwner: 'Bilal Arslan',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 212,
@@ -2078,7 +2078,7 @@ export default [
     description: 'Most commonly used git tips and tricks.',
     repoOwnerName: 'git-tips',
     repoOwner: 'git-tips',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 213,
@@ -2087,7 +2087,7 @@ export default [
     description: 'A curated list of add-ons that extend/enhance the git CLI.',
     repoOwnerName: 'stevemao',
     repoOwner: 'Steve Mao',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 214,
@@ -2096,7 +2096,7 @@ export default [
     description: 'A curated list of SSH resources.',
     repoOwnerName: 'moul',
     repoOwner: 'Manfred Touron',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 215,
@@ -2105,7 +2105,7 @@ export default [
     description: 'Delightful Hyper plugins, themes, and resources',
     repoOwnerName: 'bnb',
     repoOwner: 'Tierney Cyren',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 216,
@@ -2114,7 +2114,7 @@ export default [
     description: 'A curated list of delightful PowerShell modules and resources',
     repoOwnerName: 'janikvonrotz',
     repoOwner: 'Janik Vonrotz',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 217,
@@ -2123,7 +2123,7 @@ export default [
     description: 'A curated list of Terminal frameworks, plugins & resources for CLI lovers.',
     repoOwnerName: 'k4m4',
     repoOwner: 'Nikolaos Kamarinakis',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 218,
@@ -2132,7 +2132,7 @@ export default [
     description: 'A curated list of awesome actions to use on GitHub',
     repoOwnerName: 'sdras',
     repoOwner: 'Sarah Drasner',
-    category: ['productive', 'project']
+    category: ['productive', 'project'],
   },
   {
     id: 219,
@@ -2141,7 +2141,7 @@ export default [
     description: 'A curated list of podcasts we like to listen to.',
     repoOwnerName: 'ayr-ton',
     repoOwner: 'Ayrton Araújo Santana',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 220,
@@ -2150,7 +2150,7 @@ export default [
     description: 'A list of amazing Newsletters',
     repoOwnerName: 'zudochkin',
     repoOwner: 'Dmitry Zudochkin',
-    category: ['podcast']
+    category: ['podcast'],
   },
   {
     id: 221,
@@ -2159,7 +2159,7 @@ export default [
     description: 'This is a list of awesome IT quotes. The aim is to collect all relevant quotes said over the history of IT.',
     repoOwnerName: 'victorlaerte',
     repoOwner: 'Victor Laerte Oliveira',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 222,
@@ -2168,7 +2168,7 @@ export default [
     description: 'A curated list of awesome MySQL software, libraries, tools and resources',
     repoOwnerName: 'shlomi-noach',
     repoOwner: 'Shlomi Noach',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 223,
@@ -2177,7 +2177,7 @@ export default [
     description: 'A curated list of awesome tools for SQLAlchemy',
     repoOwnerName: 'dahlia',
     repoOwner: 'Hong Minhee (洪 民憙)',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 224,
@@ -2186,7 +2186,7 @@ export default [
     description: 'A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql',
     repoOwnerName: 'dhamaniasad',
     repoOwner: 'Asad Dhamani',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 225,
@@ -2195,7 +2195,7 @@ export default [
     description: '🍃 A curated list of awesome MongoDB resources, libraries, tools and applications',
     repoOwnerName: 'ramnes',
     repoOwner: 'Guillaume Gelin',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 226,
@@ -2204,7 +2204,7 @@ export default [
     description: 'Everything that makes working with databases easier',
     repoOwnerName: 'mgramin',
     repoOwner: 'mgramin',
-    category: ['backend', 'web-dev', 'mob-dev']
+    category: ['backend', 'web-dev', 'mob-dev'],
   },
   {
     id: 227,
@@ -2213,7 +2213,7 @@ export default [
     description: 'A curated list of awesome GIF resources.',
     repoOwnerName: 'davisonio',
     repoOwner: 'Craig Davison',
-    category: ['frontend']
+    category: ['frontend'],
   },
   {
     id: 228,
@@ -2222,7 +2222,7 @@ export default [
     description: 'A curated list about Audio Visualization.',
     repoOwnerName: 'willianjusten',
     repoOwner: 'Willian Justen',
-    category: ['frontend', 'project']
+    category: ['frontend', 'project'],
   },
   {
     id: 229,
@@ -2231,7 +2231,7 @@ export default [
     description: 'Dive into Machine Learning with Python Jupyter notebook and scikit-learn!',
     repoOwnerName: 'hangtwenty',
     repoOwner: 'Michael Floering',
-    category: ['data-science', 'project']
+    category: ['data-science', 'project'],
   },
   {
     id: 230,
@@ -2240,7 +2240,7 @@ export default [
     description: 'A tiny list limited to the best CSS Learning Resources',
     repoOwnerName: 'micromata',
     repoOwner: 'Micromata GmbH',
-    category: ['frontend', 'web-dev']
+    category: ['frontend', 'web-dev'],
   },
   {
     id: 231,
@@ -2249,7 +2249,7 @@ export default [
     description: 'A curated list of awesome resources for product/program managers to learn and grow.',
     repoOwnerName: 'dend',
     repoOwner: 'Den Delimarsky',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 232,
@@ -2258,7 +2258,7 @@ export default [
     description: 'A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.',
     repoOwnerName: 'sbilly',
     repoOwner: 'sbilly',
-    category: ['project', 'web-dev', 'mob-dev']
+    category: ['project', 'web-dev', 'mob-dev'],
   },
   {
     id: 233,
@@ -2267,7 +2267,7 @@ export default [
     description: 'A curated list of CTF frameworks, libraries, resources and softwares.',
     repoOwnerName: 'apsdehal',
     repoOwner: 'Amanpreet Singh',
-    category: ['web-dev']
+    category: ['web-dev'],
   },
   {
     id: 234,
@@ -2276,7 +2276,7 @@ export default [
     description: 'Defund the Police.',
     repoOwnerName: 'rshipp',
     repoOwner: 'Ryan Shipp',
-    category: ['web-dev']
+    category: ['web-dev'],
   },
   {
     id: 235,
@@ -2285,7 +2285,7 @@ export default [
     description: 'A collection of android security related resources',
     repoOwnerName: 'ashishb',
     repoOwner: 'Ashish Bhatia',
-    category: ['mob-dev', 'project']
+    category: ['mob-dev', 'project'],
   },
   {
     id: 236,
@@ -2294,7 +2294,7 @@ export default [
     description: 'A curated list of awesome Hacking tutorials, tools and resources',
     repoOwnerName: 'carpedm20',
     repoOwner: 'Taehoon Kim',
-    category: ['web-dev', 'productive']
+    category: ['web-dev', 'productive'],
   },
   {
     id: 237,
@@ -2303,7 +2303,7 @@ export default [
     description: 'A curated list of tools for incident response',
     repoOwnerName: 'meirwah',
     repoOwner: 'Meir Wahnon',
-    category: ['project', 'productive']
+    category: ['project', 'productive'],
   },
   {
     id: 238,
@@ -2312,7 +2312,7 @@ export default [
     description: 'A curated list of Web Security materials and resources.',
     repoOwnerName: 'qazbnm456',
     repoOwner: 'Boik',
-    category: ['project', 'web-dev']
+    category: ['project', 'web-dev'],
   },
   {
     id: 239,
@@ -2321,7 +2321,7 @@ export default [
     description: 'A curated list of awesome Slack related things',
     repoOwnerName: 'matiassingers',
     repoOwner: 'Matias Singers',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 240,
@@ -2330,7 +2330,7 @@ export default [
     description: 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.',
     repoOwnerName: 'trimstray',
     repoOwner: 'Michał Ży',
-    category: ['productive', 'web-dev']
+    category: ['productive', 'web-dev'],
   },
   {
     id: 241,
@@ -2339,7 +2339,7 @@ export default [
     description: 'The MEGA interview guide, JavaSciript, Front End, Comp Sci',
     repoOwnerName: 'danieldelcore',
     repoOwner: 'Daniel Del Core',
-    category: ['frontend', 'interview']
+    category: ['frontend', 'interview'],
   },
   {
     id: 242,
@@ -2348,7 +2348,7 @@ export default [
     description: 'Build your own (insert technology here)',
     repoOwnerName: 'danistefanovic',
     repoOwner: 'Daniel Stefanovic',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 243,
@@ -2357,7 +2357,7 @@ export default [
     description: 'A step by step guide to learn JavaScript and programming',
     repoOwnerName: 'Asabeneh',
     repoOwner: 'Asabeneh',
-    category: ['web-dev', 'mob-dev', 'course']
+    category: ['web-dev', 'mob-dev', 'course'],
   },
   {
     id: 244,
@@ -2366,7 +2366,7 @@ export default [
     description: 'Algorithms and data structures implemented in JavaScript with explanations and links to further readings',
     repoOwnerName: 'trekhleb',
     repoOwner: 'Oleksii Trekhleb',
-    category: ['web-dev', 'interview', 'course', "language"]
+    category: ['web-dev', 'interview', 'course', 'language'],
   },
   {
     id: 245,
@@ -2375,7 +2375,7 @@ export default [
     description: 'A curated collection of marketing articles & tools to grow your product.',
     repoOwnerName: 'goabstract',
     repoOwner: 'Abstract',
-    category: ['productive', 'project']
+    category: ['productive', 'project'],
   },
   {
     id: 246,
@@ -2384,7 +2384,7 @@ export default [
     description: 'An open source list of developer questions to ask prospective employers',
     repoOwnerName: 'Twipped',
     repoOwner: 'Jocelyn Badgley',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 247,
@@ -2393,7 +2393,7 @@ export default [
     description: 'A curated list of awesome remote jobs and resources.',
     repoOwnerName: 'lukasz-madon',
     repoOwner: 'Lukasz',
-    category: ['interview']
+    category: ['interview'],
   },
   {
     id: 248,
@@ -2402,7 +2402,7 @@ export default [
     description: 'A curated list of delightful productivity resources.',
     repoOwnerName: 'jyguyomarch',
     repoOwner: 'Jean-Yves Guyomarc\'h',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 249,
@@ -2411,7 +2411,7 @@ export default [
     description: 'An "Awesome" list of code review resources - articles, papers, tools, etc',
     repoOwnerName: 'joho',
     repoOwner: 'John Barton',
-    category: ['productive', 'project']
+    category: ['productive', 'project'],
   },
   {
     id: 250,
@@ -2420,7 +2420,7 @@ export default [
     description: 'A curated list of awesome network analysis resources.',
     repoOwnerName: 'briatte',
     repoOwner: 'François Briatte',
-    category: ['course', 'project']
+    category: ['course', 'project'],
   },
   {
     id: 251,
@@ -2429,7 +2429,7 @@ export default [
     description: 'A curated list of awesome Real Time Communications resources',
     repoOwnerName: 'rtckit',
     repoOwner: 'rtckit',
-    category: ['course', 'project']
+    category: ['course', 'project'],
   },
   {
     id: 252,
@@ -2438,7 +2438,7 @@ export default [
     description: 'A curated list of awesome JSON libraries and resources.',
     repoOwnerName: 'burningtree',
     repoOwner: 'tree',
-    category: ['course', 'project', 'language']
+    category: ['course', 'project', 'language'],
   },
   {
     id: 253,
@@ -2447,7 +2447,7 @@ export default [
     description: 'A curated list of awesome tools for dealing with CSV.',
     repoOwnerName: 'secretGeek',
     repoOwner: 'Leon Bambrick',
-    category: ['course', 'project', 'language']
+    category: ['course', 'project', 'language'],
   },
   {
     id: 254,
@@ -2456,7 +2456,7 @@ export default [
     description: 'This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students',
     repoOwnerName: 'AchoArnold',
     repoOwner: 'Acho Arnold',
-    category: ['productive', 'project']
+    category: ['productive', 'project'],
   },
   {
     id: 255,
@@ -2465,7 +2465,7 @@ export default [
     description: 'A collaborative list of great resources about RESTful API architecture, development, test, and performance',
     repoOwnerName: 'marmelab',
     repoOwner: 'marmelab',
-    category: ['backend', 'project']
+    category: ['backend', 'project'],
   },
   {
     id: 256,
@@ -2474,7 +2474,7 @@ export default [
     description: 'continuous integration and continuous delivery',
     repoOwnerName: 'cicdops',
     repoOwner: 'cicdops',
-    category: ['course', 'productive', 'project']
+    category: ['course', 'productive', 'project'],
   },
   {
     id: 257,
@@ -2483,7 +2483,7 @@ export default [
     description: 'Boilerplates for mobile and web apps',
     repoOwnerName: 'melvin0008',
     repoOwner: 'Melvin',
-    category: ['mob-dev', 'web-dev']
+    category: ['mob-dev', 'web-dev'],
   },
   {
     id: 258,
@@ -2492,7 +2492,7 @@ export default [
     description: 'A curated list of awesome READMEs',
     repoOwnerName: 'matiassingers',
     repoOwner: 'Matias Singers',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 259,
@@ -2501,7 +2501,7 @@ export default [
     description: 'Design and development guides',
     repoOwnerName: 'NARKOZ',
     repoOwner: 'Nihad Abbasov',
-    category: ['project', 'course', 'web-dev']
+    category: ['project', 'course', 'web-dev'],
   },
   {
     id: 260,
@@ -2510,7 +2510,7 @@ export default [
     description: 'A curated list of engineering blogs',
     repoOwnerName: 'kilimchoi',
     repoOwner: 'Kilim Choi',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 261,
@@ -2519,7 +2519,7 @@ export default [
     description: 'Awesome list of GraphQL',
     repoOwnerName: 'chentsulin',
     repoOwner: 'C. T. Lin',
-    category: ['web-dev', 'frontend', 'backend']
+    category: ['web-dev', 'frontend', 'backend'],
   },
   {
     id: 262,
@@ -2528,7 +2528,7 @@ export default [
     description: 'A curated list of awesome data visualization libraries and resources.',
     repoOwnerName: 'fasouto',
     repoOwner: 'Fabio Souto',
-    category: ['frontend', 'data-science', 'mob-dev']
+    category: ['frontend', 'data-science', 'mob-dev'],
   },
   {
     id: 263,
@@ -2537,7 +2537,7 @@ export default [
     description: 'Curated list of LaTeX awesomeness',
     repoOwnerName: 'egeerardyn',
     repoOwner: 'Egon Geerardyn',
-    category: ['productive']
+    category: ['productive'],
   },
   {
     id: 264,
@@ -2546,7 +2546,7 @@ export default [
     description: 'Java notes cheatsheet, focusing on fundamentals and useful interview tips',
     repoOwnerName: 'yungnickyoung',
     repoOwner: 'Nick Young',
-    category: ['language', 'interview']
+    category: ['language', 'interview'],
   },
   {
     id: 265,
@@ -2555,7 +2555,7 @@ export default [
     description: 'Python 3 notes cheatsheet, focusing on fundamentals and useful interview tips',
     repoOwnerName: 'yungnickyoung',
     repoOwner: 'Nick Young',
-    category: ['language', 'interview']
+    category: ['language', 'interview'],
   },
   {
     id: 266,
@@ -2564,7 +2564,7 @@ export default [
     description: 'A curated list of resources dedicated to Natural Language Processing (NLP)',
     repoOwnerName: 'keon',
     repoOwner: 'Keon',
-    category: ['data-science', 'project']
+    category: ['data-science', 'project'],
   },
   {
     id: 267,
@@ -2573,7 +2573,7 @@ export default [
     description: 'Clean Code concepts adapted for PHP',
     repoOwnerName: 'jupeter',
     repoOwner: 'Piotr Plenik',
-    category: ['language', 'web-dev', 'backend']
+    category: ['language', 'web-dev', 'backend'],
   },
   {
     id: 268,
@@ -2582,7 +2582,7 @@ export default [
     description: 'A collection of useful YouTube channels for javascript developers and web designers',
     repoOwnerName: 'andrew--r',
     repoOwner: 'Andrey Romanov',
-    category: ['web-dev', 'frontend']
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 269,
@@ -2591,7 +2591,7 @@ export default [
     description: 'A curated list of technical talks and articles about real world enterprise frontend development',
     repoOwnerName: 'andrew--r',
     repoOwner: 'Andrey Romanov',
-    category: ['web-dev', 'frontend']
+    category: ['web-dev', 'frontend'],
   },
   {
     id: 270,
@@ -2600,7 +2600,7 @@ export default [
     description: '500+ JavaScript Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 271,
@@ -2609,7 +2609,7 @@ export default [
     description: '300+ JavaScript Coding Practice Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 272,
@@ -2618,7 +2618,7 @@ export default [
     description: '500+ React Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 273,
@@ -2627,7 +2627,7 @@ export default [
     description: 'Frequently Asked Node.js Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'backend', 'interview']
+    category: ['web-dev', 'backend', 'interview'],
   },
   {
     id: 274,
@@ -2636,7 +2636,7 @@ export default [
     description: '1000+ Java Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'backend', 'interview']
+    category: ['web-dev', 'backend', 'interview'],
   },
   {
     id: 275,
@@ -2645,7 +2645,7 @@ export default [
     description: '300+ Python Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'backend', 'interview']
+    category: ['web-dev', 'backend', 'interview'],
   },
   {
     id: 276,
@@ -2654,7 +2654,7 @@ export default [
     description: 'MongoDB Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'backend', 'interview']
+    category: ['web-dev', 'backend', 'interview'],
   },
   {
     id: 277,
@@ -2663,7 +2663,7 @@ export default [
     description: 'DevOps Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'interview']
+    category: ['web-dev', 'interview'],
   },
   {
     id: 278,
@@ -2672,7 +2672,7 @@ export default [
     description: 'Angular 9: A Practical Guide on Cracking the Job Interview',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 279,
@@ -2681,7 +2681,7 @@ export default [
     description: '300+ CSS Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 280,
@@ -2690,7 +2690,7 @@ export default [
     description: '100+ HTML5 Interview Questions',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 281,
@@ -2699,7 +2699,7 @@ export default [
     description: 'MySQL Interview Questions and Answers',
     repoOwnerName: 'learning-zone',
     repoOwner: 'Pradeep Kumar',
-    category: ['web-dev', 'backend', 'interview']
+    category: ['web-dev', 'backend', 'interview'],
   },
   {
     id: 282,
@@ -2708,7 +2708,7 @@ export default [
     description: 'Highly recommended collections for frontend developers',
     repoOwnerName: 'sadanandpai',
     repoOwner: 'Sadanand Akshay Pai',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
   {
     id: 283,
@@ -2717,6 +2717,6 @@ export default [
     description: 'Data structures and algorithms for front-end interviews',
     repoOwnerName: 'sadanandpai',
     repoOwner: 'Sadanand Akshay Pai',
-    category: ['web-dev', 'frontend', 'interview']
+    category: ['web-dev', 'frontend', 'interview'],
   },
 ];

@@ -1,7 +1,7 @@
-import React, { useContext, useMemo } from 'react'
+import React, { useContext, useMemo } from 'react';
 import resourceContext from '../../context/resources/resourceContext';
 
-const Suggestion = () => {
+function Suggestion() {
   const filters = useMemo(() => ([
     'App',
     'Book',
@@ -28,7 +28,7 @@ const Suggestion = () => {
     'Project',
     'Course',
     'Podcast',
-    "productive",
+    'productive',
   ].sort((a, b) => a.localeCompare(b))), []);
 
   const ResourceContext = useContext(resourceContext);
@@ -38,13 +38,13 @@ const Suggestion = () => {
     <>
       <div style={{ padding: '10px' }}>
         <div
-          className='tags fadeInUp'
+          className="tags fadeInUp"
           style={{ justifyContent: 'center', animationDelay: '.15s' }}
         >
           {filters.map((filter, index) => (
             <span
               key={index}
-              className='tag is-primary'
+              className="tag is-primary"
               style={{ cursor: 'pointer' }}
               onClick={() => setSearchText(filter)}
             >
@@ -54,8 +54,8 @@ const Suggestion = () => {
         </div>
       </div>
       <div
-        className='tags fadeInUp'
-        id='category-tags'
+        className="tags fadeInUp"
+        id="category-tags"
         style={{
           animationDelay: '0.5s',
           justifyContent: 'center',
@@ -68,23 +68,22 @@ const Suggestion = () => {
             id={cat.toLowerCase()}
             key={i}
             className={
-              (category === 'all' && cat === 'All') ||
-                cat.toLowerCase() === category
+              (category === 'all' && cat === 'All')
+                || cat.toLowerCase() === category
                 ? 'tag is-white active-tag'
                 : 'tag is-white'
             }
             style={{ cursor: 'pointer' }}
-            onClick={() =>
-              setCategory(cat.toLowerCase())
-            }
+            onClick={() => setCategory(cat.toLowerCase())}
           >
-            <span className={`category ${cat.toLowerCase()}`}></span>
-            {cat}&emsp;
+            <span className={`category ${cat.toLowerCase()}`} />
+            {cat}
+&emsp;
           </span>
         ))}
       </div>
     </>
   );
-};
+}
 
 export default Suggestion;

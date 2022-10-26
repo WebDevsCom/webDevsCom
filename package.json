@@ -29,6 +29,8 @@
     "lint:test": "eslint . --ext .js --ext .jsx",
     "lint:fix": "eslint . --ext .js --ext .jsx --fix",
     "prettier": "prettier src/**/*.{js, jsx} --write",
+    "precommit": "npm run lint:fix && npm run prettier",
+    "prepush": "npm run lint:test",
     "prepare": "husky install"
   },
   "eslintConfig": {

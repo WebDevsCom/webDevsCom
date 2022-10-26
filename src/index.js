@@ -14,15 +14,15 @@ ReactDOM.render(
       <App />
     </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 serviceWorker.register({
-  onUpdate: registration => {
+  onUpdate: (registration) => {
     alert('New version is available!, please update?');
     if (registration && registration.waiting) {
       registration.waiting.postMessage({ type: 'SKIP_WAITING' });
     }
     window.location.reload();
-  }
+  },
 });
