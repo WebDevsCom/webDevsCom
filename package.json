@@ -1,7 +1,7 @@
 {
   "name": "webdevscom",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "private": true,
   "homepage": "https://webDevsCom.github.io",
   "dependencies": {
