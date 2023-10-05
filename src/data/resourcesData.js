@@ -2719,4 +2719,13 @@ export default [
     repoOwner: 'Sadanand Akshay Pai',
     category: ['web-dev', 'frontend', 'interview'],
   },
+  {
+    id: 284,
+    link: 'https://raw.githubusercontent.com/sadanandpai/dsa-for-front-end-dev/main/README.md',
+    repoName: 'front-end-resources',
+    description: 'A collection of (awe)some resources, mostly focused on front-end web development.',
+    repoOwnerName: 'aycanogut',
+    repoOwner: 'Aycan Öğüt',
+    category: ['web-dev', 'frontend'],
+  },
 ];
